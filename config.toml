@@ -21,6 +21,7 @@ pygmentsUseClasses = true
   lastmod = true
   #userStatusEmoji = "😀"
   favicon = "/images/github.png"
+  avatar = "/images/myavatar.png"
   location = "China"
 
 [frontmatter]
