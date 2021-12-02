@@ -1,0 +1,27 @@
+baseURL = 'https://tategotoazarasi.github.io/'
+languageCode = 'zh-cn'
+title = 'Harp Seal Pup Nursery and Caring Center'
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "azarasi"
+  description = "竖琴海豹幼崽爱好者"
+  github = "tategotoazarasi"
+  #facebook = "MeiK2333"
+  #twitter = "MeiK2333"
+  #linkedin = "MeiK2333"
+  #instagram = "MeiK2333"
+  #tumblr = "MeiK2333"
+  email = "2724167997@qq.com"
+  url = "https://tategotoazarasi.github.io"
+  #keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  #userStatusEmoji = "😀"
+  favicon = "/images/github.png"
+  location = "China"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
