@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>字符串 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/</link><description>Recent content in 字符串 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 04 Dec 2021 10:35:38 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 13. 罗马数字转整数</title><link>https://tategotoazarasi.github.io/post/roman-to-integer/</link><pubDate>Sat, 04 Dec 2021 10:35:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/roman-to-integer/</guid><description>&lt;p>罗马数字包含以下七种字符: &lt;code>I&lt;/code>， &lt;code>V&lt;/code>， &lt;code>X&lt;/code>， &lt;code>L&lt;/code>，&lt;code>C&lt;/code>，&lt;code>D&lt;/code>  和  &lt;code>M&lt;/code>。&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;strong>字符&lt;/strong>&lt;/th>
+&lt;th>&lt;strong>数值&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>I&lt;/td>
+&lt;td>1&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>V&lt;/td>
+&lt;td>5&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>X&lt;/td>
+&lt;td>10&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>L&lt;/td>
+&lt;td>50&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>C&lt;/td>
+&lt;td>100&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>D&lt;/td>
+&lt;td>500&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>M&lt;/td>
+&lt;td>1000&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>例如， 罗马数字 &lt;code>2&lt;/code> 写做  &lt;code>II&lt;/code> ，即为两个并列的 1 。&lt;code>12&lt;/code> 写做  &lt;code>XII&lt;/code> ，即为  &lt;code>X&lt;/code> + &lt;code>II&lt;/code> 。 &lt;code>27&lt;/code> 写做   &lt;code>XXVII&lt;/code>, 即为  &lt;code>XX&lt;/code> + &lt;code>V&lt;/code> + &lt;code>II&lt;/code> 。&lt;/p>
+&lt;p>通常情况下，罗马数字中小的数字在大的数字的右边。但也存在特例，例如 4 不写做  &lt;code>IIII&lt;/code>，而是  &lt;code>IV&lt;/code>。数字 1 在数字 5 的左边，所表示的数等于大数 5 减小数 1 得到的数值 4 。同样地，数字 9 表示为  &lt;code>IX&lt;/code>。这个特殊的规则只适用于以下六种情况：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>I&lt;/code>  可以放在  &lt;code>V&lt;/code> (5) 和  &lt;code>X&lt;/code> (10) 的左边，来表示 4 和 9。&lt;/li>
+&lt;li>&lt;code>X&lt;/code>  可以放在  &lt;code>L&lt;/code> (50) 和  &lt;code>C&lt;/code> (100) 的左边，来表示 40 和  90。&lt;/li>
+&lt;li>&lt;code>C&lt;/code>  可以放在  &lt;code>D&lt;/code> (500) 和  &lt;code>M&lt;/code> (1000) 的左边，来表示  400 和  900。&lt;/li>
+&lt;/ul>
+&lt;p>给定一个罗马数字，将其转换成整数。&lt;/p></description></item></channel></rss>
