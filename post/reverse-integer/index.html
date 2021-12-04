@@ -9,30 +9,30 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>Reverse Integer - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 7. 整数反转 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
 <meta name=description content="给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
-如果反转后整数超过 32 位的有符号整数的范围 [−231, 231 − 1] ，就返回 0。
+如果反转后整数超过 32 位的有符号整数的范围 [\(-2^{31}\), \(2^{31}-1\)] ，就返回 0。
 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://tategotoazarasi.github.io/post/reverse-integer/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Reverse Integer - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:title content="LeetCode 7. 整数反转 - Harp Seal Pup Nursery and Caring Center">
 <meta name=twitter:description content="给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
-如果反转后整数超过 32 位的有符号整数的范围 [−231, 231 − 1] ，就返回 0。
+如果反转后整数超过 32 位的有符号整数的范围 [\(-2^{31}\), \(2^{31}-1\)] ，就返回 0。
 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Reverse Integer - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:title" content="LeetCode 7. 整数反转 - Harp Seal Pup Nursery and Caring Center">
 <meta property="og:description" content="给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
-如果反转后整数超过 32 位的有符号整数的范围 [−231, 231 − 1] ，就返回 0。
+如果反转后整数超过 32 位的有符号整数的范围 [\(-2^{31}\), \(2^{31}-1\)] ，就返回 0。
 ">
 <meta property="og:url" content="https://tategotoazarasi.github.io/post/reverse-integer/">
-<meta property="og:site_name" content="Reverse Integer">
+<meta property="og:site_name" content="LeetCode 7. 整数反转">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
@@ -87,14 +87,14 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/reverse-integer/>Reverse Integer</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/reverse-integer/>LeetCode 7. 整数反转</a></strong>
 </h1>
 <div class="note m-0">
 Created <relative-time datetime="Fri, 03 Dec 2021 08:29:41 +0800" class=no-wrap>
 Fri, 03 Dec 2021 08:29:41 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Fri, 03 Dec 2021 01:39:41 +0000" class=no-wrap>
-Fri, 03 Dec 2021 01:39:41 +0000</relative-time>
+Modified <relative-time datetime="Sat, 04 Dec 2021 02:11:31 +0000" class=no-wrap>
+Sat, 04 Dec 2021 02:11:31 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@ Fri, 03 Dec 2021 01:39:41 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-212 Words
+201 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -129,7 +129,7 @@ easy
 </div>
 <div class="Box-body px-5 pb-5">
 <article class="markdown-body entry-content container-lg"><p>给你一个 32 位的有符号整数 <code>x</code> ，返回将 <code>x</code> 中的数字部分反转后的结果。</p>
-<p>如果反转后整数超过 32 位的有符号整数的范围 <code>[−231,  231 − 1]</code> ，就返回 0。</p>
+<p>如果反转后整数超过 32 位的有符号整数的范围  [\(-2^{31}\), \(2^{31}-1\)] ，就返回 0。</p>
 <p><strong>假设环境不允许存储 64 位整数（有符号或无符号）。</strong></p>
 <p><strong>示例 1：</strong></p>
 <blockquote>
@@ -153,7 +153,7 @@ easy
 </blockquote>
 <p><strong>提示：</strong></p>
 <ul>
-<li><code>-231 &lt;= x &lt;= 231 - 1</code></li>
+<li>\(-2^{31} &lt;= x &lt;= 2^{31}-1\)</li>
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
     <span class=kd>public</span> <span class=kt>int</span> <span class=nf>reverse</span><span class=o>(</span><span class=kt>int</span> <span class=n>x</span><span class=o>)</span> <span class=o>{</span>
@@ -164,7 +164,7 @@ easy
         <span class=o>}</span>
         <span class=k>try</span> <span class=o>{</span>
             <span class=kt>int</span> <span class=n>res</span> <span class=o>=</span> <span class=n>Integer</span><span class=o>.</span><span class=na>parseInt</span><span class=o>(</span><span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>());</span>
-            <span class=k>return</span> <span class=n>x</span> <span class=o>&gt;</span> <span class=n>0</span> <span class=o>?</span> <span class=n>res</span> <span class=o>:</span> <span class=n>0</span> <span class=o>-</span> <span class=n>res</span><span class=o>;</span>
+            <span class=k>return</span> <span class=n>x</span> <span class=o>&gt;</span> <span class=n>0</span> <span class=o>?</span> <span class=n>res</span> <span class=o>:</span> <span class=o>-</span><span class=n>res</span><span class=o>;</span>
         <span class=o>}</span> <span class=k>catch</span> <span class=o>(</span><span class=n>NumberFormatException</span> <span class=n>e</span><span class=o>)</span> <span class=o>{</span>
             <span class=k>return</span> <span class=n>0</span><span class=o>;</span>
         <span class=o>}</span>
@@ -194,4 +194,7 @@ easy
 </div>
 </body>
 <script type=application/javascript src=https://tategotoazarasi.github.io/js/github-style.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css integrity=sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq crossorigin=anonymous>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js integrity=sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js integrity=sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI crossorigin=anonymous onload=renderMathInElement(document.body)></script>
 </html>
