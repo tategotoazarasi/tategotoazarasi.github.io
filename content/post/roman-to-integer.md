@@ -2,7 +2,7 @@
 title: "LeetCode 13. 罗马数字转整数"
 date: 2021-12-04T10:35:38+08:00
 draft: false
-tags: ["leetcode", "easy", "哈希表", "数学", "字符串"]
+tags: ["leetcode", "简单", "哈希表", "数学", "字符串"]
 math: true
 ---
 

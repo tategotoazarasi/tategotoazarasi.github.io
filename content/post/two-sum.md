@@ -2,7 +2,7 @@
 title: "LeetCode 1. 两数之和"
 date: 2021-12-02T16:47:05+08:00
 draft: false
-tags: ["leetcode", "easy", "数组", "哈希表"]
+tags: ["leetcode", "简单", "数组", "哈希表"]
 math: true
 ---
 

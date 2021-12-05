@@ -2,7 +2,7 @@
 title: "LeetCode 9. 回文数"
 date: 2021-12-04T10:03:00+08:00
 draft: false
-tags: ["leetcode", "easy", "数学"]
+tags: ["leetcode", "简单", "数学"]
 math: true
 ---
 

@@ -2,7 +2,7 @@
 title: "LeetCode 7. 整数反转"
 date: 2021-12-03T08:29:41+08:00
 draft: false
-tags: ["leetcode", "easy", "数学"]
+tags: ["leetcode", "简单", "数学"]
 math: true
 ---
 
