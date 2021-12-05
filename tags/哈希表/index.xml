@@ -44,6 +44,6 @@
 &lt;li>&lt;code>X&lt;/code>  可以放在  &lt;code>L&lt;/code> (50) 和  &lt;code>C&lt;/code> (100) 的左边，来表示 40 和  90。&lt;/li>
 &lt;li>&lt;code>C&lt;/code>  可以放在  &lt;code>D&lt;/code> (500) 和  &lt;code>M&lt;/code> (1000) 的左边，来表示  400 和  900。&lt;/li>
 &lt;/ul>
-&lt;p>给定一个罗马数字，将其转换成整数。&lt;/p></description></item><item><title>LeetCode 1. 两数之和</title><link>https://tategotoazarasi.github.io/post/leetcode-two-sum/</link><pubDate>Thu, 02 Dec 2021 16:47:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/leetcode-two-sum/</guid><description>&lt;p>给定一个整数数组 &lt;code>nums&lt;/code>  和一个整数目标值 &lt;code>target&lt;/code>，请你在该数组中找出 &lt;strong>和为目标值&lt;/strong> &lt;em>&lt;code>target&lt;/code>&lt;/em>  的那  &lt;strong>两个&lt;/strong>  整数，并返回它们的数组下标。&lt;/p>
+&lt;p>给定一个罗马数字，将其转换成整数。&lt;/p></description></item><item><title>LeetCode 1. 两数之和</title><link>https://tategotoazarasi.github.io/post/two-sum/</link><pubDate>Thu, 02 Dec 2021 16:47:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/two-sum/</guid><description>&lt;p>给定一个整数数组 &lt;code>nums&lt;/code>  和一个整数目标值 &lt;code>target&lt;/code>，请你在该数组中找出 &lt;strong>和为目标值&lt;/strong> &lt;em>&lt;code>target&lt;/code>&lt;/em>  的那  &lt;strong>两个&lt;/strong>  整数，并返回它们的数组下标。&lt;/p>
 &lt;p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。&lt;/p>
 &lt;p>你可以按任意顺序返回答案。&lt;/p></description></item></channel></rss>
