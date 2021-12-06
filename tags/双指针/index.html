@@ -9,28 +9,28 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>哈希表 - Harp Seal Pup Nursery and Caring Center</title>
+<title>双指针 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
 <meta name=description content>
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/>
+<link rel=canonical href=https://tategotoazarasi.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="哈希表 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:title content="双指针 - Harp Seal Pup Nursery and Caring Center">
 <meta name=twitter:description content>
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="哈希表 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:title" content="双指针 - Harp Seal Pup Nursery and Caring Center">
 <meta property="og:description" content>
-<meta property="og:url" content="https://tategotoazarasi.github.io/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/">
-<meta property="og:site_name" content="哈希表">
+<meta property="og:url" content="https://tategotoazarasi.github.io/tags/%E5%8F%8C%E6%8C%87%E9%92%88/">
+<meta property="og:site_name" content="双指针">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<link href=/tags/%E5%93%88%E5%B8%8C%E8%A1%A8/index.xml rel=alternate type=application/rss+xml title="Harp Seal Pup Nursery and Caring Center">
+<link href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88/index.xml rel=alternate type=application/rss+xml title="Harp Seal Pup Nursery and Caring Center">
 </head>
 <body>
 <div style=position:relative>
@@ -169,9 +169,9 @@ Posts
 <div>
 <div class="TableObject border-bottom border-gray-light py-3">
 <div class="user-repo-search-results-summary TableObject-item TableObject-item--primary v-align-top">
-<strong>2</strong>
+<strong>1</strong>
 results
-for <strong>哈希表</strong>
+for <strong>双指针</strong>
 </div>
 <div class="TableObject-item text-right v-align-top">
 <a class="issues-reset-query text-normal d-inline-block ml-3" href=https://tategotoazarasi.github.io//post/><svg class="octicon octicon-x issues-reset-query-icon mt-1" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M3.72 3.72a.75.75.0 011.06.0L8 6.94l3.22-3.22a.75.75.0 111.06 1.06L9.06 8l3.22 3.22a.75.75.0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75.0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75.0 010-1.06z"/></svg>
@@ -184,95 +184,13 @@ Clear filter
 <div class="col-12 d-inline-block">
 <div class="d-inline-block mb-1">
 <h3 class=wb-break-all>
-<a href=https://tategotoazarasi.github.io/post/roman-to-integer/>LeetCode 13. 罗马数字转整数</a>
+<a href=https://tategotoazarasi.github.io/post/remove-duplicates-from-sorted-array/>LeetCode 26. 删除有序数组中的重复项</a>
 </h3>
 </div>
 <div>
 <div class="col-12 d-inline-block text-gray mb-2 pr-4">
-<p>罗马数字包含以下七种字符: <code>I</code>， <code>V</code>， <code>X</code>， <code>L</code>，<code>C</code>，<code>D</code>  和  <code>M</code>。</p>
-<table>
-<thead>
-<tr>
-<th><strong>字符</strong></th>
-<th><strong>数值</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>I</td>
-<td>1</td>
-</tr>
-<tr>
-<td>V</td>
-<td>5</td>
-</tr>
-<tr>
-<td>X</td>
-<td>10</td>
-</tr>
-<tr>
-<td>L</td>
-<td>50</td>
-</tr>
-<tr>
-<td>C</td>
-<td>100</td>
-</tr>
-<tr>
-<td>D</td>
-<td>500</td>
-</tr>
-<tr>
-<td>M</td>
-<td>1000</td>
-</tr>
-</tbody>
-</table>
-<p>例如， 罗马数字 <code>2</code> 写做  <code>II</code> ，即为两个并列的 1 。<code>12</code> 写做  <code>XII</code> ，即为  <code>X</code> + <code>II</code> 。 <code>27</code> 写做   <code>XXVII</code>, 即为  <code>XX</code> + <code>V</code> + <code>II</code> 。</p>
-<p>通常情况下，罗马数字中小的数字在大的数字的右边。但也存在特例，例如 4 不写做  <code>IIII</code>，而是  <code>IV</code>。数字 1 在数字 5 的左边，所表示的数等于大数 5 减小数 1 得到的数值 4 。同样地，数字 9 表示为  <code>IX</code>。这个特殊的规则只适用于以下六种情况：</p>
-<ul>
-<li><code>I</code>  可以放在  <code>V</code> (5) 和  <code>X</code> (10) 的左边，来表示 4 和 9。</li>
-<li><code>X</code>  可以放在  <code>L</code> (50) 和  <code>C</code> (100) 的左边，来表示 40 和  90。</li>
-<li><code>C</code>  可以放在  <code>D</code> (500) 和  <code>M</code> (1000) 的左边，来表示  400 和  900。</li>
-</ul>
-<p>给定一个罗马数字，将其转换成整数。</p>
-</div>
-</div>
-<div class="f6 text-gray mt-2">
-<a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-leetcode
-</a>
-<a class="muted-link mr-3" href=/tags/%E7%AE%80%E5%8D%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-简单
-</a>
-<a class="muted-link mr-3" href=/tags/%E5%93%88%E5%B8%8C%E8%A1%A8><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-哈希表
-</a>
-<a class="muted-link mr-3" href=/tags/%E6%95%B0%E5%AD%A6><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-数学
-</a>
-<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-字符串
-</a>
-Created
-<relative-time datetime=" Sat, 04 Dec 2021 10:35:38 +0800" class=no-wrap title=" Sat, 04 Dec 2021 10:35:38 +0800">
-Sat, 04 Dec 2021 10:35:38 +0800
-</relative-time>
-</div>
-</div>
-</li>
-<li class="col-12 d-flex width-full py-4 border-bottom color-border-secondary public source">
-<div class="col-12 d-inline-block">
-<div class="d-inline-block mb-1">
-<h3 class=wb-break-all>
-<a href=https://tategotoazarasi.github.io/post/two-sum/>LeetCode 1. 两数之和</a>
-</h3>
-</div>
-<div>
-<div class="col-12 d-inline-block text-gray mb-2 pr-4">
-<p>给定一个整数数组 <code>nums</code>  和一个整数目标值 <code>target</code>，请你在该数组中找出 <strong>和为目标值</strong> <em><code>target</code></em>  的那  <strong>两个</strong>  整数，并返回它们的数组下标。</p>
-<p>你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。</p>
-<p>你可以按任意顺序返回答案。</p>
+<p>给你一个有序数组 <code>nums</code> ，请你 <strong><a href=http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95>原地</a></strong> 删除重复出现的元素，使每个元素 <strong>只出现一次</strong> ，返回删除后数组的新长度。</p>
+<p>不要使用额外的数组空间，你必须在 <strong><a href=https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95>原地</a></strong> <strong>修改输入数组</strong> 并在使用 O(1) 额外空间的条件下完成。</p>
 </div>
 </div>
 <div class="f6 text-gray mt-2">
@@ -285,12 +203,12 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E6%95%B0%E7%BB%84><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 数组
 </a>
-<a class="muted-link mr-3" href=/tags/%E5%93%88%E5%B8%8C%E8%A1%A8><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-哈希表
+<a class="muted-link mr-3" href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+双指针
 </a>
 Created
-<relative-time datetime=" Thu, 02 Dec 2021 16:47:05 +0800" class=no-wrap title=" Thu, 02 Dec 2021 16:47:05 +0800">
-Thu, 02 Dec 2021 16:47:05 +0800
+<relative-time datetime=" Mon, 06 Dec 2021 10:37:06 +0800" class=no-wrap title=" Mon, 06 Dec 2021 10:37:06 +0800">
+Mon, 06 Dec 2021 10:37:06 +0800
 </relative-time>
 </div>
 </div>
