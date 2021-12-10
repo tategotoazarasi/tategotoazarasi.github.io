@@ -1,5 +1,5 @@
 ---
-title: "LeetCode "
+title: "LeetCode 66. 加一"
 date: 2021-12-09T10:44:24+08:00
 draft: false
 tags: ["leetcode", "简单", "数组", "数学"]
