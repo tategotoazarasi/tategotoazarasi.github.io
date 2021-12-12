@@ -9,34 +9,34 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 20. 有效的括号 - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 83. 删除排序链表中的重复元素 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
-有效字符串需满足：
- 左括号必须用相同类型的右括号闭合。 左括号必须以正确的顺序闭合。 ">
+<meta name=description content="存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除所有重复的元素，使每个元素 只出现一次 。
+返回同样按升序排列的结果链表。
+">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/valid-parentheses/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/remove-duplicates-from-sorted-list/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LeetCode 20. 有效的括号 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
-有效字符串需满足：
- 左括号必须用相同类型的右括号闭合。 左括号必须以正确的顺序闭合。 ">
+<meta name=twitter:title content="LeetCode 83. 删除排序链表中的重复元素 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除所有重复的元素，使每个元素 只出现一次 。
+返回同样按升序排列的结果链表。
+">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 20. 有效的括号 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
-有效字符串需满足：
- 左括号必须用相同类型的右括号闭合。 左括号必须以正确的顺序闭合。 ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/valid-parentheses/">
-<meta property="og:site_name" content="LeetCode 20. 有效的括号">
+<meta property="og:title" content="LeetCode 83. 删除排序链表中的重复元素 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="存在一个按升序排列的链表，给你这个链表的头节点 head ，请你删除所有重复的元素，使每个元素 只出现一次 。
+返回同样按升序排列的结果链表。
+">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/remove-duplicates-from-sorted-list/">
+<meta property="og:site_name" content="LeetCode 83. 删除排序链表中的重复元素">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2021-12-05 18:00:48 +0800 +0800">
+<meta property="article:published_time" content="2021-12-12 17:09:28 +0800 +0800">
 </head>
 <body>
 <div style=position:relative>
@@ -87,11 +87,11 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/valid-parentheses/>LeetCode 20. 有效的括号</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/remove-duplicates-from-sorted-list/>LeetCode 83. 删除排序链表中的重复元素</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Sun, 05 Dec 2021 18:00:48 +0800" class=no-wrap>
-Sun, 05 Dec 2021 18:00:48 +0800</relative-time>
+Created <relative-time datetime="Sun, 12 Dec 2021 17:09:28 +0800" class=no-wrap>
+Sun, 12 Dec 2021 17:09:28 +0800</relative-time>
 <span class=file-info-divider></span>
 Modified <relative-time datetime="Sun, 12 Dec 2021 09:12:53 +0000" class=no-wrap>
 Sun, 12 Dec 2021 09:12:53 +0000</relative-time>
@@ -112,7 +112,7 @@ Sun, 12 Dec 2021 09:12:53 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-542 Words
+180 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -121,104 +121,44 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E7%AE%80%E5%8D%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 简单
 </a>
-<a class="muted-link mr-3" href=/tags/%E6%A0%88><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-栈
-</a>
-<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-字符串
+<a class="muted-link mr-3" href=/tags/%E9%93%BE%E8%A1%A8><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+链表
 </a>
 </div>
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>给定一个只包括 <code>'('</code>，<code>')'</code>，<code>'{'</code>，<code>'}'</code>，<code>'['</code>，<code>']'</code>  的字符串 <code>s</code> ，判断字符串是否有效。</p>
-<p>有效字符串需满足：</p>
-<ol>
-<li>左括号必须用相同类型的右括号闭合。</li>
-<li>左括号必须以正确的顺序闭合。</li>
-</ol>
+<article class="markdown-body entry-content container-lg"><p>存在一个按升序排列的链表，给你这个链表的头节点 <code>head</code> ，请你删除所有重复的元素，使每个元素 <strong>只出现一次</strong> 。</p>
+<p>返回同样按升序排列的结果链表。</p>
 <p><strong>示例 1：</strong></p>
-<blockquote>
-<p><strong>输入：</strong> s = &ldquo;()&rdquo;</p>
-<p><strong>输出：</strong> true</p>
-</blockquote>
-<p><strong>示例  2：</strong></p>
-<blockquote>
-<p><strong>输入：</strong> s = &ldquo;()[]{}&rdquo;</p>
-<p><strong>输出：</strong> true</p>
-</blockquote>
-<p><strong>示例  3：</strong></p>
-<blockquote>
-<p><strong>输入：</strong> s = &ldquo;(]&rdquo;</p>
-<p><strong>输出：</strong> false</p>
-</blockquote>
-<p><strong>示例  4：</strong></p>
-<blockquote>
-<p><strong>输入：</strong> s = &ldquo;([)]&rdquo;</p>
-<p><strong>输出：</strong> false</p>
-</blockquote>
-<p><strong>示例  5：</strong></p>
-<blockquote>
-<p><strong>输入：</strong> s = &ldquo;{[]}&rdquo;</p>
-<p><strong>输出：</strong> true</p>
-</blockquote>
+<p><img src=https://tategotoazarasi.github.io/images/list1.jpg alt></p>
+<p><strong>输入：</strong> head = [1,1,2]
+<strong>输出：</strong> [1,2]</p>
+<p><strong>示例 2：</strong></p>
+<p><img src=https://tategotoazarasi.github.io/images/list2.jpg alt></p>
+<p><strong>输入：</strong> head = [1,1,2,3,3]
+<strong>输出：</strong> [1,2,3]</p>
 <p><strong>提示：</strong></p>
 <ul>
-<li>
-<p>\(1 &lt;= s.length &lt;= 10^4\)</p>
-</li>
-<li>
-<p><code>s</code> 仅由括号 <code>'()[]{}'</code> 组成</p>
-</li>
-<li>
-<p>关于有效小括号表达式的一个有趣的属性是，有效表达式的子表达式也应该是一个有效表达式。(不是每个子表达式)例如</p>
-</li>
+<li>链表中节点数目在范围 <code>[0, 300]</code> 内</li>
+<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+<li>题目数据保证链表已经按升序排列</li>
 </ul>
-<pre tabindex=0><code>{ { } [ ] [ [ [ ] ] ] }   是有效的表达式
-
-[ [ [ ] ] ]   是有效的表达式
-
-{ } [ ]   是有效的表达式
-</code></pre><p>我们能否以某种方式利用这种递归结构？</p>
-<ul>
-<li>如果每当我们在表达式中遇到一对匹配的小括号时，我们只需将其从表达式中删除，会怎么样？这将不断地缩短表达式，比如说</li>
-</ul>
-<pre tabindex=0><code>{ { ( { } ) } }
-      |_|
-
-{ { (      ) } }
-    |______|
-
-{ {          } }
-  |__________|
-
-{                }
-|________________|
-</code></pre><p>有效的表达式!</p>
-<ul>
-<li>栈数据结构在这里可以派上用场，代表问题的这种递归结构。我们无法真正从内向外处理这个问题，因为我们对整体结构没有概念。但是，堆栈可以帮助我们进行递归处理，也就是说，从外到内。</li>
-</ul>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kn>import</span> <span class=nn>java.util.Stack</span><span class=o>;</span>
-
-<span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
-    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>isValid</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>)</span> <span class=o>{</span>
-        <span class=n>Stack</span><span class=o>&lt;</span><span class=n>Character</span><span class=o>&gt;</span> <span class=n>stack</span> <span class=o>=</span> <span class=k>new</span> <span class=n>Stack</span><span class=o>&lt;</span><span class=n>Character</span><span class=o>&gt;();</span>
-        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>();</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
-            <span class=kt>char</span> <span class=n>ch</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>);</span>
-            <span class=k>if</span> <span class=o>(</span><span class=n>ch</span> <span class=o>==</span> <span class=sc>&#39;(&#39;</span> <span class=o>||</span> <span class=n>ch</span> <span class=o>==</span> <span class=sc>&#39;[&#39;</span> <span class=o>||</span> <span class=n>ch</span> <span class=o>==</span> <span class=sc>&#39;{&#39;</span><span class=o>)</span> <span class=o>{</span>
-                <span class=n>stack</span><span class=o>.</span><span class=na>push</span><span class=o>(</span><span class=n>ch</span><span class=o>);</span>
-            <span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
-                <span class=k>try</span> <span class=o>{</span>
-                    <span class=kt>char</span> <span class=n>ch2</span> <span class=o>=</span> <span class=n>stack</span><span class=o>.</span><span class=na>pop</span><span class=o>();</span>
-                    <span class=k>if</span> <span class=o>(</span><span class=n>ch2</span> <span class=o>+</span> <span class=n>1</span> <span class=o>!=</span> <span class=n>ch</span> <span class=o>&amp;&amp;</span> <span class=n>ch2</span> <span class=o>+</span> <span class=n>2</span> <span class=o>!=</span> <span class=n>ch</span><span class=o>)</span> <span class=o>{</span>
-                        <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
-                    <span class=o>}</span>
-                <span class=o>}</span> <span class=k>catch</span> <span class=o>(</span><span class=n>java</span><span class=o>.</span><span class=na>util</span><span class=o>.</span><span class=na>EmptyStackException</span> <span class=n>e</span><span class=o>)</span> <span class=o>{</span>
-                    <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
+    <span class=kd>public</span> <span class=n>ListNode</span> <span class=nf>deleteDuplicates</span><span class=o>(</span><span class=n>ListNode</span> <span class=n>head</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>if</span> <span class=o>(</span><span class=n>head</span> <span class=o>==</span> <span class=kc>null</span><span class=o>)</span> <span class=o>{</span>
+            <span class=k>return</span> <span class=kc>null</span><span class=o>;</span>
+        <span class=o>}</span>
+        <span class=k>for</span> <span class=o>(</span><span class=n>ListNode</span> <span class=n>iterator</span> <span class=o>=</span> <span class=n>head</span><span class=o>;</span> <span class=n>iterator</span><span class=o>.</span><span class=na>next</span> <span class=o>!=</span> <span class=kc>null</span><span class=o>;</span> <span class=n>iterator</span> <span class=o>=</span> <span class=n>iterator</span><span class=o>.</span><span class=na>next</span><span class=o>)</span> <span class=o>{</span>
+            <span class=k>while</span> <span class=o>(</span><span class=n>iterator</span><span class=o>.</span><span class=na>val</span> <span class=o>==</span> <span class=n>iterator</span><span class=o>.</span><span class=na>next</span><span class=o>.</span><span class=na>val</span><span class=o>)</span> <span class=o>{</span>
+                <span class=k>if</span> <span class=o>(</span><span class=n>iterator</span><span class=o>.</span><span class=na>next</span><span class=o>.</span><span class=na>next</span> <span class=o>==</span> <span class=kc>null</span><span class=o>)</span> <span class=o>{</span>
+                    <span class=n>iterator</span><span class=o>.</span><span class=na>next</span> <span class=o>=</span> <span class=kc>null</span><span class=o>;</span>
+                    <span class=k>return</span> <span class=n>head</span><span class=o>;</span>
                 <span class=o>}</span>
+                <span class=n>iterator</span><span class=o>.</span><span class=na>next</span> <span class=o>=</span> <span class=n>iterator</span><span class=o>.</span><span class=na>next</span><span class=o>.</span><span class=na>next</span><span class=o>;</span>
             <span class=o>}</span>
         <span class=o>}</span>
-        <span class=k>return</span> <span class=n>stack</span><span class=o>.</span><span class=na>empty</span><span class=o>();</span>
+        <span class=k>return</span> <span class=n>head</span><span class=o>;</span>
     <span class=o>}</span>
 <span class=o>}</span>
 </code></pre></div></article>
