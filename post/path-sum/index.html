@@ -9,34 +9,34 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 108. 将有序数组转换为二叉搜索树 - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 112. 路径总和 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 高度平衡 二叉搜索树。
-高度平衡 二叉树是一棵满足「每个节点的左右两个子树的高度差的绝对值不超过 1 」的二叉树。
+<meta name=description content="给你二叉树的根节点 root 和一个表示目标和的整数 targetSum 。判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和 targetSum 。如果存在，返回 true ；否则，返回 false 。
+叶子节点 是指没有子节点的节点。
 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/convert-sorted-array-to-binary-search-tree/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/path-sum/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LeetCode 108. 将有序数组转换为二叉搜索树 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 高度平衡 二叉搜索树。
-高度平衡 二叉树是一棵满足「每个节点的左右两个子树的高度差的绝对值不超过 1 」的二叉树。
+<meta name=twitter:title content="LeetCode 112. 路径总和 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="给你二叉树的根节点 root 和一个表示目标和的整数 targetSum 。判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和 targetSum 。如果存在，返回 true ；否则，返回 false 。
+叶子节点 是指没有子节点的节点。
 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 108. 将有序数组转换为二叉搜索树 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 高度平衡 二叉搜索树。
-高度平衡 二叉树是一棵满足「每个节点的左右两个子树的高度差的绝对值不超过 1 」的二叉树。
+<meta property="og:title" content="LeetCode 112. 路径总和 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="给你二叉树的根节点 root 和一个表示目标和的整数 targetSum 。判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和 targetSum 。如果存在，返回 true ；否则，返回 false 。
+叶子节点 是指没有子节点的节点。
 ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/convert-sorted-array-to-binary-search-tree/">
-<meta property="og:site_name" content="LeetCode 108. 将有序数组转换为二叉搜索树">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/path-sum/">
+<meta property="og:site_name" content="LeetCode 112. 路径总和">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2021-12-15 10:22:18 +0800 +0800">
+<meta property="article:published_time" content="2021-12-10 10:13:22 +0800 +0800">
 </head>
 <body>
 <div style=position:relative>
@@ -87,11 +87,11 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/convert-sorted-array-to-binary-search-tree/>LeetCode 108. 将有序数组转换为二叉搜索树</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/path-sum/>LeetCode 112. 路径总和</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Wed, 15 Dec 2021 10:22:18 +0800" class=no-wrap>
-Wed, 15 Dec 2021 10:22:18 +0800</relative-time>
+Created <relative-time datetime="Fri, 10 Dec 2021 10:13:22 +0800" class=no-wrap>
+Fri, 10 Dec 2021 10:13:22 +0800</relative-time>
 <span class=file-info-divider></span>
 Modified <relative-time datetime="Sun, 19 Dec 2021 04:28:13 +0000" class=no-wrap>
 Sun, 19 Dec 2021 04:28:13 +0000</relative-time>
@@ -112,7 +112,7 @@ Sun, 19 Dec 2021 04:28:13 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-227 Words
+342 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -124,14 +124,8 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E6%A0%91><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 树
 </a>
-<a class="muted-link mr-3" href=/tags/%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-二叉搜索树
-</a>
-<a class="muted-link mr-3" href=/tags/%E6%95%B0%E7%BB%84><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-数组
-</a>
-<a class="muted-link mr-3" href=/tags/%E5%88%86%E6%B2%BB><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-分治
+<a class="muted-link mr-3" href=/tags/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+深度优先搜索
 </a>
 <a class="muted-link mr-3" href=/tags/%E4%BA%8C%E5%8F%89%E6%A0%91><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 二叉树
@@ -140,37 +134,50 @@ leetcode
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>给你一个整数数组 <code>nums</code> ，其中元素已经按 <strong>升序</strong> 排列，请你将其转换为一棵 <strong>高度平衡</strong> 二叉搜索树。</p>
-<p><strong>高度平衡</strong> 二叉树是一棵满足「每个节点的左右两个子树的高度差的绝对值不超过 1 」的二叉树。</p>
+<article class="markdown-body entry-content container-lg"><p>给你二叉树的根节点  <code>root</code> 和一个表示目标和的整数  <code>targetSum</code> 。判断该树中是否存在 <strong>根节点到叶子节点</strong> 的路径，这条路径上所有节点值相加等于目标和  <code>targetSum</code> 。如果存在，返回 <code>true</code> ；否则，返回 <code>false</code> 。</p>
+<p><strong>叶子节点</strong> 是指没有子节点的节点。</p>
 <p><strong>示例 1：</strong></p>
-<p><img src=https://tategotoazarasi.github.io/images/btree1.jpg alt></p>
-<p><strong>输入：</strong> nums = [-10,-3,0,5,9]
-<strong>输出：</strong> [0,-3,9,-10,null,5]
-<strong>解释：</strong> [0,-10,5,null,-3,null,9] 也将被视为正确答案：
-<img src=https://tategotoazarasi.github.io/images/btree2.jpg alt></p>
+<p><img src=https://tategotoazarasi.github.io/images/pathsum1.jpg alt></p>
+<blockquote>
+<p><strong>输入：</strong> root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22</p>
+<p><strong>输出：</strong> true</p>
+<p><strong>解释：</strong> 等于目标和的根节点到叶节点路径如上图所示。</p>
+</blockquote>
 <p><strong>示例 2：</strong></p>
-<p><img src=https://tategotoazarasi.github.io/images/btree.jpg alt></p>
-<p><strong>输入：</strong> nums = [1,3]
-<strong>输出：</strong> [3,1]
-<strong>解释：</strong> [1,3] 和 [3,1] 都是高度平衡二叉搜索树。</p>
+<p><img src=https://tategotoazarasi.github.io/images/pathsum2.jpg alt></p>
+<blockquote>
+<p><strong>输入：</strong> root = [1,2,3], targetSum = 5</p>
+<p><strong>输出：</strong> false</p>
+<p><strong>解释：</strong> 树中存在两条根节点到叶子节点的路径：</p>
+<p>(1 &ndash;> 2): 和为 3</p>
+<p>(1 &ndash;> 3): 和为 4</p>
+<p>不存在 sum = 5 的根节点到叶子节点的路径。</p>
+</blockquote>
+<p><strong>示例 3：</strong></p>
+<blockquote>
+<p><strong>输入：</strong> root = [], targetSum = 0</p>
+<p><strong>输出：</strong> false</p>
+<p><strong>解释：</strong> 由于树是空的，所以不存在根节点到叶子节点的路径。</p>
+</blockquote>
 <p><strong>提示：</strong></p>
 <ul>
-<li>\(1 &lt;= nums.length &lt;= 10^4\)</li>
-<li>\(-10^4 &lt;= nums[i] &lt;= 10^4\)</li>
-<li><code>nums</code> 按 <strong>严格递增</strong> 顺序排列</li>
+<li>树中节点的数目在范围 <code>[0, 5000]</code> 内</li>
+<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
+<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
-    <span class=kd>public</span> <span class=n>TreeNode</span> <span class=nf>sortedArrayToBST</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>nums</span><span class=o>)</span> <span class=o>{</span>
-        <span class=k>if</span> <span class=o>(</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>==</span> <span class=n>1</span><span class=o>)</span> <span class=o>{</span>
-            <span class=k>return</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>0</span><span class=o>]);</span>
+    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>hasPathSum</span><span class=o>(</span><span class=n>TreeNode</span> <span class=n>root</span><span class=o>,</span> <span class=kt>int</span> <span class=n>targetSum</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>if</span><span class=o>(</span><span class=n>root</span> <span class=o>==</span> <span class=kc>null</span><span class=o>){</span>
+            <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
         <span class=o>}</span>
-        <span class=k>if</span> <span class=o>(</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>==</span> <span class=n>2</span><span class=o>)</span> <span class=o>{</span>
-            <span class=k>return</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>0</span><span class=o>],</span> <span class=kc>null</span><span class=o>,</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>1</span><span class=o>]));</span>
+        <span class=k>return</span> <span class=n>DFS</span><span class=o>(</span><span class=n>root</span><span class=o>,</span> <span class=n>targetSum</span><span class=o>,</span> <span class=n>0</span><span class=o>);</span>
+    <span class=o>}</span>
+
+    <span class=kd>private</span> <span class=kt>boolean</span> <span class=nf>DFS</span><span class=o>(</span><span class=n>TreeNode</span> <span class=n>node</span><span class=o>,</span> <span class=kt>int</span> <span class=n>targetsum</span><span class=o>,</span> <span class=kt>int</span> <span class=n>currentsum</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>if</span> <span class=o>(</span><span class=n>node</span><span class=o>.</span><span class=na>left</span> <span class=o>==</span> <span class=kc>null</span> <span class=o>&amp;&amp;</span> <span class=n>node</span><span class=o>.</span><span class=na>right</span> <span class=o>==</span> <span class=kc>null</span><span class=o>)</span> <span class=o>{</span>
+            <span class=k>return</span> <span class=n>targetsum</span> <span class=o>==</span> <span class=n>currentsum</span> <span class=o>+</span> <span class=n>node</span><span class=o>.</span><span class=na>val</span><span class=o>;</span>
         <span class=o>}</span>
-        <span class=k>if</span> <span class=o>(</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>==</span> <span class=n>3</span><span class=o>)</span> <span class=o>{</span>
-            <span class=k>return</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>1</span><span class=o>],</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>0</span><span class=o>]),</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>2</span><span class=o>]));</span>
-        <span class=o>}</span>
-        <span class=k>return</span> <span class=k>new</span> <span class=n>TreeNode</span><span class=o>(</span><span class=n>nums</span><span class=o>[</span><span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>/</span> <span class=n>2</span><span class=o>],</span> <span class=n>sortedArrayToBST</span><span class=o>(</span><span class=n>Arrays</span><span class=o>.</span><span class=na>copyOfRange</span><span class=o>(</span><span class=n>nums</span><span class=o>,</span> <span class=n>0</span><span class=o>,</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>/</span> <span class=n>2</span><span class=o>)),</span> <span class=n>sortedArrayToBST</span><span class=o>(</span><span class=n>Arrays</span><span class=o>.</span><span class=na>copyOfRange</span><span class=o>(</span><span class=n>nums</span><span class=o>,</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span> <span class=o>/</span> <span class=n>2</span> <span class=o>+</span> <span class=n>1</span><span class=o>,</span> <span class=n>nums</span><span class=o>.</span><span class=na>length</span><span class=o>)));</span>
+        <span class=k>return</span> <span class=o>(</span><span class=n>node</span><span class=o>.</span><span class=na>left</span> <span class=o>!=</span> <span class=kc>null</span> <span class=o>&amp;&amp;</span> <span class=n>DFS</span><span class=o>(</span><span class=n>node</span><span class=o>.</span><span class=na>left</span><span class=o>,</span> <span class=n>targetsum</span><span class=o>,</span> <span class=n>currentsum</span> <span class=o>+</span> <span class=n>node</span><span class=o>.</span><span class=na>val</span><span class=o>))</span> <span class=o>||</span> <span class=o>(</span><span class=n>node</span><span class=o>.</span><span class=na>right</span> <span class=o>!=</span> <span class=kc>null</span> <span class=o>&amp;&amp;</span> <span class=n>DFS</span><span class=o>(</span><span class=n>node</span><span class=o>.</span><span class=na>right</span><span class=o>,</span> <span class=n>targetsum</span><span class=o>,</span> <span class=n>currentsum</span> <span class=o>+</span> <span class=n>node</span><span class=o>.</span><span class=na>val</span><span class=o>));</span>
     <span class=o>}</span>
 <span class=o>}</span>
 </code></pre></div></article>
