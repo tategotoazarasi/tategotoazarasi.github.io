@@ -12,7 +12,7 @@ math: true
 
 <!--more-->
 
-![](https://tategotoazarasi.github.io/1626927345-DZmfxB-PascalTriangleAnimated2.gif)
+![](https://tategotoazarasi.github.io/images/1626927345-DZmfxB-PascalTriangleAnimated2.gif)
 
 **示例 1:**
 
