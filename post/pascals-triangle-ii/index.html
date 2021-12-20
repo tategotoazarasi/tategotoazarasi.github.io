@@ -9,34 +9,34 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 14. 最长公共前缀 - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 119. 杨辉三角 II - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="编写一个函数来查找字符串数组中的最长公共前缀。
-如果不存在公共前缀，返回空字符串 &amp;quot;&amp;quot;。
+<meta name=description content="给定一个非负索引 rowIndex，返回「杨辉三角」的第 rowIndex 行。
+在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/longest-common-prefix/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/pascals-triangle-ii/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LeetCode 14. 最长公共前缀 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="编写一个函数来查找字符串数组中的最长公共前缀。
-如果不存在公共前缀，返回空字符串 &amp;quot;&amp;quot;。
+<meta name=twitter:title content="LeetCode 119. 杨辉三角 II - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="给定一个非负索引 rowIndex，返回「杨辉三角」的第 rowIndex 行。
+在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 14. 最长公共前缀 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="编写一个函数来查找字符串数组中的最长公共前缀。
-如果不存在公共前缀，返回空字符串 &amp;quot;&amp;quot;。
+<meta property="og:title" content="LeetCode 119. 杨辉三角 II - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="给定一个非负索引 rowIndex，返回「杨辉三角」的第 rowIndex 行。
+在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/longest-common-prefix/">
-<meta property="og:site_name" content="LeetCode 14. 最长公共前缀">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/pascals-triangle-ii/">
+<meta property="og:site_name" content="LeetCode 119. 杨辉三角 II">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2021-12-05 17:39:18 +0800 +0800">
+<meta property="article:published_time" content="2021-12-20 11:13:00 +0800 +0800">
 </head>
 <body>
 <div style=position:relative>
@@ -87,11 +87,11 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/longest-common-prefix/>LeetCode 14. 最长公共前缀</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/pascals-triangle-ii/>LeetCode 119. 杨辉三角 II</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Sun, 05 Dec 2021 17:39:18 +0800" class=no-wrap>
-Sun, 05 Dec 2021 17:39:18 +0800</relative-time>
+Created <relative-time datetime="Mon, 20 Dec 2021 11:13:00 +0800" class=no-wrap>
+Mon, 20 Dec 2021 11:13:00 +0800</relative-time>
 <span class=file-info-divider></span>
 Modified <relative-time datetime="Mon, 20 Dec 2021 03:17:06 +0000" class=no-wrap>
 Mon, 20 Dec 2021 03:17:06 +0000</relative-time>
@@ -112,7 +112,7 @@ Mon, 20 Dec 2021 03:17:06 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-197 Words
+169 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -121,56 +121,48 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E7%AE%80%E5%8D%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 简单
 </a>
-<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-字符串
+<a class="muted-link mr-3" href=/tags/%E6%95%B0%E7%BB%84><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+数组
+</a>
+<a class="muted-link mr-3" href=/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+动态规划
 </a>
 </div>
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>编写一个函数来查找字符串数组中的最长公共前缀。</p>
-<p>如果不存在公共前缀，返回空字符串  <code>""</code>。</p>
-<p><strong>示例 1：</strong></p>
+<article class="markdown-body entry-content container-lg"><p>给定一个非负索引 <code>rowIndex</code>，返回「杨辉三角」的第 <code>rowIndex</code> 行。</p>
+<p>在「杨辉三角」中，每个数是它左上方和右上方的数的和。</p>
+<p><img src=https://tategotoazarasi.github.io/images/1626927345-DZmfxB-PascalTriangleAnimated2.gif alt></p>
+<p><strong>示例 1:</strong></p>
 <blockquote>
-<p><strong>输入：</strong> strs = [&ldquo;flower&rdquo;,&ldquo;flow&rdquo;,&ldquo;flight&rdquo;]</p>
-<p><strong>输出：</strong> &ldquo;fl&rdquo;</p>
+<p><strong>输入:</strong> rowIndex = 3</p>
+<p><strong>输出:</strong> [1,3,3,1]</p>
 </blockquote>
-<p><strong>示例 2：</strong></p>
+<p><strong>示例 2:</strong></p>
 <blockquote>
-<p><strong>输入：</strong> strs = [&ldquo;dog&rdquo;,&ldquo;racecar&rdquo;,&ldquo;car&rdquo;]</p>
-<p><strong>输出：</strong> ""</p>
-<p><strong>解释：</strong> 输入不存在公共前缀。</p>
+<p><strong>输入:</strong> rowIndex = 0</p>
+<p><strong>输出:</strong> [1]</p>
 </blockquote>
-<p><strong>提示：</strong></p>
+<p><strong>示例 3:</strong></p>
+<blockquote>
+<p><strong>输入:</strong> rowIndex = 1</p>
+<p><strong>输出:</strong> [1,1]</p>
+</blockquote>
+<p><strong>提示:</strong></p>
 <ul>
-<li><code>1 &lt;= strs.length &lt;= 200</code></li>
-<li><code>0 &lt;= strs[i].length &lt;= 200</code></li>
-<li><code>strs[i]</code> 仅由小写英文字母组成</li>
+<li><code>0 &lt;= rowIndex &lt;= 33</code></li>
 </ul>
+<p><strong>进阶：</strong></p>
+<p>你可以优化你的算法到 <code>O(rowIndex)</code> 空间复杂度吗？</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
-    <span class=kd>public</span> <span class=n>String</span> <span class=nf>longestCommonPrefix</span><span class=o>(</span><span class=n>String</span><span class=o>[]</span> <span class=n>strs</span><span class=o>)</span> <span class=o>{</span>
-        <span class=k>if</span> <span class=o>(</span><span class=n>strs</span><span class=o>.</span><span class=na>length</span> <span class=o>==</span> <span class=n>1</span><span class=o>)</span> <span class=o>{</span>
-            <span class=k>return</span> <span class=n>strs</span><span class=o>[</span><span class=n>0</span><span class=o>];</span>
+    <span class=kd>public</span> <span class=n>List</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=nf>getRow</span><span class=o>(</span><span class=kt>int</span> <span class=n>rowIndex</span><span class=o>)</span> <span class=o>{</span>
+        <span class=n>List</span><span class=o>&lt;</span><span class=n>Integer</span><span class=o>&gt;</span> <span class=n>ret</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ArrayList</span><span class=o>&lt;&gt;(</span><span class=n>rowIndex</span> <span class=o>+</span> <span class=n>1</span><span class=o>);</span>
+        <span class=n>ret</span><span class=o>.</span><span class=na>add</span><span class=o>(</span><span class=n>1</span><span class=o>);</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>1</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;=</span> <span class=n>rowIndex</span> <span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
+            <span class=n>ret</span><span class=o>.</span><span class=na>add</span><span class=o>((</span><span class=kt>int</span><span class=o>)</span> <span class=o>((</span><span class=kt>long</span><span class=o>)</span> <span class=n>ret</span><span class=o>.</span><span class=na>get</span><span class=o>(</span><span class=n>i</span> <span class=o>-</span> <span class=n>1</span><span class=o>)</span> <span class=o>*</span> <span class=o>(</span><span class=n>rowIndex</span> <span class=o>-</span> <span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>)</span> <span class=o>/</span> <span class=n>i</span><span class=o>));</span>
         <span class=o>}</span>
-        <span class=n>StringBuilder</span> <span class=n>sb</span> <span class=o>=</span> <span class=k>new</span> <span class=n>StringBuilder</span><span class=o>();</span>
-        <span class=k>if</span> <span class=o>(</span><span class=n>strs</span><span class=o>[</span><span class=n>0</span><span class=o>].</span><span class=na>length</span><span class=o>()</span> <span class=o>==</span> <span class=n>0</span><span class=o>)</span> <span class=o>{</span>
-            <span class=k>return</span> <span class=s>&#34;&#34;</span><span class=o>;</span>
-        <span class=o>}</span>
-        <span class=k>for</span> <span class=o>(</span><span class=kt>short</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=o>;</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
-            <span class=k>if</span> <span class=o>(</span><span class=n>i</span> <span class=o>&gt;=</span> <span class=n>strs</span><span class=o>[</span><span class=n>0</span><span class=o>].</span><span class=na>length</span><span class=o>())</span> <span class=o>{</span>
-                <span class=k>return</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
-            <span class=o>}</span>
-            <span class=kt>char</span> <span class=n>ch</span> <span class=o>=</span> <span class=n>strs</span><span class=o>[</span><span class=n>0</span><span class=o>].</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>);</span>
-            <span class=k>for</span> <span class=o>(</span><span class=kt>short</span> <span class=n>j</span> <span class=o>=</span> <span class=n>1</span><span class=o>;</span> <span class=n>j</span> <span class=o>&lt;</span> <span class=n>strs</span><span class=o>.</span><span class=na>length</span><span class=o>;</span> <span class=n>j</span><span class=o>++)</span> <span class=o>{</span>
-                <span class=k>if</span> <span class=o>(</span><span class=n>i</span> <span class=o>&gt;=</span> <span class=n>strs</span><span class=o>[</span><span class=n>j</span><span class=o>].</span><span class=na>length</span><span class=o>())</span> <span class=o>{</span>
-                    <span class=k>return</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
-                <span class=o>}</span>
-                <span class=k>if</span> <span class=o>(</span><span class=n>strs</span><span class=o>[</span><span class=n>j</span><span class=o>].</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>)</span> <span class=o>!=</span> <span class=n>ch</span><span class=o>)</span> <span class=o>{</span>
-                    <span class=k>return</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
-                <span class=o>}</span>
-            <span class=o>}</span>
-            <span class=n>sb</span><span class=o>.</span><span class=na>append</span><span class=o>(</span><span class=n>ch</span><span class=o>);</span>
-        <span class=o>}</span>
+        <span class=k>return</span> <span class=n>ret</span><span class=o>;</span>
     <span class=o>}</span>
 <span class=o>}</span>
 </code></pre></div></article>
