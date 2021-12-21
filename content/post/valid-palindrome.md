@@ -2,7 +2,7 @@
 title: "LeetCode 125. 验证回文串"
 date: 2021-12-21T09:07:06+08:00
 draft: false
-tags: ["leetcode", "简单", "双指针","字符串"]
+tags: ["leetcode", "简单", "双指针", "字符串"]
 math: true
 ---
 
@@ -15,22 +15,22 @@ math: true
 **示例 1:**
 
 > **输入:** "A man, a plan, a canal: Panama"
->
+> 
 > **输出:** true
->
+> 
 > **解释：** "amanaplanacanalpanama" 是回文串
 
 **示例 2:**
 
 > **输入:** "race a car"
->
+> 
 > **输出:** false
->
+> 
 > **解释：** "raceacar" 不是回文串
 
 **提示：**
 
-- \\(1 <= s.length <= 2 * 105\\)
+- \\(1 <= s.length <= 2 \* 105\\)
 - 字符串 `s` 由 ASCII 字符组成
 
 ```java
