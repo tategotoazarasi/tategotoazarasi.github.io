@@ -15,20 +15,7 @@
 <meta name=description content="给你一个链表的头节点 head ，判断链表中是否有环。
 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。如果 pos 是 -1，则在该链表中没有环。注意：pos 不作为参数进行传递，仅仅是为了标识链表的实际情况。
 如果链表中存在环，则返回 true 。 否则，返回 false 。
-示例 1：
- 输入： head = [3,2,0,-4], pos = 1
-输出： true
-解释： 链表中有一个环，其尾部连接到第二个节点。
- 示例 2：
- 输入： head = [1,2], pos = 0
-输出： true
-解释： 链表中有一个环，其尾部连接到第一个节点。
- 示例 3：
- 输入： head = [1], pos = -1
-输出： false
-解释： 链表中没有环。
- 提示：
- \(链表中节点的数目范围是 [0, 10^4]\) \(-10^5 &amp;lt;= Node.">
+">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://tategotoazarasi.github.io/post/linked-list-cycle/>
@@ -37,20 +24,7 @@
 <meta name=twitter:description content="给你一个链表的头节点 head ，判断链表中是否有环。
 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。如果 pos 是 -1，则在该链表中没有环。注意：pos 不作为参数进行传递，仅仅是为了标识链表的实际情况。
 如果链表中存在环，则返回 true 。 否则，返回 false 。
-示例 1：
- 输入： head = [3,2,0,-4], pos = 1
-输出： true
-解释： 链表中有一个环，其尾部连接到第二个节点。
- 示例 2：
- 输入： head = [1,2], pos = 0
-输出： true
-解释： 链表中有一个环，其尾部连接到第一个节点。
- 示例 3：
- 输入： head = [1], pos = -1
-输出： false
-解释： 链表中没有环。
- 提示：
- \(链表中节点的数目范围是 [0, 10^4]\) \(-10^5 &amp;lt;= Node.">
+">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
@@ -59,20 +33,7 @@
 <meta property="og:description" content="给你一个链表的头节点 head ，判断链表中是否有环。
 如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。如果 pos 是 -1，则在该链表中没有环。注意：pos 不作为参数进行传递，仅仅是为了标识链表的实际情况。
 如果链表中存在环，则返回 true 。 否则，返回 false 。
-示例 1：
- 输入： head = [3,2,0,-4], pos = 1
-输出： true
-解释： 链表中有一个环，其尾部连接到第二个节点。
- 示例 2：
- 输入： head = [1,2], pos = 0
-输出： true
-解释： 链表中有一个环，其尾部连接到第一个节点。
- 示例 3：
- 输入： head = [1], pos = -1
-输出： false
-解释： 链表中没有环。
- 提示：
- \(链表中节点的数目范围是 [0, 10^4]\) \(-10^5 &amp;lt;= Node.">
+">
 <meta property="og:url" content="https://tategotoazarasi.github.io/post/linked-list-cycle/">
 <meta property="og:site_name" content="LeetCode 141. 环形链表">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
@@ -135,8 +96,8 @@
 Created <relative-time datetime="Wed, 22 Dec 2021 10:17:23 +0800" class=no-wrap>
 Wed, 22 Dec 2021 10:17:23 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Wed, 22 Dec 2021 02:22:07 +0000" class=no-wrap>
-Wed, 22 Dec 2021 02:22:07 +0000</relative-time>
+Modified <relative-time datetime="Wed, 22 Dec 2021 02:37:55 +0000" class=no-wrap>
+Wed, 22 Dec 2021 02:37:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -154,7 +115,7 @@ Wed, 22 Dec 2021 02:22:07 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-406 Words
+402 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -180,21 +141,21 @@ leetcode
 <p>如果链表中有某个节点，可以通过连续跟踪 <code>next</code> 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 <code>pos</code> 来表示链表尾连接到链表中的位置（索引从 0 开始）。如果 <code>pos</code> 是 <code>-1</code>，则在该链表中没有环。<strong>注意：<code>pos</code> 不作为参数进行传递</strong>，仅仅是为了标识链表的实际情况。</p>
 <p>如果链表中存在环，则返回 <code>true</code> 。 否则，返回 <code>false</code> 。</p>
 <p><strong>示例 1：</strong></p>
-<p><img src=https://tategotoazarasi.github.io/circularlinkedlist.png alt></p>
+<p><img src=https://tategotoazarasi.github.io/images/circularlinkedlist.png alt></p>
 <blockquote>
 <p><strong>输入：</strong> head = [3,2,0,-4], pos = 1</p>
 <p><strong>输出：</strong> true</p>
 <p><strong>解释：</strong> 链表中有一个环，其尾部连接到第二个节点。</p>
 </blockquote>
 <p><strong>示例  2：</strong></p>
-<p><img src=https://tategotoazarasi.github.io/circularlinkedlist_test2.png alt></p>
+<p><img src=https://tategotoazarasi.github.io/images/circularlinkedlist_test2.png alt></p>
 <blockquote>
 <p><strong>输入：</strong> head = [1,2], pos = 0</p>
 <p><strong>输出：</strong> true</p>
 <p><strong>解释：</strong> 链表中有一个环，其尾部连接到第一个节点。</p>
 </blockquote>
 <p><strong>示例 3：</strong></p>
-<p><img src=https://tategotoazarasi.github.io/circularlinkedlist_test3.png alt></p>
+<p><img src=https://tategotoazarasi.github.io/images/circularlinkedlist_test3.png alt></p>
 <blockquote>
 <p><strong>输入：</strong> head = [1], pos = -1</p>
 <p><strong>输出：</strong> false</p>
@@ -206,7 +167,7 @@ leetcode
 <li>\(-10^5 &lt;= Node.val &lt;= 10^5\)</li>
 <li><code>pos</code> 为 <code>-1</code> 或者链表中的一个 <strong>有效索引</strong> 。</li>
 </ul>
-<p>**进阶：**你能用 <code>O(1)</code>（即，常量）内存解决此问题吗？</p>
+<p><strong>进阶：</strong> 你能用 <code>O(1)</code>（即，常量）内存解决此问题吗？</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>public</span> <span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
     <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>hasCycle</span><span class=o>(</span><span class=n>ListNode</span> <span class=n>head</span><span class=o>)</span> <span class=o>{</span>
         <span class=k>if</span> <span class=o>(</span><span class=n>head</span> <span class=o>==</span> <span class=kc>null</span><span class=o>)</span> <span class=o>{</span>
