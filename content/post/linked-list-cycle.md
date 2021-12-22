@@ -12,9 +12,11 @@ math: true
 
 如果链表中存在环，则返回 `true` 。 否则，返回 `false` 。
 
+<!--more-->
+
 **示例 1：**
 
-![](https://tategotoazarasi.github.io/circularlinkedlist.png)
+![](https://tategotoazarasi.github.io/images/circularlinkedlist.png)
 
 > **输入：** head = [3,2,0,-4], pos = 1
 > 
@@ -24,7 +26,7 @@ math: true
 
 **示例  2：**
 
-![](https://tategotoazarasi.github.io/circularlinkedlist_test2.png)
+![](https://tategotoazarasi.github.io/images/circularlinkedlist_test2.png)
 
 > **输入：** head = [1,2], pos = 0
 > 
@@ -34,7 +36,7 @@ math: true
 
 **示例 3：**
 
-![](https://tategotoazarasi.github.io/circularlinkedlist_test3.png)
+![](https://tategotoazarasi.github.io/images/circularlinkedlist_test3.png)
 
 > **输入：** head = [1], pos = -1
 > 
@@ -48,7 +50,7 @@ math: true
 - \\(-10^5 <= Node.val <= 10^5\\)
 - `pos` 为 `-1` 或者链表中的一个 **有效索引** 。
 
-**进阶：**你能用 `O(1)`（即，常量）内存解决此问题吗？
+**进阶：** 你能用 `O(1)`（即，常量）内存解决此问题吗？
 
 ```java
 public class Solution {
