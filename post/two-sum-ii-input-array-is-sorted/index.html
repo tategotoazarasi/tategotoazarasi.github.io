@@ -9,31 +9,37 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 125. 验证回文串 - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 167. 两数之和 II - 输入有序数组 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+<meta name=description content="给定一个已按照 非递减顺序排列 的整数数组 numbers ，请你从数组中找出两个数满足相加之和等于目标数 target 。
+函数应该以长度为 2 的整数数组的形式返回这两个数的下标值*。*numbers 的下标 从 1 开始计数 ，所以答案数组应当满足 1 &amp;lt;= answer[0] &amp;lt; answer[1] &amp;lt;= numbers.length 。
+你可以假设每个输入 只对应唯一的答案 ，而且你 不可以 重复使用相同的元素。
 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/valid-palindrome/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/two-sum-ii-input-array-is-sorted/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LeetCode 125. 验证回文串 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+<meta name=twitter:title content="LeetCode 167. 两数之和 II - 输入有序数组 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="给定一个已按照 非递减顺序排列 的整数数组 numbers ，请你从数组中找出两个数满足相加之和等于目标数 target 。
+函数应该以长度为 2 的整数数组的形式返回这两个数的下标值*。*numbers 的下标 从 1 开始计数 ，所以答案数组应当满足 1 &amp;lt;= answer[0] &amp;lt; answer[1] &amp;lt;= numbers.length 。
+你可以假设每个输入 只对应唯一的答案 ，而且你 不可以 重复使用相同的元素。
 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 125. 验证回文串 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+<meta property="og:title" content="LeetCode 167. 两数之和 II - 输入有序数组 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="给定一个已按照 非递减顺序排列 的整数数组 numbers ，请你从数组中找出两个数满足相加之和等于目标数 target 。
+函数应该以长度为 2 的整数数组的形式返回这两个数的下标值*。*numbers 的下标 从 1 开始计数 ，所以答案数组应当满足 1 &amp;lt;= answer[0] &amp;lt; answer[1] &amp;lt;= numbers.length 。
+你可以假设每个输入 只对应唯一的答案 ，而且你 不可以 重复使用相同的元素。
 ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/valid-palindrome/">
-<meta property="og:site_name" content="LeetCode 125. 验证回文串">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/two-sum-ii-input-array-is-sorted/">
+<meta property="og:site_name" content="LeetCode 167. 两数之和 II - 输入有序数组">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2021-12-21 09:07:06 +0800 +0800">
+<meta property="article:published_time" content="2021-12-24 09:11:28 +0800 +0800">
 </head>
 <body>
 <div style=position:relative>
@@ -84,11 +90,11 @@
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/valid-palindrome/>LeetCode 125. 验证回文串</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/two-sum-ii-input-array-is-sorted/>LeetCode 167. 两数之和 II - 输入有序数组</a></strong>
 </h1>
 <div class="note m-0">
-Created <relative-time datetime="Tue, 21 Dec 2021 09:07:06 +0800" class=no-wrap>
-Tue, 21 Dec 2021 09:07:06 +0800</relative-time>
+Created <relative-time datetime="Fri, 24 Dec 2021 09:11:28 +0800" class=no-wrap>
+Fri, 24 Dec 2021 09:11:28 +0800</relative-time>
 <span class=file-info-divider></span>
 Modified <relative-time datetime="Fri, 24 Dec 2021 01:13:37 +0000" class=no-wrap>
 Fri, 24 Dec 2021 01:13:37 +0000</relative-time>
@@ -109,7 +115,7 @@ Fri, 24 Dec 2021 01:13:37 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-198 Words
+319 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -118,51 +124,54 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E7%AE%80%E5%8D%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 简单
 </a>
+<a class="muted-link mr-3" href=/tags/%E6%95%B0%E7%BB%84><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+数组
+</a>
 <a class="muted-link mr-3" href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 双指针
 </a>
-<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-字符串
+<a class="muted-link mr-3" href=/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+二分查找
 </a>
 </div>
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。</p>
-<p><strong>说明：</strong> 本题中，我们将空字符串定义为有效的回文串。</p>
-<p><strong>示例 1:</strong></p>
-<blockquote>
-<p><strong>输入:</strong> &ldquo;A man, a plan, a canal: Panama&rdquo;</p>
-<p><strong>输出:</strong> true</p>
-<p><strong>解释：</strong> &ldquo;amanaplanacanalpanama&rdquo; 是回文串</p>
-</blockquote>
-<p><strong>示例 2:</strong></p>
-<blockquote>
-<p><strong>输入:</strong> &ldquo;race a car&rdquo;</p>
-<p><strong>输出:</strong> false</p>
-<p><strong>解释：</strong> &ldquo;raceacar&rdquo; 不是回文串</p>
-</blockquote>
+<article class="markdown-body entry-content container-lg"><p>给定一个已按照 <strong>非递减顺序排列</strong> 的整数数组  <code>numbers</code> ，请你从数组中找出两个数满足相加之和等于目标数  <code>target</code> 。</p>
+<p>函数应该以长度为 <code>2</code> 的整数数组的形式返回这两个数的下标值*。*<code>numbers</code> 的下标 <strong>从 1 开始计数</strong> ，所以答案数组应当满足 <code>1 &lt;= answer[0] &lt; answer[1] &lt;= numbers.length</code> 。</p>
+<p>你可以假设每个输入 <strong>只对应唯一的答案</strong> ，而且你 <strong>不可以</strong> 重复使用相同的元素。</p>
+<p><strong>示例 1：</strong></p>
+<p><strong>输入：</strong> numbers = [2,7,11,15], target = 9
+<strong>输出：</strong> [1,2]
+<strong>解释：</strong> 2 与 7 之和等于目标数 9 。因此 index1 = 1, index2 = 2 。</p>
+<p><strong>示例 2：</strong></p>
+<p><strong>输入：</strong> numbers = [2,3,4], target = 6
+<strong>输出：</strong> [1,3]</p>
+<p><strong>示例 3：</strong></p>
+<p><strong>输入：</strong> numbers = [-1,0], target = -1
+<strong>输出：</strong> [1,2]</p>
 <p><strong>提示：</strong></p>
 <ul>
-<li>\(1 &lt;= s.length &lt;= 2 * 105\)</li>
-<li>字符串 <code>s</code> 由 ASCII 字符组成</li>
+<li>\(2 &lt;= numbers.length &lt;= 3 * 10^4\)</li>
+<li><code>-1000 &lt;= numbers[i] &lt;= 1000</code></li>
+<li><code>numbers</code> 按 <strong>非递减顺序</strong> 排列</li>
+<li><code>-1000 &lt;= target &lt;= 1000</code></li>
+<li><strong>仅存在一个有效答案</strong></li>
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
-    <span class=kd>public</span> <span class=kt>boolean</span> <span class=nf>isPalindrome</span><span class=o>(</span><span class=n>String</span> <span class=n>s</span><span class=o>)</span> <span class=o>{</span>
-        <span class=n>StringBuilder</span> <span class=n>sb</span> <span class=o>=</span> <span class=k>new</span> <span class=n>StringBuilder</span><span class=o>();</span>
-        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>();</span> <span class=n>i</span><span class=o>++)</span> <span class=o>{</span>
-            <span class=kt>char</span> <span class=n>c</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>);</span>
-            <span class=k>if</span> <span class=o>(</span><span class=n>Character</span><span class=o>.</span><span class=na>isDigit</span><span class=o>(</span><span class=n>c</span><span class=o>)</span> <span class=o>||</span> <span class=n>Character</span><span class=o>.</span><span class=na>isAlphabetic</span><span class=o>(</span><span class=n>c</span><span class=o>))</span> <span class=o>{</span>
-                <span class=n>sb</span><span class=o>.</span><span class=na>append</span><span class=o>(</span><span class=n>Character</span><span class=o>.</span><span class=na>toLowerCase</span><span class=o>(</span><span class=n>c</span><span class=o>));</span>
+    <span class=kd>public</span> <span class=kt>int</span><span class=o>[]</span> <span class=nf>twoSum</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>numbers</span><span class=o>,</span> <span class=kt>int</span> <span class=n>target</span><span class=o>)</span> <span class=o>{</span>
+        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span> <span class=n>j</span> <span class=o>=</span> <span class=n>numbers</span><span class=o>.</span><span class=na>length</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>j</span><span class=o>;</span> <span class=o>)</span> <span class=o>{</span>
+            <span class=kt>int</span> <span class=n>sum</span> <span class=o>=</span> <span class=n>numbers</span><span class=o>[</span><span class=n>i</span><span class=o>]</span> <span class=o>+</span> <span class=n>numbers</span><span class=o>[</span><span class=n>j</span><span class=o>];</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>sum</span> <span class=o>==</span> <span class=n>target</span><span class=o>)</span> <span class=o>{</span>
+                <span class=k>return</span> <span class=k>new</span> <span class=kt>int</span><span class=o>[]{</span><span class=n>i</span> <span class=o>+</span> <span class=n>1</span><span class=o>,</span> <span class=n>j</span> <span class=o>+</span> <span class=n>1</span><span class=o>};</span>
+            <span class=o>}</span>
+            <span class=k>if</span> <span class=o>(</span><span class=n>sum</span> <span class=o>&gt;</span> <span class=n>target</span><span class=o>)</span> <span class=o>{</span>
+                <span class=n>j</span><span class=o>--;</span>
+            <span class=o>}</span> <span class=k>else</span> <span class=o>{</span>
+                <span class=n>i</span><span class=o>++;</span>
             <span class=o>}</span>
         <span class=o>}</span>
-        <span class=n>s</span> <span class=o>=</span> <span class=n>sb</span><span class=o>.</span><span class=na>toString</span><span class=o>();</span>
-        <span class=k>for</span> <span class=o>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=n>0</span><span class=o>,</span> <span class=n>j</span> <span class=o>=</span> <span class=n>s</span><span class=o>.</span><span class=na>length</span><span class=o>()</span> <span class=o>-</span> <span class=n>1</span><span class=o>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>j</span><span class=o>;</span> <span class=n>i</span><span class=o>++,</span> <span class=n>j</span><span class=o>--)</span> <span class=o>{</span>
-            <span class=k>if</span> <span class=o>(</span><span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>i</span><span class=o>)</span> <span class=o>!=</span> <span class=n>s</span><span class=o>.</span><span class=na>charAt</span><span class=o>(</span><span class=n>j</span><span class=o>))</span> <span class=o>{</span>
-                <span class=k>return</span> <span class=kc>false</span><span class=o>;</span>
-            <span class=o>}</span>
-        <span class=o>}</span>
-        <span class=k>return</span> <span class=kc>true</span><span class=o>;</span>
+        <span class=k>return</span> <span class=k>new</span> <span class=kt>int</span><span class=o>[]{};</span>
     <span class=o>}</span>
 <span class=o>}</span>
 </code></pre></div></article>
