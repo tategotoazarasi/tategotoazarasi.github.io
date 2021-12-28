@@ -62,6 +62,8 @@ math: true
 - `startPos.length == 2`
 - `0 <= startrow, startcol < n`
 - `s` 由 `'L'`、`'R'`、`'U'` 和 `'D'` 组成
+- 这些约束不是很大。我们可以通过从s的每个索引开始模拟执行吗？
+- 在满足任何一个停止条件之前，停止该指数的模拟，并设置该指数的答案。
 
 ```java
 class Solution {
