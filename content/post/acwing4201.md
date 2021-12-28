@@ -2,7 +2,7 @@
 title: "AcWing 4201. 01数"
 date: 2021-12-25T21:22:38+08:00
 draft: false
-tags: ["acwing", "中等"]
+tags: ["acwing", "中等", "枚举", "DFS", "二进制"]
 math: true
 ---
 

@@ -16,15 +16,17 @@ math: true
 
 ![](https://tategotoazarasi.github.io/images/list1.jpg)
 
-**输入：** head = [1,1,2]
-**输出：** [1,2]
+> **输入：** head = [1,1,2]
+>
+> **输出：** [1,2]
 
 **示例 2：**
 
 ![](https://tategotoazarasi.github.io/images/list2.jpg)
 
-**输入：** head = [1,1,2,3,3]
-**输出：** [1,2,3]
+> **输入：** head = [1,1,2,3,3]
+>
+> **输出：** [1,2,3]
 
 **提示：**
 

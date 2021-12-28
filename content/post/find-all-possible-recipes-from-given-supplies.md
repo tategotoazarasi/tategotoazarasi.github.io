@@ -18,34 +18,49 @@ math: true
 
 **示例 1：**
 
-**输入：** recipes = ["bread"], ingredients = [["yeast","flour"]], supplies = ["yeast","flour","corn"]
-**输出：** ["bread"]
-**解释：**
-我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
+> **输入：** recipes = ["bread"], ingredients = [["yeast","flour"]], supplies = ["yeast","flour","corn"]
+>
+> **输出：** ["bread"]
+>
+> **解释：**
+>
+> 我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
 
 **示例 2：**
 
-**输入：** recipes = ["bread","sandwich"], ingredients = [["yeast","flour"],["bread","meat"]], supplies = ["yeast","flour","meat"]
-**输出：** ["bread","sandwich"]
-**解释：**
-我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
-我们可以做出 "sandwich" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 。
+> **输入：** recipes = ["bread","sandwich"], ingredients = [["yeast","flour"],["bread","meat"]], supplies = ["yeast","flour","meat"]
+>
+> **输出：** ["bread","sandwich"]
+>
+> **解释：**
+>
+> 我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
+>
+> 我们可以做出 "sandwich" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 。
 
 **示例 3：**
 
-**输入：** recipes = ["bread","sandwich","burger"], ingredients = [["yeast","flour"],["bread","meat"],["sandwich","meat","bread"]], supplies = ["yeast","flour","meat"]
-**输出：** ["bread","sandwich","burger"]
-**解释：**
-我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
-我们可以做出 "sandwich" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 。
-我们可以做出 "burger" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 和 "sandwich" 。
+> **输入：** recipes = ["bread","sandwich","burger"], ingredients = [["yeast","flour"],["bread","meat"],["sandwich","meat","bread"]], supplies = ["yeast","flour","meat"]
+>
+> **输出：** ["bread","sandwich","burger"]
+>
+> **解释：**
+>
+> 我们可以做出 "bread" ，因为我们有原材料 "yeast" 和 "flour" 。
+>
+> 我们可以做出 "sandwich" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 。
+>
+> 我们可以做出 "burger" ，因为我们有原材料 "meat" 且可以做出原材料 "bread" 和 "sandwich" 。
 
 **示例 4：**
 
-**输入：** recipes = ["bread"], ingredients = [["yeast","flour"]], supplies = ["yeast"]
-**输出：** []
-**解释：**
-我们没法做出任何菜，因为我们只有原材料 "yeast" 。
+> **输入：** recipes = ["bread"], ingredients = [["yeast","flour"]], supplies = ["yeast"]
+>
+> **输出：** []
+>
+> **解释：**
+>
+> 我们没法做出任何菜，因为我们只有原材料 "yeast" 。
 
 **提示：**
 

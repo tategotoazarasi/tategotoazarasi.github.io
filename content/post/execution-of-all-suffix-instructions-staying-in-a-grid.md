@@ -23,9 +23,11 @@ math: true
 
 ![](https://tategotoazarasi.github.io/images/leetcode_5964_1.png)
 
-**输入：** n = 3, startPos = [0,1], s = "RRDDLU"
-**输出：** [1,5,4,3,1,0]
-**解释：** 机器人从 startPos 出发，并从第 i 条指令开始执行：
+> **输入：** n = 3, startPos = [0,1], s = "RRDDLU"
+>
+> **输出：** [1,5,4,3,1,0]
+>
+> **解释：** 机器人从 startPos 出发，并从第 i 条指令开始执行：
 
 - 0: "**_R_** RDDLU" 在移动到网格外之前，只能执行一条 "R" 指令。
 - 1: "**_RDDLU_**" 可以执行全部五条指令，机器人仍在网格内，最终到达 (0, 0) 。
@@ -38,9 +40,11 @@ math: true
 
 ![](https://tategotoazarasi.github.io/images/leetcode_5964_2.png)
 
-**输入：** n = 2, startPos = [1,1], s = "LURD"
-**输出：** [4,1,0,0]
-**解释：**
+> **输入：** n = 2, startPos = [1,1], s = "LURD"
+>
+> **输出：** [4,1,0,0]
+>
+> **解释：**
 
 - 0: "**_LURD_**"
 - 1: "**_U_** RD"
@@ -51,9 +55,11 @@ math: true
 
 ![](https://tategotoazarasi.github.io/images/leetcode_5964_3.png)
 
-**输入：** n = 1, startPos = [0,0], s = "LRUD"
-**输出：** [0,0,0,0]
-**解释：** 无论机器人从哪条指令开始执行，都会移动到网格外。
+> **输入：** n = 1, startPos = [0,0], s = "LRUD"
+>
+> **输出：** [0,0,0,0]
+>
+> **解释：** 无论机器人从哪条指令开始执行，都会移动到网格外。
 
 **提示：**
 

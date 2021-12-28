@@ -16,18 +16,23 @@ math: true
 
 ![](https://tategotoazarasi.github.io/images/btree1.jpg)
 
-**输入：** nums = [-10,-3,0,5,9]
-**输出：** [0,-3,9,-10,null,5]
-**解释：** [0,-10,5,null,-3,null,9] 也将被视为正确答案：
-![](https://tategotoazarasi.github.io/images/btree2.jpg)
+> **输入：** nums = [-10,-3,0,5,9]
+>
+> **输出：** [0,-3,9,-10,null,5]
+>
+> **解释：** [0,-10,5,null,-3,null,9] 也将被视为正确答案：
+>
+> ![](https://tategotoazarasi.github.io/images/btree2.jpg)
 
 **示例 2：**
 
 ![](https://tategotoazarasi.github.io/images/btree.jpg)
 
-**输入：** nums = [1,3]
-**输出：** [3,1]
-**解释：** [1,3] 和 [3,1] 都是高度平衡二叉搜索树。
+> **输入：** nums = [1,3]
+>
+> **输出：** [3,1]
+>
+> **解释：** [1,3] 和 [3,1] 都是高度平衡二叉搜索树。
 
 **提示：**
 
