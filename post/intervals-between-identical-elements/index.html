@@ -96,8 +96,8 @@ arr 中两个元素的 间隔 定义为它们下标之间的 绝对差 。更正
 Created <relative-time datetime="Sun, 26 Dec 2021 15:11:10 +0800" class=no-wrap>
 Sun, 26 Dec 2021 15:11:10 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 26 Dec 2021 07:19:06 +0000" class=no-wrap>
-Sun, 26 Dec 2021 07:19:06 +0000</relative-time>
+Modified <relative-time datetime="Tue, 28 Dec 2021 08:02:39 +0000" class=no-wrap>
+Tue, 28 Dec 2021 08:02:39 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ Sun, 26 Dec 2021 07:19:06 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-499 Words
+666 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -160,6 +160,10 @@ leetcode
 <li><code>n == arr.length</code></li>
 <li>\(1 &lt;= n &lt;= 10^5\)</li>
 <li>\(1 &lt;= arr[i] &lt;= 10^5\)</li>
+<li>对于在数组中发现的每个独特的值，存储一个排序的数组中具有该值的元素的索引列表。</li>
+<li>一种方法是使用一个HashMap，将值映射到它们的索引列表。当你遍历数组时，更新这个映射。</li>
+<li>分别处理每一个索引列表，通过利用前缀和得到该值的元素的间隔之和。</li>
+<li>对于每个元素，跟踪之前和之后的相同元素的指数之和。利用这一点来计算该元素与其他相同值的元素的间隔之和。</li>
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
     <span class=kd>public</span> <span class=kt>long</span><span class=o>[]</span> <span class=nf>getDistances</span><span class=o>(</span><span class=kt>int</span><span class=o>[]</span> <span class=n>arr</span><span class=o>)</span> <span class=o>{</span>
