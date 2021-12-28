@@ -96,8 +96,8 @@ arr 中两个元素的 间隔 定义为它们下标之间的 绝对差 。更正
 Created <relative-time datetime="Sun, 26 Dec 2021 15:11:10 +0800" class=no-wrap>
 Sun, 26 Dec 2021 15:11:10 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 28 Dec 2021 08:02:39 +0000" class=no-wrap>
-Tue, 28 Dec 2021 08:02:39 +0000</relative-time>
+Modified <relative-time datetime="Tue, 28 Dec 2021 12:26:55 +0000" class=no-wrap>
+Tue, 28 Dec 2021 12:26:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -133,9 +133,11 @@ leetcode
 <p>返回一个长度为 <code>n</code> 的数组  <code>intervals</code> ，其中 <code>intervals[i]</code> 是 <code>arr[i]</code> 和 <code>arr</code> 中每个相同元素（与 <code>arr[i]</code> 的值相同）的 <strong>间隔之和</strong> <em>。</em></p>
 <p><strong>注意：</strong><code>|x|</code> 是 <code>x</code> 的绝对值。</p>
 <p><strong>示例 1：</strong></p>
-<p><strong>输入：</strong> arr = [2,1,3,1,2,3,3]
-<strong>输出：</strong> [4,2,7,2,4,4,5]
-<strong>解释：</strong></p>
+<blockquote>
+<p><strong>输入：</strong> arr = [2,1,3,1,2,3,3]</p>
+<p><strong>输出：</strong> [4,2,7,2,4,4,5]</p>
+<p><strong>解释：</strong></p>
+</blockquote>
 <ul>
 <li>下标 0 ：另一个 2 在下标 4 ，|0 - 4| = 4</li>
 <li>下标 1 ：另一个 1 在下标 3 ，|1 - 3| = 2</li>
@@ -146,9 +148,11 @@ leetcode
 <li>下标 6 ：另两个 3 在下标 2 和 5 ，|6 - 2| + |6 - 5| = 5</li>
 </ul>
 <p><strong>示例 2：</strong></p>
-<p><strong>输入：</strong> arr = [10,5,10,10]
-<strong>输出：</strong> [5,0,3,4]
-<strong>解释：</strong></p>
+<blockquote>
+<p><strong>输入：</strong> arr = [10,5,10,10]</p>
+<p><strong>输出：</strong> [5,0,3,4]</p>
+<p><strong>解释：</strong></p>
+</blockquote>
 <ul>
 <li>下标 0 ：另两个 10 在下标 2 和 3 ，|0 - 2| + |0 - 3| = 5</li>
 <li>下标 1 ：只有这一个 5 在数组中，所以到相同元素的间隔之和是 0</li>

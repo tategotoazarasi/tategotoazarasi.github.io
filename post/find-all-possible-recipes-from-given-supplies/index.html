@@ -99,8 +99,8 @@
 Created <relative-time datetime="Sun, 26 Dec 2021 09:22:40 +0800" class=no-wrap>
 Sun, 26 Dec 2021 09:22:40 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 28 Dec 2021 08:02:39 +0000" class=no-wrap>
-Tue, 28 Dec 2021 08:02:39 +0000</relative-time>
+Modified <relative-time datetime="Tue, 28 Dec 2021 12:26:55 +0000" class=no-wrap>
+Tue, 28 Dec 2021 12:26:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -136,28 +136,36 @@ leetcode
 <p>请你返回你可以做出的所有菜。你可以以 <strong>任意顺序</strong>  返回它们。</p>
 <p>注意两道菜在它们的原材料中可能互相包含。</p>
 <p><strong>示例 1：</strong></p>
-<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;corn&rdquo;]
-<strong>输出：</strong> [&ldquo;bread&rdquo;]
-<strong>解释：</strong>
-我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。</p>
+<blockquote>
+<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;corn&rdquo;]</p>
+<p><strong>输出：</strong> [&ldquo;bread&rdquo;]</p>
+<p><strong>解释：</strong></p>
+<p>我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。</p>
+</blockquote>
 <p><strong>示例 2：</strong></p>
-<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;],[&ldquo;bread&rdquo;,&ldquo;meat&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;meat&rdquo;]
-<strong>输出：</strong> [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;]
-<strong>解释：</strong>
-我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。
-我们可以做出 &ldquo;sandwich&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 。</p>
+<blockquote>
+<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;],[&ldquo;bread&rdquo;,&ldquo;meat&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;meat&rdquo;]</p>
+<p><strong>输出：</strong> [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;]</p>
+<p><strong>解释：</strong></p>
+<p>我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。</p>
+<p>我们可以做出 &ldquo;sandwich&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 。</p>
+</blockquote>
 <p><strong>示例 3：</strong></p>
-<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;,&ldquo;burger&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;],[&ldquo;bread&rdquo;,&ldquo;meat&rdquo;],[&ldquo;sandwich&rdquo;,&ldquo;meat&rdquo;,&ldquo;bread&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;meat&rdquo;]
-<strong>输出：</strong> [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;,&ldquo;burger&rdquo;]
-<strong>解释：</strong>
-我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。
-我们可以做出 &ldquo;sandwich&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 。
-我们可以做出 &ldquo;burger&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 和 &ldquo;sandwich&rdquo; 。</p>
+<blockquote>
+<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;,&ldquo;burger&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;],[&ldquo;bread&rdquo;,&ldquo;meat&rdquo;],[&ldquo;sandwich&rdquo;,&ldquo;meat&rdquo;,&ldquo;bread&rdquo;]], supplies = [&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;,&ldquo;meat&rdquo;]</p>
+<p><strong>输出：</strong> [&ldquo;bread&rdquo;,&ldquo;sandwich&rdquo;,&ldquo;burger&rdquo;]</p>
+<p><strong>解释：</strong></p>
+<p>我们可以做出 &ldquo;bread&rdquo; ，因为我们有原材料 &ldquo;yeast&rdquo; 和 &ldquo;flour&rdquo; 。</p>
+<p>我们可以做出 &ldquo;sandwich&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 。</p>
+<p>我们可以做出 &ldquo;burger&rdquo; ，因为我们有原材料 &ldquo;meat&rdquo; 且可以做出原材料 &ldquo;bread&rdquo; 和 &ldquo;sandwich&rdquo; 。</p>
+</blockquote>
 <p><strong>示例 4：</strong></p>
-<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;]], supplies = [&ldquo;yeast&rdquo;]
-<strong>输出：</strong> []
-<strong>解释：</strong>
-我们没法做出任何菜，因为我们只有原材料 &ldquo;yeast&rdquo; 。</p>
+<blockquote>
+<p><strong>输入：</strong> recipes = [&ldquo;bread&rdquo;], ingredients = [[&ldquo;yeast&rdquo;,&ldquo;flour&rdquo;]], supplies = [&ldquo;yeast&rdquo;]</p>
+<p><strong>输出：</strong> []</p>
+<p><strong>解释：</strong></p>
+<p>我们没法做出任何菜，因为我们只有原材料 &ldquo;yeast&rdquo; 。</p>
+</blockquote>
 <p><strong>提示：</strong></p>
 <ul>
 <li><code>n == recipes.length == ingredients.length</code></li>

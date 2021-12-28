@@ -96,8 +96,8 @@
 Created <relative-time datetime="Sun, 26 Dec 2021 09:22:53 +0800" class=no-wrap>
 Sun, 26 Dec 2021 09:22:53 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 28 Dec 2021 08:02:39 +0000" class=no-wrap>
-Tue, 28 Dec 2021 08:02:39 +0000</relative-time>
+Modified <relative-time datetime="Tue, 28 Dec 2021 12:26:55 +0000" class=no-wrap>
+Tue, 28 Dec 2021 12:26:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -142,19 +142,25 @@ leetcode
 <p>如果你可以将 <code>s</code>  变为有效括号字符串，请你返回  <code>true</code> ，否则返回  <code>false</code> 。</p>
 <p><strong>示例 1：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/eg1.png alt></p>
-<p><strong>输入：</strong> s = &ldquo;))()))&rdquo;, locked = &ldquo;010100&rdquo;
-<strong>输出：</strong> true
-<strong>解释：</strong> locked[1] == &lsquo;1&rsquo; 和 locked[3] == &lsquo;1&rsquo; ，所以我们无法改变 s[1] 或者 s[3] 。
-我们可以将 s[0] 和 s[4] 变为 &lsquo;(&rsquo; ，不改变 s[2] 和 s[5] ，使 s 变为有效字符串。</p>
+<blockquote>
+<p><strong>输入：</strong> s = &ldquo;))()))&rdquo;, locked = &ldquo;010100&rdquo;</p>
+<p><strong>输出：</strong> true</p>
+<p><strong>解释：</strong> locked[1] == &lsquo;1&rsquo; 和 locked[3] == &lsquo;1&rsquo; ，所以我们无法改变 s[1] 或者 s[3] 。</p>
+<p>我们可以将 s[0] 和 s[4] 变为 &lsquo;(&rsquo; ，不改变 s[2] 和 s[5] ，使 s 变为有效字符串。</p>
+</blockquote>
 <p><strong>示例 2：</strong></p>
-<p><strong>输入：</strong> s = &ldquo;()()&rdquo;, locked = &ldquo;0000&rdquo;
-<strong>输出：</strong> true
-<strong>解释：</strong> 我们不需要做任何改变，因为 s 已经是有效字符串了。</p>
+<blockquote>
+<p><strong>输入：</strong> s = &ldquo;()()&rdquo;, locked = &ldquo;0000&rdquo;</p>
+<p><strong>输出：</strong> true</p>
+<p><strong>解释：</strong> 我们不需要做任何改变，因为 s 已经是有效字符串了。</p>
+</blockquote>
 <p><strong>示例 3：</strong></p>
-<p><strong>输入：</strong> s = &ldquo;)&rdquo;, locked = &ldquo;0&rdquo;
-<strong>输出：</strong> false
-<strong>解释：</strong> locked 允许改变 s[0] 。
-但无论将 s[0] 变为 &lsquo;(&rsquo; 或者 &lsquo;)&rsquo; 都无法使 s 变为有效字符串。</p>
+<blockquote>
+<p><strong>输入：</strong> s = &ldquo;)&rdquo;, locked = &ldquo;0&rdquo;</p>
+<p><strong>输出：</strong> false</p>
+<p><strong>解释：</strong> locked 允许改变 s[0] 。</p>
+<p>但无论将 s[0] 变为 &lsquo;(&rsquo; 或者 &lsquo;)&rsquo; 都无法使 s 变为有效字符串。</p>
+</blockquote>
 <p><strong>提示：</strong></p>
 <ul>
 <li><code>n == s.length == locked.length</code></li>

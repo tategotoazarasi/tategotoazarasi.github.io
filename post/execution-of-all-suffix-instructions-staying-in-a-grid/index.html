@@ -99,8 +99,8 @@
 Created <relative-time datetime="Sun, 26 Dec 2021 15:10:59 +0800" class=no-wrap>
 Sun, 26 Dec 2021 15:10:59 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 28 Dec 2021 08:02:39 +0000" class=no-wrap>
-Tue, 28 Dec 2021 08:02:39 +0000</relative-time>
+Modified <relative-time datetime="Tue, 28 Dec 2021 12:26:55 +0000" class=no-wrap>
+Tue, 28 Dec 2021 12:26:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -141,9 +141,11 @@ leetcode
 <p>返回一个长度为 <code>m</code> 的数组 <code>answer</code> ，其中 <code>answer[i]</code> 是机器人从第 <code>i</code>  条指令 <strong>开始</strong> ，可以执行的 <strong>指令数目</strong> 。</p>
 <p><strong>示例 1：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/leetcode_5964_1.png alt></p>
-<p><strong>输入：</strong> n = 3, startPos = [0,1], s = &ldquo;RRDDLU&rdquo;
-<strong>输出：</strong> [1,5,4,3,1,0]
-<strong>解释：</strong> 机器人从 startPos 出发，并从第 i 条指令开始执行：</p>
+<blockquote>
+<p><strong>输入：</strong> n = 3, startPos = [0,1], s = &ldquo;RRDDLU&rdquo;</p>
+<p><strong>输出：</strong> [1,5,4,3,1,0]</p>
+<p><strong>解释：</strong> 机器人从 startPos 出发，并从第 i 条指令开始执行：</p>
+</blockquote>
 <ul>
 <li>0: &ldquo;<strong><em>R</em></strong> RDDLU&rdquo; 在移动到网格外之前，只能执行一条 &ldquo;R&rdquo; 指令。</li>
 <li>1: &ldquo;<strong><em>RDDLU</em></strong>&rdquo; 可以执行全部五条指令，机器人仍在网格内，最终到达 (0, 0) 。</li>
@@ -154,9 +156,11 @@ leetcode
 </ul>
 <p><strong>示例 2：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/leetcode_5964_2.png alt></p>
-<p><strong>输入：</strong> n = 2, startPos = [1,1], s = &ldquo;LURD&rdquo;
-<strong>输出：</strong> [4,1,0,0]
-<strong>解释：</strong></p>
+<blockquote>
+<p><strong>输入：</strong> n = 2, startPos = [1,1], s = &ldquo;LURD&rdquo;</p>
+<p><strong>输出：</strong> [4,1,0,0]</p>
+<p><strong>解释：</strong></p>
+</blockquote>
 <ul>
 <li>0: &ldquo;<strong><em>LURD</em></strong>&rdquo;</li>
 <li>1: &ldquo;<strong><em>U</em></strong> RD&rdquo;</li>
@@ -165,9 +169,11 @@ leetcode
 </ul>
 <p><strong>示例 3：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/leetcode_5964_3.png alt></p>
-<p><strong>输入：</strong> n = 1, startPos = [0,0], s = &ldquo;LRUD&rdquo;
-<strong>输出：</strong> [0,0,0,0]
-<strong>解释：</strong> 无论机器人从哪条指令开始执行，都会移动到网格外。</p>
+<blockquote>
+<p><strong>输入：</strong> n = 1, startPos = [0,0], s = &ldquo;LRUD&rdquo;</p>
+<p><strong>输出：</strong> [0,0,0,0]</p>
+<p><strong>解释：</strong> 无论机器人从哪条指令开始执行，都会移动到网格外。</p>
+</blockquote>
 <p><strong>提示：</strong></p>
 <ul>
 <li><code>m == s.length</code></li>
