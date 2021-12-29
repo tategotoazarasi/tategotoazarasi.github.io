@@ -1,5 +1,5 @@
 ---
-title: "AcWing 1. A + B "
+title: "AcWing 1. A + B"
 date: 2021-12-28T20:23:04+08:00
 draft: false
 tags: ["acwing", "简单", "模拟"]
