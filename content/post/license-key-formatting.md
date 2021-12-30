@@ -2,7 +2,7 @@
 title: "LintCode 1214. 许可证密钥格式"
 date: 2021-12-29T10:33:57+08:00
 draft: false
-tags: ["lintcode", "简单", "模拟法", "字符串", "谷歌"]
+tags: ["lintcode", "简单", "模拟", "字符串", "谷歌"]
 math: true
 ---
 
