@@ -1,0 +1,134 @@
+{
+  "main": {
+    "id": "0d451b4ea17f25a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "7394b38e04153bbc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "数据库系统原理3.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "40eec023af04fe16",
+    "type": "split",
+    "children": [
+      {
+        "id": "2ca56cebccbc0af8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "560263309245e8a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "07c653f5ee502ea9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0e53f15f6563340",
+    "type": "split",
+    "children": [
+      {
+        "id": "56510b6ace507e99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c85817914ad4ac76",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "数据库系统原理3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dfbc2d549eecb1a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "数据库系统原理3.md"
+              }
+            }
+          },
+          {
+            "id": "31f22f50bfe3cf94",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "数据库系统原理3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f239004054f6e99",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7394b38e04153bbc",
+  "lastOpenFiles": [
+    "数据库系统原理3.md",
+    "acwing4201.md",
+    "a-number-after-a-double-reversal.md",
+    "check-if-a-parentheses-string-can-be-valid.md",
+    "same-tree.md",
+    "remove-element.md",
+    "longest-common-prefix.md",
+    "acwing1.md",
+    "acwing608.md"
+  ]
+}
