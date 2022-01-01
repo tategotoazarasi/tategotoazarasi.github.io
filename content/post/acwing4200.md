@@ -2,7 +2,7 @@
 title: "AcWing 4200. 简单问题"
 date: 2021-12-25T21:19:15+08:00
 draft: false
-tags: ["acwing", "简单", "枚举推公式"]
+tags: ["acwing", "简单", "枚举", "推公式"]
 math: true
 ---
 
