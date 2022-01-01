@@ -7,11 +7,8 @@
         "id": "7394b38e04153bbc",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "convert-1d-array-into-2d-array.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "convert-1d-array-into-2d-array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "convert-1d-array-into-2d-array.md"
-              }
+              "state": {}
             }
           },
           {
@@ -95,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "convert-1d-array-into-2d-array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
