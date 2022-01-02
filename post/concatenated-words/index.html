@@ -93,8 +93,8 @@
 Created <relative-time datetime="Tue, 28 Dec 2021 15:56:48 +0800" class=no-wrap>
 Tue, 28 Dec 2021 15:56:48 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 02 Jan 2022 09:32:40 +0000" class=no-wrap>
-Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
+Modified <relative-time datetime="Sun, 02 Jan 2022 09:51:09 +0000" class=no-wrap>
+Sun, 02 Jan 2022 09:51:09 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@ Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-512 Words
+1374 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -161,6 +161,30 @@ leetcode
 <li><code>0 &lt;= words[i].length &lt;= 1000</code></li>
 <li><code>words[i]</code> 仅由小写字母组成</li>
 <li>\(0 &lt;= sum(words[i].length) &lt;= 10^5\)</li>
+</ul>
+<h2 id=题解>题解</h2>
+<p>判断一个单词是不是连接词，需要判断这个单词是否完全由至少两个给定数组中的更短的非空单词（可以重复）组成。判断更短的单词是否在给定数组中，可以使用字典树实现。</p>
+<p>为了方便处理，首先将数组 words 按照字符串的长度递增的顺序排序，排序后可以确保当遍历到任意单词时，比该单词短的单词一定都已经遍历过，因此可以根据已经遍历过的全部单词判断当前单词是不是连接词。</p>
+<p>在将数组 words 排序之后，遍历数组，跳过空字符串，对于每个非空单词，判断该单词是不是连接词，如果是连接词则将该单词加入结果数组，如果不是连接词则将该单词加入字典树。</p>
+<p>判断一个单词是不是连接词的做法是在字典树中深度优先搜索。从该单词的第一个字符（即下标 0 处的字符）开始，在字典树中依次搜索每个字符对应的结点，可能有以下几种情况：</p>
+<ul>
+<li>
+<p>如果一个字符对应的结点是单词的结尾，则找到了一个更短的单词，从该字符的后一个字符开始搜索下一个更短的单词；</p>
+</li>
+<li>
+<p>如果一个字符对应的结点在字典树中不存在，则当前的搜索结果失败，回到上一个单词的结尾继续搜索。</p>
+</li>
+</ul>
+<p>如果找到一个更短的单词且这个更短的单词的最后一个字符是当前单词的最后一个字符，则当前单词是连接词。由于数组 words 中没有重复的单词，因此在判断一个单词是不是连接词时，该单词一定没有加入字典树，由此可以确保判断连接词的条件成立。</p>
+<p><strong>由于一个连接词由多个更短的非空单词组成，如果存在一个较长的连接词的组成部分之一是一个较短的连接词，则一定可以将这个较短的连接词换成多个更短的非空单词，因此不需要将连接词加入字典树。</strong></p>
+<p><strong>复杂度分析</strong></p>
+<ul>
+<li>
+<p>时间复杂度：\(O(nlogn+∑0≤i&lt;n​li2​)\)，其中 n 是数组 words 的长度，li​ 是单词 words[i] 的长度。对数组 words 按照字符串的长度递增的顺序排序需要 O(nlogn) 的时间，最坏情况下判断单词 words[i] 是不是连接词的时间复杂度是 O(li2​)。</p>
+</li>
+<li>
+<p>空间复杂度：\(O(∑0≤i&lt;n​li​×∣S∣)\)，其中 n 是数组 words 的长度，li​ 是单词 words[i] 的长度，S 是字符集，这道题中 S 为全部小写英语字母，∣S∣=26。空间复杂度主要取决于字典树，最坏情况下需要将所有的单词加入字典树。</p>
+</li>
 </ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
     <span class=k>public</span><span class=o>:</span>
@@ -261,7 +285,7 @@ leetcode
 </div>
 </main>
 </div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>

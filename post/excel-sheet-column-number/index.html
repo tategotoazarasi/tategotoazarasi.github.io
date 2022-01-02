@@ -93,8 +93,8 @@ A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB 
 Created <relative-time datetime="Sat, 25 Dec 2021 10:33:54 +0800" class=no-wrap>
 Sat, 25 Dec 2021 10:33:54 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 02 Jan 2022 09:32:40 +0000" class=no-wrap>
-Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
+Modified <relative-time datetime="Sun, 02 Jan 2022 09:51:09 +0000" class=no-wrap>
+Sun, 02 Jan 2022 09:51:09 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@ Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-170 Words
+1069 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -168,6 +168,30 @@ AB -&gt; 28
 <li><code>columnTitle</code> 仅由大写英文组成</li>
 <li><code>columnTitle</code> 在范围 <code>["A", "FXSHRXW"]</code> 内</li>
 </ul>
+<h2 id=题解>题解</h2>
+<p>这道题要求将 Excel 表中的列名称转换成相对应的列序号。由于 Excel 表的列名称由大写字母组成，大写字母共有 26 个，因此列名称的表示实质是 26 进制，需要将 26 进制转换成十进制。</p>
+<p>但是这道题和标准的进制转换不同，Excel 表的列序号是从 1 开始的，因此在进制转换时需要进行处理。</p>
+<p>当列名称的长度为 n 时，列名称的每个字母都有 26 种不同的取值，因此长度为 n 的不同列名称有 26n 个。</p>
+<p>当 n=1 时，列名称的取值范围是 A 到 Z，分别对应 1 到 26。当 n>1 时，首先得到除了最高位以外的 n−1 位部分对应的列序号，然后考虑最高位对列序号的增量。</p>
+<p>计算最高位对列序号的增量时，需要考虑列名称的长度和最高位的值，假设列名称的长度为 n。</p>
+<ul>
+<li>
+<p>当最高位是 A 时，除了最高位的 n−1 位有 26n−1 种不同的取值，因此最高位 A 对列序号的增量为 26n−1。</p>
+</li>
+<li>
+<p>当最高位是 B 时，和最高位是 A 相比（即最高位从 A 变成 B，其余 n−1 位不变），列序号增加了 26n−1，因此最高位 B 对列序号的增量为 2×26n−1。</p>
+</li>
+<li>
+<p>当最高位是第 k 个字母时（1≤k≤26），最高位对列序号的增量为 k×26n−1。</p>
+</li>
+</ul>
+<p>上述结论对 n>1 的情况都成立。当 n=1 时，n−1=0，k×26n−1=k×1=k，因此 n=1 的情况也适用上述结论。</p>
+<p>根据上述结论可知，列名称的每一位都会对列序号产生一个增量，列序号即为每一位的增量之和。如果列名称的每一位对应的序号为 [an−1​,an−2​,…,a0​]，其中对于任意 0≤i&lt;n 都有 1≤ai​≤26，则列名称对应的列序号为：</p>
+<p>number=i=0∑n−1​ai​×26i</p>
+<p>以 columnTitle=“FXSHRXW” 为例，计算过程如下：</p>
+<p>“FXSHRXW” 中的每个字母对应的序号分别是：[6,24,19,8,18,24,23]（其中 A 到 Z 分别对应 1 到 26），则列名称对应的列序号为：</p>
+<p>23×260+24×261+18×262+8×263+19×264+24×265+6×266=2147483647</p>
+<p>由此可以得到如下实现：首先将列序号初始化为 0，然后从右往左遍历列名称，对于列名称的从右往左的第 i 位（0≤i&lt;n），如果是第 k 个字母（1≤k≤26），则将列序号的值增加 k×26i。遍历结束时即可得到列序号。</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
 <span class=k>public</span><span class=o>:</span>
     <span class=kt>int</span> <span class=n>titleToNumber</span><span class=p>(</span><span class=n>string</span> <span class=n>columnTitle</span><span class=p>)</span> <span class=p>{</span>
@@ -188,7 +212,7 @@ AB -&gt; 28
 </div>
 </main>
 </div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>

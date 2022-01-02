@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>设计 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E8%AE%BE%E8%AE%A1/</link><description>Recent content in 设计 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 23 Dec 2021 15:25:43 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 155. 最小栈</title><link>https://tategotoazarasi.github.io/post/min-stack/</link><pubDate>Thu, 23 Dec 2021 15:25:43 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/min-stack/</guid><description>&lt;p>设计一个支持 &lt;code>push&lt;/code> ，&lt;code>pop&lt;/code> ，&lt;code>top&lt;/code> 操作，并能在常数时间内检索到最小元素的栈。&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>push(x)&lt;/code> —— 将元素 x 推入栈中。&lt;/li>
-&lt;li>&lt;code>pop()&lt;/code> —— 删除栈顶的元素。&lt;/li>
-&lt;li>&lt;code>top()&lt;/code> —— 获取栈顶元素。&lt;/li>
-&lt;li>&lt;code>getMin()&lt;/code> —— 检索栈中的最小元素。&lt;/li>
-&lt;/ul></description></item></channel></rss>

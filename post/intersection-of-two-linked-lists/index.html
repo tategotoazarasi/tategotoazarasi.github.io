@@ -96,8 +96,8 @@
 Created <relative-time datetime="Fri, 24 Dec 2021 08:29:53 +0800" class=no-wrap>
 Fri, 24 Dec 2021 08:29:53 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 02 Jan 2022 09:32:40 +0000" class=no-wrap>
-Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
+Modified <relative-time datetime="Sun, 02 Jan 2022 09:51:09 +0000" class=no-wrap>
+Sun, 02 Jan 2022 09:51:09 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ Sun, 02 Jan 2022 09:32:40 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-871 Words
+1805 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -191,6 +191,56 @@ leetcode
 <li>如果 <code>listA</code> 和 <code>listB</code> 有交点，<code>intersectVal == listA[skipA] == listB[skipB]</code></li>
 </ul>
 <p><strong>进阶：</strong> 你能否设计一个时间复杂度 <code>O(m + n)</code> 、仅用 <code>O(1)</code> 内存的解决方案？</p>
+<h2 id=题解>题解</h2>
+<p><strong>思路和算法</strong></p>
+<p>使用双指针的方法，可以将空间复杂度降至 O(1)。</p>
+<p>只有当链表 headA 和 headB 都不为空时，两个链表才可能相交。因此首先判断链表 headA 和 headB 是否为空，如果其中至少有一个链表为空，则两个链表一定不相交，返回 null。</p>
+<p>当链表 headA 和 headB 都不为空时，创建两个指针 pA 和 pB，初始时分别指向两个链表的头节点 headA 和 headB，然后将两个指针依次遍历两个链表的每个节点。具体做法如下：</p>
+<ul>
+<li>
+<p>每步操作需要同时更新指针 pA 和 pB。</p>
+</li>
+<li>
+<p>如果指针 pA 不为空，则将指针 pA 移到下一个节点；如果指针 pB 不为空，则将指针 pB 移到下一个节点。</p>
+</li>
+<li>
+<p>如果指针 pA 为空，则将指针 pA 移到链表 headB 的头节点；如果指针 pB 为空，则将指针 pB 移到链表 headA 的头节点。</p>
+</li>
+<li>
+<p>当指针 pA 和 pB 指向同一个节点或者都为空时，返回它们指向的节点或者 null。</p>
+</li>
+</ul>
+<p><strong>证明</strong></p>
+<p>下面提供双指针方法的正确性证明。考虑两种情况，第一种情况是两个链表相交，第二种情况是两个链表不相交。</p>
+<p>情况一：两个链表相交</p>
+<p>链表 headA 和 headB 的长度分别是 m 和 n。假设链表 headA 的不相交部分有 a 个节点，链表 headB 的不相交部分有 b 个节点，两个链表相交的部分有 c 个节点，则有 a+c=m，b+c=n。</p>
+<ul>
+<li>
+<p>如果 a=b，则两个指针会同时到达两个链表相交的节点，此时返回相交的节点；</p>
+</li>
+<li>
+<p>如果 a​=b，则指针 pA 会遍历完链表 headA，指针 pB 会遍历完链表 headB，两个指针不会同时到达链表的尾节点，然后指针 pA 移到链表 headB 的头节点，指针 pB 移到链表 headA 的头节点，然后两个指针继续移动，在指针 pA 移动了 a+c+b 次、指针 pB 移动了 b+c+a 次之后，两个指针会同时到达两个链表相交的节点，该节点也是两个指针第一次同时指向的节点，此时返回相交的节点。</p>
+</li>
+</ul>
+<p>情况二：两个链表不相交</p>
+<p>链表 headA 和 headB 的长度分别是 m 和 n。考虑当 m=n 和 m​=n 时，两个指针分别会如何移动：</p>
+<ul>
+<li>
+<p>如果 m=n，则两个指针会同时到达两个链表的尾节点，然后同时变成空值 null，此时返回 null；</p>
+</li>
+<li>
+<p>如果 m​=n，则由于两个链表没有公共节点，两个指针也不会同时到达两个链表的尾节点，因此两个指针都会遍历完两个链表，在指针 pA 移动了 m+n 次、指针 pB 移动了 n+m 次之后，两个指针会同时变成空值 null，此时返回 null。</p>
+</li>
+</ul>
+<p><strong>复杂度分析</strong></p>
+<ul>
+<li>
+<p>时间复杂度：O(m+n)，其中 m 和 n 是分别是链表 headA 和 headB 的长度。两个指针同时遍历两个链表，每个指针遍历两个链表各一次。</p>
+</li>
+<li>
+<p>空间复杂度：O(1)。</p>
+</li>
+</ul>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>public</span> <span class=kd>class</span> <span class=nc>Solution</span> <span class=o>{</span>
     <span class=kd>public</span> <span class=n>ListNode</span> <span class=nf>getIntersectionNode</span><span class=o>(</span><span class=n>ListNode</span> <span class=n>headA</span><span class=o>,</span> <span class=n>ListNode</span> <span class=n>headB</span><span class=o>)</span> <span class=o>{</span>
         <span class=n>HashSet</span><span class=o>&lt;</span><span class=n>ListNode</span><span class=o>&gt;</span> <span class=n>set</span> <span class=o>=</span> <span class=k>new</span> <span class=n>HashSet</span><span class=o>&lt;&gt;();</span>
@@ -222,7 +272,7 @@ leetcode
 </div>
 </main>
 </div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
