@@ -93,8 +93,8 @@ A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB 
 Created <relative-time datetime="Sat, 25 Dec 2021 10:33:54 +0800" class=no-wrap>
 Sat, 25 Dec 2021 10:33:54 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Mon, 03 Jan 2022 07:50:51 +0000" class=no-wrap>
-Mon, 03 Jan 2022 07:50:51 +0000</relative-time>
+Modified <relative-time datetime="Mon, 03 Jan 2022 07:58:48 +0000" class=no-wrap>
+Mon, 03 Jan 2022 07:58:48 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@ Mon, 03 Jan 2022 07:50:51 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-1129 Words
+1128 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -176,18 +176,18 @@ AB -&gt; 28
 <p>计算最高位对列序号的增量时，需要考虑列名称的长度和最高位的值，假设列名称的长度为 n。</p>
 <ul>
 <li>
-<p>当最高位是 A 时，除了最高位的 n−1 位有 \(26^(n−1)\) 种不同的取值，因此最高位 A 对列序号的增量为 \(26^(n−1)\)。</p>
+<p>当最高位是 A 时，除了最高位的 n−1 位有 \(26^{n−1}\) 种不同的取值，因此最高位 A 对列序号的增量为 \(26^{n−1}\)。</p>
 </li>
 <li>
-<p>当最高位是 B 时，和最高位是 A 相比（即最高位从 A 变成 B，其余 n−1 位不变），列序号增加了 \(26^(n−1)\)，因此最高位 B 对列序号的增量为 \(2 \times 26^(n−1)\)。</p>
+<p>当最高位是 B 时，和最高位是 A 相比（即最高位从 A 变成 B，其余 n−1 位不变），列序号增加了 \(26^{n−1}\)，因此最高位 B 对列序号的增量为 \(2 \times 26^{n−1}\)。</p>
 </li>
 <li>
-<p>当最高位是第 k 个字母时（1≤k≤26），最高位对列序号的增量为 \(k \times 26^(n−1)\)。</p>
+<p>当最高位是第 k 个字母时（1≤k≤26），最高位对列序号的增量为 \(k \times 26^{n−1}\)。</p>
 </li>
 </ul>
-<p>上述结论对 n>1 的情况都成立。当 n=1 时，n−1=0，\(k \times 26^(n−1) = k \times 1 = k\)，因此 n=1 的情况也适用上述结论。</p>
-<p>根据上述结论可知，列名称的每一位都会对列序号产生一个增量，列序号即为每一位的增量之和。如果列名称的每一位对应的序号为 [\(a_(n−1)\),\(a_(n−2)\),…,\(a_0\)]，其中对于任意 0≤i&lt;n 都有 \(1≤a_i≤26\)，则列名称对应的列序号为：</p>
-<p>\( number = \sum_{i=0}^(n-1) a_i \times 26^i \)</p>
+<p>上述结论对 n>1 的情况都成立。当 n=1 时，n−1=0，\(k \times 26^{n−1} = k \times 1 = k\)，因此 n=1 的情况也适用上述结论。</p>
+<p>根据上述结论可知，列名称的每一位都会对列序号产生一个增量，列序号即为每一位的增量之和。如果列名称的每一位对应的序号为 [\(a_{n−1}\),\(a{n−2}\),…,\(a_0\)]，其中对于任意 0≤i&lt;n 都有 \(1≤a_i≤26\)，则列名称对应的列序号为：</p>
+<p>\( number = \sum_{i=0}^{n-1} a_i \times 26^i \)</p>
 <p>以 columnTitle=“FXSHRXW” 为例，计算过程如下：</p>
 <p>“FXSHRXW” 中的每个字母对应的序号分别是：[6,24,19,8,18,24,23]（其中 A 到 Z 分别对应 1 到 26），则列名称对应的列序号为：</p>
 <p>\(23×26^0+24×26^1+18×26^2+8×26^3+19×26^4+24×26^5+6×26^6=2147483647\)</p>
