@@ -9,4 +9,5 @@ Z -&amp;gt; 26
 AA -&amp;gt; 27
 AB -&amp;gt; 28
 ...
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;/code>&lt;/pre></description></item><item><title>LeetCode 28. 实现 strStr()</title><link>https://tategotoazarasi.github.io/post/implement-strstr/</link><pubDate>Tue, 07 Dec 2021 10:17:21 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/implement-strstr/</guid><description>&lt;p>实现 &lt;a href="https://baike.baidu.com/item/strstr/811469">strStr()&lt;/a> 函数。&lt;/p>
+&lt;p>给你两个字符串 &lt;code>haystack&lt;/code> 和 &lt;code>needle&lt;/code> ，请你在 &lt;code>haystack&lt;/code> 字符串中找出 &lt;code>needle&lt;/code> 字符串出现的第一个位置（下标从 0 开始）。如果不存在，则返回 &lt;code>-1&lt;/code> 。&lt;/p></description></item></channel></rss>

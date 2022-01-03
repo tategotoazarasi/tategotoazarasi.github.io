@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>acwing on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/acwing/</link><description>Recent content in acwing on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 01 Jan 2022 20:50:10 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/acwing/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4204. 构造矩阵</title><link>https://tategotoazarasi.github.io/post/acwing4204/</link><pubDate>Sat, 01 Jan 2022 20:50:10 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4204/</guid><description>&lt;p>请你构造一个 n×n 的整数矩阵。要求，矩阵满足下列所有条件：&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>acwing on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/acwing/</link><description>Recent content in acwing on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 03 Jan 2022 15:24:38 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/acwing/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 2041. 干草堆</title><link>https://tategotoazarasi.github.io/post/acwing2041/</link><pubDate>Mon, 03 Jan 2022 15:24:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2041/</guid><description>贝茜对她最近在农场周围造成的一切恶作剧感到抱歉，她同意帮助农夫约翰把一批新到的干草捆堆起来。
+开始时，共有 N 个空干草堆，编号 1∼N。
+约翰给贝茜下达了 K 个指令，每条指令的格式为 A B，这意味着贝茜要在 A..B 范围内的每个干草堆的顶部添加一个新的干草捆。
+例如，如果贝茜收到指令 10 13，则她应在干草堆 10,11,12,13 中各添加一个干草捆。
+在贝茜完成了所有指令后，约翰想知道 N 个干草堆的中值高度——也就是说，如果干草堆按照高度从小到大排列，位于中间的干草堆的高度。
+方便起见，N 一定是奇数，所以中间堆是唯一的。
+请帮助贝茜确定约翰问题的答案。
+输入格式 第一行包含 N 和 K。
+接下来 K 行，每行包含两个整数 A,B，用来描述一个指令。
+输出格式 输出完成所有指令后，N 个干草堆的中值高度。
+数据范围 1≤N≤106,
+1≤K≤25000,
+1≤A≤B≤N
+输入样例： 7 4 5 5 2 4 4 6 3 5 输出样例： 1 样例解释 贝茜完成所有指令后，各堆高度为 0,1,2,3,3,1,0。
+将各高度从小到大排序后，得到 0,0,1,1,2,3,3，位于中间的是 1。
+#include&amp;lt;iostream&amp;gt;#include&amp;lt;algorithm&amp;gt;#include&amp;lt;cstring&amp;gt; using namespace std; int main() { int * haystack = new int[1000010]; memset(haystack, 0, 1000010 * sizeof * haystack); int n, k; cin &amp;gt;&amp;gt; n &amp;gt;&amp;gt; k; for (int i = 0; i &amp;lt; k; i++) { int a, b; cin &amp;gt;&amp;gt; a &amp;gt;&amp;gt; b; haystack[a]++; haystack[b + 1]--; } for (int i = 1; i &amp;lt;= n; i++) { haystack[i] += haystack[i - 1]; } sort(haystack + 1, haystack + n + 1); cout &amp;lt;&amp;lt; haystack[(n + 1) / 2]; return 0; }</description></item><item><title>AcWing 4204. 构造矩阵</title><link>https://tategotoazarasi.github.io/post/acwing4204/</link><pubDate>Sat, 01 Jan 2022 20:50:10 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4204/</guid><description>&lt;p>请你构造一个 n×n 的整数矩阵。要求，矩阵满足下列所有条件：&lt;/p>
 &lt;ol>
 &lt;li>矩阵中的所有元素的取值范围为 [0,n−1]。&lt;/li>
 &lt;li>矩阵主对角线上的所有元素都为 0。主对角线是指从左上角到右下角这一斜线方向的对角线。&lt;/li>
