@@ -43,7 +43,7 @@ AB -> 28
 
 **提示：**
 
-- \\(1 <= columnNumber <= 2^31 - 1\\)
+- \\(1 <= columnNumber <= 2^(31) - 1\\)
 
 ```cpp
 class Solution {
