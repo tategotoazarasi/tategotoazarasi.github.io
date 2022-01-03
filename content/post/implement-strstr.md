@@ -21,19 +21,19 @@ math: true
 **示例 1：**
 
 > **输入：** haystack = "hello", needle = "ll"
-> 
+>
 > **输出：** 2
 
 **示例 2：**
 
 > **输入：** haystack = "aaaaa", needle = "bba"
-> 
+>
 > **输出：** -1
 
 **示例 3：**
 
 > **输入：** haystack = "", needle = ""
-> 
+>
 > **输出：** 0
 
 **提示：**
