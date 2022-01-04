@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>贪心 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E8%B4%AA%E5%BF%83/</link><description>Recent content in 贪心 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 26 Dec 2021 09:22:53 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E8%B4%AA%E5%BF%83/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 5948. 判断一个括号字符串是否有效</title><link>https://tategotoazarasi.github.io/post/check-if-a-parentheses-string-can-be-valid/</link><pubDate>Sun, 26 Dec 2021 09:22:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/check-if-a-parentheses-string-can-be-valid/</guid><description>&lt;p>一个括号字符串是只由  &lt;code>'('&lt;/code> 和  &lt;code>')'&lt;/code>  组成的  &lt;strong>非空&lt;/strong>  字符串。如果一个字符串满足下面 &lt;strong>任意&lt;/strong>  一个条件，那么它就是有效的：&lt;/p>
+&lt;ul>
+&lt;li>字符串为  &lt;code>()&lt;/code>.&lt;/li>
+&lt;li>它可以表示为 &lt;code>AB&lt;/code>（&lt;code>A&lt;/code>  与  &lt;code>B&lt;/code>  连接），其中&lt;code>A&lt;/code> 和  &lt;code>B&lt;/code>  都是有效括号字符串。&lt;/li>
+&lt;li>它可以表示为  &lt;code>(A)&lt;/code> ，其中  &lt;code>A&lt;/code>  是一个有效括号字符串。&lt;/li>
+&lt;/ul>
+&lt;p>给你一个括号字符串  &lt;code>s&lt;/code>  和一个字符串  &lt;code>locked&lt;/code> ，两者长度都为  &lt;code>n&lt;/code> 。&lt;code>locked&lt;/code>  是一个二进制字符串，只包含  &lt;code>'0'&lt;/code>  和  &lt;code>'1'&lt;/code> 。对于  &lt;code>locked&lt;/code>  中  &lt;strong>每一个&lt;/strong>  下标  &lt;code>i&lt;/code> ：&lt;/p>
+&lt;ul>
+&lt;li>如果  &lt;code>locked[i]&lt;/code>  是  &lt;code>'1'&lt;/code> ，你 &lt;strong>不能&lt;/strong>  改变  &lt;code>s[i]&lt;/code> 。&lt;/li>
+&lt;li>如果  &lt;code>locked[i]&lt;/code>  是  &lt;code>'0'&lt;/code> ，你  &lt;strong>可以&lt;/strong>  将  &lt;code>s[i]&lt;/code>  变为  &lt;code>'('&lt;/code>  或者  &lt;code>')'&lt;/code> 。&lt;/li>
+&lt;/ul>
+&lt;p>如果你可以将 &lt;code>s&lt;/code>  变为有效括号字符串，请你返回  &lt;code>true&lt;/code> ，否则返回  &lt;code>false&lt;/code> 。&lt;/p></description></item></channel></rss>
