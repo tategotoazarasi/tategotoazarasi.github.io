@@ -1,6 +1,6 @@
 ---
 title: "AcWing 2060. 奶牛选美"
-date: 2022-01-03T15:24:38+08:00
+date: 2022-01-04T21:57:38+08:00
 draft: false
 tags: ["acwing", "泛洪", "广度优先搜索", "深度优先搜索"]
 math: true
