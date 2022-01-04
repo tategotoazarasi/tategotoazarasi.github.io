@@ -2,7 +2,7 @@
 title: "LeetCode 5948. 判断一个括号字符串是否有效"
 date: 2021-12-26T09:22:53+08:00
 draft: false
-tags: ["leetcode", "中等"]
+tags: ["leetcode", "中等", "栈", "贪心", "字符串"]
 math: true
 ---
 
