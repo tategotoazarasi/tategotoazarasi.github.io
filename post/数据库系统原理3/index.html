@@ -93,8 +93,8 @@
 Created <relative-time datetime="Fri, 31 Dec 2021 20:25:47 +0800" class=no-wrap>
 Fri, 31 Dec 2021 20:25:47 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Wed, 05 Jan 2022 03:03:43 +0000" class=no-wrap>
-Wed, 05 Jan 2022 03:03:43 +0000</relative-time>
+Modified <relative-time datetime="Wed, 05 Jan 2022 12:55:33 +0000" class=no-wrap>
+Wed, 05 Jan 2022 12:55:33 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +112,7 @@ Wed, 05 Jan 2022 03:03:43 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-1915 Words
+2834 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E8%87%AA%E5%AD%A6%E8%80%83%E8%AF%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -394,50 +394,76 @@ Wed, 05 Jan 2022 03:03:43 +0000</relative-time>
 <h3 id=数据库运行与维护>数据库运行与维护</h3>
 <p>系统维护中最困难的工作是<strong>数据库重组与重构</strong>。</p>
 <h2 id=关系数据库设计方法>关系数据库设计方法</h2>
-<h2 id=习题>习题</h2>
-<ul>
-<li>
-<p>数据库物理设计完成后，进入（<strong>数据库实施</strong>）阶段。</p>
-</li>
-<li>
-<p>物理设计的具体任务主要是确定数据库在存储设备上的存储结构及（<strong>存取方法</strong>）。</p>
-</li>
-<li>
-<p>物理设计的内容因 DBMS 的不同还可能包括建立索引和（<strong>聚集</strong>），以及物理块大小、数据压缩等。</p>
-</li>
-<li>
-<p>下表是（ 2 ）。</p>
-<table>
-<thead>
-<tr>
-<th style=text-align:center>数据 ID</th>
-<th style=text-align:center>数据名</th>
-<th style=text-align:center>用途</th>
-<th style=text-align:center>主人</th>
-<th style=text-align:center>用户</th>
-<th style=text-align:center>来源</th>
-<th style=text-align:center>去向</th>
-<th style=text-align:center>存档时间</th>
-<th style=text-align:center>数据量</th>
-</tr>
-</thead>
-</table>
+<h3 id=关系数据库设计过程与各级模式>关系数据库设计过程与各级模式</h3>
+<p><img src=https://tategotoazarasi.github.io/images/%E6%95%B0%E6%8D%AE%E5%BA%93.png alt></p>
+<h4 id=e-r-图的表示方法>E-R 图的表示方法</h4>
+<p>1:1 联系
+1:n 联系
+m:n 联系 三个实体之间的一对多联系
+三个实体之间的多对多联系
+单个实体型内的一对多联系</p>
+<h3 id=概念结构设计方法>概念结构设计方法</h3>
+<h4 id=局部信息结构设计>局部信息结构设计</h4>
 <ol>
-<li>
-<p>数据元素表</p>
-</li>
-<li>
-<p>数据分类表</p>
-</li>
-<li>
-<p>任务分类表</p>
-</li>
-<li>
-<p>数据操作特征表</p>
+<li><strong>确定局部范围:</strong> 局部范围主要依据<strong>需求分析报告</strong>中标明的<strong>用户视图范围</strong>来确定</li>
+<li><strong>选择实体:</strong> <strong>数据分类表</strong>是选择实体的直接依据。实体选择的最大困难是如何区别<strong>实体与属性</strong></li>
+<li><strong>选择实体的关键字属性:</strong> 实体的存在依赖于其<strong>关键字</strong>的存在</li>
+<li><strong>确定实体间联系:</strong> 数据间的联系必须在<strong>概念设计</strong>时确定</li>
+<li><strong>确定实体的属性:</strong> 属性分为<strong>标识属性</strong>和<strong>说明属性</strong></li>
+</ol>
+<h4 id=全局信息结构设计>全局信息结构设计</h4>
+<h3 id=逻辑结构设计方法>逻辑结构设计方法</h3>
+<h4 id=e-r-图向关系模型的转换>E-R 图向关系模型的转换</h4>
+<ul>
+<li>一个实体型转换为一个关系模式,实体的属性作为关系的属性,实体的码作为关系的码</li>
+<li>一个一对一联系可以转换为一个独立的关系模式,也可以与任意一端对应的关系模式合并</li>
+<li>一个一对多联系可以转换为一个独立的关系模式,也可以与 N 端对应的关系模式合并</li>
+<li>一个多对多联系转换为一个关系模式</li>
+<li>三个或以上实体间的一个多元联系可以转换为一个关系模式</li>
+<li>具有相同码的关系模式可合并</li>
+</ul>
+<ol>
+<li>实体名->表名,在对应的表名后把图中相连接的属性名依次抄下来;</li>
+<li>确定实体与实体之间的联系是一对多还是多对多
+<ol>
+<li>如果是一对多,在多的表关系后,写上一的表中的主属性</li>
+<li>如果是多对多,则需要新建一个中间表,表名为联系名,
+<ol>
+<li>将两个有联系的表的主属性抄下来,作为中间表的属性</li>
+<li>若联系有属性也依次抄下来,并且联系表的键为 M 端实体键与 N 端实体键组合</li>
+<li>若联系无属性,则定义一个属性作为该关系的键(一般定义联系名+ID)</li>
+</ol>
 </li>
 </ol>
 </li>
-</ul></article>
+</ol>
+<h4 id=数据模型的优化>数据模型的优化</h4>
+<p>数据库逻辑设计的结果,<strong>不是唯一的</strong>。
+进一步提高数据库应用系统的性能
+根据需要适当地修改、调整数据模型的结构</p>
+<ol>
+<li>确定各<strong>属性</strong>间的函数依赖关系</li>
+<li>对于各个关系模式之间的数据依赖进行极小化处理,消除<strong>冗余</strong>的联系。</li>
+<li>判断每个关系模式的范式,根据实际需要确定最合适的范式。</li>
+<li>按照<strong>需求分析</strong>阶段得到的处理要求,分析这些模式对于这样的应用环境是否合适,确定是否要对某些模式进行合并或分解。</li>
+<li>对关系模式进行必要的分解,提高<strong>数据操作</strong>的效率和<strong>存储空间</strong>的利用率</li>
+</ol>
+<h4 id=设计用户子模式>设计用户子模式</h4>
+<ul>
+<li>可以通过视图机制在设计用户视图时,重新定义某些属性的别名,使其更符合用户的习惯,以方便使用</li>
+<li>可以对不同级别的用户定义不同的视图,以保证系统的安全性</li>
+<li>简化用户对系统的使用</li>
+</ul>
+<h3 id=物理设计方法>物理设计方法</h3>
+<p>物理设计的任务主要是通过对关系建立索引和聚集来实现与应用相关数据的逻辑连接和物理聚集,以改善对数据库的存取效率。</p>
+<h4 id=建立索引>建立索引</h4>
+<p>逻辑连接</p>
+<p>建立索引的方式通常有静态和动态两种</p>
+<h4 id=建立聚集>建立聚集</h4>
+<p>物理聚集</p>
+<p>聚集是将相关数据集中存放的物理存储技术。</p>
+<p>数据聚集结构的一种有效方式是块结构方式。</p>
+<p>数据聚集可在一个或多个关系上建立。</p></article>
 </div>
 </div>
 </div>
@@ -446,7 +472,7 @@ Wed, 05 Jan 2022 03:03:43 +0000</relative-time>
 </div>
 </main>
 </div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#数据库设计概述\u0022\u003e数据库设计概述\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库的生命周期\u0022\u003e数据库的生命周期\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的目标\u0022\u003e数据库设计的目标\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的内容\u0022\u003e数据库设计的内容\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的方法\u0022\u003e数据库设计的方法\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的过程\u0022\u003e数据库设计的过程\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#数据库设计的基本步骤\u0022\u003e数据库设计的基本步骤\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\u0022#需求分析\u0022\u003e需求分析\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#概念结构设计\u0022\u003e概念结构设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#逻辑结构设计\u0022\u003e逻辑结构设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#物理设计\u0022\u003e物理设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库实施\u0022\u003e数据库实施\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库运行与维护\u0022\u003e数据库运行与维护\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#关系数据库设计方法\u0022\u003e关系数据库设计方法\u003c/a\u003e\u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#习题\u0022\u003e习题\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#数据库设计概述\u0022\u003e数据库设计概述\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库的生命周期\u0022\u003e数据库的生命周期\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的目标\u0022\u003e数据库设计的目标\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的内容\u0022\u003e数据库设计的内容\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的方法\u0022\u003e数据库设计的方法\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库设计的过程\u0022\u003e数据库设计的过程\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#数据库设计的基本步骤\u0022\u003e数据库设计的基本步骤\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\u0022#需求分析\u0022\u003e需求分析\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#概念结构设计\u0022\u003e概念结构设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#逻辑结构设计\u0022\u003e逻辑结构设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#物理设计\u0022\u003e物理设计\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库实施\u0022\u003e数据库实施\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#数据库运行与维护\u0022\u003e数据库运行与维护\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#关系数据库设计方法\u0022\u003e关系数据库设计方法\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003ca href=\u0022#关系数据库设计过程与各级模式\u0022\u003e关系数据库设计过程与各级模式\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#概念结构设计方法\u0022\u003e概念结构设计方法\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#逻辑结构设计方法\u0022\u003e逻辑结构设计方法\u003c/a\u003e\u003c/li\u003e\n        \u003cli\u003e\u003ca href=\u0022#物理设计方法\u0022\u003e物理设计方法\u003c/a\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
