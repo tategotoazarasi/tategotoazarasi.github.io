@@ -1,16 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 04 Jan 2022 22:08:53 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 913. 猫和老鼠</title><link>https://tategotoazarasi.github.io/post/cat-and-mouse/</link><pubDate>Tue, 04 Jan 2022 22:08:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/cat-and-mouse/</guid><description>两位玩家分别扮演猫和老鼠，在一张 无向 图上进行游戏，两人轮流行动。
-图的形式是：graph[a] 是一个列表，由满足 ab 是图中的一条边的所有节点 b 组成。
-老鼠从节点 1 开始，第一个出发；猫从节点 2 开始，第二个出发。在节点 0 处有一个洞。
-在每个玩家的行动中，他们 必须 沿着图中与所在当前位置连通的一条边移动。例如，如果老鼠在节点 1 ，那么它必须移动到 graph[1] 中的任一节点。
-此外，猫无法移动到洞中（节点 0）。
-然后，游戏在出现以下三种情形之一时结束：
-如果猫和老鼠出现在同一个节点，猫获胜。 如果老鼠到达洞中，老鼠获胜。 如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。 给你一张图 graph ，并假设两位玩家都都以最佳状态参与游戏：
-如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。 示例 1：
-**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]] **输出：**0
-示例 2：
-**输入：**graph = [[1,3],[0],[3],[0,2]] **输出：**1
-提示：
-3 &amp;lt;= graph.length &amp;lt;= 50 1 &amp;lt;= graph[i].length &amp;lt; graph.length 0 &amp;lt;= graph[i][j] &amp;lt; graph.</description></item><item><title>LeetCode 390. 消除游戏</title><link>https://tategotoazarasi.github.io/post/elimination-game/</link><pubDate>Sun, 02 Jan 2022 17:04:49 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/elimination-game/</guid><description>&lt;p>给定一个从 1 到 n 排序的整数列表。&lt;br>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数学 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E5%AD%A6/</link><description>Recent content in 数学 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 04 Jan 2022 22:08:53 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E5%AD%A6/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 913. 猫和老鼠</title><link>https://tategotoazarasi.github.io/post/cat-and-mouse/</link><pubDate>Tue, 04 Jan 2022 22:08:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/cat-and-mouse/</guid><description>&lt;p>两位玩家分别扮演猫和老鼠，在一张 &lt;strong>无向&lt;/strong> 图上进行游戏，两人轮流行动。&lt;/p>
+&lt;p>图的形式是：&lt;code>graph[a]&lt;/code> 是一个列表，由满足 &lt;code>ab&lt;/code> 是图中的一条边的所有节点 &lt;code>b&lt;/code> 组成。&lt;/p>
+&lt;p>老鼠从节点 &lt;code>1&lt;/code> 开始，第一个出发；猫从节点 &lt;code>2&lt;/code> 开始，第二个出发。在节点 &lt;code>0&lt;/code> 处有一个洞。&lt;/p>
+&lt;p>在每个玩家的行动中，他们 &lt;strong>必须&lt;/strong> 沿着图中与所在当前位置连通的一条边移动。例如，如果老鼠在节点 &lt;code>1&lt;/code> ，那么它必须移动到 &lt;code>graph[1]&lt;/code> 中的任一节点。&lt;/p>
+&lt;p>此外，猫无法移动到洞中（节点 &lt;code>0&lt;/code>）。&lt;/p>
+&lt;p>然后，游戏在出现以下三种情形之一时结束：&lt;/p>
+&lt;ul>
+&lt;li>如果猫和老鼠出现在同一个节点，猫获胜。&lt;/li>
+&lt;li>如果老鼠到达洞中，老鼠获胜。&lt;/li>
+&lt;li>如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。&lt;/li>
+&lt;/ul>
+&lt;p>给你一张图 &lt;code>graph&lt;/code> ，并假设两位玩家都都以最佳状态参与游戏：&lt;/p>
+&lt;ul>
+&lt;li>如果老鼠获胜，则返回 &lt;code>1&lt;/code>；&lt;/li>
+&lt;li>如果猫获胜，则返回 &lt;code>2&lt;/code>；&lt;/li>
+&lt;li>如果平局，则返回 &lt;code>0&lt;/code> 。&lt;/li>
+&lt;/ul></description></item><item><title>LeetCode 390. 消除游戏</title><link>https://tategotoazarasi.github.io/post/elimination-game/</link><pubDate>Sun, 02 Jan 2022 17:04:49 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/elimination-game/</guid><description>&lt;p>给定一个从 1 到 n 排序的整数列表。&lt;br>
 首先，从左到右，从第一个数字开始，每隔一个数字进行删除，直到列表的末尾。&lt;br>
 第二步，在剩下的数字中，从右到左，从倒数第一个数字开始，每隔一个数字进行删除，直到列表开头。&lt;br>
 我们不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。&lt;br>

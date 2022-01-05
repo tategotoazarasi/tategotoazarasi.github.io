@@ -19,12 +19,7 @@
 此外，猫无法移动到洞中（节点 0）。
 然后，游戏在出现以下三种情形之一时结束：
  如果猫和老鼠出现在同一个节点，猫获胜。 如果老鼠到达洞中，老鼠获胜。 如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。  给你一张图 graph ，并假设两位玩家都都以最佳状态参与游戏：
- 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。  示例 1：
-**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]] **输出：**0
-示例 2：
-**输入：**graph = [[1,3],[0],[3],[0,2]] **输出：**1
-提示：
- 3 &amp;lt;= graph.length &amp;lt;= 50 1 &amp;lt;= graph[i].length &amp;lt; graph.length 0 &amp;lt;= graph[i][j] &amp;lt; graph.">
+ 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://tategotoazarasi.github.io/post/cat-and-mouse/>
@@ -37,12 +32,7 @@
 此外，猫无法移动到洞中（节点 0）。
 然后，游戏在出现以下三种情形之一时结束：
  如果猫和老鼠出现在同一个节点，猫获胜。 如果老鼠到达洞中，老鼠获胜。 如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。  给你一张图 graph ，并假设两位玩家都都以最佳状态参与游戏：
- 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。  示例 1：
-**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]] **输出：**0
-示例 2：
-**输入：**graph = [[1,3],[0],[3],[0,2]] **输出：**1
-提示：
- 3 &amp;lt;= graph.length &amp;lt;= 50 1 &amp;lt;= graph[i].length &amp;lt; graph.length 0 &amp;lt;= graph[i][j] &amp;lt; graph.">
+ 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
@@ -55,12 +45,7 @@
 此外，猫无法移动到洞中（节点 0）。
 然后，游戏在出现以下三种情形之一时结束：
  如果猫和老鼠出现在同一个节点，猫获胜。 如果老鼠到达洞中，老鼠获胜。 如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。  给你一张图 graph ，并假设两位玩家都都以最佳状态参与游戏：
- 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。  示例 1：
-**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]] **输出：**0
-示例 2：
-**输入：**graph = [[1,3],[0],[3],[0,2]] **输出：**1
-提示：
- 3 &amp;lt;= graph.length &amp;lt;= 50 1 &amp;lt;= graph[i].length &amp;lt; graph.length 0 &amp;lt;= graph[i][j] &amp;lt; graph.">
+ 如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。 ">
 <meta property="og:url" content="https://tategotoazarasi.github.io/post/cat-and-mouse/">
 <meta property="og:site_name" content="LeetCode 913. 猫和老鼠">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
@@ -123,8 +108,8 @@
 Created <relative-time datetime="Tue, 04 Jan 2022 22:08:53 +0800" class=no-wrap>
 Tue, 04 Jan 2022 22:08:53 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 04 Jan 2022 14:14:19 +0000" class=no-wrap>
-Tue, 04 Jan 2022 14:14:19 +0000</relative-time>
+Modified <relative-time datetime="Wed, 05 Jan 2022 03:03:43 +0000" class=no-wrap>
+Wed, 05 Jan 2022 03:03:43 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -142,7 +127,7 @@ Tue, 04 Jan 2022 14:14:19 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-3152 Words
+3128 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -192,12 +177,16 @@ leetcode
 </ul>
 <p><strong>示例 1：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/cat1.jpg alt></p>
-<p>**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
-**输出：**0</p>
+<blockquote>
+<p><strong>输入：</strong> graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]</p>
+<p><strong>输出：</strong> 0</p>
+</blockquote>
 <p><strong>示例 2：</strong></p>
 <p><img src=https://tategotoazarasi.github.io/images/cat2.jpg alt></p>
-<p>**输入：**graph = [[1,3],[0],[3],[0,2]]
-**输出：**1</p>
+<blockquote>
+<p><strong>输入：</strong> graph = [[1,3],[0],[3],[0,2]]</p>
+<p><strong>输出：</strong> 1</p>
+</blockquote>
 <p><strong>提示：</strong></p>
 <ul>
 <li><code>3 &lt;= graph.length &lt;= 50</code></li>

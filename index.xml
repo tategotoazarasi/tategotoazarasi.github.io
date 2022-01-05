@@ -1,16 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 04 Jan 2022 22:08:53 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 913. 猫和老鼠</title><link>https://tategotoazarasi.github.io/post/cat-and-mouse/</link><pubDate>Tue, 04 Jan 2022 22:08:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/cat-and-mouse/</guid><description>两位玩家分别扮演猫和老鼠，在一张 无向 图上进行游戏，两人轮流行动。
-图的形式是：graph[a] 是一个列表，由满足 ab 是图中的一条边的所有节点 b 组成。
-老鼠从节点 1 开始，第一个出发；猫从节点 2 开始，第二个出发。在节点 0 处有一个洞。
-在每个玩家的行动中，他们 必须 沿着图中与所在当前位置连通的一条边移动。例如，如果老鼠在节点 1 ，那么它必须移动到 graph[1] 中的任一节点。
-此外，猫无法移动到洞中（节点 0）。
-然后，游戏在出现以下三种情形之一时结束：
-如果猫和老鼠出现在同一个节点，猫获胜。 如果老鼠到达洞中，老鼠获胜。 如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。 给你一张图 graph ，并假设两位玩家都都以最佳状态参与游戏：
-如果老鼠获胜，则返回 1； 如果猫获胜，则返回 2； 如果平局，则返回 0 。 示例 1：
-**输入：**graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]] **输出：**0
-示例 2：
-**输入：**graph = [[1,3],[0],[3],[0,2]] **输出：**1
-提示：
-3 &amp;lt;= graph.length &amp;lt;= 50 1 &amp;lt;= graph[i].length &amp;lt; graph.length 0 &amp;lt;= graph[i][j] &amp;lt; graph.</description></item><item><title>AcWing 2060. 奶牛选美</title><link>https://tategotoazarasi.github.io/post/acwing2060/</link><pubDate>Tue, 04 Jan 2022 21:57:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2060/</guid><description>&lt;p>听说最近两斑点的奶牛最受欢迎，约翰立即购进了一批两斑点牛。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 05 Jan 2022 10:59:26 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 2019. 拖拉机</title><link>https://tategotoazarasi.github.io/post/acwing2019/</link><pubDate>Wed, 05 Jan 2022 10:59:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2019/</guid><description>&lt;p>干了一整天的活，农夫约翰完全忘记了他把拖拉机落在田地中央了。&lt;/p>
+&lt;p>他的奶牛非常调皮，决定对约翰来场恶作剧。&lt;/p>
+&lt;p>她们在田地的不同地方放了 N 捆干草，这样一来，约翰想要开走拖拉机就必须先移除一些干草捆。拖拉机的位置以及 N 捆干草的位置都是二维平面上的整数坐标点。&lt;/p>
+&lt;p>拖拉机的初始位置上没有干草捆。&lt;/p>
+&lt;p>当约翰驾驶拖拉机时，他只能沿平行于坐标轴的方向（北，南，东和西）移动拖拉机，并且拖拉机必须每次移动整数距离。&lt;/p>
+&lt;p>例如，驾驶拖拉机先向北移动 2 单位长度，然后向东移动 3 单位长度。&lt;/p>
+&lt;p>拖拉机无法移动到干草捆占据的位置。&lt;/p>
+&lt;p>请帮助约翰确定他需要移除的干草捆的最小数量，以便他能够将拖拉机开到二维平面的原点。&lt;/p></description></item><item><title>LeetCode 913. 猫和老鼠</title><link>https://tategotoazarasi.github.io/post/cat-and-mouse/</link><pubDate>Tue, 04 Jan 2022 22:08:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/cat-and-mouse/</guid><description>&lt;p>两位玩家分别扮演猫和老鼠，在一张 &lt;strong>无向&lt;/strong> 图上进行游戏，两人轮流行动。&lt;/p>
+&lt;p>图的形式是：&lt;code>graph[a]&lt;/code> 是一个列表，由满足 &lt;code>ab&lt;/code> 是图中的一条边的所有节点 &lt;code>b&lt;/code> 组成。&lt;/p>
+&lt;p>老鼠从节点 &lt;code>1&lt;/code> 开始，第一个出发；猫从节点 &lt;code>2&lt;/code> 开始，第二个出发。在节点 &lt;code>0&lt;/code> 处有一个洞。&lt;/p>
+&lt;p>在每个玩家的行动中，他们 &lt;strong>必须&lt;/strong> 沿着图中与所在当前位置连通的一条边移动。例如，如果老鼠在节点 &lt;code>1&lt;/code> ，那么它必须移动到 &lt;code>graph[1]&lt;/code> 中的任一节点。&lt;/p>
+&lt;p>此外，猫无法移动到洞中（节点 &lt;code>0&lt;/code>）。&lt;/p>
+&lt;p>然后，游戏在出现以下三种情形之一时结束：&lt;/p>
+&lt;ul>
+&lt;li>如果猫和老鼠出现在同一个节点，猫获胜。&lt;/li>
+&lt;li>如果老鼠到达洞中，老鼠获胜。&lt;/li>
+&lt;li>如果某一位置重复出现（即，玩家的位置和移动顺序都与上一次行动相同），游戏平局。&lt;/li>
+&lt;/ul>
+&lt;p>给你一张图 &lt;code>graph&lt;/code> ，并假设两位玩家都都以最佳状态参与游戏：&lt;/p>
+&lt;ul>
+&lt;li>如果老鼠获胜，则返回 &lt;code>1&lt;/code>；&lt;/li>
+&lt;li>如果猫获胜，则返回 &lt;code>2&lt;/code>；&lt;/li>
+&lt;li>如果平局，则返回 &lt;code>0&lt;/code> 。&lt;/li>
+&lt;/ul></description></item><item><title>AcWing 2060. 奶牛选美</title><link>https://tategotoazarasi.github.io/post/acwing2060/</link><pubDate>Tue, 04 Jan 2022 21:57:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2060/</guid><description>&lt;p>听说最近两斑点的奶牛最受欢迎，约翰立即购进了一批两斑点牛。&lt;/p>
 &lt;p>不幸的是，时尚潮流往往变化很快，当前最受欢迎的牛变成了一斑点牛。&lt;/p>
 &lt;p>约翰希望通过给每头奶牛涂色，使得它们身上的两个斑点能够合为一个斑点，让它们能够更加时尚。&lt;/p></description></item><item><title>高等数学 三角学</title><link>https://tategotoazarasi.github.io/post/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/</link><pubDate>Mon, 03 Jan 2022 19:10:47 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0/</guid><description>&lt;p>三角函数、反三角函数、双曲函数和反双曲函数。&lt;/p></description></item><item><title>AcWing 2041. 干草堆</title><link>https://tategotoazarasi.github.io/post/acwing2041/</link><pubDate>Mon, 03 Jan 2022 15:24:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2041/</guid><description>&lt;p>贝茜对她最近在农场周围造成的一切恶作剧感到抱歉，她同意帮助农夫约翰把一批新到的干草捆堆起来。&lt;/p>
 &lt;p>开始时，共有 N 个空干草堆，编号 1∼N。&lt;/p>
