@@ -2,7 +2,7 @@
 title: "LeetCode 5965. 相同元素的间隔之和"
 date: 2021-12-26T15:11:10+08:00
 draft: false
-tags: ["leetcode", "中等"]
+tags: ["leetcode", "中等", "数组", "哈希表", "前缀和"]
 math: true
 ---
 

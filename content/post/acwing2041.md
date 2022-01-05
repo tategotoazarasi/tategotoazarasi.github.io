@@ -2,7 +2,7 @@
 title: "AcWing 2041. 干草堆"
 date: 2022-01-03T15:24:38+08:00
 draft: false
-tags: ["acwing", "简单"]
+tags: ["acwing", "简单", "差分"]
 math: true
 ---
 
