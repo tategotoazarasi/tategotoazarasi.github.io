@@ -2,7 +2,7 @@
 title: "AcWing 4204. 构造矩阵"
 date: 2022-01-01T20:50:10+08:00
 draft: false
-tags: ["acwing", "中等"]
+tags: ["acwing", "中等", "构造"]
 math: true
 ---
 
