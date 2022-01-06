@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 05 Jan 2022 10:59:26 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 2019. 拖拉机</title><link>https://tategotoazarasi.github.io/post/acwing2019/</link><pubDate>Wed, 05 Jan 2022 10:59:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2019/</guid><description>&lt;p>干了一整天的活，农夫约翰完全忘记了他把拖拉机落在田地中央了。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 06 Jan 2022 10:51:11 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 2014. 岛</title><link>https://tategotoazarasi.github.io/post/acwing2014/</link><pubDate>Thu, 06 Jan 2022 10:51:11 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2014/</guid><description>&lt;p>每当下雨时，农夫约翰的田地总是被洪水淹没。&lt;/p>
+&lt;p>由于田地不是完全水平的，所以一些地方充满水后，留下了许多被水隔开的“岛”。&lt;/p>
+&lt;p>约翰的田地被描述为由 N 个连续高度值 H1,…,HN 指定的一维场景。&lt;/p>
+&lt;p>假设该场景被无限高的围墙包围着，请考虑暴雨期间发生的情况：&lt;/p>
+&lt;p>最低处首先被水覆盖，形成一些不连贯的岛，随着水位的不断上升，这些岛最终都会被覆盖。&lt;/p>
+&lt;p>一旦水位等于一块田地的高度，那块田地就被认为位于水下。&lt;/p>
+&lt;p>&lt;img src="https://tategotoazarasi.github.io/images/19_8c986a0cb5-fig_islands.png" alt="fig_islands.png">&lt;/p>
+&lt;p>上图显示了一个示例：在左图中，我们只加入了刚好超过 1 单位的水，此时剩下 4 个岛（最大岛屿剩余数量），而在右图中，我们共加入了 7 单位的水，此时仅剩下 2 个岛。&lt;/p>
+&lt;p>请计算，暴风雨期间我们能在某个时间点看到的最大岛屿数量。&lt;/p>
+&lt;p>水会一直上升到所有田地都在水下。&lt;/p></description></item><item><title>AcWing 2019. 拖拉机</title><link>https://tategotoazarasi.github.io/post/acwing2019/</link><pubDate>Wed, 05 Jan 2022 10:59:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing2019/</guid><description>&lt;p>干了一整天的活，农夫约翰完全忘记了他把拖拉机落在田地中央了。&lt;/p>
 &lt;p>他的奶牛非常调皮，决定对约翰来场恶作剧。&lt;/p>
 &lt;p>她们在田地的不同地方放了 N 捆干草，这样一来，约翰想要开走拖拉机就必须先移除一些干草捆。拖拉机的位置以及 N 捆干草的位置都是二维平面上的整数坐标点。&lt;/p>
 &lt;p>拖拉机的初始位置上没有干草捆。&lt;/p>
