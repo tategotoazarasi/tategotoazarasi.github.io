@@ -12,22 +12,22 @@
 <title>LintCode 295. 交集 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="描述 给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
- 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9  样例 输入: a = [[0,3], [7,10]] , b = [[-1,1],[2,8]] 输出: ans = [[0,0],[0,1],[1,1]] bool is_intersected(const vector&amp;lt;int&amp;gt; &amp;amp;l, const vector&amp;lt;int&amp;gt; &amp;amp;r) { if(l[0] == r[0]) return true; else if(l[0] &amp;lt; r[0]) return r[0] &amp;lt;= l[1]; else return l[0] &amp;lt;= r[1]; } vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; Intersection(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;a, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;b) { vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; res; if(a.empty() || b.empty()) return res; for(int i = 0, j = 0; i &amp;lt; a.size() &amp;amp;&amp;amp; j &amp;lt; b.">
+<meta name=description content="给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
+ 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://tategotoazarasi.github.io/post/intersection/>
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="LintCode 295. 交集 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="描述 给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
- 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9  样例 输入: a = [[0,3], [7,10]] , b = [[-1,1],[2,8]] 输出: ans = [[0,0],[0,1],[1,1]] bool is_intersected(const vector&amp;lt;int&amp;gt; &amp;amp;l, const vector&amp;lt;int&amp;gt; &amp;amp;r) { if(l[0] == r[0]) return true; else if(l[0] &amp;lt; r[0]) return r[0] &amp;lt;= l[1]; else return l[0] &amp;lt;= r[1]; } vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; Intersection(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;a, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;b) { vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; res; if(a.empty() || b.empty()) return res; for(int i = 0, j = 0; i &amp;lt; a.size() &amp;amp;&amp;amp; j &amp;lt; b.">
+<meta name=twitter:description content="给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
+ 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
 <meta property="og:title" content="LintCode 295. 交集 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="描述 给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
- 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9  样例 输入: a = [[0,3], [7,10]] , b = [[-1,1],[2,8]] 输出: ans = [[0,0],[0,1],[1,1]] bool is_intersected(const vector&amp;lt;int&amp;gt; &amp;amp;l, const vector&amp;lt;int&amp;gt; &amp;amp;r) { if(l[0] == r[0]) return true; else if(l[0] &amp;lt; r[0]) return r[0] &amp;lt;= l[1]; else return l[0] &amp;lt;= r[1]; } vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; Intersection(vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;a, vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; &amp;amp;b) { vector&amp;lt;vector&amp;lt;int&amp;gt;&amp;gt; res; if(a.empty() || b.empty()) return res; for(int i = 0, j = 0; i &amp;lt; a.size() &amp;amp;&amp;amp; j &amp;lt; b.">
+<meta property="og:description" content="给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标
+ 1&amp;lt;=len(a),len(b)&amp;lt;=1e5 abs(max(a))&amp;lt;=1e9 ">
 <meta property="og:url" content="https://tategotoazarasi.github.io/post/intersection/">
 <meta property="og:site_name" content="LintCode 295. 交集">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
@@ -90,8 +90,8 @@
 Created <relative-time datetime="Sat, 08 Jan 2022 16:57:28 +0800" class=no-wrap>
 Sat, 08 Jan 2022 16:57:28 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sat, 08 Jan 2022 09:15:55 +0000" class=no-wrap>
-Sat, 08 Jan 2022 09:15:55 +0000</relative-time>
+Modified <relative-time datetime="Sat, 08 Jan 2022 09:42:43 +0000" class=no-wrap>
+Sat, 08 Jan 2022 09:42:43 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -109,7 +109,7 @@ Sat, 08 Jan 2022 09:15:55 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-143 Words
+141 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/lintcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -128,8 +128,7 @@ lintcode
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><h2 id=描述>描述</h2>
-<p>给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标</p>
+<article class="markdown-body entry-content container-lg"><p>给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标</p>
 <ul>
 <li>1&lt;=len(a),len(b)&lt;=1e5</li>
 <li>abs(max(a))&lt;=1e9</li>
@@ -172,7 +171,7 @@ lintcode
 </div>
 </main>
 </div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#描述\u0022\u003e描述\u003c/a\u003e\u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#样例\u0022\u003e样例\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#样例\u0022\u003e样例\u003c/a\u003e\u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
