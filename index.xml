@@ -1,8 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 08 Jan 2022 16:57:28 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LintCode 295. 交集</title><link>https://tategotoazarasi.github.io/post/intersection/</link><pubDate>Sat, 08 Jan 2022 16:57:28 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection/</guid><description>&lt;p>给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 09 Jan 2022 18:43:16 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 5978. 统计追加字母可以获得的单词数</title><link>https://tategotoazarasi.github.io/post/count-words-obtained-after-adding-a-letter/</link><pubDate>Sun, 09 Jan 2022 18:43:16 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/count-words-obtained-after-adding-a-letter/</guid><description>&lt;p>给你两个下标从 &lt;strong>0&lt;/strong> 开始的字符串数组 &lt;code>startWords&lt;/code> 和 &lt;code>targetWords&lt;/code> 。每个字符串都仅由 &lt;strong>小写英文字母&lt;/strong> 组成。&lt;/p>
+&lt;p>对于 &lt;code>targetWords&lt;/code> 中的每个字符串，检查是否能够从 &lt;code>startWords&lt;/code> 中选出一个字符串，执行一次 &lt;strong>转换操作&lt;/strong> ，得到的结果与当前  &lt;code>targetWords&lt;/code> 字符串相等。&lt;/p>
+&lt;p>&lt;strong>转换操作&lt;/strong> 如下面两步所述：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>追加&lt;/strong> 任何 &lt;strong>不存在&lt;/strong> 于当前字符串的任一小写字母到当前字符串的末尾。
 &lt;ul>
-&lt;li>1&amp;lt;=len(a),len(b)&amp;lt;=1e5&lt;/li>
-&lt;li>abs(max(a))&amp;lt;=1e9&lt;/li>
-&lt;/ul></description></item><item><title>LeetCode 89. 格雷编码</title><link>https://tategotoazarasi.github.io/post/gray-code/</link><pubDate>Sat, 08 Jan 2022 16:57:11 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/gray-code/</guid><description>&lt;p>&lt;strong>n 位格雷码序列&lt;/strong> 是一个由 &lt;code>2n&lt;/code> 个整数组成的序列，其中：&lt;/p>
+&lt;li>例如，如果字符串为 &lt;code>&amp;quot;abc&amp;quot;&lt;/code> ，那么字母 &lt;code>'d'&lt;/code>、&lt;code>'e'&lt;/code> 或 &lt;code>'y'&lt;/code> 都可以加到该字符串末尾，但 &lt;code>'a'&lt;/code> 就不行。如果追加的是 &lt;code>'d'&lt;/code> ，那么结果字符串为 &lt;code>&amp;quot;abcd&amp;quot;&lt;/code> 。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>重排&lt;/strong> 新字符串中的字母，可以按 &lt;strong>任意&lt;/strong> 顺序重新排布字母。
+&lt;ul>
+&lt;li>例如，&lt;code>&amp;quot;abcd&amp;quot;&lt;/code> 可以重排为 &lt;code>&amp;quot;acbd&amp;quot;&lt;/code>、&lt;code>&amp;quot;bacd&amp;quot;&lt;/code>、&lt;code>&amp;quot;cbda&amp;quot;&lt;/code>，以此类推。注意，它也可以重排为 &lt;code>&amp;quot;abcd&amp;quot;&lt;/code> 自身。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;p>找出 &lt;code>targetWords&lt;/code> 中有多少字符串能够由  &lt;code>startWords&lt;/code> 中的 &lt;strong>任一&lt;/strong> 字符串执行上述转换操作获得。返回 &lt;code>targetWords&lt;/code> 中这类 &lt;strong>字符串的数目&lt;/strong> 。&lt;/p></description></item><item><title>AcWing 1996. 打乱字母</title><link>https://tategotoazarasi.github.io/post/acwing1996/</link><pubDate>Sun, 09 Jan 2022 18:39:18 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1996/</guid><description>&lt;p>农夫约翰将按字典序排列的 N 头奶牛的名字列表贴在了牛棚的门上。&lt;/p>
+&lt;p>每个奶牛的名字都由一个长度介于 1 到 20 之间的由小写字母构成的唯一字符串表示。&lt;/p>
+&lt;p>麻烦制造者贝茜将列表中的奶牛名字重新排序打乱了列表。&lt;/p>
+&lt;p>此外，她还对每头奶牛的名字中的字母顺序进行了重新排列（也可能保持不变）。&lt;/p>
+&lt;p>给定修改过后的列表，请帮助约翰确定列表中的每个名字可能出现在原始列表中的最低和最高位置。&lt;/p></description></item><item><title>LintCode 295. 交集</title><link>https://tategotoazarasi.github.io/post/intersection/</link><pubDate>Sat, 08 Jan 2022 16:57:28 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection/</guid><description>&lt;p>给定两个排序后的区间序列，序列内每个区间两两互不相交，返回两个序列相交的区间的下标&lt;/p></description></item><item><title>LeetCode 89. 格雷编码</title><link>https://tategotoazarasi.github.io/post/gray-code/</link><pubDate>Sat, 08 Jan 2022 16:57:11 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/gray-code/</guid><description>&lt;p>&lt;strong>n 位格雷码序列&lt;/strong> 是一个由 &lt;code>2n&lt;/code> 个整数组成的序列，其中：&lt;/p>
 &lt;ul>
 &lt;li>每个整数都在范围 &lt;code>[0, 2n - 1]&lt;/code> 内（含 &lt;code>0&lt;/code> 和 &lt;code>2n - 1&lt;/code>）&lt;/li>
 &lt;li>第一个整数是 &lt;code>0&lt;/code>&lt;/li>
