@@ -9,30 +9,27 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 171. Excel 表列序号 - Harp Seal Pup Nursery and Caring Center</title>
+<title>LeetCode 168. Excel表列名称 - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="给你一个字符串 columnTitle ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。
-例如，
-A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB -&amp;gt; 28 ... ">
+<meta name=description content="给你一个整数 columnNumber ，返回它在 Excel 表中相对应的列名称。
+">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/excel-sheet-column-number/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/excel-sheet-column-title/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="LeetCode 171. Excel 表列序号 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="给你一个字符串 columnTitle ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。
-例如，
-A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB -&amp;gt; 28 ... ">
+<meta name=twitter:title content="LeetCode 168. Excel表列名称 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="给你一个整数 columnNumber ，返回它在 Excel 表中相对应的列名称。
+">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LeetCode 171. Excel 表列序号 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="给你一个字符串 columnTitle ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。
-例如，
-A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB -&amp;gt; 28 ... ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/excel-sheet-column-number/">
-<meta property="og:site_name" content="LeetCode 171. Excel 表列序号">
+<meta property="og:title" content="LeetCode 168. Excel表列名称 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="给你一个整数 columnNumber ，返回它在 Excel 表中相对应的列名称。
+">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/excel-sheet-column-title/">
+<meta property="og:site_name" content="LeetCode 168. Excel表列名称">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
@@ -87,14 +84,14 @@ A -&amp;gt; 1 B -&amp;gt; 2 C -&amp;gt; 3 ... Z -&amp;gt; 26 AA -&amp;gt; 27 AB 
 <div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/excel-sheet-column-number/>LeetCode 171. Excel 表列序号</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/excel-sheet-column-title/>LeetCode 168. Excel表列名称</a></strong>
 </h1>
 <div class="note m-0">
 Created <relative-time datetime="Sat, 25 Dec 2021 10:33:54 +0800" class=no-wrap>
 Sat, 25 Dec 2021 10:33:54 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Tue, 11 Jan 2022 08:30:52 +0000" class=no-wrap>
-Tue, 11 Jan 2022 08:30:52 +0000</relative-time>
+Modified <relative-time datetime="Wed, 12 Jan 2022 02:29:38 +0000" class=no-wrap>
+Wed, 12 Jan 2022 02:29:38 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -112,7 +109,7 @@ Tue, 11 Jan 2022 08:30:52 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-1128 Words
+584 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -131,78 +128,80 @@ leetcode
 </div>
 </div>
 <div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>给你一个字符串  <code>columnTitle</code> ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。</p>
-<p>例如，</p>
-<pre><code>A -&gt; 1
-B -&gt; 2
-C -&gt; 3
-...
-Z -&gt; 26
-AA -&gt; 27
-AB -&gt; 28
-...
-</code></pre>
-<p><strong>示例 1:</strong></p>
+<article class="markdown-body entry-content container-lg"><p>给你一个整数 <code>columnNumber</code> ，返回它在 Excel 表中相对应的列名称。</p>
+<p>例如：</p>
+<p>A -> 1
+B -> 2
+C -> 3
+&mldr;
+Z -> 26
+AA -> 27
+AB -> 28
+&mldr;</p>
+<p><strong>示例 1：</strong></p>
 <blockquote>
-<p><strong>输入:</strong> columnTitle = &ldquo;A&rdquo;</p>
-<p><strong>输出:</strong> 1</p>
+<p><strong>输入：</strong> columnNumber = 1</p>
+<p><strong>输出：</strong> &ldquo;A&rdquo;</p>
 </blockquote>
-<p><strong>示例  2:</strong></p>
+<p><strong>示例 2：</strong></p>
 <blockquote>
-<p><strong>输入:</strong> columnTitle = &ldquo;AB&rdquo;</p>
-<p><strong>输出:</strong> 28</p>
+<p><strong>输入：</strong> columnNumber = 28</p>
+<p><strong>输出：</strong> &ldquo;AB&rdquo;</p>
 </blockquote>
-<p><strong>示例  3:</strong></p>
+<p><strong>示例 3：</strong></p>
 <blockquote>
-<p><strong>输入:</strong> columnTitle = &ldquo;ZY&rdquo;</p>
-<p><strong>输出:</strong> 701</p>
+<p><strong>输入：</strong> columnNumber = 701</p>
+<p><strong>输出：</strong> &ldquo;ZY&rdquo;</p>
 </blockquote>
-<p><strong>示例 4:</strong></p>
+<p><strong>示例 4：</strong></p>
 <blockquote>
-<p><strong>输入:</strong> columnTitle = &ldquo;FXSHRXW&rdquo;</p>
-<p><strong>输出:</strong> 2147483647</p>
+<p><strong>输入：</strong> columnNumber = 2147483647</p>
+<p><strong>输出：</strong> &ldquo;FXSHRXW&rdquo;</p>
 </blockquote>
 <p><strong>提示：</strong></p>
 <ul>
-<li><code>1 &lt;= columnTitle.length &lt;= 7</code></li>
-<li><code>columnTitle</code> 仅由大写英文组成</li>
-<li><code>columnTitle</code> 在范围 <code>["A", "FXSHRXW"]</code> 内</li>
+<li>\(1 &lt;= columnNumber &lt;= 2^31 - 1\)</li>
 </ul>
 <h2 id=题解>题解</h2>
-<p>这道题要求将 Excel 表中的列名称转换成相对应的列序号。由于 Excel 表的列名称由大写字母组成，大写字母共有 26 个，因此列名称的表示实质是 26 进制，需要将 26 进制转换成十进制。</p>
-<p>但是这道题和标准的进制转换不同，Excel 表的列序号是从 1 开始的，因此在进制转换时需要进行处理。</p>
-<p>当列名称的长度为 n 时，列名称的每个字母都有 26 种不同的取值，因此长度为 n 的不同列名称有 \(26^n\) 个。</p>
-<p>当 n=1 时，列名称的取值范围是 A 到 Z，分别对应 1 到 26。当 n>1 时，首先得到除了最高位以外的 n−1 位部分对应的列序号，然后考虑最高位对列序号的增量。</p>
-<p>计算最高位对列序号的增量时，需要考虑列名称的长度和最高位的值，假设列名称的长度为 n。</p>
-<ul>
-<li>
-<p>当最高位是 A 时，除了最高位的 n−1 位有 \(26^{n−1}\) 种不同的取值，因此最高位 A 对列序号的增量为 \(26^{n−1}\)。</p>
-</li>
-<li>
-<p>当最高位是 B 时，和最高位是 A 相比（即最高位从 A 变成 B，其余 n−1 位不变），列序号增加了 \(26^{n−1}\)，因此最高位 B 对列序号的增量为 \(2 \times 26^{n−1}\)。</p>
-</li>
-<li>
-<p>当最高位是第 k 个字母时（1≤k≤26），最高位对列序号的增量为 \(k \times 26^{n−1}\)。</p>
-</li>
-</ul>
-<p>上述结论对 n>1 的情况都成立。当 n=1 时，n−1=0，\(k \times 26^{n−1} = k \times 1 = k\)，因此 n=1 的情况也适用上述结论。</p>
-<p>根据上述结论可知，列名称的每一位都会对列序号产生一个增量，列序号即为每一位的增量之和。如果列名称的每一位对应的序号为 [\(a_{n−1}\),\(a{n−2}\),…,\(a_0\)]，其中对于任意 0≤i&lt;n 都有 \(1≤a_i≤26\)，则列名称对应的列序号为：</p>
-<p>\( number = \sum_{i=0}^{n-1} a_i \times 26^i \)</p>
-<p>以 columnTitle=“FXSHRXW” 为例，计算过程如下：</p>
-<p>“FXSHRXW” 中的每个字母对应的序号分别是：[6,24,19,8,18,24,23]（其中 A 到 Z 分别对应 1 到 26），则列名称对应的列序号为：</p>
-<p>\(23×26^0+24×26^1+18×26^2+8×26^3+19×26^4+24×26^5+6×26^6=2147483647\)</p>
-<p>由此可以得到如下实现：首先将列序号初始化为 0，然后从右往左遍历列名称，对于列名称的从右往左的第 i 位（0≤i&lt;n），如果是第 k 个字母（1≤k≤26），则将列序号的值增加 \(k×26^i\)。遍历结束时即可得到列序号。</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
-<span class=k>public</span><span class=o>:</span>
-    <span class=kt>int</span> <span class=n>titleToNumber</span><span class=p>(</span><span class=n>string</span> <span class=n>columnTitle</span><span class=p>)</span> <span class=p>{</span>
-        <span class=kt>int</span> <span class=n>sum</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
-        <span class=kt>int</span> <span class=n>length</span> <span class=o>=</span> <span class=k>static_cast</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span><span class=p>(</span><span class=n>columnTitle</span><span class=p>.</span><span class=n>length</span><span class=p>());</span>
-        <span class=k>for</span> <span class=p>(</span><span class=kt>char</span> <span class=nl>c</span><span class=p>:</span> <span class=n>columnTitle</span><span class=p>)</span> <span class=p>{</span>
-            <span class=n>sum</span> <span class=o>+=</span> <span class=k>static_cast</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span><span class=p>(</span><span class=k>static_cast</span><span class=o>&lt;</span><span class=kt>double</span><span class=o>&gt;</span><span class=p>(</span><span class=n>c</span> <span class=o>-</span> <span class=sc>&#39;A&#39;</span> <span class=o>+</span> <span class=mi>1</span><span class=p>)</span> <span class=o>*</span> <span class=n>pow</span><span class=p>(</span><span class=mi>26</span><span class=p>,</span> <span class=n>length</span><span class=o>--</span> <span class=o>-</span> <span class=mi>1</span><span class=p>));</span>
+<p>如果列名称的长度为 n，每一位对应的序号为 \([a_{n-1}, a_{n-2}, \ldots, a_0]\)，其中对于任意 \(0 \le i &lt; n\) 都有 \(1 \le a_i \le 26\)，则列名称对应的列序号为：</p>
+<p>\(\textit{number} = \sum_{i=0}^{n-1} a_i \times 26^i\)</p>
+<p>将列序号转换成列名称，则是在已知 number 的情况下，解出 \(a_{0}\) 到 \(a_{n-1}\) 的值。</p>
+<p>分离出 \(a_{0}\) 项，提出其余项的公因数 26，上式可以改写为：</p>
+<p>\(\textit{number} = a_0 + 26 \times \sum_{i=1}^{n-1} a_i \times 26^{i-1}\)</p>
+<p>将等式两边同时减 1，得：</p>
+<p>\( \textit{number} - 1 = (a_0 - 1) + 26 \times \Big(\sum_{i=1}^{n-1} a_i \times 26^{i-1}\Big) \)</p>
+<p>由于 \(0 \le a_0 - 1 \le 25\)，由上式可知，\(a_0 - 1\) 是 number−1 除以 26 的余数。</p>
+<p>这样我们就得到了 \(a_{0}\) 的值。</p>
+<p>在得到 \(a_{0}\) 的值之后，令 \(\textit{number}' = \dfrac{\textit{number} - a_0}{26}\)，则有：</p>
+<p>\(\textit{number}' = \sum_{i=1}^{n-1} a_i \times 26^{i-1} = a_1 + 26 \times \sum_{i=2}^{n-1} a_i \times 26^{i-2}\)</p>
+<p>于是使用同样的方法，可以得到 \(a_1\) 的值。</p>
+<p>上述过程是一个循环的过程，直至 number′=0 时停止。此时我们就得到了 \(a_{0}\) 到 \(a_{n-1}\) 的值。拼接这些值对应的字母，即得到了答案。</p>
+<p>代码实现时，由于我们计算列名称的顺序是从右往左，因此需要将拼接后的结果反转。</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=n>string</span> <span class=nf>convertToTitle</span><span class=p>(</span><span class=kt>int</span> <span class=n>columnNumber</span><span class=p>)</span> <span class=p>{</span>
+    <span class=k>auto</span> <span class=n>ans</span>   <span class=o>=</span> <span class=n>string</span><span class=p>();</span>
+    <span class=kt>bool</span> <span class=n>round</span> <span class=o>=</span> <span class=nb>false</span><span class=p>;</span>
+    <span class=k>while</span><span class=p>(</span><span class=n>columnNumber</span> <span class=o>!=</span> <span class=mi>0</span><span class=p>)</span> <span class=p>{</span>
+        <span class=kt>char</span> <span class=n>ch</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
+        <span class=k>if</span><span class=p>(</span><span class=n>round</span><span class=p>)</span> <span class=p>{</span>
+            <span class=n>ch</span>    <span class=o>=</span> <span class=k>static_cast</span><span class=o>&lt;</span><span class=kt>char</span><span class=o>&gt;</span><span class=p>(</span><span class=n>columnNumber</span> <span class=o>%</span> <span class=mi>26</span> <span class=o>+</span> <span class=mi>63</span><span class=p>);</span>
+            <span class=n>round</span> <span class=o>=</span> <span class=nb>false</span><span class=p>;</span>
+        <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+            <span class=n>ch</span> <span class=o>=</span> <span class=k>static_cast</span><span class=o>&lt;</span><span class=kt>char</span><span class=o>&gt;</span><span class=p>(</span><span class=n>columnNumber</span> <span class=o>%</span> <span class=mi>26</span> <span class=o>+</span> <span class=mi>64</span><span class=p>);</span>
         <span class=p>}</span>
-        <span class=k>return</span> <span class=n>sum</span><span class=p>;</span>
+        <span class=k>if</span><span class=p>(</span><span class=n>ch</span> <span class=o>==</span> <span class=sc>&#39;@&#39;</span> <span class=o>&amp;&amp;</span> <span class=n>columnNumber</span> <span class=o>&gt;=</span> <span class=mi>26</span><span class=p>)</span> <span class=p>{</span>
+            <span class=n>ch</span>    <span class=o>=</span> <span class=sc>&#39;Z&#39;</span><span class=p>;</span>
+            <span class=n>round</span> <span class=o>=</span> <span class=nb>true</span><span class=p>;</span>
+        <span class=p>}</span> <span class=k>else</span> <span class=k>if</span><span class=p>(</span><span class=n>ch</span> <span class=o>==</span> <span class=sc>&#39;?&#39;</span> <span class=o>&amp;&amp;</span> <span class=n>columnNumber</span> <span class=o>&gt;=</span> <span class=mi>26</span><span class=p>)</span> <span class=p>{</span>
+            <span class=n>ch</span>    <span class=o>=</span> <span class=sc>&#39;Y&#39;</span><span class=p>;</span>
+            <span class=n>round</span> <span class=o>=</span> <span class=nb>true</span><span class=p>;</span>
+        <span class=p>}</span>
+        <span class=k>if</span><span class=p>(</span><span class=sc>&#39;A&#39;</span> <span class=o>&lt;=</span> <span class=n>ch</span> <span class=o>&amp;&amp;</span> <span class=n>ch</span> <span class=o>&lt;=</span> <span class=sc>&#39;Z&#39;</span><span class=p>)</span> <span class=p>{</span>
+            <span class=n>ans</span><span class=p>.</span><span class=n>insert</span><span class=p>(</span><span class=mi>0</span><span class=p>,</span> <span class=mi>1</span><span class=p>,</span> <span class=n>ch</span><span class=p>);</span>
+        <span class=p>}</span>
+        <span class=n>columnNumber</span> <span class=o>/=</span> <span class=mi>26</span><span class=p>;</span>
     <span class=p>}</span>
-<span class=p>};</span>
+    <span class=k>return</span> <span class=n>ans</span><span class=p>;</span>
+<span class=p>}</span>
 </code></pre></div></article>
 </div>
 </div>

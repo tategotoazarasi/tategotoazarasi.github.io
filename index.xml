@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Jan 2022 16:08:56 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1036. 逃离大迷宫</title><link>https://tategotoazarasi.github.io/post/escape-a-large-maze/</link><pubDate>Tue, 11 Jan 2022 16:08:56 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/escape-a-large-maze/</guid><description>&lt;p>在一个 106 x 106 的网格中，每个网格上方格的坐标为 &lt;code>(x, y)&lt;/code> 。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Jan 2022 16:08:56 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1036. 逃离大迷宫</title><link>https://tategotoazarasi.github.io/post/escape-a-large-maze/</link><pubDate>Tue, 11 Jan 2022 16:08:56 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/escape-a-large-maze/</guid><description>&lt;p>在一个 \(10^6 x 10^6\) 的网格中，每个网格上方格的坐标为 &lt;code>(x, y)&lt;/code> 。&lt;/p>
 &lt;p>现在从源方格 \(source = [s_x, s_y]\) 开始出发，意图赶往目标方格 \(target = [t_x, t_y]\) 。数组 &lt;code>blocked&lt;/code> 是封锁的方格列表，其中每个 \(blocked[i] = [x_i, y_i]\) 表示坐标为 \((x_i, y_i)\) 的方格是禁止通行的。&lt;/p>
 &lt;p>每次移动，都可以走到网格中在四个方向上相邻的方格，只要该方格 &lt;strong>不&lt;/strong> 在给出的封锁列表 &lt;code>blocked&lt;/code> 上。同时，不允许走出网格。&lt;/p>
 &lt;p>只有在可以通过一系列的移动从源方格 &lt;code>source&lt;/code> 到达目标方格 &lt;code>target&lt;/code> 时才返回 &lt;code>true&lt;/code>。否则，返回 &lt;code>false&lt;/code>。&lt;/p></description></item><item><title>AcWing 1978. 奶牛过马路</title><link>https://tategotoazarasi.github.io/post/acwing1978/</link><pubDate>Tue, 11 Jan 2022 16:08:30 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1978/</guid><description>&lt;p>每天，农夫约翰的 N 头奶牛都会穿过农场中间的马路。&lt;/p>
 &lt;p>考虑约翰的农场在二维平面的地图，马路沿水平方向延伸，马路的一侧由直线 y=0 描述，另一侧由直线 y=1 描述。&lt;/p>
-&lt;p>奶牛 i 从马路一侧的位置 (ai,0) 沿直线过马路到达另一侧的位置 (bi,1)。&lt;/p>
-&lt;p>所有 ai 互不相同，所有 bi 互不相同。&lt;/p>
+&lt;p>奶牛 i 从马路一侧的位置 \((a_i,0)\) 沿直线过马路到达另一侧的位置 \((b_i,1)\)。&lt;/p>
+&lt;p>所有 \(a_i\) 互不相同，所有 \(b_i\) 互不相同。&lt;/p>
 &lt;p>尽管他的奶牛们行动敏捷，他还是担心行动路径交叉的两头奶牛在过马路时发生碰撞。&lt;/p>
 &lt;p>约翰认为，如果一头奶牛的行动路径没有跟其他任何奶牛的行动路径相交，则该奶牛是安全的。&lt;/p>
 &lt;p>请帮助约翰计算安全奶牛的数量。&lt;/p></description></item><item><title>LeetCode 5978. 统计追加字母可以获得的单词数</title><link>https://tategotoazarasi.github.io/post/count-words-obtained-after-adding-a-letter/</link><pubDate>Sun, 09 Jan 2022 18:43:16 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/count-words-obtained-after-adding-a-letter/</guid><description>&lt;p>给你两个下标从 &lt;strong>0&lt;/strong> 开始的字符串数组 &lt;code>startWords&lt;/code> 和 &lt;code>targetWords&lt;/code> 。每个字符串都仅由 &lt;strong>小写英文字母&lt;/strong> 组成。&lt;/p>
@@ -105,17 +105,7 @@
 &lt;p>如果你可以将 &lt;code>s&lt;/code>  变为有效括号字符串，请你返回  &lt;code>true&lt;/code> ，否则返回  &lt;code>false&lt;/code> 。&lt;/p></description></item><item><title>AcWing 4201. 01数</title><link>https://tategotoazarasi.github.io/post/acwing4201/</link><pubDate>Sat, 25 Dec 2021 21:22:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4201/</guid><description>&lt;p>如果一个&lt;strong>正整数&lt;/strong>，其各个数位上的数字均满足要么是 0，要么是 1，则称该数字为 01 数。&lt;/p>
 &lt;p>例如，1 和 10 都是 01 数。&lt;/p>
 &lt;p>给定一个整数 n。&lt;/p>
-&lt;p>请你计算，1∼n 中有多少个 01 数。&lt;/p></description></item><item><title>LeetCode 171. Excel 表列序号</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</guid><description>&lt;p>给你一个字符串  &lt;code>columnTitle&lt;/code> ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。&lt;/p>
-&lt;p>例如，&lt;/p>
-&lt;pre>&lt;code>A -&amp;gt; 1
-B -&amp;gt; 2
-C -&amp;gt; 3
-...
-Z -&amp;gt; 26
-AA -&amp;gt; 27
-AB -&amp;gt; 28
-...
-&lt;/code>&lt;/pre></description></item><item><title>LeetCode 160. 相交链表</title><link>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</link><pubDate>Fri, 24 Dec 2021 08:29:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</guid><description>&lt;p>给你两个单链表的头节点  &lt;code>headA&lt;/code> 和 &lt;code>headB&lt;/code> ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 &lt;code>null&lt;/code> 。&lt;/p>
+&lt;p>请你计算，1∼n 中有多少个 01 数。&lt;/p></description></item><item><title>LeetCode 168. Excel表列名称</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</guid><description>&lt;p>给你一个整数 &lt;code>columnNumber&lt;/code> ，返回它在 Excel 表中相对应的列名称。&lt;/p></description></item><item><title>LeetCode 160. 相交链表</title><link>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</link><pubDate>Fri, 24 Dec 2021 08:29:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</guid><description>&lt;p>给你两个单链表的头节点  &lt;code>headA&lt;/code> 和 &lt;code>headB&lt;/code> ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 &lt;code>null&lt;/code> 。&lt;/p>
 &lt;p>图示两个链表在节点 &lt;code>c1&lt;/code> 开始相交 &lt;strong>：&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="https://tategotoazarasi.github.io/images/160_statement.png" alt="">&lt;/p>
 &lt;p>题目数据 &lt;strong>保证&lt;/strong> 整个链式结构中不存在环。&lt;/p></description></item><item><title>LeetCode 119. 杨辉三角 II</title><link>https://tategotoazarasi.github.io/post/pascals-triangle-ii/</link><pubDate>Mon, 20 Dec 2021 11:13:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/pascals-triangle-ii/</guid><description>&lt;p>给定一个非负索引 &lt;code>rowIndex&lt;/code>，返回「杨辉三角」的第 &lt;code>rowIndex&lt;/code> 行。&lt;/p>

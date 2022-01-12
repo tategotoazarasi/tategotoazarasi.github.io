@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简单 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/</link><description>Recent content in 简单 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 11 Jan 2022 16:08:30 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 1978. 奶牛过马路</title><link>https://tategotoazarasi.github.io/post/acwing1978/</link><pubDate>Tue, 11 Jan 2022 16:08:30 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1978/</guid><description>&lt;p>每天，农夫约翰的 N 头奶牛都会穿过农场中间的马路。&lt;/p>
 &lt;p>考虑约翰的农场在二维平面的地图，马路沿水平方向延伸，马路的一侧由直线 y=0 描述，另一侧由直线 y=1 描述。&lt;/p>
-&lt;p>奶牛 i 从马路一侧的位置 (ai,0) 沿直线过马路到达另一侧的位置 (bi,1)。&lt;/p>
-&lt;p>所有 ai 互不相同，所有 bi 互不相同。&lt;/p>
+&lt;p>奶牛 i 从马路一侧的位置 \((a_i,0)\) 沿直线过马路到达另一侧的位置 \((b_i,1)\)。&lt;/p>
+&lt;p>所有 \(a_i\) 互不相同，所有 \(b_i\) 互不相同。&lt;/p>
 &lt;p>尽管他的奶牛们行动敏捷，他还是担心行动路径交叉的两头奶牛在过马路时发生碰撞。&lt;/p>
 &lt;p>约翰认为，如果一头奶牛的行动路径没有跟其他任何奶牛的行动路径相交，则该奶牛是安全的。&lt;/p>
 &lt;p>请帮助约翰计算安全奶牛的数量。&lt;/p></description></item><item><title>AcWing 1996. 打乱字母</title><link>https://tategotoazarasi.github.io/post/acwing1996/</link><pubDate>Sun, 09 Jan 2022 18:39:18 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1996/</guid><description>&lt;p>农夫约翰将按字典序排列的 N 头奶牛的名字列表贴在了牛棚的门上。&lt;/p>
@@ -23,17 +23,7 @@
 &lt;p>例如，如果贝茜收到指令 &lt;code>10 13&lt;/code>，则她应在干草堆 10,11,12,13 中各添加一个干草捆。&lt;/p>
 &lt;p>在贝茜完成了所有指令后，约翰想知道 N 个干草堆的中值高度——也就是说，如果干草堆按照高度从小到大排列，位于中间的干草堆的高度。&lt;/p>
 &lt;p>方便起见，N 一定是奇数，所以中间堆是唯一的。&lt;/p>
-&lt;p>请帮助贝茜确定约翰问题的答案。&lt;/p></description></item><item><title>LeetCode 171. Excel 表列序号</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</guid><description>&lt;p>给你一个字符串  &lt;code>columnTitle&lt;/code> ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。&lt;/p>
-&lt;p>例如，&lt;/p>
-&lt;pre>&lt;code>A -&amp;gt; 1
-B -&amp;gt; 2
-C -&amp;gt; 3
-...
-Z -&amp;gt; 26
-AA -&amp;gt; 27
-AB -&amp;gt; 28
-...
-&lt;/code>&lt;/pre></description></item><item><title>LeetCode 160. 相交链表</title><link>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</link><pubDate>Fri, 24 Dec 2021 08:29:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</guid><description>&lt;p>给你两个单链表的头节点  &lt;code>headA&lt;/code> 和 &lt;code>headB&lt;/code> ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 &lt;code>null&lt;/code> 。&lt;/p>
+&lt;p>请帮助贝茜确定约翰问题的答案。&lt;/p></description></item><item><title>LeetCode 168. Excel表列名称</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</guid><description>&lt;p>给你一个整数 &lt;code>columnNumber&lt;/code> ，返回它在 Excel 表中相对应的列名称。&lt;/p></description></item><item><title>LeetCode 160. 相交链表</title><link>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</link><pubDate>Fri, 24 Dec 2021 08:29:53 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/intersection-of-two-linked-lists/</guid><description>&lt;p>给你两个单链表的头节点  &lt;code>headA&lt;/code> 和 &lt;code>headB&lt;/code> ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 &lt;code>null&lt;/code> 。&lt;/p>
 &lt;p>图示两个链表在节点 &lt;code>c1&lt;/code> 开始相交 &lt;strong>：&lt;/strong>&lt;/p>
 &lt;p>&lt;img src="https://tategotoazarasi.github.io/images/160_statement.png" alt="">&lt;/p>
 &lt;p>题目数据 &lt;strong>保证&lt;/strong> 整个链式结构中不存在环。&lt;/p></description></item><item><title>LeetCode 119. 杨辉三角 II</title><link>https://tategotoazarasi.github.io/post/pascals-triangle-ii/</link><pubDate>Mon, 20 Dec 2021 11:13:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/pascals-triangle-ii/</guid><description>&lt;p>给定一个非负索引 &lt;code>rowIndex&lt;/code>，返回「杨辉三角」的第 &lt;code>rowIndex&lt;/code> 行。&lt;/p>

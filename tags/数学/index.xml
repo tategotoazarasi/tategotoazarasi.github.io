@@ -26,14 +26,4 @@
 首先，从左到右，从第一个数字开始，每隔一个数字进行删除，直到列表的末尾。&lt;br>
 第二步，在剩下的数字中，从右到左，从倒数第一个数字开始，每隔一个数字进行删除，直到列表开头。&lt;br>
 我们不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。&lt;br>
-返回长度为 n 的列表中，最后剩下的数字。&lt;/p></description></item><item><title>LeetCode 171. Excel 表列序号</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-number/</guid><description>&lt;p>给你一个字符串  &lt;code>columnTitle&lt;/code> ，表示 Excel 表格中的列名称。返回该列名称对应的列序号。&lt;/p>
-&lt;p>例如，&lt;/p>
-&lt;pre>&lt;code>A -&amp;gt; 1
-B -&amp;gt; 2
-C -&amp;gt; 3
-...
-Z -&amp;gt; 26
-AA -&amp;gt; 27
-AB -&amp;gt; 28
-...
-&lt;/code>&lt;/pre></description></item></channel></rss>
+返回长度为 n 的列表中，最后剩下的数字。&lt;/p></description></item><item><title>LeetCode 168. Excel表列名称</title><link>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</link><pubDate>Sat, 25 Dec 2021 10:33:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/excel-sheet-column-title/</guid><description>&lt;p>给你一个整数 &lt;code>columnNumber&lt;/code> ，返回它在 Excel 表中相对应的列名称。&lt;/p></description></item></channel></rss>
