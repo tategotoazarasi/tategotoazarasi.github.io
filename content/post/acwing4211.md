@@ -2,7 +2,7 @@
 title: "AcWing 4211. 序列重排"
 date: 2022-01-15T20:42:10+08:00
 draft: false
-tags: ["acwing", "困难"]
+tags: ["acwing", "困难", "构造"]
 math: true
 ---
 
