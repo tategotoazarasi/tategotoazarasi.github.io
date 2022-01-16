@@ -52,7 +52,11 @@ solution.getRandom(); // 返回 3
 
 该算法会保证每个节点的值成为最后被返回的值的概率均为 \\(\dfrac{1}{n}\\)，证明如下：
 
-\\(\begin{aligned} &P(第\ i\ 个节点的值成为最后被返回的值)\\=&P(第\ i\ 次随机选择的值= 0) \times P(第\ i+1\ 次随机选择的值\ne 0) \times \cdots \times P(第\ n\ 次随机选择的值\ne 0)\\=&\dfrac{1}{i} \times (1-\dfrac{1}{i+1}) \times \cdots \times (1-\dfrac{1}{n})\\=&\dfrac{1}{i} \times \dfrac{i}{i+1} \times \cdots \times \dfrac{n-1}{n}\\=&\dfrac{1}{n}\end{aligned}\\)
+\\( \begin{aligned} &P(第\ i\ 个节点的值成为最后被返回的值) \\)
+\\( =&P(第\ i\ 次随机选择的值= 0) \times P(第\ i+1\ 次随机选择的值\ne 0) \times \cdots \times P(第\ n\ 次随机选择的值\ne 0) \\)
+\\( =&\dfrac{1}{i} \times (1-\dfrac{1}{i+1}) \times \cdots \times (1-\dfrac{1}{n}) \\)
+\\( =&\dfrac{1}{i} \times \dfrac{i}{i+1} \times \cdots \times \dfrac{n-1}{n} \\)
+\\( =&\dfrac{1}{n}\end{aligned} \\)
 
 ### 复杂度分析
 
