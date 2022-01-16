@@ -21,6 +21,7 @@ math: true
 
 **输入**
 ["Solution", "getRandom", "getRandom", "getRandom", "getRandom", "getRandom"]
+
 [[[1, 2, 3]], [], [], [], [], []]
 
 **输出**
@@ -28,11 +29,17 @@ math: true
 
 **解释**
 Solution solution = new Solution([1, 2, 3]);
+
 solution.getRandom(); // 返回 1
+
 solution.getRandom(); // 返回 3
+
 solution.getRandom(); // 返回 2
+
 solution.getRandom(); // 返回 2
+
 solution.getRandom(); // 返回 3
+
 // getRandom() 方法应随机返回 1、2、3 中的一个，每个元素被返回的概率相等。
 
 **提示：**
