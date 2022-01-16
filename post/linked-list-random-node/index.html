@@ -90,8 +90,8 @@
 Created <relative-time datetime="Sun, 16 Jan 2022 10:00:10 +0800" class=no-wrap>
 Sun, 16 Jan 2022 10:00:10 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 16 Jan 2022 02:19:23 +0000" class=no-wrap>
-Sun, 16 Jan 2022 02:19:23 +0000</relative-time>
+Modified <relative-time datetime="Sun, 16 Jan 2022 02:28:26 +0000" class=no-wrap>
+Sun, 16 Jan 2022 02:28:26 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -169,11 +169,11 @@ solution.getRandom(); // 返回 3
 <h2 id=题解>题解</h2>
 <p>从链表头开始，遍历整个链表，对遍历到的第 i 个节点，随机选择区间 [0,i) 内的一个整数，如果其等于 0，则将答案置为该节点值，否则答案不变。</p>
 <p>该算法会保证每个节点的值成为最后被返回的值的概率均为 \(\dfrac{1}{n}\)，证明如下：</p>
-<p>\( \begin{aligned} &P(第\ i\ 个节点的值成为最后被返回的值) \)
-\( =&P(第\ i\ 次随机选择的值= 0) \times P(第\ i+1\ 次随机选择的值\ne 0) \times \cdots \times P(第\ n\ 次随机选择的值\ne 0) \)
-\( =&\dfrac{1}{i} \times (1-\dfrac{1}{i+1}) \times \cdots \times (1-\dfrac{1}{n}) \)
-\( =&\dfrac{1}{i} \times \dfrac{i}{i+1} \times \cdots \times \dfrac{n-1}{n} \)
-\( =&\dfrac{1}{n}\end{aligned} \)</p>
+<p>\( \begin{aligned} &P(第\ i\ 个节点的值成为最后被返回的值) \)</p>
+<p>\( =&P(第\ i\ 次随机选择的值= 0) \times P(第\ i+1\ 次随机选择的值\ne 0) \times \cdots \times P(第\ n\ 次随机选择的值\ne 0) \)</p>
+<p>\( =&\dfrac{1}{i} \times (1-\dfrac{1}{i+1}) \times \cdots \times (1-\dfrac{1}{n}) \)</p>
+<p>\( =&\dfrac{1}{i} \times \dfrac{i}{i+1} \times \cdots \times \dfrac{n-1}{n} \)</p>
+<p>\( =&\dfrac{1}{n}\end{aligned} \)</p>
 <h3 id=复杂度分析>复杂度分析</h3>
 <ul>
 <li>
