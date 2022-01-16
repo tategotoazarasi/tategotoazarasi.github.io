@@ -67,7 +67,7 @@ solution.getRandom(); // 返回 3
 
 \\( =\dfrac{1}{i} \times \dfrac{i}{i+1} \times \cdots \times \dfrac{n-1}{n} \\)
 
-\\( =\dfrac{1}{n}} \\)
+\\( =\dfrac{1}{n} \\)
 
 ### 复杂度分析
 
