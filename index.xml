@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jan 2022 12:20:00 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 5983. 同时运行 N 台电脑的最长时间</title><link>https://tategotoazarasi.github.io/post/maximum-running-time-of-n-computers/</link><pubDate>Sun, 16 Jan 2022 12:20:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/maximum-running-time-of-n-computers/</guid><description>&lt;p>你有  &lt;code>n&lt;/code>  台电脑。给你整数  &lt;code>n&lt;/code>  和一个下标从 &lt;strong>0&lt;/strong>  开始的整数数组  &lt;code>batteries&lt;/code> ，其中第  &lt;code>i&lt;/code>  个电池可以让一台电脑 &lt;strong>运行&lt;/strong> &lt;code>batteries[i]&lt;/code>  分钟。你想使用这些电池让  &lt;strong>全部&lt;/strong> &lt;code>n&lt;/code>  台电脑 &lt;strong>同时&lt;/strong>  运行。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 17 Jan 2022 15:51:30 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 1934. 贝茜放慢脚步</title><link>https://tategotoazarasi.github.io/post/acwing1934/</link><pubDate>Mon, 17 Jan 2022 15:51:30 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1934/</guid><description>奶牛贝茜正在参加冬季哞林匹克运动会的越野滑雪比赛。
+她以每秒 1 米的速度出发。
+但是，随着时间的推移，她变得越来越疲倦，她开始放慢脚步。
+每次放慢脚步，贝茜的速度都会降低：减速一次后，她以每秒 1/2 米的速度移动，减速两次后，则以每秒 1/3 米的速度移动，依此类推。
+你将被告知何时何地贝茜会减速。
+当减速信息格式为：
+T 17 意味着，贝茜在某个时间点减速，本例表示比赛开始第 17 秒贝茜减速。
+当减速信息格式为：
+D 10 意味着，贝茜在某个地点减速，本例表示在行进 10 米处减速。
+给定 N 个减速信息，请计算贝茜滑完一千米需要多少秒。
+将你的答案四舍五入到最接近的整数（ 0.5 向上舍入为 1）。
+输入格式 第一行包含整数 N。
+接下来 N 行，每行描述一个减速信息，格式为 T x 或 D x。
+无论哪种情况，x 都是一个整数，保证所有减速都在贝茜滑完一千米前发生。
+可能同时发生多次减速，那么这会使得贝茜的速度一下子变慢很多。
+所有减速信息不一定按顺序给出。
+输出格式 输出贝茜滑完一千米所需的总时间。
+数据范围 1≤N≤10000
+输入样例： 2 T 30 D 10 输出样例： 2970 样例解释 贝茜以每秒 1 米的速度跑完前 10 米，耗时 10 秒。
+然后她减速到每秒 1/2 米，接下来的 10 米要花 20 秒。</description></item><item><title>LeetCode 5983. 同时运行 N 台电脑的最长时间</title><link>https://tategotoazarasi.github.io/post/maximum-running-time-of-n-computers/</link><pubDate>Sun, 16 Jan 2022 12:20:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/maximum-running-time-of-n-computers/</guid><description>&lt;p>你有  &lt;code>n&lt;/code>  台电脑。给你整数  &lt;code>n&lt;/code>  和一个下标从 &lt;strong>0&lt;/strong>  开始的整数数组  &lt;code>batteries&lt;/code> ，其中第  &lt;code>i&lt;/code>  个电池可以让一台电脑 &lt;strong>运行&lt;/strong> &lt;code>batteries[i]&lt;/code>  分钟。你想使用这些电池让  &lt;strong>全部&lt;/strong> &lt;code>n&lt;/code>  台电脑 &lt;strong>同时&lt;/strong>  运行。&lt;/p>
 &lt;p>一开始，你可以给每台电脑连接 &lt;strong>至多一个电池&lt;/strong> 。然后在任意整数时刻，你都可以将一台电脑与它的电池断开连接，并连接另一个电池，你可以进行这个操作 &lt;strong>任意次&lt;/strong> 。新连接的电池可以是一个全新的电池，也可以是别的电脑用过的电池。断开连接和连接新的电池不会花费任何时间。&lt;/p>
 &lt;p>注意，你不能给电池充电。&lt;/p>
 &lt;p>请你返回你可以让 &lt;code>n&lt;/code>  台电脑同时运行的 &lt;strong>最长&lt;/strong>  分钟数。&lt;/p></description></item><item><title>LeetCode 5982. 解决智力问题</title><link>https://tategotoazarasi.github.io/post/solving-questions-with-brainpower/</link><pubDate>Sun, 16 Jan 2022 12:19:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/solving-questions-with-brainpower/</guid><description>&lt;p>给你一个下标从 &lt;strong>0&lt;/strong>  开始的二维整数数组  &lt;code>questions&lt;/code> ，其中 \(questions[i] = [points_i, brainpower_i]\)。&lt;/p>
