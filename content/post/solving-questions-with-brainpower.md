@@ -66,7 +66,7 @@ math: true
 
 若解决，则需要跳过后续 brainpower[i] 个问题。记 j=i+brainpower[i]+1，则有
 
-\\( f[i] =\begin{cases} \textit{point}[i]+f[j],&j<n\\\textit{point}[i],&j\ge n\end{cases} \\)
+\\( f[i] =\begin{cases} \textit{point}[i]+f[j],&j<n \\\ point[i],&j\ge n\end{cases} \\)
 
 最后答案为 f[0]。
 
