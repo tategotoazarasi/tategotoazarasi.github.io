@@ -96,8 +96,8 @@
 Created <relative-time datetime="Sun, 16 Jan 2022 12:19:00 +0800" class=no-wrap>
 Sun, 16 Jan 2022 12:19:00 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Mon, 17 Jan 2022 07:54:51 +0000" class=no-wrap>
-Mon, 17 Jan 2022 07:54:51 +0000</relative-time>
+Modified <relative-time datetime="Thu, 20 Jan 2022 05:02:07 +0000" class=no-wrap>
+Thu, 20 Jan 2022 05:02:07 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ Mon, 17 Jan 2022 07:54:51 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-872 Words
+874 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -183,7 +183,7 @@ leetcode
 <p>倒序遍历问题列表，对于第 i 个问题，我们有两种决策：跳过或解决。</p>
 <p>若跳过，则有 f[i]=f[i+1]。</p>
 <p>若解决，则需要跳过后续 brainpower[i] 个问题。记 j=i+brainpower[i]+1，则有</p>
-<p>\( f[i] =\begin{cases} \textit{point}[i]+f[j],&j&lt;n\\textit{point}[i],&j\ge n\end{cases} \)</p>
+<p>\( f[i] =\begin{cases} \textit{point}[i]+f[j],&j&lt;n \\ point[i],&j\ge n\end{cases} \)</p>
 <p>最后答案为 f[0]。</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
 <span class=k>public</span><span class=o>:</span>
