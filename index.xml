@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 20 Jan 2022 12:57:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 1913. 公平摄影</title><link>https://tategotoazarasi.github.io/post/acwing1913/</link><pubDate>Thu, 20 Jan 2022 12:57:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1913/</guid><description>&lt;p>农夫约翰的 N 头奶牛站在一维长围栏的不同位置。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 Jan 2022 21:32:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4214. 三元组</title><link>https://tategotoazarasi.github.io/post/acwing4214/</link><pubDate>Sat, 22 Jan 2022 21:32:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4214/</guid><description>&lt;p>给定两个长度为 n 的整数序列 \(s_1,s_2,…,s_n\) 和 \(c_1,c_2,…,c_n\)。&lt;/p>
+&lt;p>请你找到一个三元组 (i,j,k)，满足以下所有条件：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>i&amp;lt;j&amp;lt;k&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>\(s_i&amp;lt;s_j&amp;lt;s_k\)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>\(c_i+c_j+c_k\)尽可能小&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>输出 \(c_i+c_j+c_k\) 的最小可能值。&lt;/p></description></item><item><title>AcWing 1913. 公平摄影</title><link>https://tategotoazarasi.github.io/post/acwing1913/</link><pubDate>Thu, 20 Jan 2022 12:57:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1913/</guid><description>&lt;p>农夫约翰的 N 头奶牛站在一维长围栏的不同位置。&lt;/p>
 &lt;p>第 i 头牛位于位置 xi，其所属品种为 bi（根西岛牛或荷斯坦牛）。&lt;/p>
 &lt;p>所有奶牛的位置各不相同。&lt;/p>
 &lt;p>约翰想给一段连续区间内的奶牛拍摄一张照片，用来在乡村集市上展览。&lt;/p>
