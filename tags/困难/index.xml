@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 22 Jan 2022 21:32:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4214. 三元组</title><link>https://tategotoazarasi.github.io/post/acwing4214/</link><pubDate>Sat, 22 Jan 2022 21:32:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4214/</guid><description>&lt;p>给定两个长度为 n 的整数序列 \(s_1,s_2,…,s_n\) 和 \(c_1,c_2,…,c_n\)。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 29 Jan 2022 20:41:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4217. 机器人移动</title><link>https://tategotoazarasi.github.io/post/acwing4217/</link><pubDate>Sat, 29 Jan 2022 20:41:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4217/</guid><description>&lt;p>在一个无限大的二维平面上有一个机器人。&lt;/p>
+&lt;p>初始时，机器人位于点 (0,0)。&lt;/p>
+&lt;p>机器人可以执行四种行动指令：&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>U&lt;/code> — 从 (x,y)移动到 (x,y+1)；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>D&lt;/code> — 从 (x,y)移动到 (x,y−1)；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>L&lt;/code> — 从 (x,y)移动到 (x−1,y)；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;code>R&lt;/code> — 从 (x,y)移动到 (x+1,y)。&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>给定一个长度为 n 的指令序列，指令编号 1∼n，机器人将按顺序依次执行序列中的每个行动指令。&lt;/p>
+&lt;p>我们希望机器人最终抵达目标地点 (a,b)。&lt;/p>
+&lt;p>为了达成这一目的，我们可能需要对指令序列进行修改。&lt;/p>
+&lt;p>每次修改可以选择其中一个指令，并将其&lt;strong>替换&lt;/strong>为四种指令之一。&lt;/p>
+&lt;p>注意，只能对序列中的指令进行替换，不得随意删除指令或添加额外指令。&lt;/p>
+&lt;p>不妨设经过修改的指令中，编号最小的指令编号为 minID，编号最大的指令编号为 maxID。&lt;/p>
+&lt;p>我们定义修改成本为 maxID−minID+1。&lt;/p>
+&lt;p>例如，将 &lt;code>RRRRRRR&lt;/code> 修改为 &lt;code>RLRRLRL&lt;/code>，则编号为 2,5,7 的指令经过了修改，修改成本为 7−2+1=6。&lt;/p>
+&lt;p>请你计算，为了使得机器人能够最终抵达目标点 (a,b)，所需花费的最小修改成本。&lt;/p>
+&lt;p>如果不需要对序列进行修改，则成本为 0。&lt;/p></description></item><item><title>AcWing 4214. 三元组</title><link>https://tategotoazarasi.github.io/post/acwing4214/</link><pubDate>Sat, 22 Jan 2022 21:32:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4214/</guid><description>&lt;p>给定两个长度为 n 的整数序列 \(s_1,s_2,…,s_n\) 和 \(c_1,c_2,…,c_n\)。&lt;/p>
 &lt;p>请你找到一个三元组 (i,j,k)，满足以下所有条件：&lt;/p>
 &lt;ul>
 &lt;li>
