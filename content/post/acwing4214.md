@@ -1,5 +1,5 @@
 ---
-title: "AcWing 4214. 三元组 "
+title: "AcWing 4214. 三元组"
 date: 2022-01-22T21:32:54+08:00
 draft: false
 tags: ["acwing", "困难"]
