@@ -99,8 +99,8 @@
 Created <relative-time datetime="Sat, 29 Jan 2022 10:28:00 +0800" class=no-wrap>
 Sat, 29 Jan 2022 10:28:00 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sat, 29 Jan 2022 02:39:09 +0000" class=no-wrap>
-Sat, 29 Jan 2022 02:39:09 +0000</relative-time>
+Modified <relative-time datetime="Sat, 29 Jan 2022 02:51:12 +0000" class=no-wrap>
+Sat, 29 Jan 2022 02:51:12 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -242,26 +242,36 @@ Employee 表：</p>
 </span><span class=w></span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=w> </span><span class=k>OFFSET</span><span class=w> </span><span class=mi>1</span><span class=p>;</span><span class=w>
 </span></code></pre></div><p>然而，如果没有这样的第二最高工资，这个解决方案将被判断为 “错误答案”，因为本表可能只有一项记录。为了克服这个问题，我们可以将其作为临时表。</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w>
-</span><span class=w>    </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>DISTINCT</span><span class=w>
-</span><span class=w>            </span><span class=n>Salary</span><span class=w>
-</span><span class=w>        </span><span class=k>FROM</span><span class=w>
-</span><span class=w>            </span><span class=n>Employee</span><span class=w>
-</span><span class=w>        </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>Salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
-</span><span class=w>        </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=w> </span><span class=k>OFFSET</span><span class=w> </span><span class=mi>1</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=w>
-</span><span class=w></span><span class=p>;</span><span class=w>
+</span><span class=w>  </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>DISTINCT</span><span class=w> </span><span class=n>Salary</span><span class=w>
+</span><span class=w>   </span><span class=k>FROM</span><span class=w> </span><span class=n>Employee</span><span class=w>
+</span><span class=w>   </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>Salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
+</span><span class=w>   </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span><span class=w>   </span><span class=k>OFFSET</span><span class=w> </span><span class=mi>1</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=w> </span><span class=p>;</span><span class=w>
 </span></code></pre></div><h4 id=方法二使用-ifnull-和-limit-子句>方法二：使用 <code>IFNULL</code> 和 <code>LIMIT</code> 子句</h4>
 <p>解决 “NULL” 问题的另一种方法是使用 “IFNULL” 函数，如下所示。</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w>
-</span><span class=w>    </span><span class=n>IFNULL</span><span class=p>(</span><span class=w>
-</span><span class=w>      </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>DISTINCT</span><span class=w> </span><span class=n>Salary</span><span class=w>
-</span><span class=w>       </span><span class=k>FROM</span><span class=w> </span><span class=n>Employee</span><span class=w>
-</span><span class=w>       </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>Salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
-</span><span class=w>        </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=w> </span><span class=k>OFFSET</span><span class=w> </span><span class=mi>1</span><span class=p>),</span><span class=w>
-</span><span class=w>    </span><span class=k>NULL</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=p>;</span><span class=w>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=n>IFNULL</span><span class=p>(</span><span class=w>
+</span><span class=w>                </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>DISTINCT</span><span class=w> </span><span class=n>Salary</span><span class=w>
+</span><span class=w>                 </span><span class=k>FROM</span><span class=w> </span><span class=n>Employee</span><span class=w>
+</span><span class=w>                 </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>Salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
+</span><span class=w>                 </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=w>
+</span><span class=w>                 </span><span class=k>OFFSET</span><span class=w> </span><span class=mi>1</span><span class=p>),</span><span class=w> </span><span class=k>NULL</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=p>;</span><span class=w>
 </span></code></pre></div><h4 id=方法三>方法三</h4>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=k>MAX</span><span class=p>(</span><span class=n>salary</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=w> </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w> </span><span class=k>WHERE</span><span class=w> </span><span class=p>(</span><span class=n>salary</span><span class=w> </span><span class=o>&lt;</span><span class=w> </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>MAX</span><span class=p>(</span><span class=n>salary</span><span class=p>)</span><span class=w> </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=p>));</span><span class=w>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=k>MAX</span><span class=p>(</span><span class=n>salary</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=w>
+</span><span class=w></span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w>
+</span><span class=w></span><span class=k>WHERE</span><span class=w> </span><span class=p>(</span><span class=n>salary</span><span class=w> </span><span class=o>&lt;</span><span class=w>
+</span><span class=w>         </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=k>MAX</span><span class=p>(</span><span class=n>salary</span><span class=p>)</span><span class=w>
+</span><span class=w>          </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=p>));</span><span class=w>
 </span></code></pre></div><h4 id=方法四>方法四</h4>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=n>IFNULL</span><span class=w> </span><span class=p>((</span><span class=k>SELECT</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w> </span><span class=k>WHERE</span><span class=w> </span><span class=p>(</span><span class=n>salary</span><span class=w> </span><span class=o>&lt;</span><span class=w> </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w> </span><span class=k>order</span><span class=w> </span><span class=k>by</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>desc</span><span class=w> </span><span class=k>limit</span><span class=w> </span><span class=mi>1</span><span class=p>))</span><span class=w> </span><span class=k>order</span><span class=w> </span><span class=k>by</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>desc</span><span class=w> </span><span class=k>limit</span><span class=w> </span><span class=mi>1</span><span class=p>),</span><span class=k>NULL</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=p>;</span><span class=w>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-sql data-lang=sql><span class=k>SELECT</span><span class=w> </span><span class=n>IFNULL</span><span class=w> </span><span class=p>(</span><span class=w>
+</span><span class=w>                 </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=n>salary</span><span class=w>
+</span><span class=w>                  </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w>
+</span><span class=w>                  </span><span class=k>WHERE</span><span class=w> </span><span class=p>(</span><span class=n>salary</span><span class=w> </span><span class=o>&lt;</span><span class=w>
+</span><span class=w>                           </span><span class=p>(</span><span class=k>SELECT</span><span class=w> </span><span class=n>salary</span><span class=w>
+</span><span class=w>                            </span><span class=k>FROM</span><span class=w> </span><span class=n>employee</span><span class=w>
+</span><span class=w>                            </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
+</span><span class=w>                            </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=p>))</span><span class=w>
+</span><span class=w>                  </span><span class=k>ORDER</span><span class=w> </span><span class=k>BY</span><span class=w> </span><span class=n>salary</span><span class=w> </span><span class=k>DESC</span><span class=w>
+</span><span class=w>                  </span><span class=k>LIMIT</span><span class=w> </span><span class=mi>1</span><span class=p>),</span><span class=k>NULL</span><span class=p>)</span><span class=w> </span><span class=k>AS</span><span class=w> </span><span class=n>SecondHighestSalary</span><span class=p>;</span><span class=w>
 </span></code></pre></div></article>
 </div>
 </div>
