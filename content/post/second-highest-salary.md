@@ -83,13 +83,11 @@ LIMIT 1 OFFSET 1;
 
 ```sql
 SELECT
-    (SELECT DISTINCT
-            Salary
-        FROM
-            Employee
-        ORDER BY Salary DESC
-        LIMIT 1 OFFSET 1) AS SecondHighestSalary
-;
+  (SELECT DISTINCT Salary
+   FROM Employee
+   ORDER BY Salary DESC
+   LIMIT 1
+   OFFSET 1) AS SecondHighestSalary ;
 ```
 
 #### 方法二：使用 `IFNULL` 和 `LIMIT` 子句
@@ -97,23 +95,35 @@ SELECT
 解决 “NULL” 问题的另一种方法是使用 “IFNULL” 函数，如下所示。
 
 ```sql
-SELECT
-    IFNULL(
-      (SELECT DISTINCT Salary
-       FROM Employee
-       ORDER BY Salary DESC
-        LIMIT 1 OFFSET 1),
-    NULL) AS SecondHighestSalary;
+SELECT IFNULL(
+                (SELECT DISTINCT Salary
+                 FROM Employee
+                 ORDER BY Salary DESC
+                 LIMIT 1
+                 OFFSET 1), NULL) AS SecondHighestSalary;
 ```
 
 #### 方法三
 
 ```sql
-SELECT MAX(salary) AS SecondHighestSalary FROM employee WHERE (salary < (SELECT MAX(salary) FROM employee));
+SELECT MAX(salary) AS SecondHighestSalary
+FROM employee
+WHERE (salary <
+         (SELECT MAX(salary)
+          FROM employee));
 ```
 
 #### 方法四
 
 ```sql
-SELECT IFNULL ((SELECT salary FROM employee WHERE (salary < (SELECT salary FROM employee order by salary desc limit 1)) order by salary desc limit 1),NULL) AS SecondHighestSalary;
+SELECT IFNULL (
+                 (SELECT salary
+                  FROM employee
+                  WHERE (salary <
+                           (SELECT salary
+                            FROM employee
+                            ORDER BY salary DESC
+                            LIMIT 1))
+                  ORDER BY salary DESC
+                  LIMIT 1),NULL) AS SecondHighestSalary;
 ```
