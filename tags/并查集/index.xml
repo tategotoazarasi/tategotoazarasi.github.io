@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>并查集 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/</link><description>Recent content in 并查集 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 30 Jan 2022 16:22:21 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 5995. 字符串分组</title><link>https://tategotoazarasi.github.io/post/groups-of-strings/</link><pubDate>Sun, 30 Jan 2022 16:22:21 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/groups-of-strings/</guid><description>&lt;p>给你一个下标从  &lt;strong>0&lt;/strong> 开始的字符串数组  &lt;code>words&lt;/code> 。每个字符串都只包含 &lt;strong>小写英文字母&lt;/strong> 。&lt;code>words&lt;/code>  中任意一个子串中，每个字母都至多只出现一次。&lt;/p>
+&lt;p>如果通过以下操作之一，我们可以从 &lt;code>s1&lt;/code>  的字母集合得到 &lt;code>s2&lt;/code>  的字母集合，那么我们称这两个字符串为 &lt;strong>关联的&lt;/strong> ：&lt;/p>
+&lt;ul>
+&lt;li>往  &lt;code>s1&lt;/code>  的字母集合中添加一个字母。&lt;/li>
+&lt;li>从  &lt;code>s1&lt;/code>  的字母集合中删去一个字母。&lt;/li>
+&lt;li>将 &lt;code>s1&lt;/code>  中的一个字母替换成另外任意一个字母（也可以替换为这个字母本身）。&lt;/li>
+&lt;/ul>
+&lt;p>数组  &lt;code>words&lt;/code>  可以分为一个或者多个无交集的 &lt;strong>组&lt;/strong> 。一个字符串与一个组如果满足以下 &lt;strong>任一&lt;/strong>  条件，它就属于这个组：&lt;/p>
+&lt;ul>
+&lt;li>它与组内 &lt;strong>至少&lt;/strong>  一个其他字符串关联。&lt;/li>
+&lt;li>它是这个组中 &lt;strong>唯一&lt;/strong>  的字符串。&lt;/li>
+&lt;/ul>
+&lt;p>注意，你需要确保分好组后，一个组内的任一字符串与其他组的字符串都不关联。可以证明在这个条件下，分组方案是唯一的。&lt;/p>
+&lt;p>请你返回一个长度为 &lt;code>2&lt;/code>  的数组  &lt;code>ans&lt;/code> ：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>ans[0]&lt;/code>  是  &lt;code>words&lt;/code>  分组后的  &lt;strong>总组数&lt;/strong> 。&lt;/li>
+&lt;li>&lt;code>ans[1]&lt;/code>  是字符串数目最多的组所包含的字符串数目。&lt;/li>
+&lt;/ul></description></item></channel></rss>
