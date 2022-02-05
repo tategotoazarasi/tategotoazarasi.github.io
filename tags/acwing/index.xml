@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>acwing on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/acwing/</link><description>Recent content in acwing on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 29 Jan 2022 20:41:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/acwing/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4217. 机器人移动</title><link>https://tategotoazarasi.github.io/post/acwing4217/</link><pubDate>Sat, 29 Jan 2022 20:41:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4217/</guid><description>&lt;p>在一个无限大的二维平面上有一个机器人。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>acwing on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/acwing/</link><description>Recent content in acwing on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 05 Feb 2022 21:34:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/acwing/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4298. 搭档</title><link>https://tategotoazarasi.github.io/post/acwing4298/</link><pubDate>Sat, 05 Feb 2022 21:34:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4298/</guid><description>&lt;p>有 n 个男孩，每个人的魅力值依次为 a1,a2,…,an.&lt;/p>
+&lt;p>有 m 个女孩，每个人的魅力值依次为 b1,b2,…,bm。&lt;/p>
+&lt;p>学校举办舞会，希望选出尽可能多的男女搭档参加。&lt;/p>
+&lt;p>已知，当一对男女的魅力值相差不超过 1 时，他们才会愿意组成搭档。&lt;/p>
+&lt;p>请问，最多可以&lt;strong>同时&lt;/strong>凑出多少对搭档参加舞会。&lt;/p>
+&lt;p>注意：&lt;/p>
+&lt;ul>
+&lt;li>不能男男配对或女女配对。&lt;/li>
+&lt;li>每个男生最多只能和一个女生配对，反之亦然。&lt;/li>
+&lt;/ul></description></item><item><title>AcWing 4217. 机器人移动</title><link>https://tategotoazarasi.github.io/post/acwing4217/</link><pubDate>Sat, 29 Jan 2022 20:41:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4217/</guid><description>&lt;p>在一个无限大的二维平面上有一个机器人。&lt;/p>
 &lt;p>初始时，机器人位于点 (0,0)。&lt;/p>
 &lt;p>机器人可以执行四种行动指令：&lt;/p>
 &lt;ul>
