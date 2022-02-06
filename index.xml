@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 05 Feb 2022 21:34:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4298. 搭档</title><link>https://tategotoazarasi.github.io/post/acwing4298/</link><pubDate>Sat, 05 Feb 2022 21:34:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4298/</guid><description>&lt;p>有 n 个男孩，每个人的魅力值依次为 a1,a2,…,an.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 06 Feb 2022 12:45:27 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 6002. 设计位集</title><link>https://tategotoazarasi.github.io/post/design_bitset/</link><pubDate>Sun, 06 Feb 2022 12:45:27 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/design_bitset/</guid><description>&lt;p>&lt;strong>位集 Bitset&lt;/strong> 是一种能以紧凑形式存储位的数据结构。&lt;/p>
+&lt;p>请你实现 &lt;code>Bitset&lt;/code> 类。&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Bitset(int size)&lt;/code> 用 &lt;code>size&lt;/code> 个位初始化 Bitset ，所有位都是 &lt;code>0&lt;/code> 。&lt;/li>
+&lt;li>&lt;code>void fix(int idx)&lt;/code> 将下标为 &lt;code>idx&lt;/code> 的位上的值更新为 &lt;code>1&lt;/code> 。如果值已经是 &lt;code>1&lt;/code> ，则不会发生任何改变。&lt;/li>
+&lt;li>&lt;code>void unfix(int idx)&lt;/code> 将下标为 &lt;code>idx&lt;/code> 的位上的值更新为 &lt;code>0&lt;/code> 。如果值已经是 &lt;code>0&lt;/code> ，则不会发生任何改变。&lt;/li>
+&lt;li>&lt;code>void flip()&lt;/code> 翻转 Bitset 中每一位上的值。换句话说，所有值为 &lt;code>0&lt;/code> 的位将会变成 &lt;code>1&lt;/code> ，反之亦然。&lt;/li>
+&lt;li>&lt;code>boolean all()&lt;/code> 检查  Bitset 中 &lt;strong>每一位&lt;/strong> 的值是否都是 &lt;code>1&lt;/code> 。如果满足此条件，返回 &lt;code>true&lt;/code> ；否则，返回 &lt;code>false&lt;/code> 。&lt;/li>
+&lt;li>&lt;code>boolean one()&lt;/code> 检查  Bitset 中 是否  &lt;strong>至少一位&lt;/strong> 的值是 &lt;code>1&lt;/code> 。如果满足此条件，返回 &lt;code>true&lt;/code> ；否则，返回 &lt;code>false&lt;/code> 。&lt;/li>
+&lt;li>&lt;code>int count()&lt;/code> 返回 Bitset 中值为 1 的位的 &lt;strong>总数&lt;/strong> 。&lt;/li>
+&lt;li>&lt;code>String toString()&lt;/code> 返回 Bitset 的当前组成情况。注意，在结果字符串中，第 &lt;code>i&lt;/code> 个下标处的字符应该与 Bitset 中的第 &lt;code>i&lt;/code> 位一致。&lt;/li>
+&lt;/ul></description></item><item><title>AcWing 4298. 搭档</title><link>https://tategotoazarasi.github.io/post/acwing4298/</link><pubDate>Sat, 05 Feb 2022 21:34:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4298/</guid><description>&lt;p>有 n 个男孩，每个人的魅力值依次为 a1,a2,…,an.&lt;/p>
 &lt;p>有 m 个女孩，每个人的魅力值依次为 b1,b2,…,bm。&lt;/p>
 &lt;p>学校举办舞会，希望选出尽可能多的男女搭档参加。&lt;/p>
 &lt;p>已知，当一对男女的魅力值相差不超过 1 时，他们才会愿意组成搭档。&lt;/p>
