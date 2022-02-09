@@ -195,13 +195,25 @@ Popular posts
 </span><span class=w></span><span class=k>insert</span><span class=w> </span><span class=k>into</span><span class=w> </span><span class=n>Person</span><span class=w> </span><span class=p>(</span><span class=n>id</span><span class=p>,</span><span class=w> </span><span class=n>email</span><span class=p>)</span><span class=w>
 </span><span class=w></span><span class=k>values</span><span class=w> </span><span class=p>(</span><span class=s1>&#39;3&#39;</span><span class=p>,</span><span class=w> </span><span class=s1>&#39;john@example.com&#39;</span><span class=p>);</span><span class=w>
 </span></code></pre></div><p>Table: <code>Person</code></p>
-<p>+&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;+
-| Column Name | Type |
-+&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;+
-| id | int |
-| email | varchar |
-+&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;+
-id is the primary key column for this table.
+<table>
+<thead>
+<tr>
+<th>Column Name</th>
+<th>Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>id</td>
+<td>int</td>
+</tr>
+<tr>
+<td>email</td>
+<td>varchar</td>
+</tr>
+</tbody>
+</table>
+<p>id is the primary key column for this table.
 Each row of this table contains an email. The emails will not contain uppercase letters.</p>
 <p>Write an SQL query to <strong>delete</strong> all the duplicate emails, keeping only one unique email with the smallest <code>id</code>. Note that you are supposed to write a <code>DELETE</code> statement and not a <code>SELECT</code> one.</p>
 <p>Return the result table in <strong>any order</strong>.</p>
