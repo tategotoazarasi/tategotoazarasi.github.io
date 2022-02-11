@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 10 Feb 2022 11:05:17 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 197. Rising Temperature</title><link>https://tategotoazarasi.github.io/post/rising-temperature/</link><pubDate>Thu, 10 Feb 2022 11:05:17 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rising-temperature/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="k">Create&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">If&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">Not&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">Exists&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Weather&lt;/span>&lt;span class="w">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 11 Feb 2022 11:04:37 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 262. Trips and Users</title><link>https://tategotoazarasi.github.io/post/trips-and-users/</link><pubDate>Fri, 11 Feb 2022 11:04:37 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/trips-and-users/</guid><description>&lt;p>Table: &lt;code>Trips&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>client_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>driver_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>city_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>status&lt;/td>
+&lt;td>enum&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>request_at&lt;/td>
+&lt;td>date&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>id is the primary key for this table.
+The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.
+Status is an ENUM type of (&amp;lsquo;completed&amp;rsquo;, &amp;lsquo;cancelled_by_driver&amp;rsquo;, &amp;lsquo;cancelled_by_client&amp;rsquo;).&lt;/p>
+&lt;p>Table: &lt;code>Users&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>users_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>banned&lt;/td>
+&lt;td>enum&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>role&lt;/td>
+&lt;td>enum&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>users_id is the primary key for this table.
+The table holds all users. Each user has a unique users_id, and role is an ENUM type of (&amp;lsquo;client&amp;rsquo;, &amp;lsquo;driver&amp;rsquo;, &amp;lsquo;partner&amp;rsquo;).
+banned is an ENUM type of (&amp;lsquo;Yes&amp;rsquo;, &amp;lsquo;No&amp;rsquo;).&lt;/p>
+&lt;p>The &lt;strong>cancellation rate&lt;/strong> is computed by dividing the
+number of canceled (by client or driver) requests with unbanned users by
+the total number of requests with unbanned users on that day.&lt;/p>
+&lt;p>Write a SQL query to find the &lt;strong>cancellation rate&lt;/strong> of requests with unbanned users (&lt;strong>both client and driver must not be banned&lt;/strong>) each day between &lt;code>&amp;quot;2013-10-01&amp;quot;&lt;/code> and &lt;code>&amp;quot;2013-10-03&amp;quot;&lt;/code>. Round &lt;code>Cancellation Rate&lt;/code> to &lt;strong>two decimal&lt;/strong> points.&lt;/p>
+&lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p></description></item><item><title>LeetCode 197. Rising Temperature</title><link>https://tategotoazarasi.github.io/post/rising-temperature/</link><pubDate>Thu, 10 Feb 2022 11:05:17 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rising-temperature/</guid><description>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sql" data-lang="sql">&lt;span class="k">Create&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">table&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">If&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">Not&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">Exists&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Weather&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="w">&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">int&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
 &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">recordDate&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nb">date&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w">
