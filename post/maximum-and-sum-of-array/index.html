@@ -96,8 +96,8 @@
 Created <relative-time datetime="Sun, 13 Feb 2022 15:34:49 +0800" class=no-wrap>
 Sun, 13 Feb 2022 15:34:49 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 13 Feb 2022 08:06:55 +0000" class=no-wrap>
-Sun, 13 Feb 2022 08:06:55 +0000</relative-time>
+Modified <relative-time datetime="Sun, 13 Feb 2022 08:24:48 +0000" class=no-wrap>
+Sun, 13 Feb 2022 08:24:48 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -164,7 +164,7 @@ leetcode
 <p>由于每个篮子至多可以放 2 个整数，我们可以视作有 \( 2\cdot\textit{numSlots} \) 个篮子。由于篮子个数很少，我们可以用二进制数 x 表示这 \( 2\cdot\textit{numSlots} \) 个篮子中放了数字的篮子集合，其中 x 从低到高的第 i 位为 1 表示第 i 个篮子放了数字，为 0 表示第 i 个篮子为空。</p>
 <p>设 i 的二进制中的 1 的个数为 c，定义 f[i] 表示将 nums 的前 c 个数字放到篮子中，且放了数字的篮子集合为 i 时的最大与和。初始值 f[0]=0。</p>
 <p>考虑将 nums[c] 放到一个空篮子时的状态转移方程（下标从 0 开始，此时 nums[c] 还没被放入篮中），我们可以枚举 i 中的 0，即空篮子的位置 j，该空篮子对应的编号为 \( \dfrac{j}{2}+1 \)，则有</p>
-<p>\( f[i+2^j]=max(f[i+2^j],f[i] + (\frac{j}{2}+1) & nums[c]) \)</p>
+<p>\( f[i+2^j]=max(f[i+2^j],f[i] + (\frac{j}{2}+1)\) & \(nums[c]) \)</p>
 <p>设 nums 的长度为 n，最后答案为 \( \max_{c=n}(f) \)。</p>
 <p>代码实现时需要注意，若 \( c\ge n \) 则 f[i] 无法转移，需要跳过。</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
