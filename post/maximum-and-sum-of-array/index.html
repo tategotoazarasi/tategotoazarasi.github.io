@@ -96,8 +96,8 @@
 Created <relative-time datetime="Sun, 13 Feb 2022 15:34:49 +0800" class=no-wrap>
 Sun, 13 Feb 2022 15:34:49 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 13 Feb 2022 08:01:38 +0000" class=no-wrap>
-Sun, 13 Feb 2022 08:01:38 +0000</relative-time>
+Modified <relative-time datetime="Sun, 13 Feb 2022 08:06:55 +0000" class=no-wrap>
+Sun, 13 Feb 2022 08:06:55 +0000</relative-time>
 </div>
 </div>
 </div>
@@ -115,7 +115,7 @@ Sun, 13 Feb 2022 08:01:38 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-1072 Words
+1071 Words
 </div>
 <div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
@@ -164,7 +164,7 @@ leetcode
 <p>由于每个篮子至多可以放 2 个整数，我们可以视作有 \( 2\cdot\textit{numSlots} \) 个篮子。由于篮子个数很少，我们可以用二进制数 x 表示这 \( 2\cdot\textit{numSlots} \) 个篮子中放了数字的篮子集合，其中 x 从低到高的第 i 位为 1 表示第 i 个篮子放了数字，为 0 表示第 i 个篮子为空。</p>
 <p>设 i 的二进制中的 1 的个数为 c，定义 f[i] 表示将 nums 的前 c 个数字放到篮子中，且放了数字的篮子集合为 i 时的最大与和。初始值 f[0]=0。</p>
 <p>考虑将 nums[c] 放到一个空篮子时的状态转移方程（下标从 0 开始，此时 nums[c] 还没被放入篮中），我们可以枚举 i 中的 0，即空篮子的位置 j，该空篮子对应的编号为 \( \dfrac{j}{2}+1 \)，则有</p>
-<p>\( f[i+2^j] = \max(f[i+2^j],\ f[i] + (\dfrac{j}{2}+1)&\textit{nums}[c]) \)</p>
+<p>\( f[i+2^j]=max(f[i+2^j],f[i] + (\frac{j}{2}+1) & nums[c]) \)</p>
 <p>设 nums 的长度为 n，最后答案为 \( \max_{c=n}(f) \)。</p>
 <p>代码实现时需要注意，若 \( c\ge n \) 则 f[i] 无法转移，需要跳过。</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
