@@ -9,28 +9,28 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>并查集 - Harp Seal Pup Nursery and Caring Center</title>
+<title>leetcode - Harp Seal Pup Nursery and Caring Center</title>
 <link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
 <meta name=description content>
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/>
+<link rel=canonical href=https://tategotoazarasi.github.io/tags/leetcode/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="并查集 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:title content="leetcode - Harp Seal Pup Nursery and Caring Center">
 <meta name=twitter:description content>
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="并查集 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:title" content="leetcode - Harp Seal Pup Nursery and Caring Center">
 <meta property="og:description" content>
-<meta property="og:url" content="https://tategotoazarasi.github.io/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/">
-<meta property="og:site_name" content="并查集">
+<meta property="og:url" content="https://tategotoazarasi.github.io/tags/leetcode/">
+<meta property="og:site_name" content="leetcode">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<link href=/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86/index.xml rel=alternate type=application/rss+xml title="Harp Seal Pup Nursery and Caring Center">
+<link href=/tags/leetcode/index.xml rel=alternate type=application/rss+xml title="Harp Seal Pup Nursery and Caring Center">
 </head>
 <body>
 <div style=position:relative>
@@ -169,9 +169,9 @@ Posts
 <div>
 <div class="TableObject border-bottom border-gray-light py-3">
 <div class="user-repo-search-results-summary TableObject-item TableObject-item--primary v-align-top">
-<strong>1</strong>
+<strong>31</strong>
 results
-for <strong>并查集</strong>
+for <strong>leetcode</strong>
 </div>
 <div class="TableObject-item text-right v-align-top">
 <a class="issues-reset-query text-normal d-inline-block ml-3" href=https://tategotoazarasi.github.io//post/><svg class="octicon octicon-x issues-reset-query-icon mt-1" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M3.72 3.72a.75.75.0 011.06.0L8 6.94l3.22-3.22a.75.75.0 111.06 1.06L9.06 8l3.22 3.22a.75.75.0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75.0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75.0 010-1.06z"/></svg>
@@ -184,50 +184,34 @@ Clear filter
 <div class="col-12 d-inline-block">
 <div class="d-inline-block mb-1">
 <h3 class=wb-break-all>
-<a href=https://tategotoazarasi.github.io/post/groups-of-strings/>LeetCode 5995. 字符串分组</a>
+<a href=https://tategotoazarasi.github.io/post/implement-strstr/>LeetCode 28. 实现 strStr()</a>
 </h3>
 </div>
 <div>
 <div class="col-12 d-inline-block text-gray mb-2 pr-4">
-<p>给你一个下标从  <strong>0</strong> 开始的字符串数组  <code>words</code> 。每个字符串都只包含 <strong>小写英文字母</strong> 。<code>words</code>  中任意一个子串中，每个字母都至多只出现一次。</p>
-<p>如果通过以下操作之一，我们可以从 <code>s1</code>  的字母集合得到 <code>s2</code>  的字母集合，那么我们称这两个字符串为 <strong>关联的</strong> ：</p>
-<ul>
-<li>往  <code>s1</code>  的字母集合中添加一个字母。</li>
-<li>从  <code>s1</code>  的字母集合中删去一个字母。</li>
-<li>将 <code>s1</code>  中的一个字母替换成另外任意一个字母（也可以替换为这个字母本身）。</li>
-</ul>
-<p>数组  <code>words</code>  可以分为一个或者多个无交集的 <strong>组</strong> 。一个字符串与一个组如果满足以下 <strong>任一</strong>  条件，它就属于这个组：</p>
-<ul>
-<li>它与组内 <strong>至少</strong>  一个其他字符串关联。</li>
-<li>它是这个组中 <strong>唯一</strong>  的字符串。</li>
-</ul>
-<p>注意，你需要确保分好组后，一个组内的任一字符串与其他组的字符串都不关联。可以证明在这个条件下，分组方案是唯一的。</p>
-<p>请你返回一个长度为 <code>2</code>  的数组  <code>ans</code> ：</p>
-<ul>
-<li><code>ans[0]</code>  是  <code>words</code>  分组后的  <strong>总组数</strong> 。</li>
-<li><code>ans[1]</code>  是字符串数目最多的组所包含的字符串数目。</li>
-</ul>
+<p>实现 <a href=https://baike.baidu.com/item/strstr/811469>strStr()</a> 函数。</p>
+<p>给你两个字符串 <code>haystack</code> 和 <code>needle</code> ，请你在 <code>haystack</code> 字符串中找出 <code>needle</code> 字符串出现的第一个位置（下标从 0 开始）。如果不存在，则返回 <code>-1</code> 。</p>
 </div>
 </div>
 <div class="f6 text-gray mt-2">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 leetcode
 </a>
-<a class="muted-link mr-3" href=/tags/%E5%9B%B0%E9%9A%BE><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-困难
+<a class="muted-link mr-3" href=/tags/%E7%AE%80%E5%8D%95><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+简单
 </a>
-<a class="muted-link mr-3" href=/tags/%E5%B9%B6%E6%9F%A5%E9%9B%86><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-并查集
+<a class="muted-link mr-3" href=/tags/%E5%8F%8C%E6%8C%87%E9%92%88><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+双指针
 </a>
-<a class="muted-link mr-3" href=/tags/%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-状态压缩
+<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+字符串
 </a>
-<a class="muted-link mr-3" href=/tags/%E4%BD%8D%E8%BF%90%E7%AE%97><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
-位运算
+<a class="muted-link mr-3" href=/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%8C%B9%E9%85%8D><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+字符串匹配
 </a>
 Created
-<relative-time datetime=" Sun, 30 Jan 2022 16:22:21 +0800" class=no-wrap title=" Sun, 30 Jan 2022 16:22:21 +0800">
-Sun, 30 Jan 2022 16:22:21 +0800
+<relative-time datetime=" Tue, 07 Dec 2021 10:17:21 +0800" class=no-wrap title=" Tue, 07 Dec 2021 10:17:21 +0800">
+Tue, 07 Dec 2021 10:17:21 +0800
 </relative-time>
 </div>
 </div>
@@ -235,7 +219,7 @@ Sun, 30 Jan 2022 16:22:21 +0800
 </ul>
 <div class=paginate-container>
 <div class=BtnGroup>
-<button class="btn btn-outline BtnGroup-item" disabled>Previous</button>
+<a rel=nofollow class="btn btn-outline BtnGroup-item" href=/tags/leetcode/page/3/>Previous</a>
 <button class="btn btn-outline BtnGroup-item" disabled>Next</button>
 </div>
 </div>
