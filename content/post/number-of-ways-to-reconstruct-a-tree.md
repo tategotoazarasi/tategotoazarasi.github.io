@@ -81,7 +81,7 @@ An **ancestor** of a node is any node on the path from the root to that node (ex
 
 ![1](https://tategotoazarasi.github.io/images/1719_1.png)
 
-- 对于 pairs 中的数对 [xi​,yi​]，如果 \\(x_i\\) 为 \\(y_i\\) 的祖先，则一定满足 \\(degree[x_i​]≥degree[y_i​\\)]。如果节点 \\(y_j\\) 为节点 \\(y_i\\) 的后代节点，则节点 \\(y_j\\) 一定同时也是节点 \\(x_i\\) 的后代节点；如果节点 \\(y_j\\) 为节点 \\(y_i\\) 的祖先节点，则节点 \\(y_j\\) 要么是节点 \\(x_i\\) 的祖先节点，要么是节点 \\(x_i\\) 的后代节点，所以一定满足 \\(degree[x_i​]≥degree[y_i​\\)]。此外，如果 \\(x_i\\) 为 \\(y_i\\) 的祖先，则一定满足 \\(adj[y_i​]∈adj[x_i​]\\)。如下图所示，含有节点 2 的数对数目一定大于含有节点 3 的数对数目。
+- 对于 pairs 中的数对 \\([x_i​,y_i​]\\)，如果 \\(x_i\\) 为 \\(y_i\\) 的祖先，则一定满足 \\(degree[x_i​]≥degree[y_i​]\\)。如果节点 \\(y_j\\) 为节点 \\(y_i\\) 的后代节点，则节点 \\(y_j\\) 一定同时也是节点 \\(x_i\\) 的后代节点；如果节点 \\(y_j\\) 为节点 \\(y_i\\) 的祖先节点，则节点 \\(y_j\\) 要么是节点 \\(x_i\\) 的祖先节点，要么是节点 \\(x_i\\) 的后代节点，所以一定满足 \\(degree[x_i​]≥degree[y_i​]\\)。此外，如果 \\(x_i\\) 为 \\(y_i\\) 的祖先，则一定满足 \\(adj[y_i​]∈adj[x_i​]\\)。如下图所示，含有节点 2 的数对数目一定大于含有节点 3 的数对数目。
 
 ![2](https://tategotoazarasi.github.io/images/1719_2.png)
 
