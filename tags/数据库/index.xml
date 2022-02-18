@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Feb 2022 16:13:02 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 626. Exchange Seats</title><link>https://tategotoazarasi.github.io/post/exchange-seats/</link><pubDate>Wed, 16 Feb 2022 16:13:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/exchange-seats/</guid><description>&lt;p>Table: &lt;code>Seat&lt;/code>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Feb 2022 10:09:38 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>sex&lt;/td>
+&lt;td>ENUM&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>salary&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>id is the primary key for this table.
+The sex column is ENUM value of type (&amp;rsquo;m', &amp;lsquo;f&amp;rsquo;).
+The table contains information about an employee.&lt;/p>
+&lt;p>Write an SQL query to swap all &lt;code>'f'&lt;/code> and &lt;code>'m'&lt;/code> values (i.e., change all &lt;code>'f'&lt;/code> values to &lt;code>'m'&lt;/code> and vice versa) with a &lt;strong>single update statement&lt;/strong> and no intermediate temporary tables.&lt;/p>
+&lt;p>Note that you must write a single update statement, &lt;strong>do not&lt;/strong> write any select statement for this problem.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 626. Exchange Seats</title><link>https://tategotoazarasi.github.io/post/exchange-seats/</link><pubDate>Wed, 16 Feb 2022 16:13:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/exchange-seats/</guid><description>&lt;p>Table: &lt;code>Seat&lt;/code>&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
