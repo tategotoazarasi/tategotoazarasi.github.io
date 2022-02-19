@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/post/</link><description>Recent content in Posts on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 18 Feb 2022 10:09:38 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/post/</link><description>Recent content in Posts on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 19 Feb 2022 14:31:05 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1179. Reformat Department Table</title><link>https://tategotoazarasi.github.io/post/reformat-department-table/</link><pubDate>Sat, 19 Feb 2022 14:31:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/reformat-department-table/</guid><description>&lt;p>Table: &lt;code>Department&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>revenue&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>month&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>(id, month) is the primary key of this table.
+The table has information about the revenue of each department per month.
+The month has values in [&amp;ldquo;Jan&amp;rdquo;,&amp;ldquo;Feb&amp;rdquo;,&amp;ldquo;Mar&amp;rdquo;,&amp;ldquo;Apr&amp;rdquo;,&amp;ldquo;May&amp;rdquo;,&amp;ldquo;Jun&amp;rdquo;,&amp;ldquo;Jul&amp;rdquo;,&amp;ldquo;Aug&amp;rdquo;,&amp;ldquo;Sep&amp;rdquo;,&amp;ldquo;Oct&amp;rdquo;,&amp;ldquo;Nov&amp;rdquo;,&amp;ldquo;Dec&amp;rdquo;].&lt;/p>
+&lt;p>Write an SQL query to reformat the table such that there is a department id column and a revenue column &lt;strong>for each month&lt;/strong>.&lt;/p>
+&lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>Column Name&lt;/th>
