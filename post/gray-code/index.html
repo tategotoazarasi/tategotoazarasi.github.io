@@ -9,8 +9,7 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>LeetCode 89. 格雷编码 - Harp Seal Pup Nursery and Caring Center</title>
-<link rel=icon type=image/x-icon href=/images/github.png>
+<title>LeetCode 89. 格雷编码 - Harp Seal Pup Nursery and Caring Center</title><link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
 <meta name=description content="n 位格雷码序列 是一个由 2n 个整数组成的序列，其中：
  每个整数都在范围 [0, 2n - 1] 内（含 0 和 2n - 1） 第一个整数是 0 一个整数在序列中出现 不超过一次 每对 相邻 整数的二进制表示 恰好一位不同 ，且 第一个 和 最后一个 整数的二进制表示 恰好一位不同  给你一个整数 n ，返回任一有效的 n 位格雷码序列 。
@@ -37,19 +36,16 @@
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
 <meta property="article:published_time" content="2022-01-08 16:57:11 +0800 +0800">
-</head>
-<body>
+</head><body>
 <div style=position:relative>
 <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
 <div class="Header-item mobile-none" style=margin-top:-4px;margin-bottom:-4px>
 <a class=Header-link href=https://tategotoazarasi.github.io/><svg class="octicon" height="32" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
-</div>
-<div class="Header-item d-md-none">
-<button class="Header-link btn-link js-details-target" type=button onclick="document.querySelector('#header-search').style.display=document.querySelector('#header-search').style.display=='none'?'block':'none'"><svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M1 2.75A.75.75.0 011.75 2h12.5a.75.75.0 110 1.5H1.75A.75.75.0 011 2.75zm0 5A.75.75.0 011.75 7h12.5a.75.75.0 110 1.5H1.75A.75.75.0 011 7.75zM1.75 12a.75.75.0 100 1.5h12.5a.75.75.0 100-1.5H1.75z"/></svg>
+</div><div class="Header-item d-md-none">
+<button class="Header-link btn-link js-details-target" type=button onclick='document.querySelector("#header-search").style.display=document.querySelector("#header-search").style.display=="none"?"block":"none"'><svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M1 2.75A.75.75.0 011.75 2h12.5a.75.75.0 110 1.5H1.75A.75.75.0 011 2.75zm0 5A.75.75.0 011.75 7h12.5a.75.75.0 110 1.5H1.75A.75.75.0 011 7.75zM1.75 12a.75.75.0 100 1.5h12.5a.75.75.0 100-1.5H1.75z"/></svg>
 </button>
-</div>
-<div style=display:none id=header-search class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+</div><div style=display:none id=header-search class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
 <div class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
 <div class=position-relative>
 <form target=_blank action=https://www.google.com/search accept-charset=utf-8 method=get autocomplete=off>
@@ -57,21 +53,13 @@
 <input type=text class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" name=q placeholder=Search autocomplete=off>
 <input type=hidden name=q value=site:https://tategotoazarasi.github.io/>
 </label>
-</form>
-</div>
-</div>
-</div>
-<div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+</form></div></div></div><div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
 <a class=Header-link href=https://tategotoazarasi.github.io/><svg class="octicon octicon-mark-github v-align-middle" height="32" viewBox="0 0 16 16" width="32"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
-</div>
-<div class=Header-item style=margin-right:0>
+</div><div class=Header-item style=margin-right:0>
 <a href=javascript:void(0) class="Header-link no-select" onclick=switchTheme()><svg style="fill:var(--color-profile-color-modes-toggle-moon)" class="no-select" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.52208 7.71754c3.05612.0 5.53362-2.47748 5.53362-5.5336C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961 9.95801 1.07727 10.3495.771159 10.6474.99992c1.4679 1.12724 2.4141 2.90007 2.4141 4.89391.0 3.40575-2.7609 6.16667-6.16665 6.16667-2.94151.0-5.40199-2.0595-6.018122-4.81523C.794841 6.87902 1.23668 6.65289 1.55321 6.85451 2.41106 7.40095 3.4296 7.71754 4.52208 7.71754z"/></svg>
 </a>
-</div>
-</header>
-</div>
-<script src=https://unpkg.com/@popperjs/core@2></script>
+</div></header></div><script src=https://unpkg.com/@popperjs/core@2></script>
 <script src=https://unpkg.com/tippy.js@6></script>
 <div>
 <main>
@@ -83,26 +71,17 @@
 <div class="d-none d-md-block">
 <a class="avatar mr-2 flex-shrink-0" href=https://tategotoazarasi.github.io/>
 <img class=avatar-user src=/images/myavatar.png width=32 height=32></a>
-</div>
-<div class="d-flex flex-column">
+</div><div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
 <a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/gray-code/>LeetCode 89. 格雷编码</a></strong>
-</h1>
-<div class="note m-0">
+</h1><div class="note m-0">
 Created <relative-time datetime="Sat, 08 Jan 2022 16:57:11 +0800" class=no-wrap>
 Sat, 08 Jan 2022 16:57:11 +0800</relative-time>
 <span class=file-info-divider></span>
-Modified <relative-time datetime="Sun, 27 Feb 2022 08:49:03 +0000" class=no-wrap>
-Sun, 27 Feb 2022 08:49:03 +0000</relative-time>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container-lg px-3 new-discussion-timeline">
+Modified <relative-time datetime="Wed, 02 Mar 2022 03:18:58 +0000" class=no-wrap>
+Wed, 02 Mar 2022 03:18:58 +0000</relative-time>
+</div></div></div></div></div></div></div><div class="container-lg px-3 new-discussion-timeline">
 <div class="repository-content gist-content">
 <div>
 <div class="js-gist-file-update-container js-task-list-container file-box">
@@ -112,9 +91,8 @@ Sun, 27 Feb 2022 08:49:03 +0000</relative-time>
 <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 <summary id=toc-toggle class="btn btn-octicon m-0 mr-2 p-2" aria-haspopup=menu aria-label="Table of Contents" role=button><svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered"><path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zm0 5a.75.75.0 000 1.5h8.5a.75.75.0 000-1.5h-8.5zM3 8A1 1 0 111 8a1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"/></svg>
 </summary>
-1244 Words
-</div>
-<div class="file-actions flex-order-2 pt-0">
+1250 Words
+</div><div class="file-actions flex-order-2 pt-0">
 <a class="muted-link mr-3" href=/tags/leetcode><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 leetcode
 </a>
@@ -130,125 +108,56 @@ leetcode
 <a class="muted-link mr-3" href=/tags/%E5%9B%9E%E6%BA%AF><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 回溯
 </a>
-</div>
-</div>
-</div>
-<div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p><strong>n 位格雷码序列</strong> 是一个由 <code>2n</code> 个整数组成的序列，其中：</p>
-<ul>
-<li>每个整数都在范围 <code>[0, 2n - 1]</code> 内（含 <code>0</code> 和 <code>2n - 1</code>）</li>
-<li>第一个整数是 <code>0</code></li>
-<li>一个整数在序列中出现 <strong>不超过一次</strong></li>
-<li>每对 <strong>相邻</strong> 整数的二进制表示 <strong>恰好一位不同</strong> ，且</li>
-<li><strong>第一个</strong> 和 <strong>最后一个</strong> 整数的二进制表示 <strong>恰好一位不同</strong></li>
-</ul>
-<p>给你一个整数 <code>n</code> ，返回任一有效的 <strong>n 位格雷码序列</strong> 。</p>
-<p><strong>示例 1：</strong></p>
-<p><strong>输入：</strong> n = 2
+</div></div></div><div class="Box-body px-5 pb-5">
+<article class="markdown-body entry-content container-lg"><p><strong>n 位格雷码序列</strong> 是一个由 <code>2n</code> 个整数组成的序列，其中：</p><ul>
+<li>每个整数都在范围 <code>[0, 2n - 1]</code> 内（含 <code>0</code> 和 <code>2n - 1</code>）</li><li>第一个整数是 <code>0</code></li><li>一个整数在序列中出现 <strong>不超过一次</strong></li><li>每对 <strong>相邻</strong> 整数的二进制表示 <strong>恰好一位不同</strong> ，且</li><li><strong>第一个</strong> 和 <strong>最后一个</strong> 整数的二进制表示 <strong>恰好一位不同</strong></li></ul><p>给你一个整数 <code>n</code> ，返回任一有效的 <strong>n 位格雷码序列</strong> 。</p><p><strong>示例 1：</strong></p><p><strong>输入：</strong> n = 2
 <strong>输出：</strong> [0,1,3,2]
 <strong>解释：</strong>
-[0,1,3,2] 的二进制表示是 [00,01,11,10] 。</p>
-<ul>
-<li>0 <strong><em>0</em></strong> 和 0 <strong><em>1</em></strong> 有一位不同</li>
-<li><strong><em>0</em></strong> 1 和 <strong><em>1</em></strong> 1 有一位不同</li>
-<li>1 <strong><em>1</em></strong> 和 1 <strong><em>0</em></strong> 有一位不同</li>
-<li><strong><em>1</em></strong> 0 和 <strong><em>0</em></strong> 0 有一位不同
-[0,2,3,1] 也是一个有效的格雷码序列，其二进制表示是 [00,10,11,01] 。</li>
-<li><strong><em>0</em></strong> 0 和 <strong><em>1</em></strong> 0 有一位不同</li>
-<li>1 <strong><em>0</em></strong> 和 1 <strong><em>1</em></strong> 有一位不同</li>
-<li><strong><em>1</em></strong> 1 和 <strong><em>0</em></strong> 1 有一位不同</li>
-<li>0 <strong><em>1</em></strong> 和 0 <strong><em>0</em></strong> 有一位不同</li>
-</ul>
-<p><strong>示例 2：</strong></p>
-<p><strong>输入：</strong> n = 1
-<strong>输出：</strong> [0,1]</p>
-<p><strong>提示：</strong></p>
-<ul>
-<li><code>1 &lt;= n &lt;= 16</code></li>
-</ul>
-<h2 id=题解>题解</h2>
-<h4 id=前言>前言</h4>
-<p>关于格雷编码的知识，读者可以查阅百度百科「<a href=https://baike.baidu.com/item/%E6%A0%BC%E9%9B%B7%E7%A0%81>格雷码</a>」。</p>
-<h4 id=方法一对称生成>方法一：对称生成</h4>
-<p><strong>思路与算法</strong></p>
-<p>假设我们已经获取到 n−1 位的格雷码序列 \(G_{n-1}\)，我们只需要将 \(G_{n-1}\) 对称翻转，记作 \(G_{n-1}^T\)。\(G_{n-1}\) 的首元素和 \(G_{n-1}^T\) 的尾元素都是相同的，反之亦然。如果我们给 \(G_{n-1}^T\) 的每个元素都加上 2n−1，记作 \((G_{n-1}^T)^{'}\)，则 \(G_{n-1}\)的首元素和 \((G_{n-1}^T)^{'}\) 的尾元素只有一位不相同，反之亦然。因此 \(G_{n-1}\) 和 \((G_{n-1}^T)^{'}\) 拼接的序列 \(G_n=[G_{n-1},(G_{n-1}^T)^{'}]\) 满足 n 位的格雷码的定义。初始值 \(G_0=[0]\)。</p>
-<p><strong>代码</strong></p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
-<span class=k>public</span><span class=o>:</span>
-    <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>grayCode</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span> <span class=p>{</span>
-        <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>ret</span><span class=p>;</span>
-        <span class=n>ret</span><span class=p>.</span><span class=n>reserve</span><span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=n>n</span><span class=p>);</span>
-        <span class=n>ret</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
-        <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=mi>1</span><span class=p>;</span> <span class=n>i</span> <span class=o>&lt;=</span> <span class=n>n</span><span class=p>;</span> <span class=n>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
-            <span class=kt>int</span> <span class=n>m</span> <span class=o>=</span> <span class=n>ret</span><span class=p>.</span><span class=n>size</span><span class=p>();</span>
-            <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>j</span> <span class=o>=</span> <span class=n>m</span> <span class=o>-</span> <span class=mi>1</span><span class=p>;</span> <span class=n>j</span> <span class=o>&gt;=</span> <span class=mi>0</span><span class=p>;</span> <span class=n>j</span><span class=o>--</span><span class=p>)</span> <span class=p>{</span>
-                <span class=n>ret</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=n>ret</span><span class=p>[</span><span class=n>j</span><span class=p>]</span> <span class=o>|</span> <span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=p>(</span><span class=n>i</span> <span class=o>-</span> <span class=mi>1</span><span class=p>)));</span>
-            <span class=p>}</span>
-        <span class=p>}</span>
-        <span class=k>return</span> <span class=n>ret</span><span class=p>;</span>
-    <span class=p>}</span>
-<span class=p>};</span>
-</code></pre></div><p><strong>复杂度分析</strong></p>
-<ul>
+[0,1,3,2] 的二进制表示是 [00,01,11,10] 。</p><ul>
+<li>0 <strong><em>0</em></strong> 和 0 <strong><em>1</em></strong> 有一位不同</li><li><strong><em>0</em></strong> 1 和 <strong><em>1</em></strong> 1 有一位不同</li><li>1 <strong><em>1</em></strong> 和 1 <strong><em>0</em></strong> 有一位不同</li><li><strong><em>1</em></strong> 0 和 <strong><em>0</em></strong> 0 有一位不同
+[0,2,3,1] 也是一个有效的格雷码序列，其二进制表示是 [00,10,11,01] 。</li><li><strong><em>0</em></strong> 0 和 <strong><em>1</em></strong> 0 有一位不同</li><li>1 <strong><em>0</em></strong> 和 1 <strong><em>1</em></strong> 有一位不同</li><li><strong><em>1</em></strong> 1 和 <strong><em>0</em></strong> 1 有一位不同</li><li>0 <strong><em>1</em></strong> 和 0 <strong><em>0</em></strong> 有一位不同</li></ul><p><strong>示例 2：</strong></p><p><strong>输入：</strong> n = 1
+<strong>输出：</strong> [0,1]</p><p><strong>提示：</strong></p><ul>
+<li><code>1 &lt;= n &lt;= 16</code></li></ul><h2 id=题解>题解</h2><h4 id=前言>前言</h4><p>关于格雷编码的知识，读者可以查阅百度百科「<a href=https://baike.baidu.com/item/%E6%A0%BC%E9%9B%B7%E7%A0%81>格雷码</a>」。</p><h4 id=方法一对称生成>方法一：对称生成</h4><p><strong>思路与算法</strong></p><p>假设我们已经获取到 n−1 位的格雷码序列 \(G_{n-1}\)，我们只需要将 \(G_{n-1}\) 对称翻转，记作 \(G_{n-1}^T\)。\(G_{n-1}\) 的首元素和 \(G_{n-1}^T\) 的尾元素都是相同的，反之亦然。如果我们给 \(G_{n-1}^T\) 的每个元素都加上 2n−1，记作 \((G_{n-1}^T)^{&rsquo;}\)，则 \(G_{n-1}\)的首元素和 \((G_{n-1}^T)^{&rsquo;}\) 的尾元素只有一位不相同，反之亦然。因此 \(G_{n-1}\) 和 \((G_{n-1}^T)^{&rsquo;}\) 拼接的序列 \(G_n=[G_{n-1},(G_{n-1}^T)^{&rsquo;}]\) 满足 n 位的格雷码的定义。初始值 \(G_0=[0]\)。</p><p><strong>代码</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=k>public</span><span class=o>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>grayCode</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>ret</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=n>ret</span><span class=p>.</span><span class=n>reserve</span><span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=n>n</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=n>ret</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=mi>1</span><span class=p>;</span> <span class=n>i</span> <span class=o>&lt;=</span> <span class=n>n</span><span class=p>;</span> <span class=n>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=kt>int</span> <span class=n>m</span> <span class=o>=</span> <span class=n>ret</span><span class=p>.</span><span class=n>size</span><span class=p>();</span>
+</span></span><span class=line><span class=cl>            <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>j</span> <span class=o>=</span> <span class=n>m</span> <span class=o>-</span> <span class=mi>1</span><span class=p>;</span> <span class=n>j</span> <span class=o>&gt;=</span> <span class=mi>0</span><span class=p>;</span> <span class=n>j</span><span class=o>--</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=n>ret</span><span class=p>.</span><span class=n>push_back</span><span class=p>(</span><span class=n>ret</span><span class=p>[</span><span class=n>j</span><span class=p>]</span> <span class=o>|</span> <span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=p>(</span><span class=n>i</span> <span class=o>-</span> <span class=mi>1</span><span class=p>)));</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>ret</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>};</span>
+</span></span></code></pre></div><p><strong>复杂度分析</strong></p><ul>
 <li>
-<p>时间复杂度：\(O(2^n)\)，其中 n 为格雷码序列的位数。递推过程的时间复杂度为 \(O( {\textstyle \sum_{i=1}^{n}2^{i-1}} )=O(2^n)\)。</p>
-</li>
+<p>时间复杂度：\(O(2^n)\)，其中 n 为格雷码序列的位数。递推过程的时间复杂度为 \(O( {\textstyle \sum_{i=1}^{n}2^{i-1}} )=O(2^n)\)。</p></li><li>
+<p>空间复杂度：O(1)。注意返回值不计入空间复杂度。</p></li></ul><h4 id=方法二二进制数转格雷码>方法二：二进制数转格雷码</h4><p><strong>思路与算法</strong></p><p>如果我们有一个二进制数序列，我们也可以将它直接转换成格雷码序列。假设 n 位二进制数为 b，对应的格雷码为 g，转换规则如下：</p><p>g(i)=b(i+1)⊕b(i), 0≤i&lt;n</p><p>其中 ⊕ 是按位异或运算，g(i) 和 b(i) 分别表示 g 和 b 的第 i 位，且 b(n)=0。</p><p>上述转换规则的证明如下：</p><blockquote>
+<p>考虑 n 位二进制数 \( b_i \) 和对应的转换码 \(g_i\)，并且 \(b_{i+1}=b_i+1\) 也是 n 位二进制数。\(b_{i+1}\) 与 \(b_i\) 的区别在于 \(b_{i+1}\)将 \(b_i\) 二进制下末位连接的 1 全部变成 0，然后将最低位的 0 变成 1。假设变化涉及到的二进制位数为 k 位，则按照上述转换规则， \(g_{i+1}\)与 \(g_i\)只有在第 k−1 位不相同，其他位都相同。因此转换得到的码相邻的数只有一位不同，而转换码第一个整数和最后一个整数分别由二进制数 0 和 \(2^n−1\) 转换而来，也只有一位不同。因为二进制数的取值范围为 \([0, 2^n)\)，且上述转换规则为一对一映射，因此得到的转换码也是互不相同的，且取值范围也在 \([0, 2^n)\)，得证。</p></blockquote><p><strong>代码</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl><span class=k>public</span><span class=o>:</span>
+</span></span><span class=line><span class=cl>    <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>grayCode</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>ret</span><span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=n>n</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>ret</span><span class=p>.</span><span class=n>size</span><span class=p>();</span> <span class=n>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=n>ret</span><span class=p>[</span><span class=n>i</span><span class=p>]</span> <span class=o>=</span> <span class=p>(</span><span class=n>i</span> <span class=o>&gt;&gt;</span> <span class=mi>1</span><span class=p>)</span> <span class=o>^</span> <span class=n>i</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>ret</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>};</span>
+</span></span></code></pre></div><p><strong>复杂度分析</strong></p><ul>
 <li>
-<p>空间复杂度：O(1)。注意返回值不计入空间复杂度。</p>
-</li>
-</ul>
-<h4 id=方法二二进制数转格雷码>方法二：二进制数转格雷码</h4>
-<p><strong>思路与算法</strong></p>
-<p>如果我们有一个二进制数序列，我们也可以将它直接转换成格雷码序列。假设 n 位二进制数为 b，对应的格雷码为 g，转换规则如下：</p>
-<p>g(i)=b(i+1)⊕b(i), 0≤i&lt;n</p>
-<p>其中 ⊕ 是按位异或运算，g(i) 和 b(i) 分别表示 g 和 b 的第 i 位，且 b(n)=0。</p>
-<p>上述转换规则的证明如下：</p>
-<blockquote>
-<p>考虑 n 位二进制数 \( b_i \) 和对应的转换码 \(g_i\)，并且 \(b_{i+1}=b_i+1\) 也是 n 位二进制数。\(b_{i+1}\) 与 \(b_i\) 的区别在于 \(b_{i+1}\)将 \(b_i\) 二进制下末位连接的 1 全部变成 0，然后将最低位的 0 变成 1。假设变化涉及到的二进制位数为 k 位，则按照上述转换规则， \(g_{i+1}\)与 \(g_i\)只有在第 k−1 位不相同，其他位都相同。因此转换得到的码相邻的数只有一位不同，而转换码第一个整数和最后一个整数分别由二进制数 0 和 \(2^n−1\) 转换而来，也只有一位不同。因为二进制数的取值范围为 \([0, 2^n)\)，且上述转换规则为一对一映射，因此得到的转换码也是互不相同的，且取值范围也在 \([0, 2^n)\)，得证。</p>
-</blockquote>
-<p><strong>代码</strong></p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
-<span class=k>public</span><span class=o>:</span>
-    <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>grayCode</span><span class=p>(</span><span class=kt>int</span> <span class=n>n</span><span class=p>)</span> <span class=p>{</span>
-        <span class=n>vector</span><span class=o>&lt;</span><span class=kt>int</span><span class=o>&gt;</span> <span class=n>ret</span><span class=p>(</span><span class=mi>1</span> <span class=o>&lt;&lt;</span> <span class=n>n</span><span class=p>);</span>
-        <span class=k>for</span> <span class=p>(</span><span class=kt>int</span> <span class=n>i</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span> <span class=n>i</span> <span class=o>&lt;</span> <span class=n>ret</span><span class=p>.</span><span class=n>size</span><span class=p>();</span> <span class=n>i</span><span class=o>++</span><span class=p>)</span> <span class=p>{</span>
-            <span class=n>ret</span><span class=p>[</span><span class=n>i</span><span class=p>]</span> <span class=o>=</span> <span class=p>(</span><span class=n>i</span> <span class=o>&gt;&gt;</span> <span class=mi>1</span><span class=p>)</span> <span class=o>^</span> <span class=n>i</span><span class=p>;</span>
-        <span class=p>}</span>
-        <span class=k>return</span> <span class=n>ret</span><span class=p>;</span>
-    <span class=p>}</span>
-<span class=p>};</span>
-</code></pre></div><p><strong>复杂度分析</strong></p>
-<ul>
-<li>
-<p>时间复杂度：\(O(2^n)\)，其中 n 为格雷码序列的位数。每个整数转换为格雷码的时间复杂度为 O(1)，总共有 2n 个转换。</p>
-</li>
-<li>
-<p>空间复杂度：O(1)。注意返回值不计入空间复杂度。</p>
-</li>
-</ul></article>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</main>
-</div>
-<script>window.onload=function(){const a=document.getElementById('post-header'),b=a.offsetHeight;document.documentElement.style.scrollPaddingTop=b+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy('#toc-toggle',{trigger:'click',content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:'bottom-start',interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const a=document.getElementById("table-of-contents");a.addEventListener('click',function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const a='table-of-contents-option-selected',b=document.querySelectorAll("#table-of-contents > nav > ul li");for(const d of b){const[c]=d.children;if(c.tagName.toLowerCase()!=='a')continue;window.location.href===c.href?c.classList.add(a):c.classList.remove(a)}}window.onhashchange=selectTableOfContentsOption</script>
+<p>时间复杂度：\(O(2^n)\)，其中 n 为格雷码序列的位数。每个整数转换为格雷码的时间复杂度为 O(1)，总共有 2n 个转换。</p></li><li>
+<p>空间复杂度：O(1)。注意返回值不计入空间复杂度。</p></li></ul></article></div></div></div></div></div></div></main></div><script>window.onload=function(){const e=document.getElementById("post-header"),t=e.offsetHeight;document.documentElement.style.scrollPaddingTop=t+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy("#toc-toggle",{trigger:"click",content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:"bottom-start",interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const e=document.getElementById("table-of-contents");e.addEventListener("click",function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const e="table-of-contents-option-selected",t=document.querySelectorAll("#table-of-contents > nav > ul li");for(const s of t){const[n]=s.children;if(n.tagName.toLowerCase()!=="a")continue;window.location.href===n.href?n.classList.add(e):n.classList.remove(e)}}window.onhashchange=selectTableOfContentsOption</script>
 <div class="footer container-xl width-full p-responsive">
 <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light">
 <a aria-label=Homepage title=GitHub class="footer-octicon d-none d-lg-block mr-lg-4" href=https://tategotoazarasi.github.io/><svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58.0.0 3.58.0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38.0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95.0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12.0.0.67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15.0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48.0 1.07-.01 1.93-.01 2.2.0.21.15.46.55.38A8.013 8.013.0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
 <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
-<li class="mr-3 mr-lg-0">Theme by <a href=https://github.com/MeiK2333/github-style>github-style</a></li>
-</ul>
-</div>
-<div class="d-flex flex-justify-center pb-6">
+<li class="mr-3 mr-lg-0">Theme by <a href=https://github.com/MeiK2333/github-style>github-style</a></li></ul></div><div class="d-flex flex-justify-center pb-6">
 <span class="f6 text-gray-light"></span>
-</div>
-</div>
-</body>
-<script type=application/javascript src=https://tategotoazarasi.github.io/js/github-style.js></script>
+</div></div></body><script type=application/javascript src=https://tategotoazarasi.github.io/js/github-style.js></script>
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css integrity=sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq crossorigin=anonymous>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js integrity=sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz crossorigin=anonymous></script>
 <script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js integrity=sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI crossorigin=anonymous onload=renderMathInElement(document.body)></script>
