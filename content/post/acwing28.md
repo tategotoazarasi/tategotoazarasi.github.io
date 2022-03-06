@@ -1,5 +1,5 @@
 ---
-title: "AcWing 28. 在O(1)时间删除链表结点 "
+title: "AcWing 28. 在O(1)时间删除链表结点"
 date: 2022-03-06T16:15:54+08:00
 draft: false
 tags: ["acwing", "简单", "链表"]
