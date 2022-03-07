@@ -9,33 +9,30 @@
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/light.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/dark.css>
 <link rel=stylesheet href=https://tategotoazarasi.github.io/css/syntax.css>
-<title>AcWing 66. 两个链表的第一个公共结点 - Harp Seal Pup Nursery and Caring Center</title><link rel=icon type=image/x-icon href=/images/github.png>
+<title>AcWing 36. 合并两个排序的链表 - Harp Seal Pup Nursery and Caring Center</title><link rel=icon type=image/x-icon href=/images/github.png>
 <meta name=theme-color content="#1e2327">
-<meta name=description content="输入两个链表，找出它们的第一个公共结点。
-当不存在公共节点时，返回空节点。
+<meta name=description content="输入两个递增排序的链表，合并这两个链表并使新链表中的结点仍然是按照递增排序的。
 ">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://tategotoazarasi.github.io/post/acwing66/>
+<link rel=canonical href=https://tategotoazarasi.github.io/post/acwing36/>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="AcWing 66. 两个链表的第一个公共结点 - Harp Seal Pup Nursery and Caring Center">
-<meta name=twitter:description content="输入两个链表，找出它们的第一个公共结点。
-当不存在公共节点时，返回空节点。
+<meta name=twitter:title content="AcWing 36. 合并两个排序的链表 - Harp Seal Pup Nursery and Caring Center">
+<meta name=twitter:description content="输入两个递增排序的链表，合并这两个链表并使新链表中的结点仍然是按照递增排序的。
 ">
 <meta name=twitter:site content="https://tategotoazarasi.github.io/">
 <meta name=twitter:creator content>
 <meta name=twitter:image content="https://tategotoazarasi.github.io/">
 <meta property="og:type" content="article">
-<meta property="og:title" content="AcWing 66. 两个链表的第一个公共结点 - Harp Seal Pup Nursery and Caring Center">
-<meta property="og:description" content="输入两个链表，找出它们的第一个公共结点。
-当不存在公共节点时，返回空节点。
+<meta property="og:title" content="AcWing 36. 合并两个排序的链表 - Harp Seal Pup Nursery and Caring Center">
+<meta property="og:description" content="输入两个递增排序的链表，合并这两个链表并使新链表中的结点仍然是按照递增排序的。
 ">
-<meta property="og:url" content="https://tategotoazarasi.github.io/post/acwing66/">
-<meta property="og:site_name" content="AcWing 66. 两个链表的第一个公共结点">
+<meta property="og:url" content="https://tategotoazarasi.github.io/post/acwing36/">
+<meta property="og:site_name" content="AcWing 36. 合并两个排序的链表">
 <meta property="og:image" content="https://tategotoazarasi.github.io/">
 <meta property="og:image:width" content="2048">
 <meta property="og:image:height" content="1024">
-<meta property="article:published_time" content="2022-03-06 16:18:54 +0800 +0800">
+<meta property="article:published_time" content="2022-03-07 15:40:12 +0800 +0800">
 </head><body>
 <div style=position:relative>
 <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
@@ -74,10 +71,10 @@
 </div><div class="d-flex flex-column">
 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
 <span class=author>
-<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/acwing66/>AcWing 66. 两个链表的第一个公共结点</a></strong>
+<a href=https://tategotoazarasi.github.io/>azarasi</a></span><span class=path-divider>/</span><strong class="css-truncate-target mr-1" style=max-width:410px><a href=https://tategotoazarasi.github.io/post/acwing36/>AcWing 36. 合并两个排序的链表</a></strong>
 </h1><div class="note m-0">
-Created <relative-time datetime="Sun, 06 Mar 2022 16:18:54 +0800" class=no-wrap>
-Sun, 06 Mar 2022 16:18:54 +0800</relative-time>
+Created <relative-time datetime="Mon, 07 Mar 2022 15:40:12 +0800" class=no-wrap>
+Mon, 07 Mar 2022 15:40:12 +0800</relative-time>
 <span class=file-info-divider></span>
 Modified <relative-time datetime="Mon, 07 Mar 2022 07:46:36 +0000" class=no-wrap>
 Mon, 07 Mar 2022 07:46:36 +0000</relative-time>
@@ -102,49 +99,43 @@ acwing
 <a class="muted-link mr-3" href=/tags/%E9%93%BE%E8%A1%A8><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
 链表
 </a>
+<a class="muted-link mr-3" href=/tags/%E4%BA%8C%E8%B7%AF%E5%BD%92%E5%B9%B6><svg class="octicon octicon-tag" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25.0 01.25-.25h5.025a.25.25.0 01.177.073l6.25 6.25a.25.25.0 010 .354l-5.025 5.025a.25.25.0 01-.354.0l-6.25-6.25A.25.25.0 012.5 7.775zm-1.5.0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464.0.91.184 1.238.513l6.25 6.25a1.75 1.75.0 010 2.474l-5.026 5.026a1.75 1.75.0 01-2.474.0l-6.25-6.25A1.75 1.75.0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"/></svg>
+二路归并
+</a>
 </div></div></div><div class="Box-body px-5 pb-5">
-<article class="markdown-body entry-content container-lg"><p>输入两个链表，找出它们的第一个公共结点。</p><p>当不存在公共节点时，返回空节点。</p><h4 id=数据范围>数据范围</h4><p>链表长度 [1,2000]。</p><h4 id=样例>样例</h4><pre tabindex=0><code>给出两个链表如下所示：
-A：        a1 → a2
-                   ↘
-                     c1 → c2 → c3
-                   ↗
-B:     b1 → b2 → b3
+<article class="markdown-body entry-content container-lg"><p>输入两个递增排序的链表，合并这两个链表并使新链表中的结点仍然是按照递增排序的。</p><h4 id=数据范围>数据范围</h4><p>链表长度 [0,500]。</p><h4 id=样例>样例</h4><pre tabindex=0><code>输入：1-&gt;3-&gt;5 , 2-&gt;4-&gt;5
 
-输出第一个公共节点c1
-</code></pre><h2 id=题解>题解</h2><p>如果有公共结点肯定是在后面重叠，且后面部分都是共同的。</p><h4 id=方法-1>方法 1</h4><p>先计算出两个链表的长度，可以让比较长的先走两个链表长度之差的步数，两个再一起走。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
+输出：1-&gt;2-&gt;3-&gt;4-&gt;5-&gt;5
+</code></pre><h2 id=题解>题解</h2><h4 id=算法>算法</h4><p>(二路归并) O(n)</p><ol>
+<li>新建头部的保护结点 head，设置 current 指针指向 head。</li><li>若当前 l1 指针指向的结点的值 val 比 l2 指针指向的结点的值 val 小，则令 current 的 next 指针指向 l1，且 l1 后移；否则指向 l2，且 l2 后移。</li><li>然后 current 指针按照上一部设置好的位置后移。</li><li>循环以上步骤直到 l1 或 l2 为空。</li><li>将剩余的 l1 或 l2 接到 current 指针后边。</li></ol><h4 id=时间复杂度>时间复杂度</h4><p>两个链表各遍历一次，所以时间复杂度为 O(n)</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=cm>/**
+</span></span></span><span class=line><span class=cl><span class=cm> * Definition for singly-linked list.
+</span></span></span><span class=line><span class=cl><span class=cm> * struct ListNode {
+</span></span></span><span class=line><span class=cl><span class=cm> *     int val;
+</span></span></span><span class=line><span class=cl><span class=cm> *     ListNode *next;
+</span></span></span><span class=line><span class=cl><span class=cm> *     ListNode(int x) : val(x), next(NULL) {}
+</span></span></span><span class=line><span class=cl><span class=cm> * };
+</span></span></span><span class=line><span class=cl><span class=cm> */</span>
+</span></span><span class=line><span class=cl><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
 </span></span><span class=line><span class=cl><span class=k>public</span><span class=o>:</span>
-</span></span><span class=line><span class=cl>    <span class=n>ListNode</span> <span class=o>*</span><span class=n>findFirstCommonNode</span><span class=p>(</span><span class=n>ListNode</span> <span class=o>*</span><span class=n>headA</span><span class=p>,</span> <span class=n>ListNode</span> <span class=o>*</span><span class=n>headB</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=k>auto</span> <span class=n>p</span> <span class=o>=</span> <span class=n>headA</span><span class=p>,</span> <span class=n>q</span> <span class=o>=</span> <span class=n>headB</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>la</span> <span class=o>=</span> <span class=mi>0</span><span class=p>,</span> <span class=n>lb</span> <span class=o>=</span> <span class=mi>0</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=p>(</span><span class=k>auto</span> <span class=n>t</span> <span class=o>=</span> <span class=n>headA</span><span class=p>;</span> <span class=n>t</span><span class=p>;</span> <span class=n>t</span> <span class=o>=</span> <span class=n>t</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>)</span> <span class=n>la</span> <span class=o>++</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>for</span> <span class=p>(</span><span class=k>auto</span> <span class=n>t</span> <span class=o>=</span> <span class=n>headB</span><span class=p>;</span> <span class=n>t</span><span class=p>;</span> <span class=n>t</span> <span class=o>=</span> <span class=n>t</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>)</span> <span class=n>lb</span> <span class=o>++</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=kt>int</span> <span class=n>k</span> <span class=o>=</span> <span class=n>la</span> <span class=o>-</span> <span class=n>lb</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=p>(</span><span class=n>la</span> <span class=o>&lt;</span> <span class=n>lb</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>p</span> <span class=o>=</span> <span class=n>headB</span><span class=p>,</span> <span class=n>q</span> <span class=o>=</span> <span class=n>headA</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>k</span> <span class=o>=</span> <span class=n>lb</span> <span class=o>-</span> <span class=n>la</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>    <span class=n>ListNode</span><span class=o>*</span> <span class=n>merge</span><span class=p>(</span><span class=n>ListNode</span><span class=o>*</span> <span class=n>l1</span><span class=p>,</span> <span class=n>ListNode</span><span class=o>*</span> <span class=n>l2</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=n>ListNode</span> <span class=o>*</span><span class=n>current</span> <span class=o>=</span> <span class=k>new</span> <span class=n>ListNode</span><span class=p>(</span><span class=mi>0</span><span class=p>);</span>
+</span></span><span class=line><span class=cl>        <span class=n>ListNode</span> <span class=o>*</span><span class=n>head</span>    <span class=o>=</span> <span class=n>current</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=p>(</span><span class=n>l1</span> <span class=o>!=</span> <span class=k>nullptr</span> <span class=o>&amp;&amp;</span> <span class=n>l2</span> <span class=o>!=</span> <span class=k>nullptr</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span><span class=n>l1</span><span class=o>-&gt;</span><span class=n>val</span> <span class=o>&lt;</span> <span class=n>l2</span><span class=o>-&gt;</span><span class=n>val</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=n>current</span><span class=o>-&gt;</span><span class=n>next</span> <span class=o>=</span> <span class=n>l1</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>                <span class=n>l1</span>            <span class=o>=</span> <span class=n>l1</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=n>current</span><span class=o>-&gt;</span><span class=n>next</span> <span class=o>=</span> <span class=n>l2</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>                <span class=n>l2</span>            <span class=o>=</span> <span class=n>l2</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>            <span class=n>current</span> <span class=o>=</span> <span class=n>current</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=p>(</span><span class=n>k</span> <span class=o>--</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=n>p</span> <span class=o>=</span> <span class=n>p</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span><span class=p>(</span><span class=n>l1</span> <span class=o>==</span> <span class=k>nullptr</span><span class=p>)</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=n>current</span><span class=o>-&gt;</span><span class=n>next</span> <span class=o>=</span> <span class=n>l2</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span> <span class=k>else</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=n>current</span><span class=o>-&gt;</span><span class=n>next</span> <span class=o>=</span> <span class=n>l1</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=p>(</span><span class=n>p</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=n>p</span> <span class=o>==</span> <span class=n>q</span><span class=p>)</span> <span class=k>return</span> <span class=n>p</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>p</span> <span class=o>=</span> <span class=n>p</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=n>q</span> <span class=o>=</span> <span class=n>q</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=k>nullptr</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>    <span class=p>}</span>
-</span></span><span class=line><span class=cl><span class=p>};</span>
-</span></span></code></pre></div><h4 id=方法-2>方法 2</h4><p>不同部分为 a， 和 b，公共部分为 c；a + c + b = b + c + a;让两个一起走，a 走到头就转向 b， b 走到头转向 a，则在公共部分相遇。</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-cpp data-lang=cpp><span class=line><span class=cl><span class=k>class</span> <span class=nc>Solution</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl><span class=k>public</span><span class=o>:</span>
-</span></span><span class=line><span class=cl>    <span class=n>ListNode</span> <span class=o>*</span><span class=n>findFirstCommonNode</span><span class=p>(</span><span class=n>ListNode</span> <span class=o>*</span><span class=n>headA</span><span class=p>,</span> <span class=n>ListNode</span> <span class=o>*</span><span class=n>headB</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>        <span class=k>auto</span> <span class=n>p</span> <span class=o>=</span> <span class=n>headA</span><span class=p>,</span> <span class=n>q</span> <span class=o>=</span> <span class=n>headB</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=k>while</span><span class=p>(</span><span class=n>p</span> <span class=o>!=</span> <span class=n>q</span><span class=p>)</span> <span class=p>{</span>
-</span></span><span class=line><span class=cl>            <span class=k>if</span><span class=p>(</span><span class=n>p</span><span class=p>)</span> <span class=n>p</span> <span class=o>=</span> <span class=n>p</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=k>else</span> <span class=n>p</span> <span class=o>=</span> <span class=n>headB</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=k>if</span> <span class=p>(</span><span class=n>q</span><span class=p>)</span> <span class=n>q</span> <span class=o>=</span> <span class=n>q</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>            <span class=k>else</span> <span class=n>q</span> <span class=o>=</span> <span class=n>headA</span><span class=p>;</span>
-</span></span><span class=line><span class=cl>        <span class=p>}</span>
-</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>p</span><span class=p>;</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> <span class=n>head</span><span class=o>-&gt;</span><span class=n>next</span><span class=p>;</span>
 </span></span><span class=line><span class=cl>    <span class=p>}</span>
 </span></span><span class=line><span class=cl><span class=p>};</span>
 </span></span></code></pre></div></article></div></div></div></div></div></div></main></div><script>window.onload=function(){const e=document.getElementById("post-header"),t=e.offsetHeight;document.documentElement.style.scrollPaddingTop=t+10+"px"};const tocToggleButton=document.getElementById("toc-toggle"),tippyInstance=tippy("#toc-toggle",{trigger:"click",content:'<div id="table-of-contents">\u003cnav id=\u0022TableOfContents\u0022\u003e\n  \u003cul\u003e\n    \u003cli\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n    \u003cli\u003e\u003ca href=\u0022#题解\u0022\u003e题解\u003c/a\u003e\n      \u003cul\u003e\n        \u003cli\u003e\u003c/li\u003e\n      \u003c/ul\u003e\n    \u003c/li\u003e\n  \u003c/ul\u003e\n\u003c/nav\u003e</div>',allowHTML:!0,placement:"bottom-start",interactive:!0,arrow:!1,maxWidth:"none",onHide:function(){tocToggleButton.classList.remove("hover")},onShow:function(){tocToggleButton.classList.add("hover")},onShown:function(){if(selectTableOfContentsOption(),window.hasSetupTableOfContentsListeners)return;const e=document.getElementById("table-of-contents");e.addEventListener("click",function(){tippyInstance[0].hide()}),window.hasSetupTableOfContentsListeners=!0}});function selectTableOfContentsOption(){const e="table-of-contents-option-selected",t=document.querySelectorAll("#table-of-contents > nav > ul li");for(const s of t){const[n]=s.children;if(n.tagName.toLowerCase()!=="a")continue;window.location.href===n.href?n.classList.add(e):n.classList.remove(e)}}window.onhashchange=selectTableOfContentsOption</script>
