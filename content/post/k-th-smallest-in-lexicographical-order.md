@@ -43,3 +43,36 @@ Given two integers `n` and `k`, return *the* `kth` *lexicographically smallest i
 - 依次重复上述操作直到找到 k 小的节点即可。
 
 在这里比较难以处理的是如何计算 \\(step(n_i​)\\)，即找到以 \\(n_i\\) 为根的子树下有多少节点。可以按照层次遍历子树，\\(first_i\\)​ 指向第 i 层的最左侧的孩子节点， \\(last_i\\)​ 指向第 i 层的最右侧的孩子节点，根据推理可以知道: \\(first_i​=10×first_{i−1}\\)​，\\(last_i​=10×last_{i−1}​+9\\)，第 i 层共有 \\(last_i​−first_{i​+1}\\) 个节点，由于所有的节点都需要满足小于等于 n，所以第 i 层的最右侧节点应该为 \\(min(n,last_i​)\\)，不断迭代直到 \\(first_i​>n\\) 则终止向下搜索。实际上可以观察到最终结果一定是沿着字典树从根节点到某个叶子节点的路径进行搜索。
+
+```cpp
+class Solution {
+public:
+    int getSteps(int curr, long n) {
+        int steps = 0;
+        long first = curr;
+        long last = curr;
+        while (first <= n) {
+            steps += min(last, n) - first + 1;
+            first = first * 10;
+            last = last * 10 + 9;
+        }
+        return steps;
+    }
+
+    int findKthNumber(int n, int k) {
+        int curr = 1;
+        k--;
+        while (k > 0) {
+            int steps = getSteps(curr, n);
+            if (steps <= k) {
+                k -= steps;
+                curr++;
+            } else {
+                curr = curr*10;
+                k--;
+            }
+        }
+        return curr;
+    }
+};
+```
