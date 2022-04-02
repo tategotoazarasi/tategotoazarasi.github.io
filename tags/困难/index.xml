@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 26 Mar 2022 20:44:54 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 4319. 合适数对</title><link>https://tategotoazarasi.github.io/post/acwing4319/</link><pubDate>Sat, 26 Mar 2022 20:44:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4319/</guid><description>&lt;p>给定一个长度为 n 的正整数数列 \(a_1,a_2,&amp;hellip;,a_n\) 和一个正整数 k。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Apr 2022 13:21:16 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 420. Strong Password Checker</title><link>https://tategotoazarasi.github.io/post/strong-password-checker/</link><pubDate>Sat, 02 Apr 2022 13:21:16 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/strong-password-checker/</guid><description>&lt;p>A password is considered strong if the below conditions are all met:&lt;/p>
+&lt;ul>
+&lt;li>It has at least &lt;code>6&lt;/code> characters and at most &lt;code>20&lt;/code> characters.&lt;/li>
+&lt;li>It contains at least &lt;strong>one lowercase&lt;/strong> letter, at least &lt;strong>one uppercase&lt;/strong> letter, and at least &lt;strong>one digit&lt;/strong>.&lt;/li>
+&lt;li>It does not contain three repeating characters in a row (i.e., &lt;code>&amp;quot;...aaa...&amp;quot;&lt;/code> is weak, but &lt;code>&amp;quot;...aa...a...&amp;quot;&lt;/code> is strong, assuming other conditions are met).&lt;/li>
+&lt;/ul>
+&lt;p>Given a string &lt;code>password&lt;/code>, return &lt;em>the minimum number of steps required to make &lt;code>password&lt;/code> strong. if &lt;code>password&lt;/code> is already strong, return &lt;code>0&lt;/code>.&lt;/em>&lt;/p>
+&lt;p>In one step, you can:&lt;/p>
+&lt;ul>
+&lt;li>Insert one character to &lt;code>password&lt;/code>,&lt;/li>
+&lt;li>Delete one character from &lt;code>password&lt;/code>, or&lt;/li>
+&lt;li>Replace one character of &lt;code>password&lt;/code> with another character.&lt;/li>
+&lt;/ul></description></item><item><title>AcWing 4319. 合适数对</title><link>https://tategotoazarasi.github.io/post/acwing4319/</link><pubDate>Sat, 26 Mar 2022 20:44:54 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing4319/</guid><description>&lt;p>给定一个长度为 n 的正整数数列 \(a_1,a_2,&amp;hellip;,a_n\) 和一个正整数 k。&lt;/p>
 &lt;p>请你判断共有多少个数对 (l,r)&lt;/p>
 &lt;p>同时满足：&lt;/p>
 &lt;ul>
