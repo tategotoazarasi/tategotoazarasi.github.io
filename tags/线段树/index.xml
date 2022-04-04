@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>线段树 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/</link><description>Recent content in 线段树 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 04 Apr 2022 12:46:58 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%BA%BF%E6%AE%B5%E6%A0%91/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 307. Range Sum Query - Mutable</title><link>https://tategotoazarasi.github.io/post/range-sum-query-mutable/</link><pubDate>Mon, 04 Apr 2022 12:46:58 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/range-sum-query-mutable/</guid><description>&lt;p>Given an integer array &lt;code>nums&lt;/code>, handle multiple queries of the following types:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Update&lt;/strong> the value of an element in &lt;code>nums&lt;/code>.&lt;/li>
+&lt;li>Calculate the &lt;strong>sum&lt;/strong> of the elements of &lt;code>nums&lt;/code> between indices &lt;code>left&lt;/code> and &lt;code>right&lt;/code> &lt;strong>inclusive&lt;/strong> where &lt;code>left &amp;lt;= right&lt;/code>.&lt;/li>
+&lt;/ol>
+&lt;p>Implement the &lt;code>NumArray&lt;/code> class:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>NumArray(int[] nums)&lt;/code> Initializes the object with the integer array &lt;code>nums&lt;/code>.&lt;/li>
+&lt;li>&lt;code>void update(int index, int val)&lt;/code> &lt;strong>Updates&lt;/strong> the value of &lt;code>nums[index]&lt;/code> to be &lt;code>val&lt;/code>.&lt;/li>
+&lt;li>&lt;code>int sumRange(int left, int right)&lt;/code> Returns the &lt;strong>sum&lt;/strong> of the elements of &lt;code>nums&lt;/code> between indices &lt;code>left&lt;/code> and &lt;code>right&lt;/code> &lt;strong>inclusive&lt;/strong> (i.e. &lt;code>nums[left] + nums[left + 1] + ... + nums[right]&lt;/code>).&lt;/li>
+&lt;/ul></description></item></channel></rss>
