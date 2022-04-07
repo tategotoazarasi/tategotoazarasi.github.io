@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 06 Apr 2022 15:03:31 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 310. Minimum Height Trees</title><link>https://tategotoazarasi.github.io/post/minimum-height-trees/</link><pubDate>Wed, 06 Apr 2022 15:03:31 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/minimum-height-trees/</guid><description>&lt;p>A tree is an undirected graph in which any two vertices are connected by &lt;em>exactly&lt;/em> one path. In other words, any connected graph without simple cycles is a tree.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/</link><description>Recent content on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 07 Apr 2022 12:05:45 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>p_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>id is the primary key column for this table.
+Each row of this table contains information about the id of a node and the id of its parent node in a tree.
+The given structure is always a valid tree.&lt;/p>
+&lt;p>Each node in the tree can be one of three types:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>&amp;ldquo;Leaf&amp;rdquo;&lt;/strong>: if the node is a leaf node.&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Root&amp;rdquo;&lt;/strong>: if the node is the root of the tree.&lt;/li>
+&lt;li>&lt;strong>&amp;ldquo;Inner&amp;rdquo;&lt;/strong>: If the node is neither a leaf node nor a root node.&lt;/li>
+&lt;/ul>
+&lt;p>Write an SQL query to report the type of each node in the tree.&lt;/p>
+&lt;p>Return the result table &lt;strong>ordered&lt;/strong> by &lt;code>id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1795. Rearrange Products Table</title><link>https://tategotoazarasi.github.io/post/rearrange-products-table/</link><pubDate>Thu, 07 Apr 2022 12:05:35 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rearrange-products-table/</guid><description>&lt;p>Table: &lt;code>Products&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>product_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>store1&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>store2&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>store3&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>product_id is the primary key for this table.
+Each row in this table indicates the product&amp;rsquo;s price in 3 different stores: store1, store2, and store3.
+If the product is not available in a store, the price will be null in that store&amp;rsquo;s column.&lt;/p>
+&lt;p>Write an SQL query to rearrange the &lt;code>Products&lt;/code> table so that each row has &lt;code>(product_id, store, price)&lt;/code>. If a product is not available in a store, do &lt;strong>not&lt;/strong> include a row with that &lt;code>product_id&lt;/code> and &lt;code>store&lt;/code> combination in the result table.&lt;/p>
+&lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1965. Employees With Missing Information</title><link>https://tategotoazarasi.github.io/post/employees-with-missing-information/</link><pubDate>Thu, 07 Apr 2022 12:05:28 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/employees-with-missing-information/</guid><description>&lt;p>Table: &lt;code>Employees&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>employee_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>employee_id is the primary key for this table.
+Each row of this table indicates the name of the employee whose ID is employee_id.&lt;/p>
+&lt;p>Table: &lt;code>Salaries&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>employee_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>salary&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>employee_id is the primary key for this table.
+Each row of this table indicates the salary of the employee whose ID is employee_id.&lt;/p>
+&lt;p>Write an SQL query to report the IDs of all the employees with &lt;strong>missing information&lt;/strong>. The information of an employee is missing if:&lt;/p>
+&lt;ul>
+&lt;li>The employee&amp;rsquo;s &lt;strong>name&lt;/strong> is missing, or&lt;/li>
+&lt;li>The employee&amp;rsquo;s &lt;strong>salary&lt;/strong> is missing.&lt;/li>
+&lt;/ul>
+&lt;p>Return the result table ordered by &lt;code>employee_id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 310. Minimum Height Trees</title><link>https://tategotoazarasi.github.io/post/minimum-height-trees/</link><pubDate>Wed, 06 Apr 2022 15:03:31 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/minimum-height-trees/</guid><description>&lt;p>A tree is an undirected graph in which any two vertices are connected by &lt;em>exactly&lt;/em> one path. In other words, any connected graph without simple cycles is a tree.&lt;/p>
 &lt;p>Given a tree of &lt;code>n&lt;/code> nodes labelled from &lt;code>0&lt;/code> to &lt;code>n - 1&lt;/code>, and an array of &lt;code>n - 1&lt;/code> &lt;code>edges&lt;/code> where &lt;code>edges[i] = [ai, bi]&lt;/code> indicates that there is an undirected edge between the two nodes &lt;code>ai&lt;/code> and &lt;code>bi&lt;/code> in the tree, you can choose any node of the tree as the root. When you select a node &lt;code>x&lt;/code> as the root, the result tree has height &lt;code>h&lt;/code>. Among all possible rooted trees, those with minimum height (i.e. &lt;code>min(h)&lt;/code>)  are called &lt;strong>minimum height trees&lt;/strong> (MHTs).&lt;/p>
 &lt;p>Return &lt;em>a list of all &lt;strong>MHTs&amp;rsquo;&lt;/strong> root labels&lt;/em>. You can return the answer in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The &lt;strong>height&lt;/strong> of a rooted tree is the number of edges on the longest downward path between the root and a leaf.&lt;/p></description></item><item><title>LeetCode 307. Range Sum Query - Mutable</title><link>https://tategotoazarasi.github.io/post/range-sum-query-mutable/</link><pubDate>Mon, 04 Apr 2022 12:46:58 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/range-sum-query-mutable/</guid><description>&lt;p>Given an integer array &lt;code>nums&lt;/code>, handle multiple queries of the following types:&lt;/p>
