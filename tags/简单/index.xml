@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简单 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/</link><description>Recent content in 简单 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 07 Apr 2022 17:04:33 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 790. 数的三次方根</title><link>https://tategotoazarasi.github.io/post/acwing790/</link><pubDate>Thu, 07 Apr 2022 17:04:33 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing790/</guid><description>&lt;p>给定一个浮点数 n，求它的三次方根。&lt;/p></description></item><item><title>AcWing 785. 快速排序</title><link>https://tategotoazarasi.github.io/post/acwing785/</link><pubDate>Thu, 07 Apr 2022 17:04:23 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing785/</guid><description>&lt;p>给定你一个长度为 n 的整数数列。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简单 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/</link><description>Recent content in 简单 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 13 Apr 2022 17:42:35 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1084. Sales Analysis III</title><link>https://tategotoazarasi.github.io/post/sales-analysis-iii/</link><pubDate>Wed, 13 Apr 2022 17:42:35 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/sales-analysis-iii/</guid><description>&lt;p>Table: &lt;code>Product&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>product_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>product_name&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>unit_price&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>product_id is the primary key of this table.
+Each row of this table indicates the name and the price of each product.&lt;/p>
+&lt;p>Table: &lt;code>Sales&lt;/code>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>seller_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>product_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>buyer_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>sale_date&lt;/td>
+&lt;td>date&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>quantity&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>price&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>This table has no primary key, it can have repeated rows.
+product_id is a foreign key to the Product table.
+Each row of this table contains some information about one sale.&lt;/p>
+&lt;p>Write an SQL query that reports the &lt;strong>products&lt;/strong> that were &lt;strong>only&lt;/strong> sold in the spring of &lt;code>2019&lt;/code>. That is, between &lt;code>2019-01-01&lt;/code> and &lt;code>2019-03-31&lt;/code> inclusive.&lt;/p>
+&lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>AcWing 790. 数的三次方根</title><link>https://tategotoazarasi.github.io/post/acwing790/</link><pubDate>Thu, 07 Apr 2022 17:04:33 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing790/</guid><description>&lt;p>给定一个浮点数 n，求它的三次方根。&lt;/p></description></item><item><title>AcWing 785. 快速排序</title><link>https://tategotoazarasi.github.io/post/acwing785/</link><pubDate>Thu, 07 Apr 2022 17:04:23 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing785/</guid><description>&lt;p>给定你一个长度为 n 的整数数列。&lt;/p>
 &lt;p>请你使用快速排序对这个数列按照从小到大进行排序。&lt;/p>
 &lt;p>并将排好序的数列按顺序输出。&lt;/p></description></item><item><title>AcWing 788. 逆序对的数量</title><link>https://tategotoazarasi.github.io/post/acwing788/</link><pubDate>Thu, 07 Apr 2022 17:04:13 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing788/</guid><description>&lt;p>给定一个长度为 n 的整数数列，请你计算数列中的逆序对的数量。&lt;/p>
 &lt;p>逆序对的定义如下：对于数列的第 i 个和第 j 个元素，如果满足 i&amp;lt;j 且 a[i]&amp;gt;a[j]，则其为一个逆序对；否则不是。&lt;/p></description></item><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
