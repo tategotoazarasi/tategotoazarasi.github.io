@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/post/</link><description>Recent content in Posts on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 15 Apr 2022 13:43:00 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>AcWing 1883. 删减</title><link>https://tategotoazarasi.github.io/post/acwing1883/</link><pubDate>Fri, 15 Apr 2022 13:43:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1883/</guid><description>&lt;p>农夫约翰把杂志上所有的文章摘抄了下来并把它变成了一个长度不超过 106 的字符串 S。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/post/</link><description>Recent content in Posts on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 11 May 2022 18:48:02 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Acwing 240. 食物链</title><link>https://tategotoazarasi.github.io/post/acwing240/</link><pubDate>Wed, 11 May 2022 18:48:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing240/</guid><description>&lt;p>动物王国中有三类动物 A,B,C，这三类动物的食物链构成了有趣的环形。&lt;/p>
+&lt;p>A 吃 B，B 吃 C，C 吃 A。&lt;/p>
+&lt;p>现有 N 个动物，以 1∼N 编号。&lt;/p>
+&lt;p>每个动物都是 A,B,C 中的一种，但是我们并不知道它到底是哪一种。&lt;/p>
+&lt;p>有人用两种说法对这 N 个动物所构成的食物链关系进行描述：&lt;/p>
+&lt;p>第一种说法是 &lt;code>1 X Y&lt;/code>，表示 X 和 Y 是同类。&lt;/p>
+&lt;p>第二种说法是 &lt;code>2 X Y&lt;/code>，表示 X 吃 Y。&lt;/p>
+&lt;p>此人对 N 个动物，用上述两种说法，一句接一句地说出 K 句话，这 K 句话有的是真的，有的是假的。&lt;/p>
+&lt;p>当一句话满足下列三条之一时，这句话就是假话，否则就是真话。&lt;/p>
+&lt;ol>
+&lt;li>当前的话与前面的某些真的话冲突，就是假话；&lt;/li>
+&lt;li>当前的话中 X 或 Y 比 N- 大，就是假话；&lt;/li>
+&lt;li>当前的话表示 X 吃 X，就是假话。&lt;/li>
+&lt;/ol>
+&lt;p>你的任务是根据给定的 N 和 K 句话，输出假话的总数。&lt;/p></description></item><item><title>AcWing 1883. 删减</title><link>https://tategotoazarasi.github.io/post/acwing1883/</link><pubDate>Fri, 15 Apr 2022 13:43:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1883/</guid><description>&lt;p>农夫约翰把杂志上所有的文章摘抄了下来并把它变成了一个长度不超过 106 的字符串 S。&lt;/p>
 &lt;p>他希望从 S 中删除子串 T。&lt;/p>
 &lt;p>农夫约翰在 S 中从头开始寻找子串 T，一旦找到，就将它从 S 中删除，然后再次&lt;strong>从头开始&lt;/strong>寻找（而不是接着往下找）。&lt;/p>
 &lt;p>他重复这个操作直到 S 中没有子串 T 为止。&lt;/p>
