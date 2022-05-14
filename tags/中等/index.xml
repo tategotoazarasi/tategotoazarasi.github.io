@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Wed, 11 May 2022 18:48:02 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>Acwing 240. 食物链</title><link>https://tategotoazarasi.github.io/post/acwing240/</link><pubDate>Wed, 11 May 2022 18:48:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing240/</guid><description>&lt;p>动物王国中有三类动物 A,B,C，这三类动物的食物链构成了有趣的环形。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 14 May 2022 14:19:51 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>1501. Countries You Can Safely Invest In</title><link>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</link><pubDate>Sat, 14 May 2022 14:19:51 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</guid><description>&lt;p>Table &lt;code>Person&lt;/code>:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>phone_number&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>id is the primary key for this table.
+Each row of this table contains the name of a person and their phone number.
+Phone number will be in the form &amp;lsquo;xxx-yyyyyyy&amp;rsquo; where xxx is the country code (3 characters) and yyyyyyy is the phone number (7 characters) where x and y are digits. Both can contain leading zeros.&lt;/p>
+&lt;p>Table &lt;code>Country&lt;/code>:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>name&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>country_code&lt;/td>
+&lt;td>varchar&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>country_code is the primary key for this table.
+Each row of this table contains the country name and its code. country_code will be in the form &amp;lsquo;xxx&amp;rsquo; where x is digits.&lt;/p>
+&lt;p>Table &lt;code>Calls&lt;/code>:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>caller_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>callee_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>duration&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>There is no primary key for this table, it may contain duplicates.
+Each row of this table contains the caller id, callee id and the duration of the call in minutes. caller_id != callee_id&lt;/p>
+&lt;p>A telecommunications company wants to invest in new countries. The company intends to invest in the countries where the average call duration of the calls in this country is strictly greater than the global average call duration.&lt;/p>
+&lt;p>Write an SQL query to find the countries where this company can invest.&lt;/p>
+&lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
+&lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>Acwing 240. 食物链</title><link>https://tategotoazarasi.github.io/post/acwing240/</link><pubDate>Wed, 11 May 2022 18:48:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing240/</guid><description>&lt;p>动物王国中有三类动物 A,B,C，这三类动物的食物链构成了有趣的环形。&lt;/p>
 &lt;p>A 吃 B，B 吃 C，C 吃 A。&lt;/p>
 &lt;p>现有 N 个动物，以 1∼N 编号。&lt;/p>
 &lt;p>每个动物都是 A,B,C 中的一种，但是我们并不知道它到底是哪一种。&lt;/p>
