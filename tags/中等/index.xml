@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 14 May 2022 14:19:51 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>1501. Countries You Can Safely Invest In</title><link>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</link><pubDate>Sat, 14 May 2022 14:19:51 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</guid><description>&lt;p>Table &lt;code>Person&lt;/code>:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 17 May 2022 13:11:57 +0800</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1988. Find Cutoff Score for Each School</title><link>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</link><pubDate>Tue, 17 May 2022 13:11:57 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</guid><description>&lt;p>Table: Schools&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>school_id&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>capacity&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>school_id is the primary key for this table.
+This table contains information about the capacity of some schools. The capacity is the maximum number of students the school can accept.&lt;/p>
+&lt;p>Table: Exam&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Column Name&lt;/th>
+&lt;th>Type&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>score&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>student_count&lt;/td>
+&lt;td>int&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>score is the primary key for this table.
+Each row in this table indicates that there are student_count students that got at least score points in the exam.
+The data in this table will be logically correct, meaning a row recording a higher score will have the same or smaller student_count compared to a row recording a lower score. More formally, for every two rows i and j in the table, if scorei &amp;gt; scorej then student_counti &amp;lt;= student_countj.&lt;/p>
+&lt;p>Every year, each school announces a minimum score requirement that a student needs to apply to it. The school chooses the minimum score requirement based on the exam results of all the students:&lt;/p>
+&lt;pre>&lt;code>They want to ensure that even if every student meeting the requirement applies, the school can accept everyone.
+They also want to maximize the possible number of students that can apply.
+They must use a score that is in the Exam table.
+&lt;/code>&lt;/pre>
+&lt;p>Write an SQL query to report the minimum score requirement for each school. If there are multiple score values satisfying the above conditions, choose the smallest one. If the input data is not enough to determine the score, report -1.&lt;/p>
+&lt;p>Return the result table in any order.&lt;/p></description></item><item><title>LeetCode 1501. Countries You Can Safely Invest In</title><link>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</link><pubDate>Sat, 14 May 2022 14:19:51 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</guid><description>&lt;p>Table &lt;code>Person&lt;/code>:&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
