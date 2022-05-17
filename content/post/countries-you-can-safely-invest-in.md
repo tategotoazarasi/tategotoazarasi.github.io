@@ -1,5 +1,5 @@
 ---
-title: "1501. Countries You Can Safely Invest In"
+title: "LeetCode 1501. Countries You Can Safely Invest In"
 date: 2022-05-14T14:19:51+08:00
 draft: false
 tags: ["leetcode", "中等", "数据库"]
