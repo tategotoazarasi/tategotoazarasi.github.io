@@ -62,11 +62,11 @@ Each of the algorithms we will describe requires some of the following virtual-m
 
 - TRAP: handle page-fault traps in user mode; 在用户态处理页错误陷阱
 
-- PROT1: decrease the accessibility of a page; 降低一页的可访问性
+- PROT1: decrease the accessibility of a page; 降低一页的访问权限
 
-- PROTN: decrease the accessibility of N page; 降低N页的可访问性
+- PROTN: decrease the accessibility of N page; 降低N页的访问权限
 
-- UNPROT: increase the accessibility of a page; 提高一页的可访问性
+- UNPROT: increase the accessibility of a page; 提高一页的访问权限
 
 - DIRTY: return a list of dirtied pages since the previous call; 返回自上次调用以来的脏页列表
 
@@ -78,7 +78,7 @@ Finally, some algorithms may be more efficient with a smaller PAGESIZE than is n
 
 We distinguish between "decreasing the accessibility of a page" and "decreasing the accessibility of a batch of pages" for a specific reason. The cost of changing the protection of several pages simultaneously maybe not much more than the cost of changing the protection of one page. Several of the algorithms we describe protect pages (make them less accessible) only in large batches. Thus, if an operating system implementation could not efficiently decrease the accessibility of a large batch at a small cost-per-page, this would suffice for some algorithms.
 
-由于特定原因，我们区分了“降低单页的可访问性”和“降低多页的可访问性”。同时更改多页的保护成本不比改变单页高多少。我们描述的一些算法只能降低多页的可访问性。因此，如果操作系统的实现不能让保护单页的成本比保护多页的成本低很多，那么这对某些算法来说就足够了。
+由于特定原因，我们区分了“降低单页的访问权限”和“降低多页的访问权限”。同时更改多页的保护权限的成本不比改变单页高多少。我们描述的一些算法只能降低多页的访问权限。因此，如果操作系统的实现不能让保护单页的成本比保护多页的成本低很多，那么这对某些算法来说就足够了。
 
 We do not make such a distinction for unprotecting single vs multiple pages because none of the algorithms we describe ever unprotect many pages simultaneously.
 
@@ -102,19 +102,19 @@ We present in this section a sample of applications which use virtual-memorty pr
 
 A concurrent, real-time, copying garbage collection algorithm can use the page fault mechanism to achieve medium-grain synchronization between collector and mutator threads [4]. The paging mechanism provides synchronization that is coarse enough to be efficient and yet fine enough to make the latency low. The algorithm is based on Baker's sequential, real-time copying collector algorithm [6].
 
-并行、实时、复制的垃圾回收算法可以使用页错误机制来实现垃圾收集器和线程之间的中粒度同步[4]。分页机制提供同步的粒度在效率和低延迟之间达到了平衡。该算法是基于Baker的顺序实时复制垃圾回收算法。
+并行、实时、复制的垃圾回收算法可以使用页错误机制来实现垃圾收集器和mutator之间的中粒度同步[4]。分页机制提供同步的粒度在效率和低延迟之间达到了平衡。该算法是基于Baker的顺序实时复制垃圾回收算法。
 
 Baker's algorithm divides the memory heap into two regions, *from-space* and *to-space*. At the beginning of a collection, all objects are in from-space, and to-space is empty. Starting with the registers and other global roots, the collector traces out the graph of objects reachable from the roots, copying each reachable object into to-space. A pointer to an object from-space is *forwarded* by making it point to the to-space copy of the old object. Of course, some from-space objects are never copied into to-space, because no pointer to them is ever forwarded; these objects are garbage.
 
-Baker算法将内存堆区分为两个区域：源空间和目标空间。在垃圾回收开始时，所有对象都在源空间，目标空间是空的。从寄存器和全局根开始，垃圾回收器沿着图结构找到对象，将每个可达的对象复制到目标空间。指向源空间对象的指针将转而指向目标空间中原来对象的副本（“转发”）。当然，有些源空间中的对象永远不会被复制到目标空间，因为没有指向他们的指针，这些对象是垃圾。
+Baker算法将内存堆区分为两个区域：源空间和目标空间。在垃圾回收开始时，所有对象都在源空间，目标空间是空的。从寄存器和全局根开始，垃圾回收器沿指针找到对象，将每个找到的对象复制到目标空间。指向源空间对象的指针将转而指向目标空间中原来对象的副本（“转发”）。当然，有些源空间中的对象永远不会被复制到目标空间，因为没有指向他们的指针，这些对象是垃圾。
 
 As soon as the registers are forwarded, the mutator thread can resume execution. Reachable objects are copied incrementally from-space while the mutator allocates new objects at **new**. Every time the mutator allocates a new object, it invokes the collector to copy a few more objects from from-space. Baker's algorithm maintains the following invariants:
 
-在寄存器被转发后，线程就可以恢复执行。当线程使用**new**来分配新对象时，源空间中的可访问对象被复制。每当线程分配一些新对象，它就会调用收集器从源空间中复制一些对象。Baker算法保持了以下不变性：
+在寄存器被转发后，mutator就可以恢复执行。当mutator使用**new**来分配新对象时，源空间中的可访问对象被复制。每当mutator分配一些新对象，它就会调用收集器从源空间中复制一些对象。Baker算法保持了以下不变性：
 
 - The mutator sees only to-space pointers in its registers.
   
-  线程在寄存器中只能看到目标空间的指针
+  mutator在寄存器中只能看到目标空间的指针
 
 - Objects in the new area contain to-space pointers only (because new objects are initialized from the registers).
   
@@ -130,15 +130,15 @@ As soon as the registers are forwarded, the mutator thread can resume execution.
 
 To satisfy the invariant that the mutator sees only to-space pointers in its registers, every pointer fetched from an object must be checked to see if it points to from-space. If it does, the from-space object is copied to to-space and the pointer updated; only then is the pointer returned to the mutator. This checking requires hardware support to be implemented efficiently [25] since otherwise a few extra instructions must be performed on every fetch. Furthermore, the mutator and the collector must alternate; they cannot operate truly concurrently because they might simultaneously try to copy the same object to different places.
 
-为了满足不变性，既线程只能在寄存器中看到目标空间的指针，每个对象里的指针都要被检查，看它是否指向源空间。如果是的话，源空间的对象就会被复制到目标空间，并更新指针；只有这样，指针才会返回给线程。这种检查需要硬件支持来有效地实现[25]，否则每次都要执行一些额外的指令。此外，线程和垃圾回收器必须交替执行；它们不能真正地并发操作，因为它们可能同时试图将一个对象复制到不同的地方。
+为了满足不变性，既mutator只能在寄存器中看到目标空间的指针，每个对象里的指针都要被检查，看它是否指向源空间。如果是的话，源空间的对象就会被复制到目标空间，并更新指针；只有这样，指针才会返回给mutator。这种检查需要硬件支持来有效地实现[25]，否则每次都要执行一些额外的指令。此外，mutator和垃圾回收器必须交替执行；它们不能真正地并发操作，因为它们可能同时试图将一个对象复制到不同的地方。
 
 Instead of checking every pointer fetched from memory, the concurrent collector [4] uses virtual-memory page protections to detect from-space memory references and to synchronize the collector and mutator threads. To synchronize the mutators and collectors, the algorithm sets the virtual-memory protection of the unscanned area's pages to be "no access." Whenever the mutator tries to access an unscanned object, it will get a page-access trap. The collector fields the trap and scans the objects on that page, copying from-space objects and forwarding pointers as necessary. Then it unprotects the page and resumes the mutator at the faulting instruction. To the mutator, that page appears to have contained only to-space pointers all along, and thus the mutator will fetch only to-space pointers to its registers.
 
-并行垃圾回收器并不检查从内存中获取的每个指针，而是使用虚拟内存的页保护来检测对源空间的非法引用[4]，并让收集器和线程同步。为了同步收集器和线程，该算法将未扫描区的虚拟内存页保护设置为“禁止访问”。每当线程试图访问一个未扫描的对象时，就会触发一个页访问陷阱。收集器处理该陷阱并扫描该页上的对象，复制源空间的对象并在必要时转发指针。然后，它解除该页的保护，并从出错的指令处恢复线程的运行。对于线程来说，该页似乎一直都只包含目标空间的指针，因此线程只能获取目标空间的指针到其寄存器。
+并行垃圾回收器并不检查从内存中获取的每个指针，而是使用虚拟内存的页保护来检测对源空间的非法引用[4]，并让收集器和mutator同步。为了同步收集器和mutator，该算法将未扫描区的虚拟内存页保护设置为“禁止访问”。每当mutator试图访问一个未扫描的对象时，就会触发一个页访问陷阱。收集器处理该陷阱并扫描该页上的对象，复制源空间的对象并在必要时转发指针。然后，它解除该页的保护，并从出错的指令处恢复mutator的运行。对于mutator来说，该页似乎一直都只包含目标空间的指针，因此mutator只能获取目标空间的指针到其寄存器。
 
 The collector also executes concurrently with the mutator, scanning pages in the unscanned area and unprotecting them as each is scanned. The more pages scanned concurrently, the fewer page-access traps taken by the mutator. Because the mutator doesn't do anything extra to synchronize with the collector, compilers needn't be reworked. Multiple processors and mutator threads are accommodated with almost no extra effort.
 
-收集器也和线程并行执行，扫描未扫描区的页，并在每个页被扫描时解除其保护。同时扫描的页越多，线程引发的页访问陷阱越少。因为线程没有做任何额外的事情来和收集器同步，所以编译器不需要重做。几乎不需要额外的努力，就可以支持多个处理器和线程。
+收集器也和mutator并行执行，扫描未扫描区的页，并在每个页被扫描时解除其保护。同时扫描的页越多，mutator引发的页访问陷阱越少。因为mutator没有做任何额外的事情来和收集器同步，所以编译器不需要重做。几乎不需要额外的努力，就可以支持多个处理器和mutator。
 
 This algorithm requires TRAP, PROTN, UNPROT, and MAP2. Traps are required to detect fetches from the unscanned area; protection of multiple pages is required to mark the entire to-space inaccessible when the flip is done; UNPROT is required as each page is scanned. In addition, since the time for the user-mode handler to process the page is proportional to page size, it may be appropriate to use a small PAGESIZE to reduce latency.
 
@@ -146,7 +146,7 @@ This algorithm requires TRAP, PROTN, UNPROT, and MAP2. Traps are required to det
 
 We need multiple mapping of the same page so that the garbage collector can scan a page while it is still inaccessible to the mutators. Alternatives to multiple mapping are discussed in section 5.
 
-我们需要对同一个页面进行多次映射，这样垃圾收集器就可以在一个页面还不能被线程访问的时候扫描它。第五节将讨论多重映射的替代方案。
+我们需要对同一个页面进行多次映射，这样垃圾收集器就可以在一个页面还不能被mutator访问的时候扫描它。第五节将讨论多重映射的替代方案。
 
 ### 共享虚拟内存 Share virtual memory
 
@@ -484,15 +484,15 @@ There are several ways to achieve user-mode access to protected pages (we use th
 
 - Multiple mapping of the same page at different addresses (and at different levels of protection) in the same address space. The garbage collector has access to pages In to-space at a "nonstandard" address, while the mutators see to-space as protected.
   
-  同一页在同一地址空间中的不同地址（以及不同保护级别）上的多重映射。垃圾收集器可以访问“非标准”地址的目标空间中的页面，而线程将目标空间视为受保护的。
+  同一页在同一地址空间中的不同地址（以及不同保护级别）上的多重映射。垃圾收集器可以访问“非标准”地址的目标空间中的页面，而mutator将目标空间视为受保护的。
 
 - A system call could be provided to copy memory to and from a protected area. The collector would use this call three times for each page: once when copying records from from-space to to-space; once before scanning the page of to-space: and once just after scanning, before making the page accessible to the mutators. This solution is less desirable because it is not very efficient to do all that copying.
   
-  可以提供系统调用来将内存复制到受保护区域和从受保护区域复制内存。收集器将对每个页面使用此调用三次：一次是在将记录从源空间复制到目标空间时；一次是在扫描目标空间的页面之前，一次是在扫描之后，在使页面可供线程访问之前。这种解决方案是不太理想的，因为它不是非常有效地进行所有的复制。
+  可以提供系统调用来将内存复制到受保护区域和从受保护区域复制内存。收集器将对每个页面使用此调用三次：一次是在将记录从源空间复制到目标空间时；一次是在扫描目标空间的页面之前，一次是在扫描之后，在使页面可供mutator访问之前。这种解决方案是不太理想的，因为它不是非常有效地进行所有的复制。
 
 - In an operating system that permits shared pages between processes, the collector can run in a different, the heavyweight process from the mutator, with a different page table. The problem with this technique is that it requires two expensive heavyweight context switches on each garbage-collection page trap. However, on a multiprocessor, it may suffice to do an RPC to another processor that's already in the right context, and this option might be much more attractive.
   
-  在允许进程之间共享页的操作系统中，收集器可以在不同重量级的进程中运行，该进程与线程具有不同的页表。这种技术的问题在于，它需要在每个垃圾收集页陷阱上进行两次昂贵的重量级上下文切换。然而，在多处理器上，对已经在正确上下文中的另一个处理器执行RPC可能就足够了，这个选项可能更有吸引力。
+  在允许进程之间共享页的操作系统中，收集器可以在不同重量级的进程中运行，该进程与mutator具有不同的页表。这种技术的问题在于，它需要在每个垃圾收集页陷阱上进行两次昂贵的重量级上下文切换。然而，在多处理器上，对已经在正确上下文中的另一个处理器执行RPC可能就足够了，这个选项可能更有吸引力。
 
 - The garbage collector can run inside the operating system kernel. This is probably the most efficient, but perhaps that's not the appropriate place for a garbage collector; it can lead to unreliable kernels, and every programming language has a different runtime data format that the garbage collector must understand.
   
@@ -504,7 +504,7 @@ We advocate that for computer architectures with physically addressed caches, th
 
 With a virtually-addressed cache, the multiple virtual address mapping approach has a potential for cache inconsistency since updates at one mapping may reside in the cache while the other mapping contains stale data. This problem is easily solved in the context of the concurrent garbage-collection algorithm. While the garbage collector is scanning the page, the mutator has no access to the page; therefore at the mutator's address for that page, none of the cache lines will be filled. After the collector has scanned the page, it should flush its cache lines for that page (presumably using a cache flush system call). Thereafter, the collector will never reference that page, so there is never any danger of inconsistency.
 
-对于虚拟地址的高速缓存，多个虚拟地址映射方法具有高速缓存不一致的可能性，因为一个映射处的更新可能驻留在高速缓存中，而另一个映射包含旧数据。这个问题在并发垃圾收集算法中很容易解决。当垃圾收集器扫描页面时，线程不能访问页面；因此，对于线程来说，不会填充任何的高速缓存行。在收集器扫描了页之后，它应该刷新该页的缓存行（假设使用缓存刷新系统调用）。此后，收集器将永远不会引用该页面，因此永远不会有任何不一致的危险。
+对于虚拟地址的高速缓存，多个虚拟地址映射方法具有高速缓存不一致的可能性，因为一个映射处的更新可能驻留在高速缓存中，而另一个映射包含旧数据。这个问题在并发垃圾收集算法中很容易解决。当垃圾收集器扫描页面时，mutator不能访问页面；因此，对于mutator来说，不会填充任何的高速缓存行。在收集器扫描了页之后，它应该刷新该页的缓存行（假设使用缓存刷新系统调用）。此后，收集器将永远不会引用该页面，因此永远不会有任何不一致的危险。
 
 ### 这要求是不是太高了？ Is this too much to ask?
 
@@ -599,7 +599,7 @@ All the algorithms described in the paper (except heap overflow detection) share
 
 Most programs access only a small proportion of their address space during a medium-size period. This is what makes traditional disk paging efficient; in different ways, it makes the algorithms described here efficient as well. For example, the concurrent garbage collection algorithm must scan and copy the same amount of data regardless of the mutator's access pattern [4], but the mutator's locality of reference reduces the fault handling overhead. The "write barrier" in the generational collection algorithm, concurrent checkpointing, and persistent store algorithms take advantage of locality if some small subset of objects accounts for most of the updates. And the shared virtual memory algorithms take advantage of a special kind of partitioned locality of reference, in which each processor has a different local reference pattern.
 
-在中等大小的时间段内，大多数程序只访问其地址空间的一小部分。这就是传统磁盘分页效率高的原因。以不同的方式，它使得这里描述的算法也是有效的。例如，无论线程的访问模式如何，并发垃圾收集算法都必须扫描和复制相同数量的数据[4]，但线程的引用局部性减少了错误处理开销。分代收集算法、并发检查点和持久存储算法中的“写屏障”利用了局部性（如果对象的某个小子集占据了大部分更新）。并且共享虚拟内存算法利用了一种特殊的分区引用局部性，其中每个处理器具有不同的局部引用模式。
+在中等大小的时间段内，大多数程序只访问其地址空间的一小部分。这就是传统磁盘分页效率高的原因。以不同的方式，它使得这里描述的算法也是有效的。例如，无论mutator的访问模式如何，并发垃圾收集算法都必须扫描和复制相同数量的数据[4]，但mutator的引用局部性减少了错误处理开销。分代收集算法、并发检查点和持久存储算法中的“写屏障”利用了局部性（如果对象的某个小子集占据了大部分更新）。并且共享虚拟内存算法利用了一种特殊的分区引用局部性，其中每个处理器具有不同的局部引用模式。
 
 We believe that, because these algorithms depend so much on the locality of reference, they will scale well. As memories get larger and computers get faster, programs will tend to actively use an even smaller proportion of their address space, and the overhead of these algorithms will continue to decrease. Hardware and operating system designers must make the virtual memory mechanisms required by these algorithms robust, and efficient.
 
