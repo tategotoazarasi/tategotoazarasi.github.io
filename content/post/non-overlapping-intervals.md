@@ -3,7 +3,7 @@ title: "LeetCode 435. Non-overlapping Intervals"
 date: 2022-06-26T13:49:43+08:00
 draft: false
 math: true
-tags: ["leetcode", "贪心", "数组", "动态规划", "排序"]
+tags: ["leetcode", "单推人", "贪心", "数组", "动态规划", "排序"]
 ---
 
 Given an array of intervals `intervals` where \\(intervals[i] = [start_i, end_i]\\), return _the minimum number of intervals you need to remove to make the rest of the intervals non-overlapping_.
