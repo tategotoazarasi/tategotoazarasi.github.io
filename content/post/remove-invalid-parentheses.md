@@ -2,7 +2,7 @@
 title: "LeetCode 301. 删除无效的括号"
 date: 2022-09-06T13:11:21+08:00
 draft: false
-tags: ["leetcode", "困难", "广度优先搜索","字符串","回溯"]
+tags: ["leetcode", "困难", "广度优先搜索", "字符串", "回溯"]
 math: true
 ---
 
@@ -40,9 +40,10 @@ math: true
 1. **有效的「括号」**：题目输入的字符串由一系列「左括号」和「右括号」组成，但是有一些额外的括号，使得括号不能正确配对。对于括号配对规则如果还不太清楚的读者，可以先完成问题「[20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)」。
 
 2. **可以一次遍历计算出多余的「左括号」和「右括号」**：
-根据括号匹配规则和根据求解「[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)」的经验，我们知道：如果当前遍历到的「左括号」的数目严格小于「右括号」的数目则表达式无效。因此，我们可以遍历一次输入字符串，统计「左括号」和「右括号」出现的次数。
+   根据括号匹配规则和根据求解「[22. 括号生成](https://leetcode-cn.com/problems/generate-parentheses/)」的经验，我们知道：如果当前遍历到的「左括号」的数目严格小于「右括号」的数目则表达式无效。因此，我们可以遍历一次输入字符串，统计「左括号」和「右括号」出现的次数。
 
 - 当遍历到「左括号」的时候：
+
   - 「左括号」数量加 \\(1\\)。
 
 - 当遍历到「右括号」的时候：
@@ -108,7 +109,7 @@ public:
             // 如果剩余的字符无法满足去掉的数量要求，直接返回
             if (lremove + rremove > str.size() - i) {
                 return;
-            } 
+            }
             // 尝试去掉一个左括号
             if (lremove > 0 && str[i] == '(') {
                 helper(str.substr(0, i) + str.substr(i + 1), i, lremove - 1, rremove);
