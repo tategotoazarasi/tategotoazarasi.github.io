@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rfc on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/rfc/</link><description>Recent content in Rfc on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 24 Feb 2024 12:42:18 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/rfc/index.xml" rel="self" type="application/rss+xml"/><item><title>RFC 959: File Transfer Protocol 文件传输协议 (FTP)</title><link>https://tategotoazarasi.github.io/post/rfc959/</link><pubDate>Sat, 24 Feb 2024 20:37:50 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rfc959/</guid><description>Network Working Group
+Request for Comments: 959
+J. Postel
+J. Reynolds
+ISI
+October 1985
+Status of this Memo 本备忘录的状态 This memo is the official specification of the File Transfer Protocol (FTP). Distribution of this memo is unlimited.
+本备忘录是文件传输协议（FTP）的官方规范。本备忘录的分发不受限制。
+The following new optional commands are included in this edition of the specification:
+在这版规范中包括了以下新的可选命令：
+CDUP (Change to Parent Directory 切换到父目录) SMNT (Structure Mount 结构挂载) STOU (Store Unique 存储唯一文件) RMD (Remove Directory 移除目录) MKD (Make Directory 创建目录) PWD (Print Directory 打印目录) SYST (System 系统).</description></item></channel></rss>
