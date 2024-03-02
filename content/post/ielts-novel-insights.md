@@ -2,6 +2,7 @@
 title: "Novel Insights 新见解"
 date: 2024-03-01T15:43:42+08:00
 draft: false
+tags: ["IELTS"]
 math: true
 ---
 
