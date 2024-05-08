@@ -2,7 +2,7 @@
 title: "Evaluating the Effectiveness of Books, Radio, and Television as Media for Information Communication"
 date: 2024-01-13T13:58:00+08:00
 draft: false
-tags: ["IELTS"]
+tags: ["IELTS","writing"]
 math: false
 ---
 
