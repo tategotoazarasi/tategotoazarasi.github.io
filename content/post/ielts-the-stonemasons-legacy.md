@@ -1,5 +1,5 @@
 ---
-title: "The Stonemason's Legacy"
+title: "The Stonemason's Legacy 石匠的遗产"
 date: 2024-05-29T15:25:57+08:00
 draft: false
 tags: ["IELTS"]
