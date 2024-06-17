@@ -2,6 +2,7 @@
 title: "A Journey Through the Barrens Reflections on Human Resilience 穿越荒野之旅：对人类韧性的反思"
 date: 2024-06-14T20:17:40+08:00
 draft: false
+tags: ["IELTS"]
 math: true
 ---
 
