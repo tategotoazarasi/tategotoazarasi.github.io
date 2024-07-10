@@ -22,6 +22,7 @@ pygmentsUseClasses = true
   #userStatusEmoji = "😀"
   favicon = "/images/github.png"
   avatar = "/images/myavatar.webp"
+  headerIcon = "/images/github.png"
   location = "China"
 
 [frontmatter]
