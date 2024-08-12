@@ -2,7 +2,7 @@
 title: "The Enigmatic Allure of Abandoned Arcades 废弃游戏厅的神秘魅力"
 date: 2024-08-12T14:37:12+08:00
 draft: false
-tags: ["IELTS']
+tags: ["IELTS"]
 math: true
 ---
 
