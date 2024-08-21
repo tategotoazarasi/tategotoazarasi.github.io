@@ -1,5 +1,5 @@
 ---
-title: "The Art of Shorthand: A Forerunner of Modern Communication 速记的艺术：现代交流的先驱"
+title: "c"
 date: 2024-08-21T14:40:50+08:00
 draft: false
 tags: ["IELTS"]
