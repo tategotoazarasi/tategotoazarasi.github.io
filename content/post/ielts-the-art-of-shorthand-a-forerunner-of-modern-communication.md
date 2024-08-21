@@ -1,5 +1,5 @@
 ---
-title: "c"
+title: "The Art of Shorthand: A Forerunner of Modern Communication"
 date: 2024-08-21T14:40:50+08:00
 draft: false
 tags: ["IELTS"]
