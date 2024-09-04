@@ -1,42 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Sep 2024 08:08:06 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1988. Find Cutoff Score for Each School</title><link>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</link><pubDate>Tue, 17 May 2022 13:11:57 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</guid><description>&lt;p>Table: Schools&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>数据库 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</link><description>Recent content in 数据库 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 04 Sep 2024 05:44:55 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1988. Find Cutoff Score for Each School</title><link>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</link><pubDate>Tue, 17 May 2022 13:11:57 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/find-cutoff-score-for-each-school/</guid><description>&lt;p>Table: Schools&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>school_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>capacity&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">school_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">capacity&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>school_id is the primary key for this table.
 This table contains information about the capacity of some schools. The capacity is the maximum number of students the school can accept.&lt;/p>
 &lt;p>Table: Exam&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>score&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>student_count&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">score&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">student_count&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>score is the primary key for this table.
 Each row in this table indicates that there are student_count students that got at least score points in the exam.
@@ -49,73 +49,73 @@ They must use a score that is in the Exam table.
 &lt;p>Write an SQL query to report the minimum score requirement for each school. If there are multiple score values satisfying the above conditions, choose the smallest one. If the input data is not enough to determine the score, report -1.&lt;/p>
 &lt;p>Return the result table in any order.&lt;/p></description></item><item><title>LeetCode 1501. Countries You Can Safely Invest In</title><link>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</link><pubDate>Sat, 14 May 2022 14:19:51 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/countries-you-can-safely-invest-in/</guid><description>&lt;p>Table &lt;code>Person&lt;/code>:&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>phone_number&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">phone_number&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key for this table.
 Each row of this table contains the name of a person and their phone number.
 Phone number will be in the form &amp;lsquo;xxx-yyyyyyy&amp;rsquo; where xxx is the country code (3 characters) and yyyyyyy is the phone number (7 characters) where x and y are digits. Both can contain leading zeros.&lt;/p>
 &lt;p>Table &lt;code>Country&lt;/code>:&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>country_code&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">country_code&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>country_code is the primary key for this table.
 Each row of this table contains the country name and its code. country_code will be in the form &amp;lsquo;xxx&amp;rsquo; where x is digits.&lt;/p>
 &lt;p>Table &lt;code>Calls&lt;/code>:&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>caller_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>callee_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>duration&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">caller_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">callee_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">duration&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>There is no primary key for this table, it may contain duplicates.
 Each row of this table contains the caller id, callee id and the duration of the call in minutes. caller_id != callee_id&lt;/p>
@@ -124,26 +124,26 @@ Each row of this table contains the caller id, callee id and the duration of the
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1445. Apples &amp; Oranges</title><link>https://tategotoazarasi.github.io/post/apples-oranges/</link><pubDate>Thu, 14 Apr 2022 14:08:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/apples-oranges/</guid><description>&lt;p>Table: &lt;code>Sales&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>sale_date&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>fruit&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sold_num&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">sale_date&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">fruit&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">sold_num&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>(sale_date, fruit) is the primary key for this table.
 This table contains the sales of &amp;ldquo;apples&amp;rdquo; and &amp;ldquo;oranges&amp;rdquo; sold each day.&lt;/p>
@@ -151,26 +151,26 @@ This table contains the sales of &amp;ldquo;apples&amp;rdquo; and &amp;ldquo;ora
 &lt;p>Return the result table &lt;strong>ordered&lt;/strong> by &lt;code>sale_date&lt;/code>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1699. Number of Calls Between Two Persons</title><link>https://tategotoazarasi.github.io/post/number-of-calls-between-two-persons/</link><pubDate>Thu, 14 Apr 2022 13:52:10 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/number-of-calls-between-two-persons/</guid><description>&lt;p>Table: &lt;code>Calls&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>from_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>to_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>duration&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">from_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">to_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">duration&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>This table does not have a primary key, it may contain duplicates.
 This table contains the duration of a phone call between from_id and to_id.
@@ -179,63 +179,63 @@ from_id != to_id&lt;/p>
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1084. Sales Analysis III</title><link>https://tategotoazarasi.github.io/post/sales-analysis-iii/</link><pubDate>Wed, 13 Apr 2022 17:42:35 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/sales-analysis-iii/</guid><description>&lt;p>Table: &lt;code>Product&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>product_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>product_name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>unit_price&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">product_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">product_name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">unit_price&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>product_id is the primary key of this table.
 Each row of this table indicates the name and the price of each product.&lt;/p>
 &lt;p>Table: &lt;code>Sales&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>seller_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>product_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>buyer_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sale_date&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>quantity&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>price&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">seller_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">product_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">buyer_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">sale_date&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">quantity&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">price&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>This table has no primary key, it can have repeated rows.
 product_id is a foreign key to the Product table.
@@ -244,22 +244,22 @@ Each row of this table contains some information about one sale.&lt;/p>
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>p_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">p_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table contains information about the id of a node and the id of its parent node in a tree.
@@ -274,30 +274,30 @@ The given structure is always a valid tree.&lt;/p>
 &lt;p>Return the result table &lt;strong>ordered&lt;/strong> by &lt;code>id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1795. Rearrange Products Table</title><link>https://tategotoazarasi.github.io/post/rearrange-products-table/</link><pubDate>Thu, 07 Apr 2022 12:05:35 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rearrange-products-table/</guid><description>&lt;p>Table: &lt;code>Products&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>product_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store1&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store2&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store3&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">product_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store1&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store2&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store3&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>product_id is the primary key for this table.
 Each row in this table indicates the product&amp;rsquo;s price in 3 different stores: store1, store2, and store3.
@@ -306,43 +306,43 @@ If the product is not available in a store, the price will be null in that store
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1965. Employees With Missing Information</title><link>https://tategotoazarasi.github.io/post/employees-with-missing-information/</link><pubDate>Thu, 07 Apr 2022 12:05:28 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/employees-with-missing-information/</guid><description>&lt;p>Table: &lt;code>Employees&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>employee_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">employee_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>employee_id is the primary key for this table.
 Each row of this table indicates the name of the employee whose ID is employee_id.&lt;/p>
 &lt;p>Table: &lt;code>Salaries&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>employee_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">employee_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>employee_id is the primary key for this table.
 Each row of this table indicates the salary of the employee whose ID is employee_id.&lt;/p>
@@ -354,51 +354,51 @@ Each row of this table indicates the salary of the employee whose ID is employee
 &lt;p>Return the result table ordered by &lt;code>employee_id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 571. Find Median Given Frequency of Numbers</title><link>https://tategotoazarasi.github.io/post/find-median-given-frequency-of-numbers/</link><pubDate>Wed, 02 Mar 2022 11:09:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/find-median-given-frequency-of-numbers/</guid><description>&lt;p>Table: &lt;code>Numbers&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>num&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>frequency&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">num&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">frequency&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>num is the primary key for this table.
 Each row of this table shows the frequency of a number in the database.&lt;/p>
 &lt;p>The &lt;a href="https://en.wikipedia.org/wiki/Median">&lt;strong>median&lt;/strong>&lt;/a> is the value separating the higher half from the lower half of a data sample.&lt;/p>
 &lt;p>Write an SQL query to report the &lt;strong>median&lt;/strong> of all the numbers in the database after decompressing the &lt;code>Numbers&lt;/code> table. Round the median to &lt;strong>one decimal point&lt;/strong>.&lt;/p></description></item><item><title>LeetCode 534. Game Play Analysis III</title><link>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</link><pubDate>Sat, 26 Feb 2022 09:38:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</guid><description>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>player_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>device_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>event_date&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>games_played&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">player_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">device_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">event_date&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">games_played&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>(player_id, event_date) is the primary key of this table.
 This table shows the activity of players of some games.
@@ -407,26 +407,26 @@ Each row is a record of a player who logged in and played a number of games (pos
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1179. Reformat Department Table</title><link>https://tategotoazarasi.github.io/post/reformat-department-table/</link><pubDate>Sat, 19 Feb 2022 14:31:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/reformat-department-table/</guid><description>&lt;p>Table: &lt;code>Department&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>revenue&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>month&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">revenue&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">month&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>(id, month) is the primary key of this table.
 The table has information about the revenue of each department per month.
@@ -434,30 +434,30 @@ The month has values in [&amp;ldquo;Jan&amp;rdquo;,&amp;ldquo;Feb&amp;rdquo;,&am
 &lt;p>Write an SQL query to reformat the table such that there is a department id column and a revenue column &lt;strong>for each month&lt;/strong>.&lt;/p>
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>sex&lt;/td>
-&lt;td>ENUM&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">sex&lt;/td>
+ &lt;td style="text-align: left">ENUM&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key for this table.
 The sex column is ENUM value of type (&amp;rsquo;m&amp;rsquo;, &amp;lsquo;f&amp;rsquo;).
@@ -466,22 +466,22 @@ The table contains information about an employee.&lt;/p>
 &lt;p>Note that you must write a single update statement, &lt;strong>do not&lt;/strong> write any select statement for this problem.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 626. Exchange Seats</title><link>https://tategotoazarasi.github.io/post/exchange-seats/</link><pubDate>Wed, 16 Feb 2022 16:13:02 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/exchange-seats/</guid><description>&lt;p>Table: &lt;code>Seat&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table indicates the name and the ID of a student.
@@ -492,64 +492,64 @@ is not swapped.&lt;/p>
 &lt;p>Return the result table ordered by &lt;code>id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 262. Trips and Users</title><link>https://tategotoazarasi.github.io/post/trips-and-users/</link><pubDate>Fri, 11 Feb 2022 11:04:37 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/trips-and-users/</guid><description>&lt;p>Table: &lt;code>Trips&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>client_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>driver_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>city_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>status&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>request_at&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">client_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">driver_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">city_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">status&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">request_at&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key for this table.
 The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.
 Status is an ENUM type of (&amp;lsquo;completed&amp;rsquo;, &amp;lsquo;cancelled_by_driver&amp;rsquo;, &amp;lsquo;cancelled_by_client&amp;rsquo;).&lt;/p>
 &lt;p>Table: &lt;code>Users&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>users_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>banned&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>role&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">users_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">banned&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">role&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>users_id is the primary key for this table.
 The table holds all users. Each user has a unique users_id, and role is an ENUM type of (&amp;lsquo;client&amp;rsquo;, &amp;lsquo;driver&amp;rsquo;, &amp;lsquo;partner&amp;rsquo;).
@@ -575,26 +575,26 @@ the total number of requests with unbanned users on that day.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;4&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;2015-01-04&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;30&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Weather&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>recordDate&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>temperature&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">recordDate&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">temperature&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key for this table.
 This table contains information about the temperature on a certain day.&lt;/p>
@@ -614,22 +614,22 @@ This table contains information about the temperature on a certain day.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;3&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;john@example.com&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Person&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>email&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">email&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table contains an email. The emails will not contain uppercase letters.&lt;/p>
@@ -669,52 +669,52 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;2&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Sales&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Employee&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>departmentId&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">departmentId&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 departmentId is a foreign key of the ID from the &lt;code>Department&lt;/code> table.
 Each row of this table indicates the ID, name, and salary of an employee. It also contains the ID of their department.&lt;/p>
 &lt;p>Table: &lt;code>Department&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table indicates the ID of a department and its name.&lt;/p>
@@ -751,52 +751,52 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;2&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Sales&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Employee&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>departmentId&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">departmentId&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 departmentId is a foreign key of the ID from the &lt;code>Department&lt;/code> table.
 Each row of this table indicates the ID, name, and salary of an employee. It also contains the ID of their department.&lt;/p>
 &lt;p>Table: &lt;code>Department&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table indicates the ID of a department and its name.&lt;/p>
@@ -809,22 +809,22 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">insert&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">into&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Person&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">email&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;3&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;a@b.com&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Person&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>email&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">email&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table contains an email. The emails will not contain uppercase letters.&lt;/p>
@@ -841,22 +841,22 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">insert&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">into&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Logs&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">num&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;7&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;2&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>表：&lt;code>Logs&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>num&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">num&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id 是这个表的主键。&lt;/p>
 &lt;p>编写一个 SQL 查询，查找所有至少连续出现三次的数字。&lt;/p>
@@ -867,22 +867,22 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">insert&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">into&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Employee&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">id&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">salary&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;3&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;300&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;code>Employee&lt;/code> 表：&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id 是这个表的主键。
 表的每一行包含员工的工资信息。&lt;/p>

@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/</link><description>Recent content in 组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Sep 2024 08:08:06 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/</link><description>Recent content in 组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 04 Sep 2024 05:44:55 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>p_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">p_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table contains information about the id of a node and the id of its parent node in a tree.
@@ -30,30 +30,30 @@ The given structure is always a valid tree.&lt;/p>
 &lt;p>Return the result table &lt;strong>ordered&lt;/strong> by &lt;code>id&lt;/code> &lt;strong>in ascending order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1795. Rearrange Products Table</title><link>https://tategotoazarasi.github.io/post/rearrange-products-table/</link><pubDate>Thu, 07 Apr 2022 12:05:35 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/rearrange-products-table/</guid><description>&lt;p>Table: &lt;code>Products&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>product_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store1&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store2&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>store3&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">product_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store1&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store2&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">store3&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>product_id is the primary key for this table.
 Each row in this table indicates the product&amp;rsquo;s price in 3 different stores: store1, store2, and store3.
@@ -62,43 +62,43 @@ If the product is not available in a store, the price will be null in that store
 &lt;p>Return the result table in &lt;strong>any order&lt;/strong>.&lt;/p>
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 1965. Employees With Missing Information</title><link>https://tategotoazarasi.github.io/post/employees-with-missing-information/</link><pubDate>Thu, 07 Apr 2022 12:05:28 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/employees-with-missing-information/</guid><description>&lt;p>Table: &lt;code>Employees&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>employee_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">employee_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>employee_id is the primary key for this table.
 Each row of this table indicates the name of the employee whose ID is employee_id.&lt;/p>
 &lt;p>Table: &lt;code>Salaries&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>employee_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">employee_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>employee_id is the primary key for this table.
 Each row of this table indicates the salary of the employee whose ID is employee_id.&lt;/p>

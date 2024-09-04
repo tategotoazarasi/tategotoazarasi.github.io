@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 03 Sep 2024 08:08:06 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 04 Sep 2024 05:44:55 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
 &lt;p>\(beginWord \to s_1 \to s_2 \to \dots \to s_k\)：&lt;/p>
 &lt;ul>
 &lt;li>每一对相邻的单词只差一个字母。&lt;/li>
@@ -110,22 +110,22 @@ should implement a data structure that can encrypt or decrypt a &lt;strong>0-ind
 &lt;/ul>
 &lt;p>Return &lt;em>the rotation index&lt;/em> &lt;code>k&lt;/code> &lt;em>that corresponds to the highest score we can achieve if we rotated&lt;/em> &lt;code>nums&lt;/code> &lt;em>by it&lt;/em>. If there are multiple answers, return the smallest such index &lt;code>k&lt;/code>.&lt;/p></description></item><item><title>LeetCode 571. Find Median Given Frequency of Numbers</title><link>https://tategotoazarasi.github.io/post/find-median-given-frequency-of-numbers/</link><pubDate>Wed, 02 Mar 2022 11:09:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/find-median-given-frequency-of-numbers/</guid><description>&lt;p>Table: &lt;code>Numbers&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>num&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>frequency&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">num&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">frequency&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>num is the primary key for this table.
 Each row of this table shows the frequency of a number in the database.&lt;/p>
@@ -178,64 +178,64 @@ Each row of this table shows the frequency of a number in the database.&lt;/p>
 &lt;/ul>
 &lt;p>请你返回将 &lt;code>nums&lt;/code>  中所有数放入 &lt;code>numSlots&lt;/code>  个篮子中的最大与和。&lt;/p></description></item><item><title>LeetCode 262. Trips and Users</title><link>https://tategotoazarasi.github.io/post/trips-and-users/</link><pubDate>Fri, 11 Feb 2022 11:04:37 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/trips-and-users/</guid><description>&lt;p>Table: &lt;code>Trips&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>client_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>driver_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>city_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>status&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>request_at&lt;/td>
-&lt;td>date&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">client_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">driver_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">city_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">status&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">request_at&lt;/td>
+ &lt;td style="text-align: left">date&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key for this table.
 The table holds all taxi trips. Each trip has a unique id, while client_id and driver_id are foreign keys to the users_id at the Users table.
 Status is an ENUM type of (&amp;lsquo;completed&amp;rsquo;, &amp;lsquo;cancelled_by_driver&amp;rsquo;, &amp;lsquo;cancelled_by_client&amp;rsquo;).&lt;/p>
 &lt;p>Table: &lt;code>Users&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>users_id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>banned&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>role&lt;/td>
-&lt;td>enum&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">users_id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">banned&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">role&lt;/td>
+ &lt;td style="text-align: left">enum&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>users_id is the primary key for this table.
 The table holds all users. Each user has a unique users_id, and role is an ENUM type of (&amp;lsquo;client&amp;rsquo;, &amp;lsquo;driver&amp;rsquo;, &amp;lsquo;partner&amp;rsquo;).
@@ -278,52 +278,52 @@ the total number of requests with unbanned users on that day.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="k">values&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;2&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;Sales&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Table: &lt;code>Employee&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>salary&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>departmentId&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">salary&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">departmentId&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 departmentId is a foreign key of the ID from the &lt;code>Department&lt;/code> table.
 Each row of this table indicates the ID, name, and salary of an employee. It also contains the ID of their department.&lt;/p>
 &lt;p>Table: &lt;code>Department&lt;/code>&lt;/p>
 &lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th>Column Name&lt;/th>
-&lt;th>Type&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td>id&lt;/td>
-&lt;td>int&lt;/td>
-&lt;/tr>
-&lt;tr>
-&lt;td>name&lt;/td>
-&lt;td>varchar&lt;/td>
-&lt;/tr>
-&lt;/tbody>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Column Name&lt;/th>
+ &lt;th style="text-align: left">Type&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">id&lt;/td>
+ &lt;td style="text-align: left">int&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">name&lt;/td>
+ &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
 &lt;/table>
 &lt;p>id is the primary key column for this table.
 Each row of this table indicates the ID of a department and its name.&lt;/p>
