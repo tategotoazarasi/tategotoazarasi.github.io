@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/</link><description>Recent content in 组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 15 Oct 2024 11:33:20 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/</link><description>Recent content in 组合查询 &amp; 指定选取 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2024 07:51:53 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%BB%84%E5%90%88%E6%9F%A5%E8%AF%A2--%E6%8C%87%E5%AE%9A%E9%80%89%E5%8F%96/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 608. Tree Node</title><link>https://tategotoazarasi.github.io/post/tree-node/</link><pubDate>Thu, 07 Apr 2022 12:05:45 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/tree-node/</guid><description>&lt;p>Table: &lt;code>Tree&lt;/code>&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">p_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>p_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -32,26 +32,26 @@ The given structure is always a valid tree.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store1&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store1&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store2&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store2&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store3&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store3&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -64,18 +64,18 @@ If the product is not available in a store, the price will be null in that store
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -85,18 +85,18 @@ Each row of this table indicates the name of the employee whose ID is employee_i
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

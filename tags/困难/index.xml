@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 15 Oct 2024 11:33:20 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>困难 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/</link><description>Recent content in 困难 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2024 07:51:53 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E5%9B%B0%E9%9A%BE/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
 &lt;p>\(beginWord \to s_1 \to s_2 \to \dots \to s_k\)：&lt;/p>
 &lt;ul>
 &lt;li>每一对相邻的单词只差一个字母。&lt;/li>
@@ -112,18 +112,18 @@ should implement a data structure that can encrypt or decrypt a &lt;strong>0-ind
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">num&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>num&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">frequency&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>frequency&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -180,34 +180,34 @@ Each row of this table shows the frequency of a number in the database.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">client_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>client_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">driver_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>driver_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">city_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>city_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">status&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>status&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">request_at&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>request_at&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -218,22 +218,22 @@ Status is an ENUM type of (&amp;lsquo;completed&amp;rsquo;, &amp;lsquo;cancelled
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">users_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>users_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">banned&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>banned&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">role&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>role&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -280,26 +280,26 @@ the total number of requests with unbanned users on that day.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">departmentId&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>departmentId&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -310,18 +310,18 @@ Each row of this table indicates the ID, name, and salary of an employee. It als
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

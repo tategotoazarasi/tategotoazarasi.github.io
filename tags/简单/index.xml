@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简单 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/</link><description>Recent content in 简单 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 15 Oct 2024 11:33:20 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1588. 所有奇数长度子数组的和</title><link>https://tategotoazarasi.github.io/post/sum-of-all-odd-length-subarrays/</link><pubDate>Fri, 02 Dec 2022 14:13:41 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/sum-of-all-odd-length-subarrays/</guid><description>&lt;p>给你一个正整数数组 &lt;code>arr&lt;/code> ，请你计算所有可能的奇数长度子数组的和。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>简单 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/</link><description>Recent content in 简单 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2024 07:51:53 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E7%AE%80%E5%8D%95/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 1588. 所有奇数长度子数组的和</title><link>https://tategotoazarasi.github.io/post/sum-of-all-odd-length-subarrays/</link><pubDate>Fri, 02 Dec 2022 14:13:41 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/sum-of-all-odd-length-subarrays/</guid><description>&lt;p>给你一个正整数数组 &lt;code>arr&lt;/code> ，请你计算所有可能的奇数长度子数组的和。&lt;/p>
 &lt;p>&lt;strong>子数组&lt;/strong> 定义为原数组中的一个连续子序列。&lt;/p>
 &lt;p>请你返回 &lt;code>arr&lt;/code> 中 &lt;strong>所有奇数长度子数组的和&lt;/strong> 。&lt;/p></description></item><item><title>AcWing 1883. 删减</title><link>https://tategotoazarasi.github.io/post/acwing1883/</link><pubDate>Fri, 15 Apr 2022 13:43:00 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/acwing1883/</guid><description>&lt;p>农夫约翰把杂志上所有的文章摘抄了下来并把它变成了一个长度不超过 106 的字符串 S。&lt;/p>
 &lt;p>他希望从 S 中删除子串 T。&lt;/p>
@@ -9,22 +9,22 @@
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">product_name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>product_name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">unit_price&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>unit_price&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -34,34 +34,34 @@ Each row of this table indicates the name and the price of each product.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">seller_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>seller_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">buyer_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>buyer_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sale_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>sale_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">quantity&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>quantity&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">price&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>price&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -77,18 +77,18 @@ Each row of this table contains some information about one sale.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">p_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>p_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -107,26 +107,26 @@ The given structure is always a valid tree.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store1&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store1&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store2&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store2&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store3&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store3&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -139,18 +139,18 @@ If the product is not available in a store, the price will be null in that store
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -160,18 +160,18 @@ Each row of this table indicates the name of the employee whose ID is employee_i
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -197,22 +197,22 @@ Each row of this table indicates the salary of the employee whose ID is employee
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">revenue&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>revenue&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">month&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>month&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -224,26 +224,26 @@ The month has values in [&amp;ldquo;Jan&amp;rdquo;,&amp;ldquo;Feb&amp;rdquo;,&am
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sex&lt;/td>
- &lt;td style="text-align: left">ENUM&lt;/td>
+ &lt;td>sex&lt;/td>
+ &lt;td>ENUM&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -271,22 +271,22 @@ The table contains information about an employee.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">recordDate&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>recordDate&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">temperature&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>temperature&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -310,18 +310,18 @@ This table contains information about the temperature on a certain day.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">email&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>email&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -338,18 +338,18 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">email&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>email&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

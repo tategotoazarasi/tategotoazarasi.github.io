@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 15 Oct 2024 11:33:20 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 324. 摆动排序 II</title><link>https://tategotoazarasi.github.io/post/wiggle-sort-ii/</link><pubDate>Sun, 01 Jan 2023 17:10:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/wiggle-sort-ii/</guid><description>&lt;p>给你一个整数数组  &lt;code>nums&lt;/code>，将它重新排列成  &lt;code>nums[0] &amp;lt; nums[1] &amp;gt; nums[2] &amp;lt; nums[3]...&lt;/code>  的顺序。&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中等 on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/</link><description>Recent content in 中等 on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2024 07:51:53 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/%E4%B8%AD%E7%AD%89/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 324. 摆动排序 II</title><link>https://tategotoazarasi.github.io/post/wiggle-sort-ii/</link><pubDate>Sun, 01 Jan 2023 17:10:05 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/wiggle-sort-ii/</guid><description>&lt;p>给你一个整数数组  &lt;code>nums&lt;/code>，将它重新排列成  &lt;code>nums[0] &amp;lt; nums[1] &amp;gt; nums[2] &amp;lt; nums[3]...&lt;/code>  的顺序。&lt;/p>
 &lt;p>你可以假设所有输入数组都可以得到满足题目要求的结果。&lt;/p></description></item><item><title>LeetCode 456. 132 模式</title><link>https://tategotoazarasi.github.io/post/132-pattern/</link><pubDate>Wed, 21 Dec 2022 18:14:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/132-pattern/</guid><description>&lt;p>给你一个整数数组 &lt;code>nums&lt;/code> ，数组中共有 &lt;code>n&lt;/code> 个整数。&lt;strong>132 模式的子序列&lt;/strong>由三个整数 &lt;code>nums[i]&lt;/code>、&lt;code>nums[j]&lt;/code> 和 &lt;code>nums[k]&lt;/code>组成，并同时满足：&lt;code>i &amp;lt; j &amp;lt; k&lt;/code> 和 &lt;code>nums[i] &amp;lt; nums[k] &amp;lt; nums[j]&lt;/code> 。&lt;/p>
 &lt;p>如果 &lt;code>nums&lt;/code> 中存在 &lt;strong>132 模式的子序列&lt;/strong> ，返回 &lt;code>true&lt;/code> ；否则，返回&lt;code>false&lt;/code> 。&lt;/p></description></item><item><title>LeetCode 452. 用最少数量的箭引爆气球</title><link>https://tategotoazarasi.github.io/post/minimum-number-of-arrows-to-burst-balloons/</link><pubDate>Fri, 02 Dec 2022 15:26:34 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/minimum-number-of-arrows-to-burst-balloons/</guid><description>&lt;p>有一些球形气球贴在一堵用 XY 平面表示的墙面上。墙面上的气球记录在整数数组  &lt;code>points&lt;/code> ，其中 \(points[i] = [x_{start}, x_{end}]\)  表示水平直径在  \(x*{start}\)  和 \(x*{end}\)之间的气球。你不知道气球的确切 y 坐标。&lt;/p>
 &lt;p>一支弓箭可以沿着 x 轴从不同点 &lt;strong>完全垂直&lt;/strong> 地射出。在坐标 &lt;code>x&lt;/code>处射出一支箭，若有一个气球的直径的开始和结束坐标为 \(x*{start}\)，\(x*{end}\)， 且满足  \(x*{start} ≤ x ≤ x*{end}\)，则该气球会被&lt;strong>引爆&lt;/strong>。可以射出的弓箭的数量 &lt;strong>没有限制&lt;/strong> 。弓箭一旦被射出之后，可以无限地前进。&lt;/p>
@@ -26,18 +26,18 @@ the container contains the most water.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">school_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>school_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">capacity&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>capacity&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -47,18 +47,18 @@ This table contains information about the capacity of some schools. The capacity
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">score&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>score&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">student_count&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>student_count&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -75,22 +75,22 @@ They must use a score that is in the Exam table.
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">phone_number&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>phone_number&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -101,18 +101,18 @@ Phone number will be in the form &amp;lsquo;xxx-yyyyyyy&amp;rsquo; where xxx is 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">country_code&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>country_code&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -122,22 +122,22 @@ Each row of this table contains the country name and its code. country_code will
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">caller_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>caller_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">callee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>callee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">duration&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>duration&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -164,22 +164,22 @@ Each row of this table contains the caller id, callee id and the duration of the
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">sale_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>sale_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">fruit&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>fruit&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sold_num&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>sold_num&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -191,22 +191,22 @@ This table contains the sales of &amp;ldquo;apples&amp;rdquo; and &amp;ldquo;ora
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">from_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>from_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">to_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>to_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">duration&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>duration&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -240,26 +240,26 @@ from_id != to_id&lt;/p>
 &lt;p>A subarray is a contiguous &lt;strong>non-empty&lt;/strong> sequence of elements within an array.&lt;/p></description></item><item><title>LeetCode 534. Game Play Analysis III</title><link>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</link><pubDate>Sat, 26 Feb 2022 09:38:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">player_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>player_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">device_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>device_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">event_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>event_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">games_played&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>games_played&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -272,18 +272,18 @@ Each row is a record of a player who logged in and played a number of games (pos
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -326,26 +326,26 @@ is not swapped.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">departmentId&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>departmentId&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -356,18 +356,18 @@ Each row of this table indicates the ID, name, and salary of an employee. It als
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -399,18 +399,18 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">num&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>num&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -432,18 +432,18 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>

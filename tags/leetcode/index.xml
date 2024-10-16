@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leetcode on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/leetcode/</link><description>Recent content in Leetcode on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Tue, 15 Oct 2024 11:33:20 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leetcode on Harp Seal Pup Nursery and Caring Center</title><link>https://tategotoazarasi.github.io/tags/leetcode/</link><description>Recent content in Leetcode on Harp Seal Pup Nursery and Caring Center</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Wed, 16 Oct 2024 07:51:53 +0000</lastBuildDate><atom:link href="https://tategotoazarasi.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml"/><item><title>LeetCode 127. 单词接龙</title><link>https://tategotoazarasi.github.io/post/word-ladder/</link><pubDate>Tue, 03 Jan 2023 14:52:48 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/word-ladder/</guid><description>&lt;p>字典  &lt;code>wordList&lt;/code> 中从单词 &lt;code>beginWord&lt;/code>和 &lt;code>endWord&lt;/code> 的&lt;strong>转换序列&lt;/strong>是一个按下述规格形成的序列&lt;/p>
 &lt;p>\(beginWord \to s_1 \to s_2 \to \dots \to s_k\)：&lt;/p>
 &lt;ul>
 &lt;li>每一对相邻的单词只差一个字母。&lt;/li>
@@ -72,18 +72,18 @@ the container contains the most water.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">school_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>school_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">capacity&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>capacity&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -93,18 +93,18 @@ This table contains information about the capacity of some schools. The capacity
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">score&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>score&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">student_count&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>student_count&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -121,22 +121,22 @@ They must use a score that is in the Exam table.
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">phone_number&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>phone_number&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -147,18 +147,18 @@ Phone number will be in the form &amp;lsquo;xxx-yyyyyyy&amp;rsquo; where xxx is 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">country_code&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>country_code&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -168,22 +168,22 @@ Each row of this table contains the country name and its code. country_code will
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">caller_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>caller_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">callee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>callee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">duration&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>duration&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -196,22 +196,22 @@ Each row of this table contains the caller id, callee id and the duration of the
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">sale_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>sale_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">fruit&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>fruit&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sold_num&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>sold_num&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -223,22 +223,22 @@ This table contains the sales of &amp;ldquo;apples&amp;rdquo; and &amp;ldquo;ora
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">from_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>from_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">to_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>to_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">duration&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>duration&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -251,22 +251,22 @@ from_id != to_id&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">product_name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>product_name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">unit_price&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>unit_price&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -276,34 +276,34 @@ Each row of this table indicates the name and the price of each product.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">seller_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>seller_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">buyer_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>buyer_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sale_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>sale_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">quantity&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>quantity&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">price&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>price&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -331,18 +331,18 @@ Each row of this table contains some information about one sale.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">p_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>p_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -361,26 +361,26 @@ The given structure is always a valid tree.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">product_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>product_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store1&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store1&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store2&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store2&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">store3&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>store3&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -393,18 +393,18 @@ If the product is not available in a store, the price will be null in that store
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -414,18 +414,18 @@ Each row of this table indicates the name of the employee whose ID is employee_i
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">employee_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>employee_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -504,18 +504,18 @@ should implement a data structure that can encrypt or decrypt a &lt;strong>0-ind
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">num&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>num&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">frequency&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>frequency&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -531,26 +531,26 @@ Each row of this table shows the frequency of a number in the database.&lt;/p>
 &lt;p>请你返回完成比赛需要耗费的 &lt;strong>最少&lt;/strong>  时间。&lt;/p></description></item><item><title>LeetCode 534. Game Play Analysis III</title><link>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</link><pubDate>Sat, 26 Feb 2022 09:38:26 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/game-play-analysis-iii/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">player_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>player_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">device_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>device_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">event_date&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>event_date&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">games_played&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>games_played&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -579,22 +579,22 @@ Each row is a record of a player who logged in and played a number of games (pos
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">revenue&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>revenue&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">month&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>month&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -606,26 +606,26 @@ The month has values in [&amp;ldquo;Jan&amp;rdquo;,&amp;ldquo;Feb&amp;rdquo;,&am
 &lt;p>The query result format is in the following example.&lt;/p></description></item><item><title>LeetCode 627. Swap Salary</title><link>https://tategotoazarasi.github.io/post/swap-salary/</link><pubDate>Fri, 18 Feb 2022 10:09:38 +0800</pubDate><guid>https://tategotoazarasi.github.io/post/swap-salary/</guid><description>&lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">sex&lt;/td>
- &lt;td style="text-align: left">ENUM&lt;/td>
+ &lt;td>sex&lt;/td>
+ &lt;td>ENUM&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -638,18 +638,18 @@ The table contains information about an employee.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -688,34 +688,34 @@ is not swapped.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">client_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>client_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">driver_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>driver_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">city_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>city_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">status&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>status&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">request_at&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>request_at&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -726,22 +726,22 @@ Status is an ENUM type of (&amp;lsquo;completed&amp;rsquo;, &amp;lsquo;cancelled
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">users_id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>users_id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">banned&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>banned&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">role&lt;/td>
- &lt;td style="text-align: left">enum&lt;/td>
+ &lt;td>role&lt;/td>
+ &lt;td>enum&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -771,22 +771,22 @@ the total number of requests with unbanned users on that day.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">recordDate&lt;/td>
- &lt;td style="text-align: left">date&lt;/td>
+ &lt;td>recordDate&lt;/td>
+ &lt;td>date&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">temperature&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>temperature&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -810,18 +810,18 @@ This table contains information about the temperature on a certain day.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">email&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>email&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -865,26 +865,26 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">departmentId&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>departmentId&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -895,18 +895,18 @@ Each row of this table indicates the ID, name, and salary of an employee. It als
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -947,26 +947,26 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">departmentId&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>departmentId&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -977,18 +977,18 @@ Each row of this table indicates the ID, name, and salary of an employee. It als
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">name&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>name&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -1016,18 +1016,18 @@ Each row of this table indicates the ID of a department and its name.&lt;/p>
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">email&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>email&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -1048,18 +1048,18 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">num&lt;/td>
- &lt;td style="text-align: left">varchar&lt;/td>
+ &lt;td>num&lt;/td>
+ &lt;td>varchar&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
@@ -1099,18 +1099,18 @@ Each row of this table contains an email. The emails will not contain uppercase 
 &lt;table>
  &lt;thead>
  &lt;tr>
- &lt;th style="text-align: left">Column Name&lt;/th>
- &lt;th style="text-align: left">Type&lt;/th>
+ &lt;th>Column Name&lt;/th>
+ &lt;th>Type&lt;/th>
  &lt;/tr>
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
- &lt;td style="text-align: left">id&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>id&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;tr>
- &lt;td style="text-align: left">salary&lt;/td>
- &lt;td style="text-align: left">int&lt;/td>
+ &lt;td>salary&lt;/td>
+ &lt;td>int&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
