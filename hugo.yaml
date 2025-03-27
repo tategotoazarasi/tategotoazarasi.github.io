@@ -13,11 +13,15 @@ minify:
   minifyOutput: true
 
 params:
-  author: Me
+  env: production
+  description: "Tategoto Azarasi"
+  title: "Tategoto Azarasi"
+  keywords: [ "Blog" ]
+  author: "Tategoto Azarasi"
   defaultTheme: auto
   disableThemeToggle: false
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -29,7 +33,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   homeInfoParams:
@@ -38,9 +42,76 @@ params:
       Welcome to my website.
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+    - name: email
+      url: "mailto:tategotoazarasi97@gmail.com"
+    - name: phone
+      url: "tel:008618036738325"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/tategotoazarasi/"
+    - name: telegram
+      url: "https://t.me/tategoto_azarasi"
+    - name: x
+      url: "https://x.com/azarasitategoto/"
+    - name: bilibili
+      url: "https://space.bilibili.com/492029441"
+    - name: bluesky
+      url: "https://bsky.app/profile/tategotoazarasi.bsky.social"
+    - name: discord
+      url: "https://discordapp.com/users/1065959588165341224"
+    - name: steam
+      url: "https://steamcommunity.com/id/tategotoazarasi"
+    - name: rss
+      url: "/index.xml"
+
+    - fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys:
+          - title
+          - permalink
+          - summary
+          - content
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+languages:
+  en:
+    languageName: English
+    languageCode: en
+    contentDir: content/en
+    menu:
+      main:
+        - name: "Home"
+          url: /
+          weight: 1
+        - name: "Search"
+          pageRef: "/search/"
+          weight: 2
+        - name: "Tags"
+          pageRef: "/tags/"
+          weight: 3
+  zh:
+    languageName: 中文
+    languageCode: zh
+    contentDir: content/zh
+    menu:
+      main:
+        - name: "首页"
+          url: /
+          weight: 1
+        - name: "搜索"
+          pageRef: "/search/"
+          weight: 2
+        - name: "标签"
+          pageRef: "/tags/"
+          weight: 3
