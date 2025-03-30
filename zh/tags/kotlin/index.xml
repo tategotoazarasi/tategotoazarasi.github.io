@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kotlin on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/zh/tags/kotlin/</link>
+    <description>Recent content in Kotlin on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 30 Mar 2025 16:40:50 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/zh/tags/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给 Breezy Weather 添加一个“全家桶”样式的新小部件：ClockDayHourWeekWidget 开发记录</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/clock-day-hour-week-widget/</link>
+      <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/clock-day-hour-week-widget/</guid>
+      <description>&lt;p&gt;最近在折腾 Breezy Weather 这个开源天气 App
+的时候，发现它的小部件种类虽然不少，但好像缺了一个能把“今日信息”、“未来几小时”、“未来几天”都塞进去的“全家桶”样式。有时候就想在桌面上一次性看到所有关键信息，懒得点开
+App 或者切换不同部件了。于是，手痒之下，决定自己动手，丰衣足食，给它加上这个新部件，就叫它 &lt;code&gt;ClockDayHourWeekWidget&lt;/code&gt; 吧！&lt;/p&gt;
+&lt;p&gt;这篇博客主要是记录一下整个开发过程中的思考、实现步骤以及遇到的一些小坑，方便自己以后回顾，也希望能给对 Android Widget
+开发或者想给 Breezy Weather 做贡献的朋友们提供一点参考。整体风格会比较随意，毕竟是写给自己的笔记嘛，但关键的技术点和代码片段会尽量给足，保证能看懂、能复现。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最终目标：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;创建一个新的 Android App Widget，它能显示：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;当前时间：&lt;/strong&gt; 就像系统时钟那样。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;当前天气：&lt;/strong&gt; 包括天气图标、地点名称、当前温度。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来几小时天气预报：&lt;/strong&gt; 用小图标、时间和温度表示接下来几个小时（比如 5 个小时）的天气趋势。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;未来几天天气预报：&lt;/strong&gt; 同样用小图标、星期几和最高/最低温度展示未来几天（比如 5 天）的预报。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可配置性：&lt;/strong&gt; 遵循 Breezy Weather 现有的模式，提供配置界面，让用户可以调整背景样式、透明度、文字颜色、大小、时钟字体等。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;好，目标明确，开干！&lt;/p&gt;
+&lt;h2 id=&#34;一-整体思路站在巨人的肩膀上&#34;&gt;一、 整体思路：站在巨人的肩膀上&lt;/h2&gt;
+&lt;p&gt;Breezy Weather 的代码结构还是挺清晰的，添加新 Widget 的模式也比较固定。看了一下现有的 &lt;code&gt;WidgetClockDayWeekProvider.kt&lt;/code&gt; 和
+&lt;code&gt;HourlyTrendWidgetIMP.kt&lt;/code&gt; 等文件，基本可以总结出添加一个新 Widget 需要搞定的几个主要部分：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;AppWidgetProvider&lt;/code&gt; (XXXWidgetProvider.kt):&lt;/strong&gt; 这是 Widget 的入口点，负责接收系统发送的更新事件 ( &lt;code&gt;onUpdate&lt;/code&gt; )
+。它的主要工作就是触发真正的数据加载和视图更新逻辑。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Widget 实现类 (XXXWidgetIMP.kt):&lt;/strong&gt; 通常是一个 &lt;code&gt;object&lt;/code&gt; 单例，继承自 &lt;code&gt;AbstractRemoteViewsPresenter&lt;/code&gt;
+。这是核心，负责获取数据、加载配置、构建 &lt;code&gt;RemoteViews&lt;/code&gt; 对象（也就是 Widget 的界面内容），以及处理点击事件等。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;配置 Activity (XXXWidgetConfigActivity.kt):&lt;/strong&gt; 一个 &lt;code&gt;Activity&lt;/code&gt;，继承自 &lt;code&gt;AbstractWidgetConfigActivity&lt;/code&gt;，在用户添加
+Widget 时弹出，让用户进行个性化设置（比如背景、颜色等）。它还需要能实时预览配置效果。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;XML 布局文件 (&lt;code&gt;widget_xxx.xml&lt;/code&gt;, &lt;code&gt;widget_xxx_card.xml&lt;/code&gt;):&lt;/strong&gt; 定义 Widget 的静态布局结构。通常会有一个无背景版本和一个带卡片背景的版本。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Widget 定义 XML (&lt;code&gt;xml/widget_xxx.xml&lt;/code&gt;, &lt;code&gt;xml/v28/widget_xxx.xml&lt;/code&gt;):&lt;/strong&gt; 向 Android 系统声明这个 Widget
+的存在，定义它的最小尺寸、预览图、配置 Activity、更新周期（虽然这里通常用 0，依靠代码触发更新）等元数据。v28 版本通常会加上
+&lt;code&gt;widgetFeatures=&amp;quot;reconfigurable&amp;quot;&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;资源文件更新：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;dimens.xml&lt;/code&gt;: 可能需要定义新的尺寸。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;keys.xml&lt;/code&gt;: 添加用于存储 Widget 配置的 SharedPreferences Key。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;strings.xml&lt;/code&gt;: 添加 Widget 的显示名称。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;AndroidManifest.xml&lt;/code&gt;: 注册 Provider 和 Config Activity。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Widgets.kt&lt;/code&gt;: 添加用于 &lt;code&gt;PendingIntent&lt;/code&gt; 的唯一请求码 (Request Code)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;基本上，只要按照这个模式，把每个部分对应创建或修改好，一个新的 Widget 就诞生了。对于 &lt;code&gt;ClockDayHourWeekWidget&lt;/code&gt;，我们可以大量参考现有的
+&lt;code&gt;ClockDayWeekWidget&lt;/code&gt;，因为它已经包含了时钟、日期、当前天气和未来几天的功能，我们需要做的主要是在此基础上，把“未来几小时预报”这部分加进去。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
