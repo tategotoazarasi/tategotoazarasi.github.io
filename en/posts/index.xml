@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 30 Mar 2025 16:40:50 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev Log: Adding a All-in-One Widget to Breezy Weather - The ClockDayHourWeekWidget Journey</title>
+      <link>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</link>
+      <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</guid>
+      <description>&lt;p&gt;I was tinkering with Breezy Weather, the open-source weather app, the other day. It&amp;rsquo;s got a decent collection of
+widgets, but I felt like something was missing – one of those &amp;ldquo;kitchen sink&amp;rdquo; widgets that just throws everything you
+need onto your home screen. You know, the current time, what the weather&amp;rsquo;s doing &lt;em&gt;right now&lt;/em&gt;, what it&amp;rsquo;s gonna do in the
+&lt;em&gt;next few hours&lt;/em&gt;, AND the outlook for the &lt;em&gt;next few days&lt;/em&gt;. I got tired of either opening the app or juggling multiple
+widgets to get the full picture. Naturally, the itch to code kicked in, and I decided to build it myself. Let&amp;rsquo;s call it
+the &lt;code&gt;ClockDayHourWeekWidget&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
