@@ -1,7 +1,7 @@
 baseURL: https://tategotoazarasi.github.io/
 languageCode: en-us
 title: Tategoto Azarasi
-theme: [ "PaperMod" ]
+theme: [ "hugo-shortcode-roneo-collection", "PaperMod" ]
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -14,6 +14,7 @@ minify:
 
 params:
   env: production
+  math: true
   description: "Tategoto Azarasi"
   title: "Tategoto Azarasi"
   keywords: [ "Blog" ]
@@ -44,8 +45,8 @@ params:
   socialIcons:
     - name: email
       url: "mailto:tategotoazarasi97@gmail.com"
-    - name: phone
-      url: "tel:008618036738325"
+    #- name: phone
+    #  url: "tel:008618036738325"
     - name: github
       url: "https://github.com/tategotoazarasi/"
     - name: telegram
@@ -115,3 +116,19 @@ languages:
         - name: "标签"
           pageRef: "/tags/"
           weight: 3
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+          inline:
+            - - \(
+              - \)
+        enable: true
