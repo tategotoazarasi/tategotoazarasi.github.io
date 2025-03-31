@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tategotoazarasi.github.io/en/posts/</loc>
+    <lastmod>2025-03-30T20:53:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/</loc>
+    <lastmod>2025-03-30T20:53:20+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/"
+                />
+  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/android-app-widget/</loc>
     <lastmod>2025-03-30T16:40:50+08:00</lastmod>
     <xhtml:link
@@ -197,19 +223,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/pendingintent/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/posts/</loc>
-    <lastmod>2025-03-30T16:40:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/posts/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/remoteviews/</loc>
     <lastmod>2025-03-30T16:40:50+08:00</lastmod>
     <xhtml:link
@@ -262,19 +275,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/</loc>
-    <lastmod>2025-03-30T16:40:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/weather-app/</loc>
     <lastmod>2025-03-30T16:40:50+08:00</lastmod>
     <xhtml:link
@@ -313,6 +313,129 @@
                 hreflang="en"
                 href="https://tategotoazarasi.github.io/en/tags/widget-development/"
                 />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/biome-distribution/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/biomes/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/climate-modeling/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/climate-simulation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/cplusplus/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/data-structures/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/digital-worldsmithing/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/dwarf-fortress/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/erosion-simulation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/fractal-noise/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/future-trends/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/game-design/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/game-development/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/geology-simulation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/heightmaps/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/hex-grids/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/hydraulic-erosion/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/interactive-worlds/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/map-geometry/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/mapgen4/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/minecraft/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/no-mans-sky/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/noise/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/noise-functions/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/pcg/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/perlin-noise/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/plate-tectonics/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/procedural-content-generation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/procedural-generation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/river-networks/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/simplex-noise/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/tectonics-js/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/terrain-algorithms/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/terrain-generation/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/thermal-erosion/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/tiling-systems/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/video-game-worlds/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/voronoi-diagrams/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/world-building/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/worldengine/</loc>
+    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/categories/</loc>
     <xhtml:link

@@ -20,5 +20,19 @@ need onto your home screen. You know, the current time, what the weather&amp;rsq
 widgets to get the full picture. Naturally, the itch to code kicked in, and I decided to build it myself. Let&amp;rsquo;s call it
 the &lt;code&gt;ClockDayHourWeekWidget&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Building New Worlds: A Deep Dive into Procedural Generation for Video Games</title>
+      <link>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</link>
+      <pubDate>Fri, 28 Mar 2025 19:04:14 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</guid>
+      <description>&lt;p&gt;Ever stepped into a vast, sprawling game world and wondered, &amp;ldquo;How did they &lt;em&gt;build&lt;/em&gt; all this?&amp;rdquo; From the infinite blocky
+landscapes of &lt;em&gt;Minecraft&lt;/em&gt; to the galaxy-spanning planets of &lt;em&gt;No Man&amp;rsquo;s Sky&lt;/em&gt; or the intricate simulated histories of
+&lt;em&gt;Dwarf Fortress&lt;/em&gt;, the answer often lies in a fascinating field: &lt;strong&gt;Procedural Content Generation (PCG)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Instead of hand-crafting every mountain, river, and cave, developers use algorithms – sets of rules and instructions –
+to generate game content automatically. This isn&amp;rsquo;t just about saving time (though it certainly helps!); it&amp;rsquo;s about
+creating experiences that feel boundless, unique, and endlessly replayable. Imagine exploring a world that&amp;rsquo;s different
+every single time you start a new game, a world generated just for you, with its own unique geography, climate, and
+maybe even history. That&amp;rsquo;s the power and allure of PCG.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
