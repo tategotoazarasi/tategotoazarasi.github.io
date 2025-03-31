@@ -591,3 +591,5 @@ android:id="@+id/widget_clock_day_hour_week_day_temp_1" ... />
 类中细心地处理数据绑定和视图状态。
 
 希望这篇有点啰嗦的记录能帮到有需要的人！下次再折腾点别的功能，再来记录分享。
+
+[源码](https://github.com/tategotoazarasi/breezy-weather/commit/f8d8d7c258f66ead91574741322a936628bb4e7e)

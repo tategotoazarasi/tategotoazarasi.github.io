@@ -132,3 +132,7 @@ markup:
             - - \(
               - \)
         enable: true
+  tableOfContents:
+    endLevel: 9
+    ordered: true
+    startLevel: 2
