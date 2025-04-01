@@ -1,6 +1,7 @@
 ---
 date: '2025-03-28T19:04:14+08:00'
 draft: false
+summary: "Explore the technologies and algorithms behind procedural content generation in video games, from noise functions and plate tectonics to erosion and climate simulation, crafting immersive, unique fictional worlds."
 title: 'Building New Worlds: A Deep Dive into Procedural Generation for Video Games'
 tags: [ "procedural-content-generation","video-game-worlds","terrain-generation","noise-functions","perlin-noise","simplex-noise","fractal-noise","heightmaps","plate-tectonics","erosion-simulation","hydraulic-erosion","thermal-erosion","river-networks","climate-simulation","biomes","map-geometry","tiling-systems","data-structures","game-development","world-building","pcg","game-design","procedural-generation","terrain-algorithms","noise","geology-simulation","climate-modeling","biome-distribution","voronoi-diagrams","hex-grids","worldengine","mapgen4","tectonics-js","minecraft","no-mans-sky","dwarf-fortress","cplusplus","future-trends","interactive-worlds","digital-worldsmithing" ]
 params:
@@ -19,26 +20,7 @@ maybe even history. That's the power and allure of PCG.
 
 This post is a deep dive into the technologies, algorithms, and methods used to generate these fictional worlds,
 focusing primarily on the large-scale environmental aspects: the maps, the terrain, the climate, and the biomes that
-bring these virtual places to life. We'll cover:
-
-* **The Fundamentals:** What PCG is, the magic of seeds, and the crucial role of noise functions (Perlin, Simplex, and
-  friends).
-* **Shaping the World:** Different map geometries (flat vs. spherical) and tiling systems (squares, hexes, irregular
-  shapes).
-* **Raising the Land:** Techniques for creating continents and oceans, from simple noise heightmaps to sophisticated
-  plate tectonics simulations.
-* **Carving the Details:** How erosion (water and thermal) and river systems turn basic terrain into believable
-  landscapes.
-* **Breathing Life into It:** Simulating climate (temperature, rainfall, wind) and distributing biomes (deserts,
-  forests, tundras).
-* **Under the Hood:** The data structures used to represent these complex worlds.
-* **Learning from the Masters:** Quick looks at how systems like WorldEngine, Mapgen4, and Tectonics.js put these ideas
-  into practice.
-* **Code Corner:** Practical C++ snippets illustrating core concepts like noise and erosion.
-* **The Horizon:** Where world generation might be heading next.
-
-Whether you're a seasoned game developer, an aspiring world-builder, or just curious about the magic behind your
-favorite games, grab a virtual pickaxe, and let's dig in!
+bring these virtual places to life.
 
 ## The Building Blocks: Fundamentals of Procedural World Generation
 
@@ -103,7 +85,7 @@ Finding bugs in content that only appears under certain random seeds can be tric
 ### Noise: The Canvas of Creation
 
 One of the most fundamental tools in the procedural generation toolbox, especially for terrain and textures, is **noise
-**. We're not talking about audio noise, but rather mathematical functions that generate pseudo-random, yet structured,
+** . We're not talking about audio noise, but rather mathematical functions that generate pseudo-random, yet structured,
 patterns. Unlike pure `rand()`, which gives unrelated values at each point, noise functions produce values that vary
 smoothly across space.
 
@@ -357,8 +339,8 @@ form? Two main paradigms dominate: noise-based heightmaps and plate tectonics si
 
 ### Fractal Noise Heightmaps: The Quick and Dirty Approach
 
-The most common method is to use fractal noise (like fBm described earlier) to generate an **elevation map** or *
-*heightmap**. This is typically a 2D grid where each cell stores an elevation value.
+The most common method is to use fractal noise (like fBm described earlier) to generate an **elevation map** or
+**heightmap**. This is typically a 2D grid where each cell stores an elevation value.
 
 #### Generate Noise
 
@@ -696,7 +678,7 @@ void simulateDroplet(Droplet& d, HeightMap& H) {
 
 **Performance Note:** Simulating millions of droplets can be slow. Optimizations include:
 
-* GPU acceleration (as researched by Mei et al. [1]).
+* GPU acceleration [1].
 * Simulating larger "streams" or using grid-based flow accumulation models instead of individual droplets.
 
 ### Thermal Erosion (Weathering / Mass Wasting)

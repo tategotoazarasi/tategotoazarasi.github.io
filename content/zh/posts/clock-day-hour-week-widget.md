@@ -1,6 +1,7 @@
 ---
 date: '2025-03-30T16:40:50+08:00'
 draft: false
+summary: '一篇详细指南，介绍如何为Breezy Weather应用添加一个集时钟、日预报和小时预报于一体的“ClockDayHourWeekWidget”安卓小部件。'
 title: '给 Breezy Weather 添加一个“全家桶”样式的新小部件：ClockDayHourWeekWidget 开发记录'
 tags: [ "breezy-weather","android-widget","clock-day-hour-week","appwidgetprovider","remoteviews","widget-development","open-source","weather-app","kotlin","android-development","breezy-weather-widget","android-app-widget","clock-widget","hourly-forecast","daily-forecast","widget-config","remoteviews-presenter","android-layout","sharedpreferences","pendingintent" ]
 ---

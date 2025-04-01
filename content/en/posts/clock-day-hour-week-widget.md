@@ -1,6 +1,7 @@
 ---
 date: '2025-03-30T16:40:50+08:00'
 draft: false
+summary: 'A detailed guide on adding a comprehensive "ClockDayHourWeekWidget" to the Breezy Weather app, combining clock, daily, and hourly forecasts into one Android widget.'
 title: 'Dev Log: Adding a All-in-One Widget to Breezy Weather - The ClockDayHourWeekWidget Journey'
 tags: [ "breezy-weather","android-widget","clock-day-hour-week","appwidgetprovider","remoteviews","widget-development","open-source","weather-app","kotlin","android-development","breezy-weather-widget","android-app-widget","clock-widget","hourly-forecast","daily-forecast","widget-config","remoteviews-presenter","android-layout","sharedpreferences","pendingintent" ]
 ---
