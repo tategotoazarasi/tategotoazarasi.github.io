@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sandbox-Strategies on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/en/tags/sandbox-strategies/</link>
+    <description>Recent content in Sandbox-Strategies on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Mar 2025 17:33:26 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/en/tags/sandbox-strategies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
+      <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>
+      <pubDate>Thu, 27 Mar 2025 17:33:26 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</guid>
+      <description>Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly.</description>
+    </item>
+  </channel>
+</rss>
