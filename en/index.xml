@@ -6,8 +6,15 @@
     <description>Recent content on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Mar 2025 16:40:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Apr 2025 21:33:02 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weaving the Web: Managing Entity Relationships in EnTT</title>
+      <link>https://tategotoazarasi.github.io/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
+      <pubDate>Sat, 05 Apr 2025 21:33:02 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
+      <description>Manage 1:1, 1:N, &amp;amp; N:N entity relationships in C++ EnTT ECS using component-based CRUD strategies and best practices.</description>
+    </item>
     <item>
       <title>Dev Log: Adding a All-in-One Widget to Breezy Weather - The ClockDayHourWeekWidget Journey</title>
       <link>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</link>

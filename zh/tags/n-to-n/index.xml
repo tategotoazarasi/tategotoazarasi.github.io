@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>N-to-N on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/zh/tags/n-to-n/</link>
+    <description>Recent content in N-to-N on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 05 Apr 2025 20:07:37 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/zh/tags/n-to-n/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 EnTT 中优雅地处理实体关系：从 1:1 到 N:N</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
+      <description>详细探讨了如何在 EnTT 中使用组件优雅地表示和管理 1:1、1:N 和 N:N 的实体关系，并通过代码示例展示了 CRUD 操作的实现。</description>
+    </item>
+  </channel>
+</rss>

@@ -6,8 +6,113 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 30 Mar 2025 16:40:50 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 05 Apr 2025 20:07:37 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1-to-1</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/1-to-1/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/1-to-1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>1-to-N</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/1-to-n/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/1-to-n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C&#43;&#43;</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/c&#43;&#43;/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/c&#43;&#43;/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Components</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/components/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/components/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crud</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/crud/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/crud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dangling-References</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/dangling-references/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/dangling-references/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecs</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/ecs/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/ecs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entity-Component-System</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entity-Relationships</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/entity-relationships/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/entity-relationships/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entt</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/entt/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/entt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game-Development</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/game-development/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/game-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>N-to-N</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/n-to-n/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/n-to-n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/performance/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Registry</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/registry/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/registry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Views</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/views/</link>
+      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/views/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Android-App-Widget</title>
       <link>https://tategotoazarasi.github.io/zh/tags/android-app-widget/</link>
