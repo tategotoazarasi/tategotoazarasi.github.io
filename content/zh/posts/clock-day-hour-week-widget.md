@@ -25,7 +25,7 @@ App 或者切换不同部件了。于是，手痒之下，决定自己动手，�
 
 好，目标明确，开干！
 
-## 一、 整体思路：站在巨人的肩膀上
+## 整体思路：站在巨人的肩膀上
 
 Breezy Weather 的代码结构还是挺清晰的，添加新 Widget 的模式也比较固定。看了一下现有的 `WidgetClockDayWeekProvider.kt` 和
 `HourlyTrendWidgetIMP.kt` 等文件，基本可以总结出添加一个新 Widget 需要搞定的几个主要部分：
@@ -50,9 +50,9 @@ Breezy Weather 的代码结构还是挺清晰的，添加新 Widget 的模式也
 基本上，只要按照这个模式，把每个部分对应创建或修改好，一个新的 Widget 就诞生了。对于 `ClockDayHourWeekWidget`，我们可以大量参考现有的
 `ClockDayWeekWidget`，因为它已经包含了时钟、日期、当前天气和未来几天的功能，我们需要做的主要是在此基础上，把“未来几小时预报”这部分加进去。
 
-## 二、 开始动手：创建各个组件
+## 开始动手：创建各个组件
 
-### 1. Widget Provider (`ClockDayHourWeekWidgetProvider.kt`)
+### Widget Provider (`ClockDayHourWeekWidgetProvider.kt`)
 
 这个比较简单，可以直接复制 `WidgetClockDayWeekProvider.kt`，然后做一些修改：
 
@@ -114,7 +114,7 @@ class ClockDayHourWeekWidgetProvider : AppWidgetProvider() {
 `goAsync()` 结合 Hilt 注入的 `CoroutineScope` 或者 `WorkManager` 来处理，但为了遵循现有代码风格和简化，这里暂时保留了
 `GlobalScope` 的用法。
 
-### 2. Widget 实现类 (`ClockDayHourWeekWidgetIMP.kt`)
+### Widget 实现类 (`ClockDayHourWeekWidgetIMP.kt`)
 
 这是重头戏，大部分的界面构建逻辑都在这里。同样，我们可以复制 `ClockDayWeekWidgetIMP.kt` 作为基础，然后进行大量的修改和添加。
 
@@ -279,7 +279,7 @@ private fun setOnClickPendingIntent(context: Context, views: RemoteViews, locati
 }
 ```
 
-### 3. 配置 Activity (`ClockDayHourWeekWidgetConfigActivity.kt`)
+### 配置 Activity (`ClockDayHourWeekWidgetConfigActivity.kt`)
 
 这个 Activity 负责让用户在添加 Widget 时进行个性化设置。同样，复制 `ClockDayWeekWidgetConfigActivity.kt` 最省事。
 
@@ -329,7 +329,7 @@ private fun setOnClickPendingIntent(context: Context, views: RemoteViews, locati
       }
   ```
 
-### 4. XML 布局文件
+### XML 布局文件
 
 需要创建两个布局文件：`layout/widget_clock_day_hour_week.xml` (无背景) 和 `layout/widget_clock_day_hour_week_card.xml` (
 带背景)。
@@ -430,7 +430,7 @@ android:id="@+id/widget_clock_day_hour_week_day_temp_1" ... />
 		</RelativeLayout>
 ```
 
-### 5. Widget 定义 XML
+### Widget 定义 XML
 
 需要在 `res/xml/` 目录下创建 `widget_clock_day_hour_week.xml`，并在 `res/xml-v28/` 目录下创建同名文件（如果 v28
 目录不存在，则创建它）。
@@ -466,7 +466,7 @@ android:id="@+id/widget_clock_day_hour_week_day_temp_1" ... />
 		android:widgetCategory="home_screen|keyguard" />
 ```
 
-## 三、 整合资源与注册
+## 整合资源与注册
 
 最后一步，把所有需要修改或添加的资源整合起来。
 
@@ -562,7 +562,7 @@ android:id="@+id/widget_clock_day_hour_week_day_temp_1" ... />
    }
    ```
 
-## 四、 回顾与小结
+## 回顾与小结
 
 好了，到这里，理论上所有需要的文件和代码修改都已经完成了。重新编译运行 App，应该就能在系统的 Widget
 选择器里看到我们新增的“时钟+日期+小时+星期”小部件了。添加它到桌面时，会弹出配置界面，配置完成后，就能看到效果了！

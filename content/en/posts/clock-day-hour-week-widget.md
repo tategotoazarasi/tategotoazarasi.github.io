@@ -33,7 +33,7 @@ Create a new Android App Widget that displays:
 
 Alright, goal set. Let's dive in!
 
-## 1. The Big Picture: Standing on the Shoulders of Giants
+## The Big Picture: Standing on the Shoulders of Giants
 
 Thankfully, Breezy Weather has a pretty well-defined structure, especially for adding new widgets. Looking at existing
 files like `WidgetClockDayWeekProvider.kt` and `HourlyTrendWidgetIMP.kt`, the pattern becomes clear. To add a new
@@ -65,11 +65,11 @@ Basically, follow this recipe, create or modify each part, and voilà – a new 
 `ClockDayHourWeekWidget`, the existing `ClockDayWeekWidget` is a great starting point. It already handles the clock,
 date, current weather, and daily forecast. Our main task is to surgically insert the "hourly forecast" section into it.
 
-## 2. Getting Our Hands Dirty: Creating the Components
+## Getting Our Hands Dirty: Creating the Components
 
 Let's build this thing piece by piece.
 
-### 1. Widget Provider (`ClockDayHourWeekWidgetProvider.kt`)
+### Widget Provider (`ClockDayHourWeekWidgetProvider.kt`)
 
 This one's relatively straightforward. We can copy `WidgetClockDayWeekProvider.kt` and make a few tweaks:
 
@@ -133,7 +133,7 @@ application's lifecycle and harder to manage), it's a simpler solution in this s
 might involve `goAsync()` paired with a Hilt-injected `CoroutineScope` or even `WorkManager`, but sticking to the
 existing pattern keeps things simpler here.
 
-### 2. Widget Implementation (`ClockDayHourWeekWidgetIMP.kt`)
+### Widget Implementation (`ClockDayHourWeekWidgetIMP.kt`)
 
 This is the beast. Most of the UI construction logic lives here. Again, copying `ClockDayWeekWidgetIMP.kt` gives us a
 solid foundation to build upon.
@@ -307,7 +307,7 @@ private fun setOnClickPendingIntent(context: Context, views: RemoteViews, locati
 }
 ```
 
-### 3. Configuration Activity (`ClockDayHourWeekWidgetConfigActivity.kt`)
+### Configuration Activity (`ClockDayHourWeekWidgetConfigActivity.kt`)
 
 This activity lets users tweak the widget when they first add it. Copying `ClockDayWeekWidgetConfigActivity.kt` is the
 path of least resistance.
@@ -354,7 +354,7 @@ path of least resistance.
       }
   ```
 
-### 4. XML Layout Files
+### XML Layout Files
 
 We need two layout files: `layout/widget_clock_day_hour_week.xml` (no background) and
 `layout/widget_clock_day_hour_week_card.xml` (with background).
@@ -455,7 +455,7 @@ android:id="@+id/widget_clock_day_hour_week_day_temp_1" ... />
 		</RelativeLayout>
 ```
 
-### 5. Widget Definition XML
+### Widget Definition XML
 
 Create `widget_clock_day_hour_week.xml` in `res/xml/` and a corresponding version in `res/xml-v28/` (create the
 directory if it doesn't exist).
@@ -492,7 +492,7 @@ Copy `xml/widget_clock_day_week.xml` and `xml-v28/widget_clock_day_week.xml`.
 		android:widgetCategory="home_screen|keyguard" />
 ```
 
-## 3. Stitching It All Together: Resources & Registration
+## Stitching It All Together: Resources & Registration
 
 The final step is to make sure all the necessary resource definitions and registrations are in place.
 
@@ -584,7 +584,7 @@ The final step is to make sure all the necessary resource definitions and regist
    }
    ```
 
-## 4. Wrapping Up & Final Thoughts
+## Wrapping Up & Final Thoughts
 
 And... that should be it! After adding all these files and making the necessary resource changes, rebuild the project.
 The new "Clock + Day + Hour + Week" widget should now appear in your system's widget picker. When you add it to your

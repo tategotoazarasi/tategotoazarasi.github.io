@@ -211,7 +211,7 @@ transfer between the game and the script environment. This binding layer can be 
 
 Scripting is almost always slower than native compiled code. Oskar Forsslund's Master's thesis provides a stark example:
 evaluating *Europa Universalis III*'s event triggers in Lua was roughly **six times slower** than the original C++
-implementation that parsed custom script files [8] [8]. The overhead comes from interpretation/JIT compilation itself,
+implementation that parsed custom script files [8]. The overhead comes from interpretation/JIT compilation itself,
 but also significantly from the "context switching" and data marshaling required to call script functions from C++ and
 vice-versa [8].
 
@@ -365,7 +365,7 @@ Some games try to get the best of both worlds. They might use a simple data form
 defining items or basic quests) and embed a general-purpose language (like Lua) for more complex scripting needs (like
 custom AI behaviors or intricate quest logic). This offers an easier entry point while still providing power for
 advanced users. Forsslund even mused about using Lua for prototyping event logic due to its flexibility and then
-potentially translating it back to the faster DSL format for release, though this seems rare in practice [8] [8].
+potentially translating it back to the faster DSL format for release, though this seems rare in practice [8].
 
 #### So, Which to Choose?
 
@@ -392,7 +392,7 @@ impacts performance, security, and the mod development workflow.
 
 Let's visualize the difference conceptually (imagine a diagram here, as generating one directly is tricky):
 
-### Scenario A: Interpreted Mod
+### Interpreted Mod
 
 1. Modder writes `MyMod.lua` (source code).
 2. Player installs `MyMod.lua`.
@@ -402,7 +402,7 @@ Let's visualize the difference conceptually (imagine a diagram here, as generati
 6. The Lua VM interprets (or JITs) the Lua code and executes it, calling back into the Game Engine API for game
    data/actions.
 
-### Scenario B: Compiled Mod
+### Compiled Mod
 
 1. Modder writes `MyMod.cs` (source code).
 2. Modder uses a C# compiler (like `csc` or via Visual Studio) to build `MyMod.dll` (binary code).
@@ -598,7 +598,7 @@ about the mod, such as:
 * Load order hints
 * Entry points (e.g., the main script file to run, or the DLL and class name to load).
 
-*Bannerlord*'s `SubModule.xml` is a prime example of such a descriptor, containing all this information [5] [5].
+*Bannerlord*'s `SubModule.xml` is a prime example of such a descriptor, containing all this information [5].
 *RimWorld* uses an `About.xml` file for basic metadata [4].
 
 ### Loading Mods: Order Matters!
