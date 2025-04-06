@@ -6,8 +6,15 @@
     <description>Recent content in Cpp on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Apr 2025 16:42:41 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 19:32:52 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridging the Gap: Flexible Relationship Management Between C&#43;&#43; Host and Rust WASM Plugins using EnTT</title>
+      <link>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
+      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
+      <description>Manage EnTT entity relationships in a C++ host from Rust WebAssembly (WASM) plugins using Wasmtime, a stable C FFI, and a data-driven approach to overcome WASM boundary limitations.</description>
+    </item>
     <item>
       <title>Deep Dive into Wasmtime: Bidirectional Communication and Memory Sharing Between C&#43;&#43; and Rust Wasm Modules</title>
       <link>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>

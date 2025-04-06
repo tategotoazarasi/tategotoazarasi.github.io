@@ -2,6 +2,318 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tategotoazarasi.github.io/en/tags/abi/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/abi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/abi/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/api-design/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/api-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/api-design/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/cplusplus/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/cplusplus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/cplusplus/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/cpp/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/cpp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/cpp/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/cross-language/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/cross-language/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/cross-language/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/data-driven-design/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/data-driven-design/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/data-driven-design/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/ecs/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/ecs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/ecs/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/entity-component-system/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/entity-component-system/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/entity-component-system/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/entt/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/entt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/entt/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/ffi/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/ffi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/ffi/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/game-development/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/game-development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/game-development/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/host-plugin/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/host-plugin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/host-plugin/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/memory-management/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/memory-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/memory-management/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/plugin-architecture/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/plugin-architecture/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/plugin-architecture/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/posts/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/posts/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/relationship-management/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/relationship-management/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/relationship-management/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/rust/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/rust/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/rust/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/simulation/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/simulation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/simulation/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/wasm/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/wasm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/wasm/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/wasmtime/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/wasmtime/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/wasmtime/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/en/tags/webassembly/</loc>
+    <lastmod>2025-04-06T19:32:52+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/webassembly/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/webassembly/"
+                />
+  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/bidirectional-communication/</loc>
     <lastmod>2025-04-06T16:42:41+08:00</lastmod>
     <xhtml:link
@@ -28,19 +340,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/c-plus-plus/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/cpp/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/cpp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/cpp/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</loc>
     <lastmod>2025-04-06T16:42:41+08:00</lastmod>
     <xhtml:link
@@ -52,19 +351,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/ffi/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/ffi/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/ffi/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/host-guest/</loc>
@@ -93,19 +379,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/linear-memory/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/posts/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/posts/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/runtime/</loc>
     <lastmod>2025-04-06T16:42:41+08:00</lastmod>
     <xhtml:link
@@ -117,19 +390,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tategotoazarasi.github.io/en/tags/runtime/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/rust/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/rust/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/rust/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/sandboxing/</loc>
@@ -184,32 +444,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/struct-passing/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/wasi/</loc>
     <lastmod>2025-04-06T16:42:41+08:00</lastmod>
     <xhtml:link
@@ -221,32 +455,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tategotoazarasi.github.io/en/tags/wasi/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/wasm/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/wasm/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/wasm/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/wasmtime/</loc>
-    <lastmod>2025-04-06T16:42:41+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/wasmtime/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/wasmtime/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/wasmtime-api/</loc>
@@ -340,32 +548,6 @@
                 href="https://tategotoazarasi.github.io/en/tags/dangling-references/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/ecs/</loc>
-    <lastmod>2025-04-05T21:33:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/ecs/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/ecs/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/entity-component-system/</loc>
-    <lastmod>2025-04-05T21:33:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/entity-component-system/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/entity-component-system/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/entity-relationships/</loc>
     <lastmod>2025-04-05T21:33:02+08:00</lastmod>
     <xhtml:link
@@ -377,32 +559,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tategotoazarasi.github.io/en/tags/entity-relationships/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/entt/</loc>
-    <lastmod>2025-04-05T21:33:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/entt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/entt/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/game-development/</loc>
-    <lastmod>2025-04-05T21:33:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/game-development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/game-development/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/n-to-n/</loc>
@@ -758,9 +914,6 @@
     <loc>https://tategotoazarasi.github.io/en/tags/climate-simulation/</loc>
     <lastmod>2025-03-28T19:04:14+08:00</lastmod>
   </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/cplusplus/</loc>
-    <lastmod>2025-03-28T19:04:14+08:00</lastmod>
-  </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/data-structures/</loc>
     <lastmod>2025-03-28T19:04:14+08:00</lastmod>
   </url><url>
@@ -862,9 +1015,6 @@
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/worldengine/</loc>
     <lastmod>2025-03-28T19:04:14+08:00</lastmod>
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/en/tags/api-design/</loc>
-    <lastmod>2025-03-27T17:33:26+08:00</lastmod>
   </url><url>
     <loc>https://tategotoazarasi.github.io/en/tags/c-sharp/</loc>
     <lastmod>2025-03-27T17:33:26+08:00</lastmod>

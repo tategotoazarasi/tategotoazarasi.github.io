@@ -6,8 +6,15 @@
     <description>Recent content on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Apr 2025 16:34:33 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 19:32:52 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>使用 EnTT 在 C&#43;&#43; Host 与 Rust WASM 插件间实现灵活的关系管理</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
+      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
+      <description>使用 Wasmtime 和稳定 C FFI，在 C++ Host 中通过 EnTT 管理实体关系，并允许 Rust WebAssembly (WASM) 插件安全交互，利用数据驱动设计克服 WASM 边界限制。</description>
+    </item>
     <item>
       <title>深入探索 Wasmtime：C&#43;&#43; 与 Rust Wasm 模块的双向通信与内存共享</title>
       <link>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
