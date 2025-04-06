@@ -65,8 +65,8 @@ lightweight, only allocating storage for specific component types internally whe
 ### Entities
 
 An entity, represented by the `entt::entity` type in EnTT, is the "E" in ECS. But be aware: it's **not** a traditional
-C++ object. You can't add methods or member variables to an `entt::entity`. It's essentially just a lightweight *
-*identifier**, a unique "ID card," used to mark a "thing" in your game world. This thing could be a player character, a
+C++ object. You can't add methods or member variables to an `entt::entity`. It's essentially just a lightweight
+**identifier**, a unique "ID card," used to mark a "thing" in your game world. This thing could be a player character, a
 bullet, a UI element, or anything you need to track independently.
 
 Creating entities is simple, done via the `registry`:
@@ -106,8 +106,8 @@ So, back to the `(uint32_t)some_entity` cast. It does extract the underlying 32-
 combined index and version information. In our example code, it's primarily used to **conveniently print a number** for
 logging or debugging. But it's crucial to understand:
 
-* This specific `uint32_t` value, for a **particular** entity instance (like entity A or entity B in the example), is *
-  *immutable** during its **lifetime**.
+* This specific `uint32_t` value, for a **particular** entity instance (like entity A or entity B in the example), is
+  **immutable** during its **lifetime**.
 * After an entity is destroyed, the **exact** `uint32_t` value that represented it (e.g., the value for "index 5,
   version 1") **will not** be assigned to a **new, different** entity instance. Even if index 5 is reused, the new
   entity will have a different version number, resulting in a different `uint32_t` value.
