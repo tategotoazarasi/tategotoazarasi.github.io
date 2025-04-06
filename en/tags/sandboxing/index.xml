@@ -6,8 +6,15 @@
     <description>Recent content in Sandboxing on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Mar 2025 17:33:26 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 16:42:41 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/sandboxing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Dive into Wasmtime: Bidirectional Communication and Memory Sharing Between C&#43;&#43; and Rust Wasm Modules</title>
+      <link>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <pubDate>Sun, 06 Apr 2025 16:42:41 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <description>A detailed technical guide on using the Wasmtime runtime to enable complex bidirectional communication, shared memory access, and struct passing between C++ host applications and Rust WebAssembly modules.</description>
+    </item>
     <item>
       <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
       <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>

@@ -6,8 +6,120 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 05 Apr 2025 20:07:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 16:34:33 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bidirectional-Communication</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/bidirectional-communication/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/bidirectional-communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Plus-Plus</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/cpp/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffi</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/ffi/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/ffi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Host-Guest</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/host-guest/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/host-guest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear-Memory</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/linear-memory/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/linear-memory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Runtime</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/runtime/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/runtime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/rust/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sandboxing</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/sandboxing/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/sandboxing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shared-Memory</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/shared-memory/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/shared-memory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>State-Management</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/state-management/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/state-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Struct-Passing</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/struct-passing/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/struct-passing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasi</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasi/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasm</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasm/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasmtime</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasmtime-Api</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime-api/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime-api/</guid>
+      <description></description>
+    </item>
     <item>
       <title>1-to-1</title>
       <link>https://tategotoazarasi.github.io/zh/tags/1-to-1/</link>

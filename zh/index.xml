@@ -6,8 +6,15 @@
     <description>Recent content on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 05 Apr 2025 20:07:37 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2025 16:34:33 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入探索 Wasmtime：C&#43;&#43; 与 Rust Wasm 模块的双向通信与内存共享</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <description>一篇详细的技术指南，介绍如何使用 Wasmtime 运行时在 C++ 宿主应用程序与 Rust WebAssembly 模块之间实现复杂的双向通信、共享内存访问和结构体传递。</description>
+    </item>
     <item>
       <title>在 EnTT 中优雅地处理实体关系：从 1:1 到 N:N</title>
       <link>https://tategotoazarasi.github.io/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>

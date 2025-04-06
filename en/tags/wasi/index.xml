@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Wasi on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/en/tags/wasi/</link>
+    <description>Recent content in Wasi on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 06 Apr 2025 16:42:41 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/en/tags/wasi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deep Dive into Wasmtime: Bidirectional Communication and Memory Sharing Between C&#43;&#43; and Rust Wasm Modules</title>
+      <link>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <pubDate>Sun, 06 Apr 2025 16:42:41 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <description>A detailed technical guide on using the Wasmtime runtime to enable complex bidirectional communication, shared memory access, and struct passing between C++ host applications and Rust WebAssembly modules.</description>
+    </item>
+  </channel>
+</rss>
