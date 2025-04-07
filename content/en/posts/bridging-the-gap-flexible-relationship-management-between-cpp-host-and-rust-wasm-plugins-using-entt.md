@@ -19,7 +19,7 @@ architecture: modularity, sandboxed security, high performance, and enabling eff
 tech stacks – particularly between traditional object-oriented languages like C++ and environments like WASM that don't
 inherently understand objects.
 
-## The Genesis: Hitting the WASM Boundary with C++
+## Hitting the WASM Boundary with C++
 
 Imagine a mature C++ application – perhaps a game engine, simulator, or desktop tool. We want to enhance its
 extensibility, security, or allow third-party contributions using a WASM plugin system. It sounds great in theory, but
@@ -40,16 +40,16 @@ objects in the C++ application (like characters or items in a game world), simpl
 work, and invoking member functions is impossible. Traditional plugin architectures, often relying on polymorphic
 interfaces via virtual functions, break down at the WASM boundary.
 
-### A Path Forward: EnTT's Data-Driven Philosophy
+### EnTT's Data-Driven Philosophy
 
 Just when this boundary seems insurmountable, EnTT's design philosophy offers a way through. Recall the core tenets of
 EnTT we discussed, which center on a data-oriented approach. An **entity**, in EnTT's paradigm, is not an object in the
 traditional C++ sense but rather a lightweight, opaque identifier (ID). This ID cleverly encodes an index and a version
 number, providing a robust and safe way to reference a conceptual "thing" in the application without the complexities of
-object identity or memory addresses. Data describing the state and properties of these entities is stored in *
-*components**. These are typically designed as pure data containers, often resembling Plain Old Data Structures (PODS),
-and are directly associated with entity IDs within the system. The logic that operates on this data is encapsulated in *
-*systems**. Systems query for entities that possess specific combinations of components and then process them
+object identity or memory addresses. Data describing the state and properties of these entities is stored in
+**components**. These are typically designed as pure data containers, often resembling Plain Old Data Structures (PODS),
+and are directly associated with entity IDs within the system. The logic that operates on this data is encapsulated in
+**systems**. Systems query for entities that possess specific combinations of components and then process them
 accordingly. Within EnTT, systems are commonly implemented as straightforward free functions, lambdas, or functors that
 interact with the central `entt::registry` to access and modify the component data associated with entities.
 
