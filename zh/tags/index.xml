@@ -6,8 +6,162 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 06 Apr 2025 19:32:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boost-Signals2</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/boost-signals2/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/boost-signals2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bridge</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/bridge/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/bridge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Api</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/c-api/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/c-api/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/cpp/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cross-Language-Communication</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/cross-language-communication/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/cross-language-communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Decoupling</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/decoupling/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/decoupling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ecs</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/ecs/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/ecs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entity-Component-System</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Entt</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/entt/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/entt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Event-Handling</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/event-handling/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/event-handling/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ffi</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/ffi/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/ffi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game-Development</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/game-development/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/game-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Host-Plugin</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/host-plugin/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/host-plugin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Interoperability</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/interoperability/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/interoperability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugin-Architecture</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Refactoring</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/refactoring/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/refactoring/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/rust/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/rust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Signals-and-Slots</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/signals-and-slots/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/signals-and-slots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simulation</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/simulation/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/simulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasm</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasm/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wasmtime</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Webassembly</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/webassembly/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/webassembly/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Abi</title>
       <link>https://tategotoazarasi.github.io/zh/tags/abi/</link>
@@ -30,13 +184,6 @@
       <description></description>
     </item>
     <item>
-      <title>Cpp</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cpp/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cpp/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cross-Language</title>
       <link>https://tategotoazarasi.github.io/zh/tags/cross-language/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
@@ -51,48 +198,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ecs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ecs/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ecs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entity-Component-System</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Entt</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/entt/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/entt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ffi</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ffi/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ffi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Game-Development</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/game-development/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/game-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Host-Plugin</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/host-plugin/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/host-plugin/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Memory-Management</title>
       <link>https://tategotoazarasi.github.io/zh/tags/memory-management/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
@@ -100,52 +205,10 @@
       <description></description>
     </item>
     <item>
-      <title>Plugin-Architecture</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Relationship-Management</title>
       <link>https://tategotoazarasi.github.io/zh/tags/relationship-management/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
       <guid>https://tategotoazarasi.github.io/zh/tags/relationship-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/rust/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/rust/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Simulation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/simulation/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/simulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wasm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasm/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wasmtime</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Webassembly</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/webassembly/</link>
-      <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/webassembly/</guid>
       <description></description>
     </item>
     <item>

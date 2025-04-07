@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Bridge on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/zh/tags/bridge/</link>
+    <description>Recent content in Bridge on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/zh/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>信号驱动的桥接演进：使用 Boost.Signals2 优化 C&#43;&#43; EnTT 与 Rust WASM 交互</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <description>重构 C++ EnTT 宿主与 Rust WASM 插件架构，将自定义事件替换为 Boost.Signals2，通过 Wasmtime 实现健壮、解耦的 FFI 通信与高级宿主-插件交互。</description>
+    </item>
+  </channel>
+</rss>

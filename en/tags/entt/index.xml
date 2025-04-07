@@ -6,8 +6,15 @@
     <description>Recent content in Entt on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Apr 2025 19:32:52 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/entt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beyond Basic Bridging: Robust Eventing Between C&#43;&#43; EnTT and Rust WASM with Boost.Signals2</title>
+      <link>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <description>Refactor a C++ EnTT host and Rust WASM plugin, replacing custom event triggers with Boost.Signals2 via Wasmtime for robust, decoupled FFI communication and advanced host-plugin interaction.</description>
+    </item>
     <item>
       <title>Bridging the Gap: Flexible Relationship Management Between C&#43;&#43; Host and Rust WASM Plugins using EnTT</title>
       <link>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
