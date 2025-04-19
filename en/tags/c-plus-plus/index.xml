@@ -6,8 +6,15 @@
     <description>Recent content in C-Plus-Plus on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Apr 2025 16:42:41 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/c-plus-plus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matrix Multiplication Performance Benchmark: from Triple Loops to 100&#43; GFLOPS on AMD Ryzen AI &#43; Radeon</title>
+      <link>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
+      <description>An in-depth benchmark comparing the performance of 11 matrix multiplication implementations (Naive, CPU multi-core/SIMD/BLAS, GPU via OpenCL/HIP/Vulkan) on AMD Ryzen AI + Radeon, revealing vast performance gaps and optimization insights.</description>
+    </item>
     <item>
       <title>Deep Dive into Wasmtime: Bidirectional Communication and Memory Sharing Between C&#43;&#43; and Rust Wasm Modules</title>
       <link>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>

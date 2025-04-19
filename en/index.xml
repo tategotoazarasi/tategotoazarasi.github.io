@@ -6,8 +6,15 @@
     <description>Recent content on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Matrix Multiplication Performance Benchmark: from Triple Loops to 100&#43; GFLOPS on AMD Ryzen AI &#43; Radeon</title>
+      <link>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
+      <description>An in-depth benchmark comparing the performance of 11 matrix multiplication implementations (Naive, CPU multi-core/SIMD/BLAS, GPU via OpenCL/HIP/Vulkan) on AMD Ryzen AI + Radeon, revealing vast performance gaps and optimization insights.</description>
+    </item>
     <item>
       <title>Beyond Basic Bridging: Robust Eventing Between C&#43;&#43; EnTT and Rust WASM with Boost.Signals2</title>
       <link>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>

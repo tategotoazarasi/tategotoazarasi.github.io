@@ -6,8 +6,253 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amd</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/amd/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/amd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avx</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/avx/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/avx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avx-512</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/avx-512/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/avx-512/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Avx2</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/avx2/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/avx2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Benchmark</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/benchmark/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/benchmark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blas</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/blas/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/blas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Plus-Plus</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clblast</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/clblast/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/clblast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comparison</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/comparison/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/comparison/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compute-Shader</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/compute-shader/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/compute-shader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpu</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/cpu/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/cpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eigen</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/eigen/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/eigen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fma</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/fma/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/fma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gfx1150</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/gfx1150/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/gfx1150/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Benchmark</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/google-benchmark/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/google-benchmark/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpgpu</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/gpgpu/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/gpgpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpu</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/gpu/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/gpu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>High-Performance-Computing</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/high-performance-computing/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/high-performance-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hip</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/hip/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/hip/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hipblas</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/hipblas/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/hipblas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hpc</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/hpc/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linear-Algebra</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/linear-algebra/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/linear-algebra/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix-Multiplication</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opencl</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/opencl/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/opencl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opencv</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/opencv/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/opencv/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openmp</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/openmp/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/openmp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Optimization</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/optimization/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Parallel-Computing</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/parallel-computing/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/parallel-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/performance/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/performance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Radeon</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/radeon/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/radeon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rocm</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/rocm/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/rocm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ryzen-Ai</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/ryzen-ai/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/ryzen-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Simd</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/simd/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/simd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vectorization</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/vectorization/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/vectorization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulkan</title>
+      <link>https://tategotoazarasi.github.io/zh/tags/vulkan/</link>
+      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/tags/vulkan/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Boost-Signals2</title>
       <link>https://tategotoazarasi.github.io/zh/tags/boost-signals2/</link>
@@ -219,13 +464,6 @@
       <description></description>
     </item>
     <item>
-      <title>C-Plus-Plus</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</link>
-      <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Host-Guest</title>
       <link>https://tategotoazarasi.github.io/zh/tags/host-guest/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
@@ -342,13 +580,6 @@
       <link>https://tategotoazarasi.github.io/zh/tags/n-to-n/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
       <guid>https://tategotoazarasi.github.io/zh/tags/n-to-n/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Performance</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/performance/</link>
-      <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/performance/</guid>
       <description></description>
     </item>
     <item>
