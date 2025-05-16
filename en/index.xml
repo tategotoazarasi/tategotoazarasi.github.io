@@ -6,8 +6,15 @@
     <description>Recent content on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 17:16:19 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Automating Online Grading with Tampermonkey and AI</title>
+      <link>https://tategotoazarasi.github.io/en/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
+      <description>Discover how a Tampermonkey userscript was developed using Baidu Ernie AI to automate scoring and commenting for online short-answer homework, significantly reducing repetitive grading tasks for educators.</description>
+    </item>
     <item>
       <title>Matrix Multiplication Performance Benchmark: from Triple Loops to 100&#43; GFLOPS on AMD Ryzen AI &#43; Radeon</title>
       <link>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>

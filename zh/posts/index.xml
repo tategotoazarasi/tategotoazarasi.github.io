@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 02 May 2025 17:16:19 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用Tampermonkey和AI为在线作业批改减负</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
+      <description>记录了如何使用Tampermonkey脚本和百度文心AI为在线作业批改（特别是简答题）提供自动化辅助，以减轻教师重复性评分和评语工作的负担。</description>
+    </item>
     <item>
       <title>矩阵乘法性能测试：从三重循环到百 GFLOPS (AMD Ryzen AI &#43; Radeon 平台实测)</title>
       <link>https://tategotoazarasi.github.io/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
