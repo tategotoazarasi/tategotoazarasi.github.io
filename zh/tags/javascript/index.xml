@@ -6,8 +6,15 @@
     <description>Recent content in Javascript on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 02 May 2025 17:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 21:58:20 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>深入Anki卡片内部：反混淆技术与数据提取实践</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
+      <description>深入解析复杂Anki卡片模板的反混淆技术，通过Puppeteer和JSDOM实现动态渲染内容的精准数据提取与迁移。</description>
+    </item>
     <item>
       <title>用Tampermonkey和AI为在线作业批改减负</title>
       <link>https://tategotoazarasi.github.io/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
