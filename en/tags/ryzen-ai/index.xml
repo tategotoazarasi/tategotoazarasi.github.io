@@ -6,8 +6,15 @@
     <description>Recent content in Ryzen-Ai on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 24 May 2025 21:32:30 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/ryzen-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Troubleshooting a Stubborn DMIC on a ThinkBook 16 G7&#43; ASP with Linux</title>
+      <link>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
+      <description>Detailed troubleshooting process for fixing a silent digital microphone on a Lenovo ThinkBook 16 G7+ ASP (AMD Ryzen AI 9) laptop running Linux, primarily resolved by adding the kernel module parameter &lt;code&gt;options snd_sof_amd_common enable_pdm=1&lt;/code&gt;.</description>
+    </item>
     <item>
       <title>Matrix Multiplication Performance Benchmark: from Triple Loops to 100&#43; GFLOPS on AMD Ryzen AI &#43; Radeon</title>
       <link>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>

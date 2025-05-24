@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Pipewire-Troubleshooting on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/zh/tags/pipewire-troubleshooting/</link>
+    <description>Recent content in Pipewire-Troubleshooting on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 24 May 2025 21:32:30 +0800</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/zh/tags/pipewire-troubleshooting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>解决 ThinkBook 16 G7&#43; ASP 在 Linux 系统下数字麦克风的顽固问题</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
+      <description>记录了在联想 ThinkBook 16 G7+ ASP (AMD Ryzen AI 9) 笔记本上解决 Linux 系统下数字麦克风无声问题的详细过程，主要通过添加内核模块参数 &lt;code&gt;options snd_sof_amd_common enable_pdm=1&lt;/code&gt; 实现</description>
+    </item>
+  </channel>
+</rss>
