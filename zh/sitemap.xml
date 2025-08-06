@@ -2,6 +2,292 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/arch-linux/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/arch-linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/arch-linux/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/bash/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/bash/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/bash/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/bug/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/bug/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/bug/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/code-review/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/code-review/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/code-review/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/command-line/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/command-line/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/command-line/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/data-loss/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/data-loss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/data-loss/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/debtap/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/debtap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/debtap/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/debugging/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/debugging/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/debugging/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/dirname/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/dirname/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/dirname/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/git/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/git/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/git-blame/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/git-blame/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/git-blame/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/linux/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/linux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/linux/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/open-source/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/open-source/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/open-source/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/pkgbuild/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/pkgbuild/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/pkgbuild/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/posts/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/posts/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/rm-rf/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/rm-rf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/rm-rf/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/shell-script/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/shell-script/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/shell-script/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/software-development/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/software-development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/software-development/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/tags/typo/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/tags/typo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/tags/typo/"
+                />
+  </url><url>
+    <loc>https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</loc>
+    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/"
+                />
+  </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/alsa/</loc>
     <lastmod>2025-05-24T21:32:30+08:00</lastmod>
     <xhtml:link
@@ -65,19 +351,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://tategotoazarasi.github.io/zh/tags/amd-ryzen-ai/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/tags/arch-linux/</loc>
-    <lastmod>2025-05-24T21:32:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/arch-linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/arch-linux/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/arch-linux-audio/</loc>
@@ -223,19 +496,6 @@
                 href="https://tategotoazarasi.github.io/zh/tags/laptop/"
                 />
   </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/tags/linux/</loc>
-    <lastmod>2025-05-24T21:32:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/linux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/linux/"
-                />
-  </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/linux-audio/</loc>
     <lastmod>2025-05-24T21:32:30+08:00</lastmod>
     <xhtml:link
@@ -299,19 +559,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://tategotoazarasi.github.io/zh/tags/pipewire-troubleshooting/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/posts/</loc>
-    <lastmod>2025-05-24T21:32:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/posts/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/ryzen-ai/</loc>
@@ -390,32 +637,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://tategotoazarasi.github.io/zh/tags/strix-point-apu/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/tags/</loc>
-    <lastmod>2025-05-24T21:32:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/</loc>
-    <lastmod>2025-05-24T21:32:30+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/thinkbook/</loc>
@@ -2392,19 +2613,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://tategotoazarasi.github.io/zh/tags/kotlin/"
-                />
-  </url><url>
-    <loc>https://tategotoazarasi.github.io/zh/tags/open-source/</loc>
-    <lastmod>2025-03-30T16:40:50+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tategotoazarasi.github.io/en/tags/open-source/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://tategotoazarasi.github.io/zh/tags/open-source/"
                 />
   </url><url>
     <loc>https://tategotoazarasi.github.io/zh/tags/pendingintent/</loc>

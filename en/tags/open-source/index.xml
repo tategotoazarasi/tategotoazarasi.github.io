@@ -6,8 +6,15 @@
     <description>Recent content in Open-Source on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Mar 2025 16:40:50 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Aug 2025 18:02:24 +0800</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discovering a Delete-Your-Files-and-Run Level Bug in debtap</title>
+      <link>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
+      <description>A deep-dive investigation into the Arch Linux tool &lt;code&gt;debtap&lt;/code&gt; reveals how a well-intentioned typo fix accidentally activated a catastrophic &lt;code&gt;rm -rf&lt;/code&gt; bug that deleted all files in the current working directory.</description>
+    </item>
     <item>
       <title>Dev Log: Adding a All-in-One Widget to Breezy Weather - The ClockDayHourWeekWidget Journey</title>
       <link>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</link>
