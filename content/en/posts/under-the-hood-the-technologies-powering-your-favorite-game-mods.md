@@ -1,6 +1,6 @@
 ---
 date: '2025-03-27T17:33:26+08:00'
-draft: false
+draft: true
 summary: "Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly."
 title: 'Under the Hood: The Technologies Powering Your Favorite Game Mods'
 tags: [ "game-modding","single-player-games","pc-gaming","modding-frameworks","scripting-languages","domain-specific-languages","lua","python","c-sharp","interpreted-scripts","compiled-mods","mod-apis","sandboxing","security","game-architecture","extensibility","mod-lifecycle","event-handling","paradox-games","rimworld","mount-and-blade-bannerlord","minecraft","software-engineering","user-created-content","performance-trade-offs","modding-technology","game-development","scripting-vs-compiled","mod-security","embedded-languages","dsl-design","game-extensibility","sandbox-strategies","case-studies","future-research","modding-tools","api-design","community-mods","gaming-platforms","code-execution" ]

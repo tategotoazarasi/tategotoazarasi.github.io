@@ -1,6 +1,6 @@
 ---
 date: '2025-03-28T19:04:14+08:00'
-draft: false
+draft: true
 summary: "Explore the technologies and algorithms behind procedural content generation in video games, from noise functions and plate tectonics to erosion and climate simulation, crafting immersive, unique fictional worlds."
 title: 'Building New Worlds: A Deep Dive into Procedural Generation for Video Games'
 tags: [ "procedural-content-generation","video-game-worlds","terrain-generation","noise-functions","perlin-noise","simplex-noise","fractal-noise","heightmaps","plate-tectonics","erosion-simulation","hydraulic-erosion","thermal-erosion","river-networks","climate-simulation","biomes","map-geometry","tiling-systems","data-structures","game-development","world-building","pcg","game-design","procedural-generation","terrain-algorithms","noise","geology-simulation","climate-modeling","biome-distribution","voronoi-diagrams","hex-grids","worldengine","mapgen4","tectonics-js","minecraft","no-mans-sky","dwarf-fortress","cplusplus","future-trends","interactive-worlds","digital-worldsmithing" ]
