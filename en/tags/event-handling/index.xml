@@ -15,12 +15,5 @@
       <guid>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
       <description>Refactor a C++ EnTT host and Rust WASM plugin, replacing custom event triggers with Boost.Signals2 via Wasmtime for robust, decoupled FFI communication and advanced host-plugin interaction.</description>
     </item>
-    <item>
-      <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
-      <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>
-      <pubDate>Thu, 27 Mar 2025 17:33:26 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</guid>
-      <description>Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly.</description>
-    </item>
   </channel>
 </rss>

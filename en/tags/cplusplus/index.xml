@@ -15,12 +15,5 @@
       <guid>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
       <description>Manage EnTT entity relationships in a C++ host from Rust WebAssembly (WASM) plugins using Wasmtime, a stable C FFI, and a data-driven approach to overcome WASM boundary limitations.</description>
     </item>
-    <item>
-      <title>Building New Worlds: A Deep Dive into Procedural Generation for Video Games</title>
-      <link>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</link>
-      <pubDate>Fri, 28 Mar 2025 19:04:14 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</guid>
-      <description>Explore the technologies and algorithms behind procedural content generation in video games, from noise functions and plate tectonics to erosion and climate simulation, crafting immersive, unique fictional worlds.</description>
-    </item>
   </channel>
 </rss>

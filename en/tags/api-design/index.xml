@@ -15,12 +15,5 @@
       <guid>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
       <description>Manage EnTT entity relationships in a C++ host from Rust WebAssembly (WASM) plugins using Wasmtime, a stable C FFI, and a data-driven approach to overcome WASM boundary limitations.</description>
     </item>
-    <item>
-      <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
-      <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>
-      <pubDate>Thu, 27 Mar 2025 17:33:26 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</guid>
-      <description>Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly.</description>
-    </item>
   </channel>
 </rss>

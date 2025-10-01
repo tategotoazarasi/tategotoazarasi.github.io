@@ -6,8 +6,20 @@
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Aug 2025 18:02:24 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 21:47:12 +0100</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uol 2025 Wk2 Solutions</title>
+      <link>https://tategotoazarasi.github.io/en/posts/uol-2025-wk2/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/uol-2025-wk2/</guid>
+      <description>&lt;h2 id=&#34;recount&#34;&gt;Recount&lt;/h2&gt;
+&lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
+&lt;p&gt;The recent schoolboard elections were hotly contested: a proposal to swap school start times for elementary and high
+school students, a controversial new dress code proposal that bans athletic clothes in school, and a proposal to raise
+real-estate taxes to pay for a new football practice facility, and the list goes on and on. It is now hours after the
+polls have closed and a winner has yet to emerge!&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Discovering a Delete-Your-Files-and-Run Level Bug in debtap</title>
       <link>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
@@ -77,20 +89,6 @@
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
       <guid>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</guid>
       <description>A detailed guide on adding a comprehensive &amp;ldquo;ClockDayHourWeekWidget&amp;rdquo; to the Breezy Weather app, combining clock, daily, and hourly forecasts into one Android widget.</description>
-    </item>
-    <item>
-      <title>Building New Worlds: A Deep Dive into Procedural Generation for Video Games</title>
-      <link>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</link>
-      <pubDate>Fri, 28 Mar 2025 19:04:14 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</guid>
-      <description>Explore the technologies and algorithms behind procedural content generation in video games, from noise functions and plate tectonics to erosion and climate simulation, crafting immersive, unique fictional worlds.</description>
-    </item>
-    <item>
-      <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
-      <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>
-      <pubDate>Thu, 27 Mar 2025 17:33:26 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</guid>
-      <description>Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly.</description>
     </item>
   </channel>
 </rss>

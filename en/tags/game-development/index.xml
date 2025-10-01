@@ -29,19 +29,5 @@
       <guid>https://tategotoazarasi.github.io/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
       <description>Manage 1:1, 1:N, &amp;amp; N:N entity relationships in C++ EnTT ECS using component-based CRUD strategies and best practices.</description>
     </item>
-    <item>
-      <title>Building New Worlds: A Deep Dive into Procedural Generation for Video Games</title>
-      <link>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</link>
-      <pubDate>Fri, 28 Mar 2025 19:04:14 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/building-new-worlds-a-deep-dive-into-procedural-generation-for-video-games/</guid>
-      <description>Explore the technologies and algorithms behind procedural content generation in video games, from noise functions and plate tectonics to erosion and climate simulation, crafting immersive, unique fictional worlds.</description>
-    </item>
-    <item>
-      <title>Under the Hood: The Technologies Powering Your Favorite Game Mods</title>
-      <link>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</link>
-      <pubDate>Thu, 27 Mar 2025 17:33:26 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/under-the-hood-the-technologies-powering-your-favorite-game-mods/</guid>
-      <description>Discover the tech behind single-player PC game mods, from scripting languages to security and future trends like WebAssembly.</description>
-    </item>
   </channel>
 </rss>
