@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time-Complexity on Tategoto Azarasi</title>
+    <link>https://tategotoazarasi.github.io/en/tags/time-complexity/</link>
+    <description>Recent content in Time-Complexity on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Oct 2025 17:55:44 +0100</lastBuildDate>
+    <atom:link href="https://tategotoazarasi.github.io/en/tags/time-complexity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Uol 2025 Wk3 &amp;&amp; LeetCode Biweekly Contest 168 Solutions</title>
+      <link>https://tategotoazarasi.github.io/en/posts/uol-2025-wk3/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/uol-2025-wk3/</guid>
+      <description>&lt;h2 id=&#34;weak-vertices&#34;&gt;Weak Vertices&lt;/h2&gt;
+&lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
+&lt;p&gt;In graph theory, the structural integrity of a network can often be analyzed by identifying fundamental shapes within it, such as triangles. A triangle provides rigidity and is a common motif in many applications. This problem asks us to identify vertices that are &lt;em&gt;not&lt;/em&gt; part of any triangle. A vertex &lt;code&gt;i&lt;/code&gt; is defined as being part of a triangle if it has two distinct neighbors, &lt;code&gt;j&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt;, which are also neighbors of each other. Our task is to find all vertices that do not satisfy this condition, which the problem statement refers to as &amp;ldquo;weak vertices.&amp;rdquo; The graph is given to us in the form of an adjacency matrix.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

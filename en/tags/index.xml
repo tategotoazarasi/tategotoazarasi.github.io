@@ -6,8 +6,155 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 01 Oct 2025 21:47:12 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 17:55:44 +0100</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm-Analysis</title>
+      <link>https://tategotoazarasi.github.io/en/tags/algorithm-analysis/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/algorithm-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backtracking</title>
+      <link>https://tategotoazarasi.github.io/en/tags/backtracking/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/backtracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bfs</title>
+      <link>https://tategotoazarasi.github.io/en/tags/bfs/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitive-Programming</title>
+      <link>https://tategotoazarasi.github.io/en/tags/competitive-programming/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/competitive-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Connectivity</title>
+      <link>https://tategotoazarasi.github.io/en/tags/connectivity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/connectivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://tategotoazarasi.github.io/en/tags/cpp/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Disjoint-Set-Union</title>
+      <link>https://tategotoazarasi.github.io/en/tags/disjoint-set-union/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/disjoint-set-union/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formal-Proof</title>
+      <link>https://tategotoazarasi.github.io/en/tags/formal-proof/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/formal-proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph-Theory</title>
+      <link>https://tategotoazarasi.github.io/en/tags/graph-theory/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/graph-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy-Algorithms</title>
+      <link>https://tategotoazarasi.github.io/en/tags/greedy-algorithms/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/greedy-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grid-Traversal</title>
+      <link>https://tategotoazarasi.github.io/en/tags/grid-traversal/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/grid-traversal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leetcode</title>
+      <link>https://tategotoazarasi.github.io/en/tags/leetcode/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number-Theory</title>
+      <link>https://tategotoazarasi.github.io/en/tags/number-theory/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://tategotoazarasi.github.io/en/tags/recursion/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortest-Path</title>
+      <link>https://tategotoazarasi.github.io/en/tags/shortest-path/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/shortest-path/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space-Complexity</title>
+      <link>https://tategotoazarasi.github.io/en/tags/space-complexity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/space-complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subset-Sum-Problem</title>
+      <link>https://tategotoazarasi.github.io/en/tags/subset-sum-problem/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/subset-sum-problem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Complexity</title>
+      <link>https://tategotoazarasi.github.io/en/tags/time-complexity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/time-complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triangle-Finding</title>
+      <link>https://tategotoazarasi.github.io/en/tags/triangle-finding/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/triangle-finding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Union-Find</title>
+      <link>https://tategotoazarasi.github.io/en/tags/union-find/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/union-find/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Weak-Vertices</title>
+      <link>https://tategotoazarasi.github.io/en/tags/weak-vertices/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/tags/weak-vertices/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Algorithm-Tutorial</title>
       <link>https://tategotoazarasi.github.io/en/tags/algorithm-tutorial/</link>
@@ -62,13 +209,6 @@
       <link>https://tategotoazarasi.github.io/en/tags/combinatorial-game-programming/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
       <guid>https://tategotoazarasi.github.io/en/tags/combinatorial-game-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Competitive-Programming</title>
-      <link>https://tategotoazarasi.github.io/en/tags/competitive-programming/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/tags/competitive-programming/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +272,6 @@
       <link>https://tategotoazarasi.github.io/en/tags/set-card-game-solver/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
       <guid>https://tategotoazarasi.github.io/en/tags/set-card-game-solver/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Space-Complexity</title>
-      <link>https://tategotoazarasi.github.io/en/tags/space-complexity/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/tags/space-complexity/</guid>
       <description></description>
     </item>
     <item>
@@ -1063,13 +1196,6 @@
       <link>https://tategotoazarasi.github.io/en/tags/c-api/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
       <guid>https://tategotoazarasi.github.io/en/tags/c-api/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cpp</title>
-      <link>https://tategotoazarasi.github.io/en/tags/cpp/</link>
-      <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
