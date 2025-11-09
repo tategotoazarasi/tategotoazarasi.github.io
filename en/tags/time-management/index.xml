@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Time-Management on Tategoto Azarasi</title>
+    <link>https://blog.tategotoazarasi.me/en/tags/time-management/</link>
+    <description>Recent content in Time-Management on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 Nov 2025 22:32:33 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/time-management/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importing My University Timetable into a Personal Calendar: A Hands-On Journey Through Manual API Exploration and iCalendar Generation</title>
+      <link>https://blog.tategotoazarasi.me/en/posts/reverse-engineering-a-university-timetable-api-to-generate-an-ics-file-with-python/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/posts/reverse-engineering-a-university-timetable-api-to-generate-an-ics-file-with-python/</guid>
+      <description>Learn how to reverse-engineer a university&amp;rsquo;s private timetable API using browser developer tools and write a Python script to convert the JSON data into a universally importable iCalendar (.ics) file for your personal calendar.</description>
+    </item>
+  </channel>
+</rss>

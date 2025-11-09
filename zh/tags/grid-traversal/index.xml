@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Grid-Traversal on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/grid-traversal/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/grid-traversal/</link>
     <description>Recent content in Grid-Traversal on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 25 Oct 2025 17:55:44 +0100</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/grid-traversal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/grid-traversal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uol 2025 Wk3 &amp;&amp; LeetCode Biweekly Contest 168 题解</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk3/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk3/</link>
       <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk3/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk3/</guid>
       <description>&lt;h2 id=&#34;weak-vertices-弱顶点&#34;&gt;Weak Vertices (弱顶点)&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在图论中，一个网络的结构强度通常可以通过识别其中的基本形状（如三角形）来分析。三角形能提供结构刚性，是许多应用中常见的母题。这个问题要求我们识别那些&lt;em&gt;不属于&lt;/em&gt;任何三角形的顶点。一个顶点 &lt;code&gt;i&lt;/code&gt; 被定义为属于一个三角形，如果它有两个不同的邻居 &lt;code&gt;j&lt;/code&gt; 和 &lt;code&gt;k&lt;/code&gt;，并且 &lt;code&gt;j&lt;/code&gt; 和 &lt;code&gt;k&lt;/code&gt; 彼此之间也是邻居。我们的任务是找出所有不满足此条件的顶点，问题将其称为“弱顶点”。图以邻接矩阵的形式给出。&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Bridge on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/en/tags/bridge/</link>
+    <link>https://blog.tategotoazarasi.me/en/tags/bridge/</link>
     <description>Recent content in Bridge on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/en/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/bridge/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Beyond Basic Bridging: Robust Eventing Between C&#43;&#43; EnTT and Rust WASM with Boost.Signals2</title>
-      <link>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
       <description>Refactor a C++ EnTT host and Rust WASM plugin, replacing custom event triggers with Boost.Signals2 via Wasmtime for robust, decoupled FFI communication and advanced host-plugin interaction.</description>
     </item>
   </channel>

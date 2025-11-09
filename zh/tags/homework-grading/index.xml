@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Homework-Grading on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/homework-grading/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/homework-grading/</link>
     <description>Recent content in Homework-Grading on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 02 May 2025 17:16:19 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/homework-grading/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/homework-grading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用Tampermonkey和AI为在线作业批改减负</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
       <description>记录了如何使用Tampermonkey脚本和百度文心AI为在线作业批改（特别是简答题）提供自动化辅助，以减轻教师重复性评分和评语工作的负担。</description>
     </item>
   </channel>

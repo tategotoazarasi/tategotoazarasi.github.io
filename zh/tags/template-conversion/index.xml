@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Template-Conversion on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/template-conversion/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/template-conversion/</link>
     <description>Recent content in Template-Conversion on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Fri, 16 May 2025 21:58:20 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/template-conversion/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/template-conversion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深入Anki卡片内部：反混淆技术与数据提取实践</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
       <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
       <description>深入解析复杂Anki卡片模板的反混淆技术，通过Puppeteer和JSDOM实现动态渲染内容的精准数据提取与迁移。</description>
     </item>
   </channel>

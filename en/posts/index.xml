@@ -2,33 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/en/posts/</link>
+    <link>https://blog.tategotoazarasi.me/en/posts/</link>
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Nov 2025 22:32:33 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/en/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Importing My University Timetable into a Personal Calendar: A Hands-On Journey Through Manual API Exploration and iCalendar Generation</title>
+      <link>https://blog.tategotoazarasi.me/en/posts/reverse-engineering-a-university-timetable-api-to-generate-an-ics-file-with-python/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/posts/reverse-engineering-a-university-timetable-api-to-generate-an-ics-file-with-python/</guid>
+      <description>Learn how to reverse-engineer a university&amp;rsquo;s private timetable API using browser developer tools and write a Python script to convert the JSON data into a universally importable iCalendar (.ics) file for your personal calendar.</description>
+    </item>
     <item>
       <title>Building a TypeScript Video Downloader for Complex, Anti-Scraping Websites</title>
-      <link>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
       <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
       <description>How to build a robust video downloader from scratch with TypeScript, Node.js, and Playwright, capable of handling complex anti-scraping mechanisms, dynamic content loading, and network race conditions.</description>
     </item>
     <item>
       <title>Uol 2025 Wk3 &amp;&amp; LeetCode Biweekly Contest 168 Solutions</title>
-      <link>https://tategotoazarasi.github.io/en/posts/uol-2025-wk3/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/uol-2025-wk3/</link>
       <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/uol-2025-wk3/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/uol-2025-wk3/</guid>
       <description>&lt;h2 id=&#34;weak-vertices&#34;&gt;Weak Vertices&lt;/h2&gt;
 &lt;h3 id=&#34;the-problem&#34;&gt;The Problem&lt;/h3&gt;
 &lt;p&gt;In graph theory, the structural integrity of a network can often be analyzed by identifying fundamental shapes within it, such as triangles. A triangle provides rigidity and is a common motif in many applications. This problem asks us to identify vertices that are &lt;em&gt;not&lt;/em&gt; part of any triangle. A vertex &lt;code&gt;i&lt;/code&gt; is defined as being part of a triangle if it has two distinct neighbors, &lt;code&gt;j&lt;/code&gt; and &lt;code&gt;k&lt;/code&gt;, which are also neighbors of each other. Our task is to find all vertices that do not satisfy this condition, which the problem statement refers to as &amp;ldquo;weak vertices.&amp;rdquo; The graph is given to us in the form of an adjacency matrix.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Uol 2025 Wk2 Solutions</title>
-      <link>https://tategotoazarasi.github.io/en/posts/uol-2025-wk2/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/uol-2025-wk2/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/uol-2025-wk2/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/uol-2025-wk2/</guid>
       <description>&lt;h2 id=&#34;recount&#34;&gt;Recount&lt;/h2&gt;
 &lt;h3 id=&#34;problem&#34;&gt;Problem&lt;/h3&gt;
 &lt;p&gt;The recent schoolboard elections were hotly contested: a proposal to swap school start times for elementary and high
@@ -38,72 +45,72 @@ polls have closed and a winner has yet to emerge!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Discovering a Delete-Your-Files-and-Run Level Bug in debtap</title>
-      <link>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
       <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
       <description>A deep-dive investigation into the Arch Linux tool &lt;code&gt;debtap&lt;/code&gt; reveals how a well-intentioned typo fix accidentally activated a catastrophic &lt;code&gt;rm -rf&lt;/code&gt; bug that deleted all files in the current working directory.</description>
     </item>
     <item>
       <title>Troubleshooting a Stubborn DMIC on a ThinkBook 16 G7&#43; ASP with Linux</title>
-      <link>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
       <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
       <description>Detailed troubleshooting process for fixing a silent digital microphone on a Lenovo ThinkBook 16 G7+ ASP (AMD Ryzen AI 9) laptop running Linux, primarily resolved by adding the kernel module parameter &lt;code&gt;options snd_sof_amd_common enable_pdm=1&lt;/code&gt;.</description>
     </item>
     <item>
       <title>Delving into Anki Cards: Demystifying Templates for Data Extraction and Practical Application</title>
-      <link>https://tategotoazarasi.github.io/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
       <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
       <description>Uncover techniques to demystify complex Anki card templates using Puppeteer and JSDOM for accurate data extraction from dynamically rendered content and facilitate migration.</description>
     </item>
     <item>
       <title>Automating Online Grading with Tampermonkey and AI</title>
-      <link>https://tategotoazarasi.github.io/en/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/automating-online-grading-with-tampermonkey-and-ai/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/automating-online-grading-with-tampermonkey-and-ai/</guid>
       <description>Discover how a Tampermonkey userscript was developed using Baidu Ernie AI to automate scoring and commenting for online short-answer homework, significantly reducing repetitive grading tasks for educators.</description>
     </item>
     <item>
       <title>Matrix Multiplication Performance Benchmark: from Triple Loops to 100&#43; GFLOPS on AMD Ryzen AI &#43; Radeon</title>
-      <link>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
       <description>An in-depth benchmark comparing the performance of 11 matrix multiplication implementations (Naive, CPU multi-core/SIMD/BLAS, GPU via OpenCL/HIP/Vulkan) on AMD Ryzen AI + Radeon, revealing vast performance gaps and optimization insights.</description>
     </item>
     <item>
       <title>Beyond Basic Bridging: Robust Eventing Between C&#43;&#43; EnTT and Rust WASM with Boost.Signals2</title>
-      <link>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
       <description>Refactor a C++ EnTT host and Rust WASM plugin, replacing custom event triggers with Boost.Signals2 via Wasmtime for robust, decoupled FFI communication and advanced host-plugin interaction.</description>
     </item>
     <item>
       <title>Bridging the Gap: Flexible Relationship Management Between C&#43;&#43; Host and Rust WASM Plugins using EnTT</title>
-      <link>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
       <description>Manage EnTT entity relationships in a C++ host from Rust WebAssembly (WASM) plugins using Wasmtime, a stable C FFI, and a data-driven approach to overcome WASM boundary limitations.</description>
     </item>
     <item>
       <title>Deep Dive into Wasmtime: Bidirectional Communication and Memory Sharing Between C&#43;&#43; and Rust Wasm Modules</title>
-      <link>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
       <pubDate>Sun, 06 Apr 2025 16:42:41 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
       <description>A detailed technical guide on using the Wasmtime runtime to enable complex bidirectional communication, shared memory access, and struct passing between C++ host applications and Rust WebAssembly modules.</description>
     </item>
     <item>
       <title>Weaving the Web: Managing Entity Relationships in EnTT</title>
-      <link>https://tategotoazarasi.github.io/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
       <pubDate>Sat, 05 Apr 2025 21:33:02 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
       <description>Manage 1:1, 1:N, &amp;amp; N:N entity relationships in C++ EnTT ECS using component-based CRUD strategies and best practices.</description>
     </item>
     <item>
       <title>Dev Log: Adding a All-in-One Widget to Breezy Weather - The ClockDayHourWeekWidget Journey</title>
-      <link>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/clock-day-hour-week-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/clock-day-hour-week-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/clock-day-hour-week-widget/</guid>
       <description>A detailed guide on adding a comprehensive &amp;ldquo;ClockDayHourWeekWidget&amp;rdquo; to the Breezy Weather app, combining clock, daily, and hourly forecasts into one Android widget.</description>
     </item>
   </channel>

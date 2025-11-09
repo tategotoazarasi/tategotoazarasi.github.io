@@ -2,1788 +2,1886 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/</link>
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Nov 2025 22:32:33 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced-Web-Scraping-Techniques</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/advanced-web-scraping-techniques/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/advanced-web-scraping-techniques/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anti-Scraping</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/anti-scraping/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/anti-scraping/</guid>
+      <title>Api</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/api/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/api/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/automation/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/automation/</guid>
+      <link>https://blog.tategotoazarasi.me/zh/tags/automation/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/automation/</guid>
       <description></description>
     </item>
     <item>
-      <title>Browser-Automation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/browser-automation/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/browser-automation/</guid>
+      <title>Calendar-Import</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/calendar-import/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/calendar-import/</guid>
       <description></description>
     </item>
     <item>
-      <title>Browser-Automation-Scripting</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/browser-automation-scripting/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/browser-automation-scripting/</guid>
+      <title>Curl</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/curl/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/curl/</guid>
       <description></description>
     </item>
     <item>
-      <title>Bypass-Anti-Scraping</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bypass-anti-scraping/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bypass-anti-scraping/</guid>
+      <title>Data-Conversion</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-conversion/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-conversion/</guid>
       <description></description>
     </item>
     <item>
-      <title>Content-Delivery-Network-Cdn-Scraping</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/content-delivery-network-cdn-scraping/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/content-delivery-network-cdn-scraping/</guid>
+      <title>Developer-Tools</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/developer-tools/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/developer-tools/</guid>
       <description></description>
     </item>
     <item>
-      <title>Debugging-Playwright</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/debugging-playwright/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/debugging-playwright/</guid>
+      <title>Http-Request</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/http-request/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/http-request/</guid>
       <description></description>
     </item>
     <item>
-      <title>Download-Streaming-Video</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/download-streaming-video/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/download-streaming-video/</guid>
+      <title>Icalendar</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/icalendar/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/icalendar/</guid>
       <description></description>
     </item>
     <item>
-      <title>Handle-Dynamic-Content</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/handle-dynamic-content/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/handle-dynamic-content/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Network-Interception</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/network-interception/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/network-interception/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nodejs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/nodejs/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/nodejs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Nodejs-Playwright-Tutorial</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/nodejs-playwright-tutorial/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/nodejs-playwright-tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Page-Evaluate-Fetch</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/page-evaluate-fetch/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/page-evaluate-fetch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playwright</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/playwright/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/playwright/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playwright-Network-Interception</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/playwright-network-interception/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/playwright-network-interception/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Playwright-vs-Puppeteer</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/playwright-vs-puppeteer/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/playwright-vs-puppeteer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Race-Condition</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/race-condition/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/race-condition/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Race-Condition-in-Web-Scraping</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/race-condition-in-web-scraping/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/race-condition-in-web-scraping/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Robust-Downloader-Nodejs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/robust-downloader-nodejs/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/robust-downloader-nodejs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Typescript</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/typescript/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/typescript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Typescript-Project-From-Scratch</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/typescript-project-from-scratch/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/typescript-project-from-scratch/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Typescript-Video-Downloader</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/typescript-video-downloader/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/typescript-video-downloader/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Video-Downloader</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/video-downloader/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/video-downloader/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Web-Scraping</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/web-scraping/</link>
-      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/web-scraping/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Algorithm-Analysis</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/algorithm-analysis/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/algorithm-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Backtracking</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/backtracking/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/backtracking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bfs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bfs/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bfs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Competitive-Programming</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/competitive-programming/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/competitive-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Connectivity</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/connectivity/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/connectivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cpp</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cpp/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cpp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Disjoint-Set-Union</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/disjoint-set-union/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/disjoint-set-union/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Formal-Proof</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/formal-proof/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/formal-proof/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Graph-Theory</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/graph-theory/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/graph-theory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy-Algorithms</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/greedy-algorithms/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/greedy-algorithms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grid-Traversal</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/grid-traversal/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/grid-traversal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Leetcode</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/leetcode/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/leetcode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Number-Theory</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/number-theory/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/number-theory/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recursion</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/recursion/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/recursion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shortest-Path</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/shortest-path/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/shortest-path/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Space-Complexity</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/space-complexity/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/space-complexity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Subset-Sum-Problem</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/subset-sum-problem/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/subset-sum-problem/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Time-Complexity</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/time-complexity/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/time-complexity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Triangle-Finding</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/triangle-finding/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/triangle-finding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Union-Find</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/union-find/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/union-find/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Weak-Vertices</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/weak-vertices/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/weak-vertices/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Algorithm-Tutorial</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/algorithm-tutorial/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/algorithm-tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bilingual-Guide</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bilingual-guide/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bilingual-guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Brute-Force-Search</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/brute-force-search/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/brute-force-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C-Plus-Plus</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>C-Plus-Plus-Code-Explanation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus-code-explanation/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/c-plus-plus-code-explanation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chinese-English-Programming-Tutorial</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/chinese-english-programming-tutorial/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/chinese-english-programming-tutorial/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Coding-Challenges</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/coding-challenges/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/coding-challenges/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Combinatorial-Game-Programming</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/combinatorial-game-programming/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/combinatorial-game-programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Structures-and-Algorithms</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-structures-and-algorithms/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-structures-and-algorithms/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Exchange-Argument-Proof</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/exchange-argument-proof/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/exchange-argument-proof/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Greedy-Algorithm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/greedy-algorithm/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/greedy-algorithm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hash-Map-Example</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/hash-map-example/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/hash-map-example/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Planting-Trees-Problem-Solution</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/planting-trees-problem-solution/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/planting-trees-problem-solution/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Problem-Solving-Guide</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/problem-solving-guide/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/problem-solving-guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Recount-Problem-Solution</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/recount-problem-solution/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/recount-problem-solution/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scheduling-Optimization</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/scheduling-optimization/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/scheduling-optimization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Set-Card-Game-Solver</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/set-card-game-solver/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/set-card-game-solver/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Time-Complexity-Analysis</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/time-complexity-analysis/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/time-complexity-analysis/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vote-Counting-Algorithm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/vote-counting-algorithm/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/vote-counting-algorithm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arch-Linux</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/arch-linux/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bash</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bash/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bash/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Bug</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bug/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bug/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Code-Review</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/code-review/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/code-review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Command-Line</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/command-line/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/command-line/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Loss</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-loss/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-loss/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Debtap</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/debtap/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/debtap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Debugging</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/debugging/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/debugging/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dirname</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dirname/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dirname/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/git/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git-Blame</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/git-blame/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/git-blame/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/linux/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/open-source/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pkgbuild</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/pkgbuild/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/pkgbuild/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rm-Rf</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/rm-rf/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/rm-rf/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell-Script</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/shell-script/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/shell-script/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software-Development</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/software-development/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/software-development/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Typo</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/typo/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/typo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Alsa</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/alsa/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/alsa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Alsa-Ucm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/alsa-ucm/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/alsa-ucm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amd</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/amd/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/amd/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amd-Acp-Audio</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/amd-acp-audio/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/amd-acp-audio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amd-Ryzen-Ai</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/amd-ryzen-ai/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/amd-ryzen-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Arch-Linux-Audio</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/arch-linux-audio/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/arch-linux-audio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Audio</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/audio/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/audio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cachyos</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cachyos/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cachyos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Digital-Microphone-Fix</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/digital-microphone-fix/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/digital-microphone-fix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dmic</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dmic/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dmic/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dmic-No-Sound</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dmic-no-sound/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dmic-no-sound/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Enable-Pdm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/enable-pdm/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/enable-pdm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fix</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/fix/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/fix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kernel</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/kernel/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/kernel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Kernel-Module-Options</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/kernel-module-options/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/kernel-module-options/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Laptop</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/laptop/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/laptop/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux-Audio</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/linux-audio/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/linux-audio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux-Laptop-Mic-Fix</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/linux-laptop-mic-fix/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/linux-laptop-mic-fix/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Microphone</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/microphone/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/microphone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pipewire</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/pipewire/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/pipewire/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pipewire-Troubleshooting</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/pipewire-troubleshooting/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/pipewire-troubleshooting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ryzen-Ai</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ryzen-ai/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ryzen-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Snd-Sof-Amd-Common</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/snd-sof-amd-common/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/snd-sof-amd-common/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sof</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/sof/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/sof/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sof-Firmware</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/sof-firmware/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/sof-firmware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Sound-Open-Firmware</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/sound-open-firmware/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/sound-open-firmware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Strix-Point-Apu</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/strix-point-apu/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/strix-point-apu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thinkbook</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/thinkbook/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/thinkbook/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Thinkbook-16-G7-Asp</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/thinkbook-16-g7-asp/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/thinkbook-16-g7-asp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Troubleshooting</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/troubleshooting/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/troubleshooting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wireplumber</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wireplumber/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wireplumber/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wireplumber-Acp-Error</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wireplumber-acp-error/</link>
-      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wireplumber-acp-error/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anki</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/anki/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/anki/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anki-Automation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/anki-automation/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/anki-automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Anki-Customization</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/anki-customization/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/anki-customization/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ankiconnect</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ankiconnect/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ankiconnect/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Card-Templates</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/card-templates/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/card-templates/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Css</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/css/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/css/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Extraction</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-extraction/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-extraction/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Migration</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-migration/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-migration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Processing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-processing/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-processing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Demystification</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/demystification/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/demystification/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dom-Parsing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dom-parsing/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dom-parsing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Frontend-Techniques</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/frontend-techniques/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/frontend-techniques/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Headless-Browser</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/headless-browser/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/headless-browser/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Html</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/html/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/html/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Javascript</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/javascript/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Jsdom</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/jsdom/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/jsdom/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Knowledge-Management</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/knowledge-management/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/knowledge-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Learning-Tools</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/learning-tools/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/learning-tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Persistencejs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/persistencejs/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/persistencejs/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Puppeteer</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/puppeteer/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/puppeteer/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Reverse-Engineering</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/reverse-engineering/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/reverse-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scripting</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/scripting/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/scripting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Spaced-Repetition</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/spaced-repetition/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/spaced-repetition/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Template-Conversion</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/template-conversion/</link>
-      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/template-conversion/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ai</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ai/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Api-Integration</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/api-integration/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/api-integration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Baidu-Ernie</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/baidu-ernie/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/baidu-ernie/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cors-Workaround</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cors-workaround/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cors-workaround/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Dom-Manipulation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dom-manipulation/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dom-manipulation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Edtech</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/edtech/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/edtech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Education-Technology</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/education-technology/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/education-technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Gm-Xmlhttprequest</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/gm-xmlhttprequest/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/gm-xmlhttprequest/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Grading-Automation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/grading-automation/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/grading-automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Homework-Grading</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/homework-grading/</link>
-      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/homework-grading/</guid>
+      <title>Ics</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ics/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ics/</guid>
       <description></description>
     </item>
     <item>
       <title>Json</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/json/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/json/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/json/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network-Analysis</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/network-analysis/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/network-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/python/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reverse-Engineering</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/reverse-engineering/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/reverse-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Student-Project</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/student-project/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/student-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Management</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/time-management/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/time-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Timetable</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/timetable/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/timetable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>University-Life</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/university-life/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/university-life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Scraping</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/web-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 22:32:33 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/web-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced-Web-Scraping-Techniques</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/advanced-web-scraping-techniques/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/advanced-web-scraping-techniques/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anti-Scraping</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/anti-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/anti-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browser-Automation</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/browser-automation/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/browser-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browser-Automation-Scripting</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/browser-automation-scripting/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/browser-automation-scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bypass-Anti-Scraping</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bypass-anti-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bypass-anti-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content-Delivery-Network-Cdn-Scraping</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/content-delivery-network-cdn-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/content-delivery-network-cdn-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging-Playwright</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/debugging-playwright/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/debugging-playwright/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Download-Streaming-Video</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/download-streaming-video/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/download-streaming-video/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Handle-Dynamic-Content</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/handle-dynamic-content/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/handle-dynamic-content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Network-Interception</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/network-interception/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/network-interception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/nodejs/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nodejs-Playwright-Tutorial</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/nodejs-playwright-tutorial/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/nodejs-playwright-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Page-Evaluate-Fetch</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/page-evaluate-fetch/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/page-evaluate-fetch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Playwright</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/playwright/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/playwright/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Playwright-Network-Interception</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/playwright-network-interception/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/playwright-network-interception/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Playwright-vs-Puppeteer</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/playwright-vs-puppeteer/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/playwright-vs-puppeteer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Race-Condition</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/race-condition/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/race-condition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Race-Condition-in-Web-Scraping</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/race-condition-in-web-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/race-condition-in-web-scraping/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robust-Downloader-Nodejs</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/robust-downloader-nodejs/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/robust-downloader-nodejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typescript</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/typescript/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/typescript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typescript-Project-From-Scratch</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/typescript-project-from-scratch/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/typescript-project-from-scratch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typescript-Video-Downloader</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/typescript-video-downloader/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/typescript-video-downloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video-Downloader</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/video-downloader/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/video-downloader/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm-Analysis</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/algorithm-analysis/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/algorithm-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backtracking</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/backtracking/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/backtracking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bfs</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bfs/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bfs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Competitive-Programming</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/competitive-programming/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/competitive-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Connectivity</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/connectivity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/connectivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cpp/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Disjoint-Set-Union</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/disjoint-set-union/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/disjoint-set-union/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Formal-Proof</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/formal-proof/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/formal-proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Graph-Theory</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/graph-theory/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/graph-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy-Algorithms</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/greedy-algorithms/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/greedy-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grid-Traversal</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/grid-traversal/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/grid-traversal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Leetcode</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/leetcode/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Number-Theory</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/number-theory/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/number-theory/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recursion</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/recursion/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/recursion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shortest-Path</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/shortest-path/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/shortest-path/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Space-Complexity</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/space-complexity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/space-complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Subset-Sum-Problem</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/subset-sum-problem/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/subset-sum-problem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Complexity</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/time-complexity/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/time-complexity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Triangle-Finding</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/triangle-finding/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/triangle-finding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Union-Find</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/union-find/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/union-find/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Weak-Vertices</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/weak-vertices/</link>
+      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/weak-vertices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Algorithm-Tutorial</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/algorithm-tutorial/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/algorithm-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bilingual-Guide</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bilingual-guide/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bilingual-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brute-Force-Search</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/brute-force-search/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/brute-force-search/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Plus-Plus</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C-Plus-Plus-Code-Explanation</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus-code-explanation/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus-code-explanation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chinese-English-Programming-Tutorial</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/chinese-english-programming-tutorial/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/chinese-english-programming-tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coding-Challenges</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/coding-challenges/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/coding-challenges/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Combinatorial-Game-Programming</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/combinatorial-game-programming/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/combinatorial-game-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Structures-and-Algorithms</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-structures-and-algorithms/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-structures-and-algorithms/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Exchange-Argument-Proof</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/exchange-argument-proof/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/exchange-argument-proof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Greedy-Algorithm</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/greedy-algorithm/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/greedy-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hash-Map-Example</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/hash-map-example/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/hash-map-example/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Planting-Trees-Problem-Solution</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/planting-trees-problem-solution/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/planting-trees-problem-solution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Problem-Solving-Guide</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/problem-solving-guide/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/problem-solving-guide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Recount-Problem-Solution</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/recount-problem-solution/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/recount-problem-solution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scheduling-Optimization</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/scheduling-optimization/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/scheduling-optimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Set-Card-Game-Solver</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/set-card-game-solver/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/set-card-game-solver/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time-Complexity-Analysis</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/time-complexity-analysis/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/time-complexity-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vote-Counting-Algorithm</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/vote-counting-algorithm/</link>
+      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/vote-counting-algorithm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch-Linux</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/arch-linux/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bash</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bash/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bash/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bug</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bug/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bug/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Code-Review</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/code-review/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/code-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Command-Line</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/command-line/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/command-line/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Loss</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-loss/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-loss/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debtap</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/debtap/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/debtap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/debugging/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dirname</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dirname/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dirname/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/git/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git-Blame</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/git-blame/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/git-blame/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/linux/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/open-source/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pkgbuild</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/pkgbuild/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/pkgbuild/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rm-Rf</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/rm-rf/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/rm-rf/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shell-Script</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/shell-script/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/shell-script/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Development</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/software-development/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/software-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typo</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/typo/</link>
+      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/typo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alsa</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/alsa/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/alsa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alsa-Ucm</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/alsa-ucm/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/alsa-ucm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amd</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/amd/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/amd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amd-Acp-Audio</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/amd-acp-audio/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/amd-acp-audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amd-Ryzen-Ai</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/amd-ryzen-ai/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/amd-ryzen-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arch-Linux-Audio</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/arch-linux-audio/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/arch-linux-audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Audio</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/audio/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cachyos</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cachyos/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cachyos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Digital-Microphone-Fix</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/digital-microphone-fix/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/digital-microphone-fix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dmic</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dmic/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dmic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dmic-No-Sound</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dmic-no-sound/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dmic-no-sound/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enable-Pdm</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/enable-pdm/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/enable-pdm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fix</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/fix/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/fix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/kernel/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/kernel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kernel-Module-Options</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/kernel-module-options/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/kernel-module-options/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Laptop</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/laptop/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/laptop/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux-Audio</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/linux-audio/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/linux-audio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux-Laptop-Mic-Fix</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/linux-laptop-mic-fix/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/linux-laptop-mic-fix/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microphone</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/microphone/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/microphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipewire</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/pipewire/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/pipewire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pipewire-Troubleshooting</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/pipewire-troubleshooting/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/pipewire-troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ryzen-Ai</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ryzen-ai/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ryzen-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Snd-Sof-Amd-Common</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/snd-sof-amd-common/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/snd-sof-amd-common/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sof</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/sof/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/sof/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sof-Firmware</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/sof-firmware/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/sof-firmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sound-Open-Firmware</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/sound-open-firmware/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/sound-open-firmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Strix-Point-Apu</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/strix-point-apu/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/strix-point-apu/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinkbook</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/thinkbook/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/thinkbook/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinkbook-16-G7-Asp</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/thinkbook-16-g7-asp/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/thinkbook-16-g7-asp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Troubleshooting</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/troubleshooting/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/troubleshooting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireplumber</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wireplumber/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wireplumber/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireplumber-Acp-Error</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wireplumber-acp-error/</link>
+      <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wireplumber-acp-error/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anki</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/anki/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/anki/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anki-Automation</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/anki-automation/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/anki-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anki-Customization</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/anki-customization/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/anki-customization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ankiconnect</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ankiconnect/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ankiconnect/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Card-Templates</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/card-templates/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/card-templates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Css</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/css/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/css/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Extraction</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-extraction/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-extraction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Migration</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-migration/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-migration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Processing</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-processing/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Demystification</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/demystification/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/demystification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dom-Parsing</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dom-parsing/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dom-parsing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Frontend-Techniques</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/frontend-techniques/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/frontend-techniques/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Headless-Browser</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/headless-browser/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/headless-browser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Html</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/html/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/html/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/javascript/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jsdom</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/jsdom/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/jsdom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowledge-Management</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/knowledge-management/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/knowledge-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learning-Tools</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/learning-tools/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/learning-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Persistencejs</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/persistencejs/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/persistencejs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Puppeteer</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/puppeteer/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/puppeteer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scripting</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/scripting/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/scripting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spaced-Repetition</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/spaced-repetition/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/spaced-repetition/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Template-Conversion</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/template-conversion/</link>
+      <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/template-conversion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ai/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/json/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Api-Integration</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/api-integration/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/api-integration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Baidu-Ernie</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/baidu-ernie/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/baidu-ernie/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cors-Workaround</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cors-workaround/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cors-workaround/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dom-Manipulation</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dom-manipulation/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dom-manipulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edtech</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/edtech/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/edtech/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Education-Technology</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/education-technology/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/education-technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gm-Xmlhttprequest</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/gm-xmlhttprequest/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/gm-xmlhttprequest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Grading-Automation</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/grading-automation/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/grading-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homework-Grading</title>
+      <link>https://blog.tategotoazarasi.me/zh/tags/homework-grading/</link>
+      <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/homework-grading/</guid>
       <description></description>
     </item>
     <item>
       <title>Llm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/llm/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/llm/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/llm/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/llm/</guid>
       <description></description>
     </item>
     <item>
       <title>Prompt-Engineering</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/prompt-engineering/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/prompt-engineering/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/prompt-engineering/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/prompt-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Tampermonkey</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/tampermonkey/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/tampermonkey/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/tampermonkey/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/tampermonkey/</guid>
       <description></description>
     </item>
     <item>
       <title>Teacher-Tools</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/teacher-tools/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/teacher-tools/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/teacher-tools/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/teacher-tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Userscript</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/userscript/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/userscript/</link>
       <pubDate>Fri, 02 May 2025 17:16:19 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/userscript/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/userscript/</guid>
       <description></description>
     </item>
     <item>
       <title>Avx</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/avx/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/avx/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/avx/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/avx/</guid>
       <description></description>
     </item>
     <item>
       <title>Avx-512</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/avx-512/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/avx-512/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/avx-512/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/avx-512/</guid>
       <description></description>
     </item>
     <item>
       <title>Avx2</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/avx2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/avx2/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/avx2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/avx2/</guid>
       <description></description>
     </item>
     <item>
       <title>Benchmark</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/benchmark/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/benchmark/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/benchmark/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/benchmark/</guid>
       <description></description>
     </item>
     <item>
       <title>Blas</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/blas/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/blas/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/blas/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/blas/</guid>
       <description></description>
     </item>
     <item>
       <title>Clblast</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/clblast/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/clblast/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/clblast/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/clblast/</guid>
       <description></description>
     </item>
     <item>
       <title>Comparison</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/comparison/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/comparison/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/comparison/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/comparison/</guid>
       <description></description>
     </item>
     <item>
       <title>Compute-Shader</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/compute-shader/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/compute-shader/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/compute-shader/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/compute-shader/</guid>
       <description></description>
     </item>
     <item>
       <title>Cpu</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cpu/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cpu/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cpu/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cpu/</guid>
       <description></description>
     </item>
     <item>
       <title>Eigen</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/eigen/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/eigen/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/eigen/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/eigen/</guid>
       <description></description>
     </item>
     <item>
       <title>Fma</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/fma/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/fma/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/fma/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/fma/</guid>
       <description></description>
     </item>
     <item>
       <title>Gfx1150</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/gfx1150/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/gfx1150/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/gfx1150/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/gfx1150/</guid>
       <description></description>
     </item>
     <item>
       <title>Google-Benchmark</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/google-benchmark/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/google-benchmark/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/google-benchmark/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/google-benchmark/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpgpu</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/gpgpu/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/gpgpu/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/gpgpu/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/gpgpu/</guid>
       <description></description>
     </item>
     <item>
       <title>Gpu</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/gpu/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/gpu/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/gpu/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/gpu/</guid>
       <description></description>
     </item>
     <item>
       <title>High-Performance-Computing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/high-performance-computing/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/high-performance-computing/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/high-performance-computing/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/high-performance-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Hip</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/hip/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/hip/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/hip/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/hip/</guid>
       <description></description>
     </item>
     <item>
       <title>Hipblas</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/hipblas/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/hipblas/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/hipblas/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/hipblas/</guid>
       <description></description>
     </item>
     <item>
       <title>Hpc</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/hpc/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/hpc/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/hpc/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/hpc/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear-Algebra</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/linear-algebra/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/linear-algebra/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/linear-algebra/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/linear-algebra/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix-Multiplication</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/</guid>
       <description></description>
     </item>
     <item>
       <title>Opencl</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/opencl/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/opencl/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/opencl/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/opencl/</guid>
       <description></description>
     </item>
     <item>
       <title>Opencv</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/opencv/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/opencv/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/opencv/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/opencv/</guid>
       <description></description>
     </item>
     <item>
       <title>Openmp</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/openmp/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/openmp/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/openmp/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/openmp/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/optimization/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/optimization/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/optimization/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Parallel-Computing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/parallel-computing/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/parallel-computing/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/parallel-computing/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/parallel-computing/</guid>
       <description></description>
     </item>
     <item>
       <title>Performance</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/performance/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/performance/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/performance/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Radeon</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/radeon/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/radeon/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/radeon/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/radeon/</guid>
       <description></description>
     </item>
     <item>
       <title>Rocm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/rocm/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/rocm/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/rocm/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/rocm/</guid>
       <description></description>
     </item>
     <item>
       <title>Simd</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/simd/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/simd/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/simd/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/simd/</guid>
       <description></description>
     </item>
     <item>
       <title>Vectorization</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/vectorization/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/vectorization/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/vectorization/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/vectorization/</guid>
       <description></description>
     </item>
     <item>
       <title>Vulkan</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/vulkan/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/vulkan/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/vulkan/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/vulkan/</guid>
       <description></description>
     </item>
     <item>
       <title>Boost-Signals2</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/boost-signals2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/boost-signals2/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/boost-signals2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/boost-signals2/</guid>
       <description></description>
     </item>
     <item>
       <title>Bridge</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bridge/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bridge/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bridge/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bridge/</guid>
       <description></description>
     </item>
     <item>
       <title>C-Api</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/c-api/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/c-api/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/c-api/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/c-api/</guid>
       <description></description>
     </item>
     <item>
       <title>Cross-Language-Communication</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cross-language-communication/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cross-language-communication/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cross-language-communication/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cross-language-communication/</guid>
       <description></description>
     </item>
     <item>
       <title>Decoupling</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/decoupling/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/decoupling/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/decoupling/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/decoupling/</guid>
       <description></description>
     </item>
     <item>
       <title>Ecs</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ecs/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ecs/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ecs/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ecs/</guid>
       <description></description>
     </item>
     <item>
       <title>Entity-Component-System</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/entity-component-system/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/entity-component-system/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/entity-component-system/</guid>
       <description></description>
     </item>
     <item>
       <title>Entt</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/entt/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/entt/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/entt/</guid>
       <description></description>
     </item>
     <item>
       <title>Event-Handling</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/event-handling/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/event-handling/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/event-handling/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/event-handling/</guid>
       <description></description>
     </item>
     <item>
       <title>Ffi</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/ffi/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/ffi/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/ffi/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/ffi/</guid>
       <description></description>
     </item>
     <item>
       <title>Game-Development</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/game-development/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/game-development/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/game-development/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/game-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Host-Plugin</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/host-plugin/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/host-plugin/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/host-plugin/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/host-plugin/</guid>
       <description></description>
     </item>
     <item>
       <title>Interoperability</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/interoperability/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/interoperability/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/interoperability/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/interoperability/</guid>
       <description></description>
     </item>
     <item>
       <title>Plugin-Architecture</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/plugin-architecture/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/plugin-architecture/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/plugin-architecture/</guid>
       <description></description>
     </item>
     <item>
       <title>Refactoring</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/refactoring/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/refactoring/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/refactoring/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/refactoring/</guid>
       <description></description>
     </item>
     <item>
       <title>Rust</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/rust/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/rust/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/rust/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/rust/</guid>
       <description></description>
     </item>
     <item>
       <title>Signals-and-Slots</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/signals-and-slots/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/signals-and-slots/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/signals-and-slots/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/signals-and-slots/</guid>
       <description></description>
     </item>
     <item>
       <title>Simulation</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/simulation/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/simulation/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/simulation/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/simulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Wasm</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasm/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wasm/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasm/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wasm/</guid>
       <description></description>
     </item>
     <item>
       <title>Wasmtime</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wasmtime/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wasmtime/</guid>
       <description></description>
     </item>
     <item>
       <title>Webassembly</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/webassembly/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/webassembly/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/webassembly/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/webassembly/</guid>
       <description></description>
     </item>
     <item>
       <title>Abi</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/abi/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/abi/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/abi/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/abi/</guid>
       <description></description>
     </item>
     <item>
       <title>Api-Design</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/api-design/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/api-design/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/api-design/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/api-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Cplusplus</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cplusplus/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cplusplus/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cplusplus/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cplusplus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cross-Language</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/cross-language/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/cross-language/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/cross-language/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/cross-language/</guid>
       <description></description>
     </item>
     <item>
       <title>Data-Driven-Design</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/data-driven-design/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/data-driven-design/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/data-driven-design/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/data-driven-design/</guid>
       <description></description>
     </item>
     <item>
       <title>Memory-Management</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/memory-management/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/memory-management/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/memory-management/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/memory-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Relationship-Management</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/relationship-management/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/relationship-management/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/relationship-management/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/relationship-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Bidirectional-Communication</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/bidirectional-communication/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/bidirectional-communication/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/bidirectional-communication/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/bidirectional-communication/</guid>
       <description></description>
     </item>
     <item>
       <title>Host-Guest</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/host-guest/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/host-guest/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/host-guest/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/host-guest/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear-Memory</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/linear-memory/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/linear-memory/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/linear-memory/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/linear-memory/</guid>
       <description></description>
     </item>
     <item>
       <title>Runtime</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/runtime/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/runtime/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/runtime/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/runtime/</guid>
       <description></description>
     </item>
     <item>
       <title>Sandboxing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/sandboxing/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/sandboxing/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/sandboxing/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/sandboxing/</guid>
       <description></description>
     </item>
     <item>
       <title>Shared-Memory</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/shared-memory/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/shared-memory/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/shared-memory/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/shared-memory/</guid>
       <description></description>
     </item>
     <item>
       <title>State-Management</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/state-management/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/state-management/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/state-management/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/state-management/</guid>
       <description></description>
     </item>
     <item>
       <title>Struct-Passing</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/struct-passing/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/struct-passing/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/struct-passing/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/struct-passing/</guid>
       <description></description>
     </item>
     <item>
       <title>Wasi</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasi/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wasi/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasi/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wasi/</guid>
       <description></description>
     </item>
     <item>
       <title>Wasmtime-Api</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/wasmtime-api/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/wasmtime-api/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/wasmtime-api/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/wasmtime-api/</guid>
       <description></description>
     </item>
     <item>
       <title>1-to-1</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/1-to-1/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/1-to-1/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/1-to-1/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/1-to-1/</guid>
       <description></description>
     </item>
     <item>
       <title>1-to-N</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/1-to-n/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/1-to-n/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/1-to-n/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/1-to-n/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/c&#43;&#43;/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/c&#43;&#43;/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/c&#43;&#43;/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>Components</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/components/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/components/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/components/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/components/</guid>
       <description></description>
     </item>
     <item>
       <title>Crud</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/crud/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/crud/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/crud/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/crud/</guid>
       <description></description>
     </item>
     <item>
       <title>Dangling-References</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/dangling-references/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/dangling-references/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/dangling-references/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/dangling-references/</guid>
       <description></description>
     </item>
     <item>
       <title>Entity-Relationships</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/entity-relationships/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/entity-relationships/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/entity-relationships/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/entity-relationships/</guid>
       <description></description>
     </item>
     <item>
       <title>N-to-N</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/n-to-n/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/n-to-n/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/n-to-n/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/n-to-n/</guid>
       <description></description>
     </item>
     <item>
       <title>Registry</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/registry/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/registry/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/registry/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/registry/</guid>
       <description></description>
     </item>
     <item>
       <title>Views</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/views/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/views/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/views/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/views/</guid>
       <description></description>
     </item>
     <item>
       <title>Android-App-Widget</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/android-app-widget/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/android-app-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/android-app-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/android-app-widget/</guid>
       <description></description>
     </item>
     <item>
       <title>Android-Development</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/android-development/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/android-development/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/android-development/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/android-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Android-Layout</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/android-layout/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/android-layout/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/android-layout/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/android-layout/</guid>
       <description></description>
     </item>
     <item>
       <title>Android-Widget</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/android-widget/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/android-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/android-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/android-widget/</guid>
       <description></description>
     </item>
     <item>
       <title>Appwidgetprovider</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/appwidgetprovider/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/appwidgetprovider/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/appwidgetprovider/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/appwidgetprovider/</guid>
       <description></description>
     </item>
     <item>
       <title>Breezy-Weather</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/breezy-weather/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/breezy-weather/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/breezy-weather/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/breezy-weather/</guid>
       <description></description>
     </item>
     <item>
       <title>Breezy-Weather-Widget</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/breezy-weather-widget/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/breezy-weather-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/breezy-weather-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/breezy-weather-widget/</guid>
       <description></description>
     </item>
     <item>
       <title>Clock-Day-Hour-Week</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/clock-day-hour-week/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/clock-day-hour-week/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/clock-day-hour-week/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/clock-day-hour-week/</guid>
       <description></description>
     </item>
     <item>
       <title>Clock-Widget</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/clock-widget/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/clock-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/clock-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/clock-widget/</guid>
       <description></description>
     </item>
     <item>
       <title>Daily-Forecast</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/daily-forecast/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/daily-forecast/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/daily-forecast/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/daily-forecast/</guid>
       <description></description>
     </item>
     <item>
       <title>Hourly-Forecast</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/hourly-forecast/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/hourly-forecast/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/hourly-forecast/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/hourly-forecast/</guid>
       <description></description>
     </item>
     <item>
       <title>Kotlin</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/kotlin/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/kotlin/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/kotlin/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/kotlin/</guid>
       <description></description>
     </item>
     <item>
       <title>Pendingintent</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/pendingintent/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/pendingintent/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/pendingintent/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/pendingintent/</guid>
       <description></description>
     </item>
     <item>
       <title>Remoteviews</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/remoteviews/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/remoteviews/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/remoteviews/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/remoteviews/</guid>
       <description></description>
     </item>
     <item>
       <title>Remoteviews-Presenter</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/remoteviews-presenter/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/remoteviews-presenter/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/remoteviews-presenter/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/remoteviews-presenter/</guid>
       <description></description>
     </item>
     <item>
       <title>Sharedpreferences</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/sharedpreferences/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/sharedpreferences/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/sharedpreferences/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/sharedpreferences/</guid>
       <description></description>
     </item>
     <item>
       <title>Weather-App</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/weather-app/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/weather-app/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/weather-app/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/weather-app/</guid>
       <description></description>
     </item>
     <item>
       <title>Widget-Config</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/widget-config/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/widget-config/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/widget-config/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/widget-config/</guid>
       <description></description>
     </item>
     <item>
       <title>Widget-Development</title>
-      <link>https://tategotoazarasi.github.io/zh/tags/widget-development/</link>
+      <link>https://blog.tategotoazarasi.me/zh/tags/widget-development/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/tags/widget-development/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/tags/widget-development/</guid>
       <description></description>
     </item>
   </channel>

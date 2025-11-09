@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/en/tags/linux/</link>
+    <link>https://blog.tategotoazarasi.me/en/tags/linux/</link>
     <description>Recent content in Linux on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 06 Aug 2025 18:02:24 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Discovering a Delete-Your-Files-and-Run Level Bug in debtap</title>
-      <link>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
       <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
       <description>A deep-dive investigation into the Arch Linux tool &lt;code&gt;debtap&lt;/code&gt; reveals how a well-intentioned typo fix accidentally activated a catastrophic &lt;code&gt;rm -rf&lt;/code&gt; bug that deleted all files in the current working directory.</description>
     </item>
     <item>
       <title>Troubleshooting a Stubborn DMIC on a ThinkBook 16 G7&#43; ASP with Linux</title>
-      <link>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
       <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
       <description>Detailed troubleshooting process for fixing a silent digital microphone on a Lenovo ThinkBook 16 G7+ ASP (AMD Ryzen AI 9) laptop running Linux, primarily resolved by adding the kernel module parameter &lt;code&gt;options snd_sof_amd_common enable_pdm=1&lt;/code&gt;.</description>
     </item>
   </channel>

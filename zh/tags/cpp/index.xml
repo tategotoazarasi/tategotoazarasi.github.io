@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Cpp on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/cpp/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/cpp/</link>
     <description>Recent content in Cpp on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 25 Oct 2025 17:55:44 +0100</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/cpp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uol 2025 Wk3 &amp;&amp; LeetCode Biweekly Contest 168 题解</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk3/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk3/</link>
       <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk3/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk3/</guid>
       <description>&lt;h2 id=&#34;weak-vertices-弱顶点&#34;&gt;Weak Vertices (弱顶点)&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;在图论中，一个网络的结构强度通常可以通过识别其中的基本形状（如三角形）来分析。三角形能提供结构刚性，是许多应用中常见的母题。这个问题要求我们识别那些&lt;em&gt;不属于&lt;/em&gt;任何三角形的顶点。一个顶点 &lt;code&gt;i&lt;/code&gt; 被定义为属于一个三角形，如果它有两个不同的邻居 &lt;code&gt;j&lt;/code&gt; 和 &lt;code&gt;k&lt;/code&gt;，并且 &lt;code&gt;j&lt;/code&gt; 和 &lt;code&gt;k&lt;/code&gt; 彼此之间也是邻居。我们的任务是找出所有不满足此条件的顶点，问题将其称为“弱顶点”。图以邻接矩阵的形式给出。&lt;/p&gt;
@@ -57,23 +57,23 @@
     </item>
     <item>
       <title>信号驱动的桥接演进：使用 Boost.Signals2 优化 C&#43;&#43; EnTT 与 Rust WASM 交互</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
       <description>重构 C++ EnTT 宿主与 Rust WASM 插件架构，将自定义事件替换为 Boost.Signals2，通过 Wasmtime 实现健壮、解耦的 FFI 通信与高级宿主-插件交互。</description>
     </item>
     <item>
       <title>使用 EnTT 在 C&#43;&#43; Host 与 Rust WASM 插件间实现灵活的关系管理</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
       <description>使用 Wasmtime 和稳定 C FFI，在 C++ Host 中通过 EnTT 管理实体关系，并允许 Rust WebAssembly (WASM) 插件安全交互，利用数据驱动设计克服 WASM 边界限制。</description>
     </item>
     <item>
       <title>深入探索 Wasmtime：C&#43;&#43; 与 Rust Wasm 模块的双向通信与内存共享</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
       <description>一篇详细的技术指南，介绍如何使用 Wasmtime 运行时在 C++ 宿主应用程序与 Rust WebAssembly 模块之间实现复杂的双向通信、共享内存访问和结构体传递。</description>
     </item>
   </channel>

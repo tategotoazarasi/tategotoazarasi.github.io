@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>C-Plus-Plus on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/c-plus-plus/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</link>
     <description>Recent content in C-Plus-Plus on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 01 Oct 2025 21:47:12 +0100</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/c-plus-plus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uol 2025 Wk2 题解</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk2/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk2/</guid>
       <description>&lt;h2 id=&#34;recount&#34;&gt;Recount&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;最近的学校董事会选举竞争异常激烈：提案内容包括互换中小学的上学时间，一项备受争议的禁止在校穿着运动服的新着装规定，以及一项旨在提高房地产税以资助新橄榄球训练设施的提案，诸如此类的议题层出不穷。现在，距离投票站关闭已过去数小时，但获胜者仍未揭晓！&lt;/p&gt;
@@ -82,16 +82,16 @@
     </item>
     <item>
       <title>矩阵乘法性能测试：从三重循环到百 GFLOPS (AMD Ryzen AI &#43; Radeon 平台实测)</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
       <description>深度对比11种矩阵乘法实现（从Naive到CPU SIMD、多核、BLAS及GPU加速如OpenCL/HIP/Vulkan）在AMD Ryzen AI + Radeon平台上的巨大性能差异与优化关键。</description>
     </item>
     <item>
       <title>深入探索 Wasmtime：C&#43;&#43; 与 Rust Wasm 模块的双向通信与内存共享</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</link>
       <pubDate>Sun, 06 Apr 2025 16:34:33 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/deep-dive-into-wasmtime-bidirectional-communication-and-memory-sharing-between-cpp-and-rust-wasm-modules/</guid>
       <description>一篇详细的技术指南，介绍如何使用 Wasmtime 运行时在 C++ 宿主应用程序与 Rust WebAssembly 模块之间实现复杂的双向通信、共享内存访问和结构体传递。</description>
     </item>
   </channel>

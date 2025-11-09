@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://tategotoazarasi.github.io/sitemap.xml
+Sitemap: https://blog.tategotoazarasi.me/sitemap.xml

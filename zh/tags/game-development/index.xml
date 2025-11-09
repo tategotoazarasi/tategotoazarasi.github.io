@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Game-Development on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/game-development/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/game-development/</link>
     <description>Recent content in Game-Development on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Mon, 07 Apr 2025 21:50:58 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>信号驱动的桥接演进：使用 Boost.Signals2 优化 C&#43;&#43; EnTT 与 Rust WASM 交互</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</link>
       <pubDate>Mon, 07 Apr 2025 21:50:58 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/beyond-basic-bridging-robust-eventing-between-cpp-entt-and-rust-wasm-with-boost-signals2/</guid>
       <description>重构 C++ EnTT 宿主与 Rust WASM 插件架构，将自定义事件替换为 Boost.Signals2，通过 Wasmtime 实现健壮、解耦的 FFI 通信与高级宿主-插件交互。</description>
     </item>
     <item>
       <title>使用 EnTT 在 C&#43;&#43; Host 与 Rust WASM 插件间实现灵活的关系管理</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</link>
       <pubDate>Sun, 06 Apr 2025 19:32:52 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/bridging-the-gap-flexible-relationship-management-between-cpp-host-and-rust-wasm-plugins-using-entt/</guid>
       <description>使用 Wasmtime 和稳定 C FFI，在 C++ Host 中通过 EnTT 管理实体关系，并允许 Rust WebAssembly (WASM) 插件安全交互，利用数据驱动设计克服 WASM 边界限制。</description>
     </item>
     <item>
       <title>在 EnTT 中优雅地处理实体关系：从 1:1 到 N:N</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</link>
       <pubDate>Sat, 05 Apr 2025 20:07:37 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/weaving-the-web-managing-entity-relationships-in-entt/</guid>
       <description>详细探讨了如何在 EnTT 中使用组件优雅地表示和管理 1:1、1:N 和 N:N 的实体关系，并通过代码示例展示了 CRUD 操作的实现。</description>
     </item>
   </channel>

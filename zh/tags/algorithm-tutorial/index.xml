@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Algorithm-Tutorial on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/algorithm-tutorial/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/algorithm-tutorial/</link>
     <description>Recent content in Algorithm-Tutorial on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 01 Oct 2025 21:47:12 +0100</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/algorithm-tutorial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/algorithm-tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Uol 2025 Wk2 题解</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk2/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk2/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk2/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/uol-2025-wk2/</guid>
       <description>&lt;h2 id=&#34;recount&#34;&gt;Recount&lt;/h2&gt;
 &lt;h3 id=&#34;问题描述&#34;&gt;问题描述&lt;/h3&gt;
 &lt;p&gt;最近的学校董事会选举竞争异常激烈：提案内容包括互换中小学的上学时间，一项备受争议的禁止在校穿着运动服的新着装规定，以及一项旨在提高房地产税以资助新橄榄球训练设施的提案，诸如此类的议题层出不穷。现在，距离投票站关闭已过去数小时，但获胜者仍未揭晓！&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Matrix-Multiplication on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/</link>
     <description>Recent content in Matrix-Multiplication on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 19 Apr 2025 20:33:11 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/matrix-multiplication/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>矩阵乘法性能测试：从三重循环到百 GFLOPS (AMD Ryzen AI &#43; Radeon 平台实测)</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-performance-benchmark-from-triple-loops-to-100-plus-gflops-on-amd-ryzen-ai-radeon/</guid>
       <description>深度对比11种矩阵乘法实现（从Naive到CPU SIMD、多核、BLAS及GPU加速如OpenCL/HIP/Vulkan）在AMD Ryzen AI + Radeon平台上的巨大性能差异与优化关键。</description>
     </item>
   </channel>

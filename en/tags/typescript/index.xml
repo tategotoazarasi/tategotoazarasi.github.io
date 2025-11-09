@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Typescript on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/en/tags/typescript/</link>
+    <link>https://blog.tategotoazarasi.me/en/tags/typescript/</link>
     <description>Recent content in Typescript on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
     <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/en/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building a TypeScript Video Downloader for Complex, Anti-Scraping Websites</title>
-      <link>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
       <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
       <description>How to build a robust video downloader from scratch with TypeScript, Node.js, and Playwright, capable of handling complex anti-scraping mechanisms, dynamic content loading, and network race conditions.</description>
     </item>
     <item>
       <title>Delving into Anki Cards: Demystifying Templates for Data Extraction and Practical Application</title>
-      <link>https://tategotoazarasi.github.io/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
+      <link>https://blog.tategotoazarasi.me/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
       <pubDate>Fri, 16 May 2025 21:58:20 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
+      <guid>https://blog.tategotoazarasi.me/en/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</guid>
       <description>Uncover techniques to demystify complex Anki card templates using Puppeteer and JSDOM for accurate data extraction from dynamically rendered content and facilitate migration.</description>
     </item>
   </channel>

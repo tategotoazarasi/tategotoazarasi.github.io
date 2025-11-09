@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Arch-Linux on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/arch-linux/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/arch-linux/</link>
     <description>Recent content in Arch-Linux on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 06 Aug 2025 18:02:24 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>发现 debtap 中一个“删库跑路”级 Bug</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
       <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
       <description>一篇对 Arch Linux 工具 &lt;code&gt;debtap&lt;/code&gt; 的 Bug 调查，揭示了一个看似无害的拼写错误修复，是如何意外触发了删除当前目录下所有文件的“rm -rf”致命缺陷。</description>
     </item>
     <item>
       <title>解决 ThinkBook 16 G7&#43; ASP 在 Linux 系统下数字麦克风的顽固问题</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</link>
       <pubDate>Sat, 24 May 2025 21:32:30 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/troubleshooting-a-stubborn-dmic-on-a-thinkbook-16-g7-plus-asp-with-linux/</guid>
       <description>记录了在联想 ThinkBook 16 G7+ ASP (AMD Ryzen AI 9) 笔记本上解决 Linux 系统下数字麦克风无声问题的详细过程，主要通过添加内核模块参数 &lt;code&gt;options snd_sof_amd_common enable_pdm=1&lt;/code&gt; 实现</description>
     </item>
   </channel>

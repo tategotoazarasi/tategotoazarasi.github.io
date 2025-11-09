@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Open-Source on Tategoto Azarasi</title>
-    <link>https://tategotoazarasi.github.io/zh/tags/open-source/</link>
+    <link>https://blog.tategotoazarasi.me/zh/tags/open-source/</link>
     <description>Recent content in Open-Source on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 06 Aug 2025 18:02:24 +0800</lastBuildDate>
-    <atom:link href="https://tategotoazarasi.github.io/zh/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>发现 debtap 中一个“删库跑路”级 Bug</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</link>
       <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/discovering-a-catastrophic-rm-rf-bug-in-debtap/</guid>
       <description>一篇对 Arch Linux 工具 &lt;code&gt;debtap&lt;/code&gt; 的 Bug 调查，揭示了一个看似无害的拼写错误修复，是如何意外触发了删除当前目录下所有文件的“rm -rf”致命缺陷。</description>
     </item>
     <item>
       <title>给 Breezy Weather 添加一个“全家桶”样式的新小部件：ClockDayHourWeekWidget 开发记录</title>
-      <link>https://tategotoazarasi.github.io/zh/posts/clock-day-hour-week-widget/</link>
+      <link>https://blog.tategotoazarasi.me/zh/posts/clock-day-hour-week-widget/</link>
       <pubDate>Sun, 30 Mar 2025 16:40:50 +0800</pubDate>
-      <guid>https://tategotoazarasi.github.io/zh/posts/clock-day-hour-week-widget/</guid>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/clock-day-hour-week-widget/</guid>
       <description>一篇详细指南，介绍如何为Breezy Weather应用添加一个集时钟、日预报和小时预报于一体的“ClockDayHourWeekWidget”安卓小部件。</description>
     </item>
   </channel>
