@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 25 Oct 2025 17:55:44 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>构建一个能应对复杂反爬机制的 TypeScript 视频下载器</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
+      <description>记录了如何使用 TypeScript、Node.js 和 Playwright 从零开始构建一个能够应对复杂反爬机制、动态加载和网络竞态条件的健壮视频下载器。</description>
+    </item>
     <item>
       <title>Uol 2025 Wk3 &amp;&amp; LeetCode Biweekly Contest 168 题解</title>
       <link>https://tategotoazarasi.github.io/zh/posts/uol-2025-wk3/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Browser-Automation on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 May 2025 17:16:19 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/en/tags/browser-automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a TypeScript Video Downloader for Complex, Anti-Scraping Websites</title>
+      <link>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://tategotoazarasi.github.io/en/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
+      <description>How to build a robust video downloader from scratch with TypeScript, Node.js, and Playwright, capable of handling complex anti-scraping mechanisms, dynamic content loading, and network race conditions.</description>
+    </item>
     <item>
       <title>Automating Online Grading with Tampermonkey and AI</title>
       <link>https://tategotoazarasi.github.io/en/posts/automating-online-grading-with-tampermonkey-and-ai/</link>

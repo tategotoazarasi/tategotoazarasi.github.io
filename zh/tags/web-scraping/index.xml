@@ -6,8 +6,15 @@
     <description>Recent content in Web-Scraping on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 16 May 2025 21:58:20 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Nov 2025 19:33:20 +0000</lastBuildDate>
     <atom:link href="https://tategotoazarasi.github.io/zh/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>构建一个能应对复杂反爬机制的 TypeScript 视频下载器</title>
+      <link>https://tategotoazarasi.github.io/zh/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</link>
+      <pubDate>Sun, 09 Nov 2025 19:33:20 +0000</pubDate>
+      <guid>https://tategotoazarasi.github.io/zh/posts/building-a-resilient-typescript-video-downloader-against-advanced-anti-scraping/</guid>
+      <description>记录了如何使用 TypeScript、Node.js 和 Playwright 从零开始构建一个能够应对复杂反爬机制、动态加载和网络竞态条件的健壮视频下载器。</description>
+    </item>
     <item>
       <title>深入Anki卡片内部：反混淆技术与数据提取实践</title>
       <link>https://tategotoazarasi.github.io/zh/posts/delving-into-anki-cards-demystifying-templates-for-data-extraction-and-practical-application/</link>
