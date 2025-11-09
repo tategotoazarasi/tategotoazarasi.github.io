@@ -1,4 +1,4 @@
-baseURL: https://tategotoazarasi.github.io/
+baseURL: https://blog.tategotoazarasi.me/
 languageCode: en-us
 title: Tategoto Azarasi
 theme: [ "hugo-shortcode-roneo-collection", "PaperMod" ]
@@ -40,27 +40,15 @@ params:
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: >-
-      Welcome to my website.
+      Welcome to my blog.
 
   socialIcons:
     - name: email
-      url: "mailto:tategotoazarasi97@gmail.com"
+      url: "mailto:z.wang252@liverpool.ac.uk"
     #- name: phone
     #  url: "tel:008618036738325"
     - name: github
       url: "https://github.com/tategotoazarasi/"
-    - name: telegram
-      url: "https://t.me/tategoto_azarasi"
-    - name: x
-      url: "https://x.com/azarasitategoto/"
-    - name: bilibili
-      url: "https://space.bilibili.com/492029441"
-    - name: bluesky
-      url: "https://bsky.app/profile/tategotoazarasi.bsky.social"
-    - name: discord
-      url: "https://discordapp.com/users/1065959588165341224"
-    - name: steam
-      url: "https://steamcommunity.com/id/tategotoazarasi"
     - name: rss
       url: "/index.xml"
 
