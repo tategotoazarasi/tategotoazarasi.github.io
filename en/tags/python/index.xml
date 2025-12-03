@@ -6,8 +6,15 @@
     <description>Recent content in Python on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 09 Nov 2025 22:32:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Dec 2025 20:32:25 +0000</lastBuildDate>
     <atom:link href="https://blog.tategotoazarasi.me/en/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building a Data-Driven City: Integrating Housing, Safety, and Deprivation Metrics with Python</title>
+      <link>https://blog.tategotoazarasi.me/en/posts/building-a-data-driven-city-python-gis-visualization/</link>
+      <pubDate>Wed, 03 Dec 2025 20:32:25 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/posts/building-a-data-driven-city-python-gis-visualization/</guid>
+      <description>This post details how to build an interactive urban planning visualization system using Python, Geopandas, and Folium by integrating housing pipelines, crime data, and socioeconomic metrics.</description>
+    </item>
     <item>
       <title>Importing My University Timetable into a Personal Calendar: A Hands-On Journey Through Manual API Exploration and iCalendar Generation</title>
       <link>https://blog.tategotoazarasi.me/en/posts/reverse-engineering-a-university-timetable-api-to-generate-an-ics-file-with-python/</link>
