@@ -6,8 +6,99 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Dec 2025 20:32:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 23:38:53 +0000</lastBuildDate>
     <atom:link href="https://blog.tategotoazarasi.me/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C-Plus-Plus</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/c-plus-plus/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/c-plus-plus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cmake</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/cmake/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/cmake/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Debugging</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/debugging/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/debugging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dotnet</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/dotnet/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Headless-Rendering</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/headless-rendering/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/headless-rendering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hpc</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/hpc/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open3d</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/open3d/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/open3d/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/python/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reproduction</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/reproduction/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/reproduction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Retinasim</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/retinasim/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/retinasim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scientific-Computing</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Slurm</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/slurm/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/slurm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spack</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/spack/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/spack/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Data-Science</title>
       <link>https://blog.tategotoazarasi.me/en/tags/data-science/</link>
@@ -48,13 +139,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/hackathon/</link>
       <pubDate>Wed, 03 Dec 2025 20:32:25 +0000</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/hackathon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/python/</link>
-      <pubDate>Wed, 03 Dec 2025 20:32:25 +0000</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -527,13 +611,6 @@
       <description></description>
     </item>
     <item>
-      <title>C-Plus-Plus</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/c-plus-plus/</link>
-      <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/c-plus-plus/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>C-Plus-Plus-Code-Explanation</title>
       <link>https://blog.tategotoazarasi.me/en/tags/c-plus-plus-code-explanation/</link>
       <pubDate>Wed, 01 Oct 2025 21:47:12 +0100</pubDate>
@@ -685,13 +762,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/debtap/</link>
       <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/debtap/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Debugging</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/debugging/</link>
-      <pubDate>Wed, 06 Aug 2025 18:02:24 +0800</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
@@ -1378,13 +1448,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/hipblas/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/hipblas/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hpc</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/hpc/</link>
-      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/hpc/</guid>
       <description></description>
     </item>
     <item>

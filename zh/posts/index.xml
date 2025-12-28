@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 03 Dec 2025 20:32:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 23:38:53 +0000</lastBuildDate>
     <atom:link href="https://blog.tategotoazarasi.me/zh/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>在 HPC 集群上复现 RetinaSim</title>
+      <link>https://blog.tategotoazarasi.me/zh/posts/reproducing-retinasim-on-hpc-cluster/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/reproducing-retinasim-on-hpc-cluster/</guid>
+      <description>深入记录在一个高性能计算（HPC）集群上复现复杂的多语言生物医学模拟项目 RetinaSim 的全过程，详解从编译错误调试到无头渲染环境适配的每一个技术细节。</description>
+    </item>
     <item>
       <title>打造数据驱动的城市：利用 Python 整合住房、治安与社会剥夺指标</title>
       <link>https://blog.tategotoazarasi.me/zh/posts/building-a-data-driven-city-python-gis-visualization/</link>

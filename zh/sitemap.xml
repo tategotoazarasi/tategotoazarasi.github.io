@@ -2,6 +2,227 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/c-plus-plus/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/cmake/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/cmake/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/cmake/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/debugging/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/debugging/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/debugging/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/dotnet/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/dotnet/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/dotnet/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/headless-rendering/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/headless-rendering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/headless-rendering/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/hpc/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/hpc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/hpc/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/open3d/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/open3d/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/open3d/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/posts/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/posts/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/python/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/python/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/reproduction/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/reproduction/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/reproduction/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/retinasim/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/retinasim/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/retinasim/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/scientific-computing/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/scientific-computing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/scientific-computing/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/slurm/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/slurm/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/slurm/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/spack/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/spack/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/spack/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/posts/reproducing-retinasim-on-hpc-cluster/</loc>
+    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/posts/reproducing-retinasim-on-hpc-cluster/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/posts/reproducing-retinasim-on-hpc-cluster/"
+                />
+  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/data-science/</loc>
     <lastmod>2025-12-03T20:32:25+00:00</lastmod>
     <xhtml:link
@@ -80,32 +301,6 @@
                 href="https://blog.tategotoazarasi.me/zh/tags/hackathon/"
                 />
   </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/posts/</loc>
-    <lastmod>2025-12-03T20:32:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/posts/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/python/</loc>
-    <lastmod>2025-12-03T20:32:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/python/"
-                />
-  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/smart-city/</loc>
     <lastmod>2025-12-03T20:32:25+00:00</lastmod>
     <xhtml:link
@@ -130,32 +325,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/spatial-analysis/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/</loc>
-    <lastmod>2025-12-03T20:32:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/</loc>
-    <lastmod>2025-12-03T20:32:25+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/urban-planning/</loc>
@@ -1055,19 +1224,6 @@
                 href="https://blog.tategotoazarasi.me/zh/tags/brute-force-search/"
                 />
   </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</loc>
-    <lastmod>2025-10-01T21:47:12+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/c-plus-plus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/"
-                />
-  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus-code-explanation/</loc>
     <lastmod>2025-10-01T21:47:12+01:00</lastmod>
     <xhtml:link
@@ -1365,19 +1521,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/debtap/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/debugging/</loc>
-    <lastmod>2025-08-06T18:02:24+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/debugging/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/debugging/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/dirname/</loc>
@@ -2704,19 +2847,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/hipblas/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/hpc/</loc>
-    <lastmod>2025-04-19T20:33:11+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/hpc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/hpc/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/linear-algebra/</loc>

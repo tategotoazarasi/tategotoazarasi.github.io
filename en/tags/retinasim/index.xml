@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Retinasim on Tategoto Azarasi</title>
+    <link>https://blog.tategotoazarasi.me/en/tags/retinasim/</link>
+    <description>Recent content in Retinasim on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 28 Dec 2025 23:38:53 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/retinasim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reproducing RetinaSim on an HPC Cluster</title>
+      <link>https://blog.tategotoazarasi.me/en/posts/reproducing-retinasim-on-hpc-cluster/</link>
+      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/posts/reproducing-retinasim-on-hpc-cluster/</guid>
+      <description>A detailed account of reproducing the complex multi-language biomedical simulation project RetinaSim on a high-performance computing (HPC) cluster, covering every technical detail from debugging compilation errors to adapting to headless rendering environments.</description>
+    </item>
+  </channel>
+</rss>
