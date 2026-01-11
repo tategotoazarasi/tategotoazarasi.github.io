@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tensor-Cores on Tategoto Azarasi</title>
+    <link>https://blog.tategotoazarasi.me/en/tags/tensor-cores/</link>
+    <description>Recent content in Tensor-Cores on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Jan 2026 02:15:47 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/en/tags/tensor-cores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Analysis of HPC Matrix Multiplication Performance Benchmarking</title>
+      <link>https://blog.tategotoazarasi.me/en/posts/matrix-multiplication-benchmark-hpc-cuda-python/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/posts/matrix-multiplication-benchmark-hpc-cuda-python/</guid>
+      <description>This post analyzes matrix multiplication performance on Intel Xeon CPUs and NVIDIA V100 GPUs, comparing results across C++, OpenMP, CUDA, MPI, NVSHMEM, and Python frameworks like NumPy and CuPy.</description>
+    </item>
+  </channel>
+</rss>

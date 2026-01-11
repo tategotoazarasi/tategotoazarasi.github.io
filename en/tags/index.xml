@@ -6,8 +6,113 @@
     <description>Recent content in Tags on Tategoto Azarasi</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 23:38:53 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 02:15:47 +0000</lastBuildDate>
     <atom:link href="https://blog.tategotoazarasi.me/en/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avx-512</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/avx-512/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/avx-512/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cpp</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/cpp/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cuda</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/cuda/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/cuda/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cupy</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/cupy/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/cupy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hpc</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/hpc/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/hpc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jax</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/jax/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/jax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix-Multiplication</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mpi</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/mpi/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/mpi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Numpy</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/numpy/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/numpy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvidia-V100</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/nvidia-v100/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/nvidia-v100/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvshmem</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/nvshmem/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/nvshmem/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Performance-Engineering</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/performance-engineering/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/performance-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/python/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scientific-Computing</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tensor-Cores</title>
+      <link>https://blog.tategotoazarasi.me/en/tags/tensor-cores/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/en/tags/tensor-cores/</guid>
+      <description></description>
+    </item>
     <item>
       <title>C-Plus-Plus</title>
       <link>https://blog.tategotoazarasi.me/en/tags/c-plus-plus/</link>
@@ -44,24 +149,10 @@
       <description></description>
     </item>
     <item>
-      <title>Hpc</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/hpc/</link>
-      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/hpc/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Open3d</title>
       <link>https://blog.tategotoazarasi.me/en/tags/open3d/</link>
       <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/open3d/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/python/</link>
-      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/python/</guid>
       <description></description>
     </item>
     <item>
@@ -76,13 +167,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/retinasim/</link>
       <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/retinasim/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Scientific-Computing</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</link>
-      <pubDate>Sun, 28 Dec 2025 23:38:53 +0000</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/scientific-computing/</guid>
       <description></description>
     </item>
     <item>
@@ -475,13 +559,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/connectivity/</link>
       <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/connectivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cpp</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/cpp/</link>
-      <pubDate>Sat, 25 Oct 2025 17:55:44 +0100</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/cpp/</guid>
       <description></description>
     </item>
     <item>
@@ -1332,13 +1409,6 @@
       <description></description>
     </item>
     <item>
-      <title>Avx-512</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/avx-512/</link>
-      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/avx-512/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Avx2</title>
       <link>https://blog.tategotoazarasi.me/en/tags/avx2/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
@@ -1455,13 +1525,6 @@
       <link>https://blog.tategotoazarasi.me/en/tags/linear-algebra/</link>
       <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
       <guid>https://blog.tategotoazarasi.me/en/tags/linear-algebra/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Matrix-Multiplication</title>
-      <link>https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/</link>
-      <pubDate>Sat, 19 Apr 2025 20:33:11 +0800</pubDate>
-      <guid>https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/</guid>
       <description></description>
     </item>
     <item>

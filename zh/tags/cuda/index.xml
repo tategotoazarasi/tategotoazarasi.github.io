@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cuda on Tategoto Azarasi</title>
+    <link>https://blog.tategotoazarasi.me/zh/tags/cuda/</link>
+    <description>Recent content in Cuda on Tategoto Azarasi</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 11 Jan 2026 02:15:47 +0000</lastBuildDate>
+    <atom:link href="https://blog.tategotoazarasi.me/zh/tags/cuda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HPC 矩阵乘法性能基准测试分析</title>
+      <link>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-benchmark-hpc-cuda-python/</link>
+      <pubDate>Sun, 11 Jan 2026 02:15:47 +0000</pubDate>
+      <guid>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-benchmark-hpc-cuda-python/</guid>
+      <description>本文分析了英特尔至强CPU和NVIDIA V100 GPU上的矩阵乘法基准测试结果，对比了C++、OpenMP、CUDA、MPI、NVSHMEM及Python框架的计算性能。</description>
+    </item>
+  </channel>
+</rss>

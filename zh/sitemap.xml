@@ -2,6 +2,253 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/avx-512/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/avx-512/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/avx-512/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/cpp/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/cpp/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/cpp/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/cuda/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/cuda/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/cuda/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/cupy/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/cupy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/cupy/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/hpc/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/hpc/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/hpc/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-benchmark-hpc-cuda-python/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/posts/matrix-multiplication-benchmark-hpc-cuda-python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/posts/matrix-multiplication-benchmark-hpc-cuda-python/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/jax/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/jax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/jax/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/mpi/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/mpi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/mpi/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/numpy/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/numpy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/numpy/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/nvidia-v100/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/nvidia-v100/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/nvidia-v100/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/nvshmem/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/nvshmem/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/nvshmem/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/performance-engineering/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/performance-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/performance-engineering/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/posts/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/posts/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/python/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/python/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/scientific-computing/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/scientific-computing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/scientific-computing/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/"
+                />
+  </url><url>
+    <loc>https://blog.tategotoazarasi.me/zh/tags/tensor-cores/</loc>
+    <lastmod>2026-01-11T02:15:47+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blog.tategotoazarasi.me/en/tags/tensor-cores/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://blog.tategotoazarasi.me/zh/tags/tensor-cores/"
+                />
+  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/c-plus-plus/</loc>
     <lastmod>2025-12-28T23:38:53+00:00</lastmod>
     <xhtml:link
@@ -67,19 +314,6 @@
                 href="https://blog.tategotoazarasi.me/zh/tags/headless-rendering/"
                 />
   </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/hpc/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/hpc/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/hpc/"
-                />
-  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/open3d/</loc>
     <lastmod>2025-12-28T23:38:53+00:00</lastmod>
     <xhtml:link
@@ -91,32 +325,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/open3d/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/posts/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/posts/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/python/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/python/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/reproduction/</loc>
@@ -145,19 +353,6 @@
                 href="https://blog.tategotoazarasi.me/zh/tags/retinasim/"
                 />
   </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/scientific-computing/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/scientific-computing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/scientific-computing/"
-                />
-  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/slurm/</loc>
     <lastmod>2025-12-28T23:38:53+00:00</lastmod>
     <xhtml:link
@@ -182,32 +377,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/spack/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/</loc>
-    <lastmod>2025-12-28T23:38:53+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/posts/reproducing-retinasim-on-hpc-cluster/</loc>
@@ -962,19 +1131,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/connectivity/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/cpp/</loc>
-    <lastmod>2025-10-25T17:55:44+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/cpp/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/cpp/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/disjoint-set-union/</loc>
@@ -2628,19 +2784,6 @@
                 href="https://blog.tategotoazarasi.me/zh/tags/avx/"
                 />
   </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/avx-512/</loc>
-    <lastmod>2025-04-19T20:33:11+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/avx-512/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/avx-512/"
-                />
-  </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/avx2/</loc>
     <lastmod>2025-04-19T20:33:11+08:00</lastmod>
     <xhtml:link
@@ -2860,19 +3003,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="https://blog.tategotoazarasi.me/zh/tags/linear-algebra/"
-                />
-  </url><url>
-    <loc>https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/</loc>
-    <lastmod>2025-04-19T20:33:11+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blog.tategotoazarasi.me/en/tags/matrix-multiplication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://blog.tategotoazarasi.me/zh/tags/matrix-multiplication/"
                 />
   </url><url>
     <loc>https://blog.tategotoazarasi.me/zh/tags/opencl/</loc>
